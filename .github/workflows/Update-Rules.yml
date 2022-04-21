@@ -1,0 +1,46 @@
+name: Update Rules
+on: 
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0,8,16 * * *'
+    
+  #push:
+    #branches: [master]
+
+jobs:
+  update-rules:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3     
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Setup Go 1.x
+        uses: actions/setup-go@v2
+        with:
+          go-version: "^1.14"
+          
+      - name: Update Rules
+        continue-on-error: true
+        run: |
+          bash ./data/script/update-rules.sh
+
+      #- name: Update Whitelist
+        #run: |
+          #bash ./data/script/whitelist.sh
+          
+      - name: Update ReadMe
+        run: |
+          bash ./data/script/clean-readme.sh
+
+      - name: Git push assets to Github
+        run: |
+          git init
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git branch -m master
+          git add --all
+          git commit -m "Updated at $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')（北京时间）"
+          git push -u origin -f
+          
