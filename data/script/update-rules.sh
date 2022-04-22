@@ -12,6 +12,7 @@ cp ./data/rules/Microsoft-telemetry.txt ./tmp/rules01.txt
 cp ./data/rules/baidu.txt ./tmp/rules02.txt
 
 cd tmp
+sed -i '/^#/'d rules02.txt
 #下载yhosts规则
 wget -O rules001.txt https://raw.githubusercontent.com/vokins/yhosts/master/hosts
 sed -i '/^$/d' rules001.txt
