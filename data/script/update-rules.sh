@@ -9,34 +9,35 @@ mkdir -p ./tmp/
 
 #添加补充规则
 cp ./data/rules/Microsoft-telemetry.txt ./tmp/rules01.txt
+cp ./data/rules/baidu.txt ./tmp/rules02.txt
 
 cd tmp
 #下载yhosts规则
-wget -O rules02.txt https://raw.githubusercontent.com/vokins/yhosts/master/hosts
-sed -i '/^$/d' rules02.txt
-sed -i '/^#/'d rules02.txt
-sed -i 's/127.0.0.1 /||/g' rules02.txt
-sed -i 's/$/&^/g' rules02.txt
+wget -O rules001.txt https://raw.githubusercontent.com/vokins/yhosts/master/hosts
+sed -i '/^$/d' rules001.txt
+sed -i '/^#/'d rules001.txt
+sed -i 's/127.0.0.1 /||/g' rules001.txt
+sed -i 's/$/&^/g' rules001.txt
 
 #下载大圣净化规则
-wget -O rules03.txt https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
-sed -i '/^$/d' rules03.txt
-sed -i '/^#/'d rules03.txt
-sed -i '/127.0.0.1 livew.l.qq.com #-> 腾讯视频/d' rules03.txt
-sed -i '/127.0.0.1 t7z.cupid.iqiyi.com #-> 爱奇艺/d' rules03.txt
-sed -i '/127.0.0.1 wxsnsdy.wxs.qq.com #-> 微信/d' rules03.txt
-sed -i '/127.0.0.1 localhost/d' rules03.txt
-sed -i '/::1 localhost/d' rules03.txt
-sed -i 's/127.0.0.1 /||/g' rules03.txt
-sed -i 's/$/&^/g' rules03.txt
+wget -O rules002.txt https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
+sed -i '/^$/d' rules002.txt
+sed -i '/^#/'d rules002.txt
+sed -i '/127.0.0.1 livew.l.qq.com #-> 腾讯视频/d' rules002.txt
+sed -i '/127.0.0.1 t7z.cupid.iqiyi.com #-> 爱奇艺/d' rules002.txt
+sed -i '/127.0.0.1 wxsnsdy.wxs.qq.com #-> 微信/d' rules002.txt
+sed -i '/127.0.0.1 localhost/d' rules002.txt
+sed -i '/::1 localhost/d' rules002.txt
+sed -i 's/127.0.0.1 /||/g' rules002.txt
+sed -i 's/$/&^/g' rules002.txt
 
 #下载GoodbyeAds规则
-wget -O rules04.txt https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
-sed -i '1,40d' rules04.txt
-sed -i '/^$/d' rules04.txt
-sed -i '/^#/'d rules04.txt
-sed -i 's/0.0.0.0 /||/g' rules04.txt
-sed -i 's/$/&^/g' rules04.txt
+wget -O rules003.txt https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
+sed -i '1,40d' rules003.txt
+sed -i '/^$/d' rules003.txt
+sed -i '/^#/'d rules003.txt
+sed -i 's/0.0.0.0 /||/g' rules003.txt
+sed -i 's/$/&^/g' rules003.txt
 
 echo '下载规则'
 rules=(
