@@ -2,3 +2,5 @@
 sed -i 's/||cstaticdun.126.net^/@@||cstaticdun.126.net^/g' ./rules.txt
 #QQ音乐PC端登录
 sed -i 's/||c.y.qq.com^/@@||c.y.qq.com^/g' ./rules.txt
+#小爱音箱配网---测试
+sed -i 's/||tracker.ai.xiaomi.com^/@@||tracker.ai.xiaomi.com^/g' ./rules.txt
