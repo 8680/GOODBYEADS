@@ -10,6 +10,7 @@ mkdir -p ./tmp/
 #添加补充规则
 cp ./data/rules/Microsoft-telemetry.txt ./tmp/rules01.txt
 cp ./data/rules/baidu.txt ./tmp/rules02.txt
+cp ./data/rules/PC.txt ./tmp/rules03.txt
 
 cd tmp
 sed -i '/^#/'d rules02.txt
