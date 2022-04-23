@@ -14,6 +14,8 @@ cp ./data/rules/PC.txt ./tmp/rules03.txt
 
 cd tmp
 sed -i '/^#/'d rules02.txt
+sed -i '/^#/'d rules03.txt
+
 #下载yhosts规则
 wget -O rules001.txt https://raw.githubusercontent.com/vokins/yhosts/master/hosts
 sed -i '/^$/d' rules001.txt
