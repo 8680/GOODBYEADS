@@ -4,22 +4,11 @@ on:
   schedule:
     - cron: '0 0,8,16 * * *'
     
-  #push:
-    #branches: [master]
-
 jobs:
-  update-rules:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3     
-      - name: Setup Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'
-      - name: Setup Go 1.x
-        uses: actions/setup-go@v2
-        with:
-          go-version: "^1.14"
+      - uses: actions/checkout@v3
           
       - name: Update Rules
         continue-on-error: true
