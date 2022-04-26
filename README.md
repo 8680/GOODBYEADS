@@ -7,7 +7,7 @@
 
 规则数量: 286597 
 ``` 
-[🚀 规则地址](https://raw.githubusercontent.com/8680/GOODBYEADS/master/rules.txt)
+[🚀 AdGuard规则地址](https://raw.githubusercontent.com/8680/GOODBYEADS/master/rules.txt)
 
 ## 规则说明：
 
