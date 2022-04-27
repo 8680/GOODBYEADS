@@ -11,10 +11,12 @@ mkdir -p ./tmp/
 cp ./data/rules/Microsoft-telemetry.txt ./tmp/rules01.txt
 cp ./data/rules/baidu.txt ./tmp/rules02.txt
 cp ./data/rules/PC.txt ./tmp/rules03.txt
+cp ./data/rules/Android.txt ./tmp/rules04.txt
 
 cd tmp
 sed -i '/^#/'d rules02.txt
 sed -i '/^#/'d rules03.txt
+sed -i '/^#/'d rules04.txt
 
 #下载yhosts规则
 wget -O rules001.txt https://raw.githubusercontent.com/vokins/yhosts/master/hosts
