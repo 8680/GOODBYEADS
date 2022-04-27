@@ -5,7 +5,7 @@ on:
     - cron: '0 0,8,16 * * *'
     
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
