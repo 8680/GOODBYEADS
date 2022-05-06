@@ -21,7 +21,7 @@
 
 ## 去广告效果检测
 
-[checkadblock](https://checkadblock.ru)
+[AdBlock Tester](https://adblock-tester.com)
 
 ## 完善项目
 
