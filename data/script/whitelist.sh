@@ -4,3 +4,5 @@ sed -i 's/||cstaticdun.126.net^/@@||cstaticdun.126.net^/g' ./rules.txt
 sed -i 's/||c.y.qq.com^/@@||c.y.qq.com^/g' ./rules.txt
 #小爱音箱配网
 sed -i 's/||tracker.ai.xiaomi.com^/@@||tracker.ai.xiaomi.com^/g' ./rules.txt
+#阿里验证
+sed -i 's/||acs.m.taobao.com^/@@||acs.m.taobao.com^/g' ./rules.txt
