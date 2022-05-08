@@ -19,7 +19,7 @@ sed -i '/^#/'d rules02.txt
 wget -O rules001.txt https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
 sed -i '/^$/d' rules001.txt
 sed -i '/^#/'d rules001.txt
-sed -i 's/127.0.0.1 /||/g' rules001.txt
+sed -i 's/0.0.0.0 /||/g' rules001.txt
 sed -i 's/$/&^/g' rules001.txt
 
 #下载大圣净化规则
