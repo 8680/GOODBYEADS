@@ -16,7 +16,7 @@ sed -i '/^#/'d rules01.txt
 sed -i '/^#/'d rules02.txt
 
 #下载yhosts规则
-wget -O rules001.txt https://raw.githubusercontent.com/vokins/yhosts/master/hosts
+wget -O rules001.txt https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
 sed -i '/^$/d' rules001.txt
 sed -i '/^#/'d rules001.txt
 sed -i 's/127.0.0.1 /||/g' rules001.txt
