@@ -8,3 +8,5 @@ sed -i 's/||tracker.ai.xiaomi.com^/@@||tracker.ai.xiaomi.com^/g' ./rules.txt
 sed -i 's/||acs.m.taobao.com^/@@||acs.m.taobao.com^/g' ./rules.txt
 #淘宝特卖网
 sed -i 's/||gma.alicdn.com^/@@||gma.alicdn.com^/g' ./rules.txt
+#小米主题
+sed -i 's/||zhuti.xiaomi.com^/@@||zhuti.xiaomi.com^/g' ./rules.txt
