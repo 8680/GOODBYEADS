@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 8 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、补充规则
-! Version: 2022-05-10 15:22:57（北京时间） 
-! Total count: 107614
+! Version: 2022-05-10 16:16:18（北京时间） 
+! Total count: 107621
 ###ADCENTER
 ###ADSLOT_1
 ###ADTOP
@@ -29437,6 +29437,8 @@ filesus.com,tools.halpas.com#%#//scriptlet("prevent-setTimeout", "/offsetParent[
 filext.com###sc-overlay
 filext.com##.dap-wrap
 filfan.com##div[class^="c-"] > .mr
+filgoal.com##.ads
+filgoal.com##iframe[src*="sarmady.net/"]
 filikula.co#%#AG_onLoad(function() { setTimeout(function() { document.querySelectorAll(".idTabs a[href='#tab2']")[0].click(); }, 300); });
 film.org.pl##.pubs
 film01stream.ws#%#//scriptlet("remove-attr", "href", ".mvi-cover")
@@ -33630,6 +33632,7 @@ laptrinhx.com#%#//scriptlet("prevent-setInterval", "showAdblock")
 laptrinhx.com#%#//scriptlet('remove-class', 'post-ads', '.post-content.post-ads')
 laptrinhx.com#@#.post-ads
 laravel-news.com##.site-main > div.container > div.callout:first-child
+laroza.net###id-custom_banner
 larvelfaucet.com#%#//scriptlet("abort-current-inline-script", "document.createElement", "ad.a-ads")
 last.fm##.chartlist-row--interlist-ad
 last.fm##.full-bleed-ad-container
@@ -36171,7 +36174,9 @@ naver.com##div[id^="veta_"]
 nazoq.com##.spUser
 nb.zol.com.cn##.article-cont > div.zol-eshop
 nba.com##div[class^="DisplayAd_"]
+nba.com#%#(()=>{window.turner_getTransactionId=turner_getGuid=function(){},window.AdFuelUtils={getUMTOCookies(){}}})();
 nba.com#%#//scriptlet("set-constant", "adBlockerDetected", "false")
+nba.com#%#//scriptlet("set-constant", "nbaTop.setupAds", "noopFunc")
 nba.hupu.com##div[class^="nba-ad"]
 nbastreams.xyz#%#//scriptlet('prevent-window-open')
 nbaup.live,goalup.live#%#//scriptlet("abort-on-property-read", "popup")
@@ -70238,6 +70243,7 @@ zznews.cn##.ad:not([style])
 ||hznzcn.com/moban/youxiajiao.js
 ||hzs10.cnzz.com^
 ||hzs12.cnzz.com^
+||hzs1202.site^
 ||hzs13.cnzz.com^
 ||hzs14.cnzz.com^
 ||hzs17.cnzz.com^
@@ -73911,7 +73917,7 @@ zznews.cn##.ad:not([style])
 ||kkbb.top^
 ||kkcaicai.com^
 ||kkcmcp.printemps.com^
-||kkeji.com/img/*/aliyun_
+||kkeji.com/img/*/aliyun
 ||kkeji.com/img/2005/m_info_720.png
 ||kkjiaofei.com^
 ||kkkkdm.com/js/comic-
@@ -100385,6 +100391,7 @@ zznews.cn##.ad:not([style])
 ||tzxmhi.com^
 ||u-ad.info^
 ||u-on.eu^$third-party
+||u-q.net.cn^
 ||u-x.jd.com^
 ||u.123hala.com^
 ||u.63kc.com^
