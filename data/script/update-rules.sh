@@ -34,14 +34,6 @@ sed -i '/::1 localhost/d' rules002.txt
 sed -i 's/127.0.0.1 /||/g' rules002.txt
 sed -i 's/$/&^/g' rules002.txt
 
-#下载GoodbyeAds规则
-wget -O rules003.txt https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
-sed -i '1,40d' rules003.txt
-sed -i '/^$/d' rules003.txt
-sed -i '/^#/'d rules003.txt
-sed -i 's/0.0.0.0 /||/g' rules003.txt
-sed -i 's/$/&^/g' rules003.txt
-
 echo '下载规则'
 rules=(
   "https://filters.adtidy.org/android/filters/2_optimized.txt" #adg基础过滤器
