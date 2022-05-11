@@ -1,8 +1,8 @@
-#贴吧
+!贴吧
 smartapps.cn##swan-nest-banner-ad[class*="ad-expose"]
 smartapps.cn##swan-view[class*="sw-26__bdad-wrap"]
 smartapps.cn##swan-template[data-origin-name*="adRecommendation"]
-#京东
+!京东
 m.jd.com###appdlCon > div.modal
 ||ads-union.jd.com^
 ||ads.union.jd.com^
@@ -53,22 +53,22 @@ m.jd.com###appdlCon > div.modal
 ||x.jd.com^
 ||xlog.jd.com^
 ||zt.jd.com^
-#酷安"提到的好物"
+!酷安"提到的好物"
 ||coolapk.com/v6/page/dataList?$replace=/extra_entities//
 ||coolapk.com/v6/feed/detail?$replace=/extra_entities//
 ||coolapk.com/v6/main/indexV?$replace=/extra_entities//
 ||coolapk.com/v6/feed/detail?$replace=/extra_title//
 ||coolapk.com/v6/feed/detail?$replace=/include_goods//
-!#去除"什么值得买"
+!去除"什么值得买"
 ||coolapk.com/v6/main/indexV8?$replace=/\{"entityType":"card"\,"entityTemplate":"listCard".*?\}\,\{"id/{"id/
-#去除热搜
+!去除热搜
 ||coolapk.com/v6/main/init?$replace=/\{"data":\[\{"entityType":"card"\,"entityTemplate":"textCard"\,"title":"\\u70ed\\u95e8\\u641c\\u7d22".*?\}\,\{"entityType":"card"\,"entityTemplate":"configCard"/\{"data":[\{"entityType":"card"\,"entityTemplate":"configCard"/
 ||coolapk.com/v6/search?type=hotSearch$replace=/\{"data":\[.*\]/{"data":[]/
-#去除随机应用推荐
+!去除随机应用推荐
 ||coolapk.com/v6/main/indexV8?$replace=/\,\{.*?"entityType": "card"\,"entityTemplate":"apkImageCard".*?\}\,\{"id"/,{"id"/
-#去除评论区下某广告
+!去除评论区下某广告
 ||coolapk.com/v6/feed/detail?$replace=/detailSponsorCard//
-#腾讯的广点通(优量汇)和字节跳动的穿山甲广告
+!腾讯的广点通(优量汇)和字节跳动的穿山甲广告
 ||access*.tpns.tencent.com^
 ||astrategy.beacon.qq.com^
 ||aeventlog.beacon.qq.com^
@@ -107,14 +107,14 @@ m.jd.com###appdlCon > div.modal
 ||access.toggle.qq.com^
 ||in-addr.arpa^
 ||wxsnsdy.wxs.qq.com^
-#快手AD
+!快手AD
 ||yoda.kwd.inkuai.com^
 ||gdfp.gifshow.com^
 ||volceapplog.com^
-#抖音
+!抖音
 ||ads*-normal*.zijieapi.com^
 ||p*-ad-sign.byteimg.com^
-#头条
+!头条
 ||access.pangolin-sdk-toutiao-b.com^
 ||ad.toutiao.com^
 ||adshare.toutiao.com^
@@ -157,7 +157,7 @@ m.jd.com###appdlCon > div.modal
 ||v6-be-pack.pglstatp-toutiao.com^
 ||v6-fe-pack.pglstatp-toutiao.com^
 ||zhanzhang.toutiao.com^
-#字节
+!字节
 ||abtest-ch.snssdk.com^
 ||analytics.snssdk.com^
 ||bds.snssdk.com^
@@ -198,7 +198,7 @@ m.jd.com###appdlCon > div.modal
 ||vcs.snssdk.com^
 ||verify.snssdk.com^
 ||xlog.snssdk.com^
-#腾讯
+!腾讯
 ||2052.flash2-http.qq.com^
 ||3gsoftfile.tc.qq.com^
 ||3gsoftfile.tcdn.qq.com^
