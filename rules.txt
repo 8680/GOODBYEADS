@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 8 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、补充规则
-! Version: 2022-05-11 14:29:05（北京时间） 
-! Total count: 108027
+! Version: 2022-05-11 14:45:03（北京时间） 
+! Total count: 108035
 ###ADCENTER
 ###ADSLOT_1
 ###ADTOP
@@ -25720,6 +25720,11 @@ bank-codes.com#%#Object.defineProperties(window,{ab1:{value:false},ab2:{value:fa
 bankbazaar.com##.footer-cta-banner-desktop
 banker.az#%#Object.defineProperty(window, 'td_ad_background_click_link', { get: function() { return ""; } });
 bankier.pl###article-link-box > a[href^="https://s.bankier.pl/"].o-article-link-box__anchor
+bankier.pl###bankier-store-short-close-box
+bankier.pl##.adevert-box
+bankier.pl##.article-adv
+bankier.pl##.o-top-three-offers-box
+bankier.pl##a.o-ecom-box__link[href^="https://www.bankier.pl/e/lead/"]
 bankier.pl##html[amp-version] .content-center.gray-bg
 bankier.pl##html[amp-version] .smart-box
 bankier.pl##html[amp-version] .smart-form
@@ -26709,6 +26714,7 @@ cellmapper.net#$##ads { display: block !important; position: absolute !important
 cellmapper.net#$##myAd { display: block !important; position: absolute !important; left: -3000px !important; height: 10px !important; }
 cellmapper.net#$#.adsbygoogle { display: block !important; position: absolute !important; left: -3000px !important; height: 10px !important; }
 cellmapper.net#%#//scriptlet("prevent-setTimeout", "adsbygoogle")
+ceneo.pl##.js_promotedItems
 censor.net###w1001
 censor.net###w1031
 centoschina.cn##a[href="https://www.linuxprobe.com/"]
@@ -34247,6 +34253,8 @@ m.calcalist.co.il#%#Object.defineProperty(window, 'show_maavaron', { value: fals
 m.cda.pl###reklama_layout_top
 m.cda.pl##.r-bt-scale > [id^="reklama"]
 m.cdsvyatka.com##.basys-place
+m.ceneo.pl#?#.page-content .js_recommendations-container:has(> div > header > span:contains(/^Reklama$/))
+m.ceneo.pl#?#.page-content .js_recommendations-container:has(> div > header > span:contains(/^Reklama$/)) + .js_analytics-promotedItems[data-event-category="adbox"]
 m.chinaz.com##div[class="article-suggest bd-keywords"]
 m.cna.com.tw##.fancybox-wrap
 m.cna.com.tw##.fancybox-wrap + .fancybox-overlay
