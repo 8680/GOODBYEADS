@@ -12,7 +12,7 @@ cp ./data/rules/PC.txt ./tmp/rules01.txt
 cp ./data/rules/Android.txt ./tmp/rules02.txt
 
 cd tmp
-sed -i '/^#/'d rules01.txt
+#sed -i '/^#/'d rules01.txt
 sed -i '/^#/'d rules02.txt
 
 #下载yhosts规则
