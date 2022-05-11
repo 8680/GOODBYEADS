@@ -12,3 +12,5 @@ sed -i 's/||gma.alicdn.com^/@@||gma.alicdn.com^/g' ./rules.txt
 sed -i 's/||zhuti.xiaomi.com^/@@||zhuti.xiaomi.com^/g' ./rules.txt
 #腾讯视频图片资源
 sed -i 's/||puui.qpic.cn^/@@||puui.qpic.cn^/g' ./rules.txt
+#腾讯网图片资源
+sed -i 's/||inews.gtimg.com^/@@||inews.gtimg.com^/g' ./rules.txt
