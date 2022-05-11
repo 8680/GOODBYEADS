@@ -3,9 +3,9 @@
 </div>
 
 ```
-更新时间: 2022-05-11 00:19:58 （北京时间） 
+更新时间: 2022-05-11 09:07:55 （北京时间） 
 
-规则数量: 107672 
+规则数量: 107693 
 ``` 
 [🚀 AdGuard规则地址](https://raw.githubusercontent.com/8680/GOODBYEADS/master/rules.txt)
 
