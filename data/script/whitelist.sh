@@ -14,3 +14,5 @@ sed -i 's/||zhuti.xiaomi.com^/@@||zhuti.xiaomi.com^/g' ./rules.txt
 sed -i 's/||puui.qpic.cn^/@@||puui.qpic.cn^/g' ./rules.txt
 #腾讯网图片资源
 sed -i '/^||pnewsapp.tc.qq.com^/a\@@||inews.gtimg.com^' ./rules.txt
+#小黑盒验证
+sed -i '/^||fp-it.fengkongcloud.com^/a\@@||fp-it.fengkongcloud.com^' ./rules.txt
