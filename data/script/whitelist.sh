@@ -16,3 +16,5 @@ sed -i 's/||puui.qpic.cn^/@@||puui.qpic.cn^/g' ./rules.txt
 sed -i '/^||pnewsapp.tc.qq.com^/a\@@||inews.gtimg.com^' ./rules.txt
 #小黑盒验证
 sed -i 's/||fp-it.fengkongcloud.com^/@@||fp-it.fengkongcloud.com^^/g' ./rules.txt
+#部分微信小程序登录
+sed -i '/^||tanx.com^/a\@@||cnlogin.cainiao.com^' ./rules.txt
