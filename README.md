@@ -5,9 +5,11 @@
 ```
 更新时间: 2022-05-15 09:13:32 （北京时间） 
 
-规则数量: 108015 
+AdRules 规则数量: 108015 
+Whitelist 规则数量:  
 ``` 
 [🚀 AdGuard规则地址](https://raw.githubusercontent.com/8680/GOODBYEADS/master/rules.txt)
+[🚀 白名单规则地址](https://raw.githubusercontent.com/8680/GOODBYEADS/master/allow.txt)
 
 ## 规则说明：
 

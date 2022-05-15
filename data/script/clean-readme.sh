@@ -1,9 +1,11 @@
 #!/bin/sh
-num_adg=`sed -n 's/^! Total count: //p' rules.txt`
+num_rules=`sed -n 's/^! Total count: //p' rules.txt`
+num_allow=`sed -n 's/^! Total count: //p' allow.txt`
 
 time=$(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')
 sed -i "s/^更新时间:.*/更新时间: $time （北京时间） /g" README.md
 
-sed -i 's/^规则数量.*/规则数量: '$num_adg' /g' README.md
+sed -i 's/^AdRules 规则数量.*/AdRules 规则数量: '$num_rules' /g' README.md
+sed -i 's/^Whitelist 规则数量.*/Whitelist 规则数量: '$num_allow' /g' README.md
 
 exit

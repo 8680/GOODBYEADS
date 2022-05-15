@@ -8,13 +8,10 @@ echo '创建临时文件夹'
 mkdir -p ./tmp/
 
 #添加补充规则
-cp ./data/rules/PC.txt ./tmp/rules01.txt
-cp ./data/rules/Android.txt ./tmp/rules02.txt
+cp ./data/rules/adblock.txt ./tmp/rules01.txt
+cp ./data/rules/whitelist.txt ./tmp/allow01.txt
 
 cd tmp
-#sed -i '/^#/'d rules01.txt
-#sed -i '/^#/'d rules02.txt
-
 #下载yhosts规则
 wget -O rules001.txt https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
 sed -i '/^$/d' rules001.txt
@@ -45,9 +42,17 @@ rules=(
   "https://easylist-downloads.adblockplus.org/easyprivacy.txt" #EasyPrivacy隐私保护规则
  )
 
-for i in "${!rules[@]}"
+allow=(
+  "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/whitelist.txt"
+  "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/GermanFilter/sections/whitelist.txt"
+  "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/TurkishFilter/sections/whitelist.txt"
+  "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/whitelist.txt"
+)
+
+for i in "${!rules[@]}" "${!allow[@]}"
 do
   curl -m 60 --retry-delay 2 --retry 5 --parallel --parallel-immediate -k -L -C - -o "rules${i}.txt" --connect-timeout 60 -s "${rules[$i]}" |iconv -t utf-8 &
+  curl -m 60 --retry-delay 2 --retry 5 --parallel --parallel-immediate -k -L -C - -o "allow${i}.txt" --connect-timeout 60 -s "${allow[$i]}" |iconv -t utf-8 &
 done
 wait
 echo '规则下载完成'
@@ -132,7 +137,7 @@ cat tmp-hosts.txt \
  | sort -n | uniq & #处理广告域名
 
 cat *.txt | grep '^@' \
- | sort -n | uniq & #允许清单处理
+ | sort -n | uniq > tmp-allow.txt & #允许清单处理
 wait
 
 echo 规则合并完成

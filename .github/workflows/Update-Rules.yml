@@ -14,10 +14,6 @@ jobs:
         continue-on-error: true
         run: |
           bash ./data/script/update-rules.sh
-
-      - name: Update Whitelist
-        run: |
-          bash ./data/script/whitelist.sh
           
       - name: Update ReadMe
         run: |
