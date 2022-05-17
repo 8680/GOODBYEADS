@@ -1,5 +1,5 @@
-! Version: 2022-05-17 09:18:51（北京时间） 
-! Total count: 6995
+! Version: 2022-05-17 12:31:44（北京时间） 
+! Total count: 6981
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$webrtc,domain=sourceforge.net
@@ -402,6 +402,7 @@
 @@||aax-eu.amazon-adsystem.com/s/yoc^$domain=youronlinechoices.com
 @@||abc.com/b/ss/$image
 @@||abchina.com^*ad
+@@||abcvideo.cc/js/popads.js
 @@||about-australia.com/*/clickheat.js
 @@||abril.com.br^$generichide
 @@||ac.namu.la^$domain=arca.live,media,image,stealth
@@ -588,7 +589,6 @@
 @@||ads.allegro.pl^$domain=ads.allegro.pl
 @@||ads.cdn.tvb.com^*.key
 @@||ads.colombiaonline.com/ad/$domain=colombiaonline.com
-@@||ads.com^$popup
 @@||ads.cricbuzz.com/adserver/units/mobile/set_ads_values.php
 @@||ads.cs.washington.edu^$popup
 @@||ads.dainikbhaskar.com/AdTech/ads/ads.js
@@ -654,6 +654,7 @@
 @@||adv.gg^$popup
 @@||advert.kf5.com^
 @@||advert.vg.no/1v*.js?v=$~third-party
+@@||advertisement.vg.no/1v*.js?v=$~third-party
 @@||adverts.ie/css/
 @@||advimg.ad-mapps.com/sdk/M_PLUS/JS/111T/ad_movie_script.js$domain=ichannela.com
 @@||advimg.ad-mapps.com/sdk/js/ver/*/ad_movie_script.js$domain=ichannela.com
@@ -1065,7 +1066,6 @@
 @@||auth.gfx.ms^$document
 @@||auth.mail.ru^$stealth
 @@||auth.opera.com^$stealth
-@@||auth.xtrend.ru^$stealth
 @@||auto-api.yelp.com
 @@||auto-swiat.pl/*&srcc=ucs$removeparam
 @@||auto.cz/*/foto$jsinject
@@ -1734,7 +1734,6 @@
 @@||clj.valuecommerce.com/*/vcushion.min.js
 @@||clksite.com/static/advertisement.js
 @@||cllkme.com^$generichide
-@@||closeload.com/video/embed/$stealth
 @@||cloud.189.cn/web/subapp/main.html$jsinject,elemhide,extension
 @@||cloud.google.com^$generichide
 @@||cloud.google.com^$~third-party
@@ -2244,7 +2243,6 @@
 @@||elconfidencial.com^*/EventTracker.js
 @@||eldiario.es/static/BBTCore/images/pixel.gif?
 @@||eldiario.es/static/BBTCore/images/pixel.gif?hash=$image,domain=eldiario.es
-@@||elections.ap.org/widgets/$stealth
 @@||elife-cloud.blogspot.com^$generichide
 @@||elil.cc/advertisement/$script,~third-party
 @@||elon.se^*/googleanalytics.js
@@ -2488,7 +2486,6 @@
 @@||g.alicdn.com^*/banner_ad_
 @@||g.csdnimg.cn^*/trackad.js$script,domain=csdn.net
 @@||g.doubleclick.net/gampad/ads$xmlhttprequest,domain=bloomberg.com|formularywatch.com|gamespot.com|managedhealthcareexecutive.com|medicaleconomics.com|physicianspractice.com
-@@||g.doubleclick.net/gampad/ads*%20Web%20Player$domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?$domain=edy.rakuten.co.jp|gamestar.de|pccomponentes.com|tv-tokyo.co.jp|vogue.de|voici.fr
 @@||g.doubleclick.net/gampad/ads?$xmlhttprequest,domain=koigaku.machicon.jp
 @@||g.doubleclick.net/gampad/ads?*&url=https%3A%2F%2Fgames.poki.com$xmlhttprequest,domain=imasdk.googleapis.com
@@ -2561,7 +2558,6 @@
 @@||gaybeeg.info^$generichide
 @@||gbf.wiki/images/$image,~third-party
 @@||gdpr-tcfv2.sp-prod.net^$script,domain=voici.fr
-@@||gdr-online.com/adv/ads.js
 @@||geekbang.org/resource/image/ad/14/addb521e20de1a302206f4286eac3914.png
 @@||geekzone.co.nz^$generichide
 @@||gelbooru.com//images/ad/$image,~third-party
@@ -2766,6 +2762,7 @@
 @@||google-analytics.com/analytics.js$domain=infoq.com
 @@||google-analytics.com/analytics.js$domain=janusnotes.com
 @@||google-analytics.com/analytics.js$domain=joblo.com
+@@||google-analytics.com/analytics.js$domain=jula.no
 @@||google-analytics.com/analytics.js$domain=jump.com.tr
 @@||google-analytics.com/analytics.js$domain=karwan.tv
 @@||google-analytics.com/analytics.js$domain=keepassium.com
@@ -3597,7 +3594,6 @@
 @@||hr-online.de/website/includes/webanalyse/xtcore.js
 @@||href.li$document
 @@||hse24.de^*/emos2.js
-@@||html5.5games.cc^$stealth,third-party
 @@||html5.gamedistribution.com/*/$stealth
 @@||huhupan.com/e/extend/down/$generichide
 @@||huke88.com^*-tracking.js
@@ -3816,7 +3812,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=player.theplatform.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=plex.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=pluscdn.pl
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=pogo.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=poki-gdn.com|repuls.io
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=popcorntv.it
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=primarygames.com
@@ -3858,6 +3853,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=videoxseries.xyz|scenelife.org|piratulhd.com|hqq.tv|newhost.me|czxxx.org|waaw.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=vidyome.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=vivo.sx
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=vizita.si
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=voicetv.co.th
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=vvvvid.it
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=wetteronline.de
@@ -4208,7 +4204,6 @@
 @@||kissasian.*/js/ads.js$~third-party
 @@||kissasian.li/*/*?id=$popup
 @@||kissjav.com^$generichide
-@@||kissorg.net^$stealth
 @@||kiwihousesitters.co.nz/members$urlblock
 @@||kk665403.pixnet.net^$generichide
 @@||klarnaservices.com/lib.js$script,domain=brooksrunning.com
@@ -4327,7 +4322,6 @@
 @@||livew.l.qq.com/livemsg?ty=web&ad_type=$domain=v.qq.com
 @@||lk-subscr.tricolor.tv^$document
 @@||lloydstsb.com/it/xslt/touchclarity/omtr_tc.js
-@@||lmjvideocdn.*-cdn.net/*.mp4?hash=$stealth,domain=letmejerk.com
 @@||lmss.vn^$generichide
 @@||lncn.org/ad.json
 @@||lnk2.cc/js/ad_code.js
@@ -4697,7 +4691,6 @@
 @@||my.prom.ua/*/iframe$stealth
 @@||my.prom.ua/remote/
 @@||my.westfieldinsurance.com^$document
-@@||my5.tv^$generichide
 @@||myaccount.chicagotribune.com/assets/scripts/tag-manager/googleTag.js$~third-party
 @@||myaccount.depositprotection.com/Scripts/lib/jsnlog/$script,~third-party
 @@||myaccount.google.com^$generichide
@@ -5011,7 +5004,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=vorsprung-online.de
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=gamalk-sehetk.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=liout.com|moneysave.info|ygodl.com|youneed.win
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=nullpress.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=pigeonburger.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=m.twfanti.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=tudaydeals.com
@@ -5515,7 +5507,6 @@
 @@||s1.adform.net/banners/scripts/adx.js$domain=delfi.lt
 @@||s1.daumcdn.net/svc/original/U03/cssjs/userAgent$domain=tistory.com
 @@||s1.wp.com^
-@@||s2-download.xyz^$stealth
 @@||s3.amazonaws.com^$stealth,domain=informationisbeautiful.net
 @@||s79.research.de.com/bb-mx/prime$domain=joyn.de
 @@||s9.cnzz.com^$app=com.unionpay
@@ -5654,7 +5645,6 @@
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=agario-play.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=akinator.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=arcai.com
-@@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=autocentre.ua
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=cinemaxx.de
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=clipmyhorse.tv
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=eksisozluk.com
@@ -5766,7 +5756,6 @@
 @@||share.baidu.com^$script,stylesheet,domain=k73.com
 @@||share.flipboard.com/bookmarklet/$document
 @@||share1223.com^$generichide
-@@||sharepirate.com^$generichide
 @@||sharethis.com^$third-party,domain=gamesradar.com
 @@||shijue.me/advertise/getList?
 @@||shinden.pl^$generichide
@@ -6430,7 +6419,6 @@
 @@||tt1069.com/dfp.
 @@||ttkdex.com^$generichide
 @@||ttkdex.com^*ad$~third-party
-@@||ttranslit.com^*.m3u8?$stealth
 @@||ttrar.com/statics/pos_js/jquery.gotop.js
 @@||ttutu.biz/log_event$~third-party,xmlhttprequest
 @@||tubeoffline.com/js/hot.min.js
@@ -6523,7 +6511,6 @@
 @@||upstream.to/js/dnsads.js
 @@||upstreamcdn.co/hls/$stealth,domain=upstream.to
 @@||uptostream.com^$csp=worker-src 'none'
-@@||upvid.co/embed-*.html$popup
 @@||upvtt.com/uploads^$third-party
 @@||upxin.net/advertisement.js
 @@||upxin.net^$generichide
@@ -6652,7 +6639,6 @@
 @@||vk.com/js/al/ads.js?$domain=vk.com
 @@||vk.com/vkpay$stealth
 @@||vk.com^*/ads.css$domain=vk.com
-@@||vkprime.com/embed-*.html$stealth
 @@||vlist.se/advertisement.js
 @@||vlscppe.microsoft.com/fp/tags.js$stealth
 @@||vmall.com/data/attachment/common/ad/
