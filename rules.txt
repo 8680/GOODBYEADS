@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 4 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、补充规则
-! Version: 2022-05-20 16:21:13（北京时间） 
-! Total count: 108784
+! Version: 2022-05-20 20:32:33（北京时间） 
+! Total count: 108797
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -26007,6 +26007,7 @@ bitcointalk.org#?#.bordercolor > tbody > tr:has(> td > table > tbody table[width
 bitcoinzebra.com#%#AG_onLoad(function() { var prevShowCaptcha = window.showCaptcha; window.showCaptcha = function() { prevShowCaptcha(); $('#AdBlocked').val('false'); }; });
 bitdownloader.com#%#//scriptlet("prevent-window-open")
 bitefaucet.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
+biteki.com##[class^="biteki_ads"]
 biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 bitfly.io#%#//scriptlet("prevent-window-open")
 bithub.pl##div[data-adid] > a[target="_blank"] > img
@@ -30479,7 +30480,6 @@ gibit.xyz#%#//scriptlet("prevent-window-open")
 gifans.com#%#//scriptlet('abort-on-stack-trace', '$', 'HTMLScriptElement.onerror')
 gifgit.com##div[class^="ad_unit_"]
 gifhq.com#%#//scriptlet("abort-current-inline-script", "$", "window.open")
-gifhq.com,nudeclap.com,imgdew.pw,hentaila.com,fapality.com,720video.me,javbuz.com,bananamovies.net,youwatchporn.com,watchpornx.com,xxxparodyhd.net,pornhat.com,baltasar5010purohentai.com,hot-sex-tube.com,teen-tube-20.com,javteentube.com,asian-teen-sex.com,babesjoy.com,gottanut.com,pornkino.cc,watchpornfree.info,freee-porns.com,xxxmoviestream.xyz,mangoporn.co,besthindisexstories.com,freehindisexstories.com,imgmercy.com,pandavideo.pw,ecoimages.xyz,youav.com,tmohentai.com,tbib.org,dailyimages.xyz,159i.com,xopenload.me,reblop.com,tubsexer.com,blameless.work,imagemuggy.com,streamporn.pw,stileproject.com,watchpornfree.ws,noodlemagazine.com,pandamovies.pw,123pandamovie.me,solarporn.net,123pandamovie.com,imgoutlet.pw,imgrock.pw#%#//scriptlet("abort-current-inline-script", "document.dispatchEvent", "/getexoloader/")
 gifs.com###gifsad
 gifyagusi.pl#%#//scriptlet("set-constant", "adsbygoogle.loaded", "true")
 giga.de##.BC-Container
@@ -30840,7 +30840,6 @@ gsmarena.com###topAdv
 gsmarena.com#%#Object.defineProperty(window, 'phpadsbanner', { get: function() { return; } });
 gsmarena.com#?#.floating-title > div[style="margin-left: -10px; margin-top: 30px; height: 145px;"] > div[id^="div-gpt-ad"]:upward(1)
 gsmarena.com#?#.homepage-news-list > div > div[style^="display:"][-ext-has='ins.adsbygoogle']
-gsmarena.com,aosmark.com,rat.xxx,camwhores.biz,4tube.com,porngun.net,eteenporn.com,bobs-tube.com,camwhores.tv,sexboomcams.com,pornformance.com,vivud.com##.adv
 gsminfo.com.ua###custom_html-10
 gsminfo.com.ua###custom_html-12
 gsmmaniak.pl###topMenu > #topMenu-wrapper[style^="width:"][style*="min-height:"]
@@ -31413,6 +31412,7 @@ hinata.me##div[class*="AdManager__AdWrapper"]
 hinative.com#@#.banner_header
 hindi.business-standard.com#%#//scriptlet("abort-current-inline-script", "document.addEventListener", "displayMessage:")
 hindi.news18.com,bengali.news18.com##div[class*="right"] > div[class*="side"]:not([class*="gallery"])> div[style*="min-height:"] > #vigyapan
+hindishouter.com##.inside-right-sidebar
 hindustantimes.com###divTopNews:empty
 hindustantimes.com##.FirstAd
 hindustantimes.com##.desktopAd
@@ -33634,6 +33634,7 @@ lauxanh.org#%#//scriptlet("abort-on-property-write", "show_pop")
 lavamovies.se#%#document.cookie = "btcpopup=1";
 law.com,topcultured.com##h3
 lawandcrime.com,mediaite.com##.sidebar-hook
+lawenforcementtoday.com##.inside-right-sidebar > aside.FixedWidget__fixed_widget
 lawtv.com.cn##div[style=" width:664px; height:260px;  margin-top:10px;"]
 layui.com##.layui-layer-tips
 lazytranslations.com,coursesdaddy.com,arabtimesonline.com#%#//scriptlet("abort-current-inline-script", "chp_ads_blocker_detector")
@@ -33838,6 +33839,7 @@ limetorrents.pro#?#a:-abp-contains(Download An‌on‌ymously)
 limia.jp##.Post > div.u-textCenter[style="min-height: 160px;"]
 limia.jp#?#.Section > div.OUTBRAIN:upward(1)
 linclik.com#%#(function(a){window.open=function(){if("Popup_Window"!==argument[1])return a.apply(window,arguments)};})(window.open);
+lineageoslog.com##.rek-elastic
 lingolia.com##.adv-header
 link.bitmos.co.in#%#//scriptlet("prevent-window-open")
 link.gmapp*.net$image
@@ -37788,6 +37790,8 @@ pornhd.com#%#document.cookie = "mrpop=1; path=/";
 pornhd3x.to#%#AG_onLoad(function() { window.popunder = function() {}; });
 pornhd6k.net#%#//scriptlet("abort-current-inline-script", "absda", "/.*/")
 pornhd6k.net#@#.adsBox
+pornhills.com,gifhq.com,nudeclap.com,imgdew.pw,hentaila.com,fapality.com,720video.me,javbuz.com,bananamovies.net,youwatchporn.com,watchpornx.com,xxxparodyhd.net,pornhat.com,baltasar5010purohentai.com,hot-sex-tube.com,teen-tube-20.com,javteentube.com,asian-teen-sex.com,babesjoy.com,gottanut.com,pornkino.cc,watchpornfree.info,freee-porns.com,xxxmoviestream.xyz,mangoporn.co,besthindisexstories.com,freehindisexstories.com,imgmercy.com,pandavideo.pw,ecoimages.xyz,youav.com,tmohentai.com,tbib.org,dailyimages.xyz,159i.com,xopenload.me,reblop.com,tubsexer.com,blameless.work,imagemuggy.com,streamporn.pw,stileproject.com,watchpornfree.ws,noodlemagazine.com,pandamovies.pw,123pandamovie.me,solarporn.net,123pandamovie.com,imgoutlet.pw,imgrock.pw#%#//scriptlet("abort-current-inline-script", "document.dispatchEvent", "/getexoloader/")
+pornhills.com,gsmarena.com,aosmark.com,rat.xxx,camwhores.biz,4tube.com,porngun.net,eteenporn.com,bobs-tube.com,camwhores.tv,sexboomcams.com,pornformance.com,vivud.com##.adv
 pornhits.com###s-suggesters
 pornhits.com#%#//scriptlet('abort-current-inline-script', 'ACtMan')
 pornhub-com.appspot.com,pornhub.com,pornhub.net,pornhubthbh7ap3u.onion,youporn.com###pb_template
@@ -40591,6 +40595,7 @@ th7.cn###PcPoPmarket
 th7.cn##.main > .mb5
 thairath.co.th##footer ~ div[style="text-align: center; opacity: 1;"]
 thairath.co.th#?##headerWraper ~ div:matches-css(height: 280px)
+thaiticketmajor.com##div[class^="box-banner-"]
 thanhnien.vn###headerTopBanner
 thansettakij.com##.default-sticky-1
 thatnovelcorner.com#@#[href^="http://raboninco.com/"]
@@ -54393,6 +54398,7 @@ zznews.cn##.ad:not([style])
 ||bhcsub.sankeishop.jp^
 ||bhcumsc.com^
 ||bhcumsc.com^$third-party
+||bhj699.com^
 ||bhlcimjcpvkxn.com^
 ||bhphotovideo.com/imp/
 ||bhs4.com^$third-party
@@ -62998,6 +63004,7 @@ zznews.cn##.ad:not([style])
 ||e62ndy5gz80q.bitdomain.biz^
 ||e66gg.com^
 ||e66gg.com^$third-party
+||e6g804q.cn^
 ||e70.xyz^
 ||e7001.com^
 ||e7015.com^
@@ -64634,6 +64641,7 @@ zznews.cn##.ad:not([style])
 ||events.genndi.com/tracker
 ||events.georgiancollege.ca^
 ||events.gogoair.com^
+||events.iap.unity3d.com^
 ||events.ifunny.co^
 ||events.il.fi^
 ||events.ingatlan.com^
@@ -85224,6 +85232,7 @@ zznews.cn##.ad:not([style])
 ||porngraph.com^$third-party
 ||pornhat.*/static/js/300x250.
 ||pornhd.com/pinky.gif
+||pornhills.com/ab/
 ||pornhits.com/magic/
 ||pornhub.*/view_video.php?viewkey=$replace=/vastXml/_vastXml/,important,~third-party
 ||pornhub.com/pix.php?s=
@@ -86967,6 +86976,7 @@ zznews.cn##.ad:not([style])
 ||r3.mail.ru/k?sign=
 ||r3adyt0download.com^
 ||r3oodleaw5au4ssir.com^
+||r3sgtlt.cn^
 ||r3sub.com/images/aaa^
 ||r3sub.com/images/ccc/
 ||r3sub.com/posters/0069810.jpg
@@ -99462,6 +99472,7 @@ zznews.cn##.ad:not([style])
 ||tr.urfk06y.espmp-nifr.net^
 ||tr.urfk07s.espmp-nifr.net^
 ||tr.ville.bordeaux.fr^
+||tr.vitals.co^
 ||tr.voixduclient.harmonie-mutuelle.fr^
 ||tr.votrealarme.securitasdirect.fr^
 ||tr.vous.hellobank.fr^
@@ -107323,6 +107334,7 @@ zznews.cn##.ad:not([style])
 ||ynvusittae.com^
 ||ynvxzv.mebelshara.ru^
 ||ynwqls.com^
+||ynwsyl.com^
 ||ynyn.shop^
 ||ynyyx168.com^
 ||ynzby.cn^
@@ -107891,6 +107903,7 @@ zznews.cn##.ad:not([style])
 ||za.zalo.me/v*/brp?fts=
 ||za.zalo.me/v*/w/_zaf.gif
 ||za.zdn.vn^
+||za.zingnews.vn^
 ||zaawds.farmae.it^
 ||zabanit.xyz^
 ||zabanit.xyz^$third-party
