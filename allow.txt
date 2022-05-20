@@ -1,5 +1,5 @@
-! Version: 2022-05-20 09:23:15（北京时间） 
-! Total count: 6983
+! Version: 2022-05-20 12:26:12（北京时间） 
+! Total count: 6976
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$webrtc,domain=sourceforge.net
@@ -166,7 +166,6 @@
 @@/pic/ad/*$domain=ybjk.com
 @@/piwik-$domain=github.com
 @@/pop.js|$domain=pornve.com
-@@/progress.php?callback=$script,domain=ytmp3.cc
 @@/pub/ad/*$domain=ruten.com.tw
 @@/pub1/??$domain=banggo.com
 @@/s_code_acdc.js$domain=adobe.com
@@ -287,7 +286,6 @@
 @@||1fichier.com/?$stealth,~stylesheet,~image,~script
 @@||1fichier.com^$generichide
 @@||1gr.cz/js/dtm/cache/satelliteLib-$domain=idnes.cz
-@@||1plus1.ua^$stealth,domain=1plus1.ua
 @@||1plus1.video/video/embed/$stealth,~script,~xmlhttprequest,~other
 @@||1trackapp.com//static/tracking/$script,domain=1track.ru
 @@||1trackapp.com/static/tracking/$domain=1track.ru
@@ -577,6 +575,7 @@
 @@||adocean.pl/ad.xml$domain=imasdk.googleapis.com,badfilter
 @@||adoi.cn^$generichide
 @@||adpop.me^$domain=adpop.me
+@@||adroll.com/edaa^$domain=youronlinechoices.com
 @@||adroll.com^$xmlhttprequest,domain=adroll.com
 @@||ads-twitter.com/oct.js$domain=jp.square-enix.com
 @@||ads.3dtuning.com/ad?placement=*&$~third-party
@@ -591,6 +590,7 @@
 @@||ads.allegro.pl^$domain=ads.allegro.pl
 @@||ads.cdn.tvb.com^*.key
 @@||ads.colombiaonline.com/ad/$domain=colombiaonline.com
+@@||ads.creative-serving.com/yoc^$domain=youronlinechoices.com
 @@||ads.cricbuzz.com/adserver/units/mobile/set_ads_values.php
 @@||ads.cs.washington.edu^$popup
 @@||ads.dainikbhaskar.com/AdTech/ads/ads.js
@@ -1303,6 +1303,7 @@
 @@||buyad.bi-xenon.cn^
 @@||bwb101.goo.ne.jp/b.js$domain=news.goo.ne.jp
 @@||by.optimost.com^$domain=ft.com
+@@||byfly.dualstack.speedtestcustom.com^$stealth
 @@||bytedance.com/ttwid/union/register/
 @@||bytegoofy.com/ad/$domain=jinritemai.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=baltimoresun.com
@@ -1910,7 +1911,6 @@
 @@||cqvboeirsvugo.biz/*.php?id=$stealth
 @@||cr.acecounter.com/Web/AceCounter_AW.js$domain=berryjam.co.kr
 @@||cracking.org/js/siropu/am/ads.min.js
-@@||crackle.com/vendor/AdManager.js
 @@||crackle.com/vendor/AdManager.js$script,~third-party
 @@||create.jd.com/ad/
 @@||criteo.net/js/ld/publishertag.js$domain=novayagazeta.ru
@@ -1987,7 +1987,6 @@
 @@||darmowa-tv.ws^$stealth
 @@||darmstadt.ui-traffic.de/mobile/webapp/bower_components/heatmap.js$domain=darmstadt.ui-traffic.de
 @@||dashboard.jwplayer.com^$document
-@@||dashboard.mgid.com^$popup
 @@||dashboard.mgid.com^$~third-party
 @@||dashboard.unity3d.com/services/analytics/$~third-party
 @@||data.alicloudccp.com^$stealth,domain=aliyundrive.com
@@ -2635,7 +2634,6 @@
 @@||gj.mmstat.com/aliyun.$domain=work.aliyun.com
 @@||gjensidige.lv/Content/dev/scripts/analytics.js
 @@||gjensidige.lv/Content/dev/scripts/analytics.min.js
-@@||glavred.info^$stealth
 @@||glenat.com^*/static/analytics.js$script,~third-party
 @@||global.apis.naver.com/commentBox/cbox/web_neo_list_jsonp.json$stealth
 @@||global.fncstatic.com/static/isa/app/lib/VisitorAPI.js$domain=video.foxnews.com|video.foxbusiness.com
@@ -2783,7 +2781,6 @@
 @@||google-analytics.com/analytics.js$domain=manga-zero.com
 @@||google-analytics.com/analytics.js$domain=mashtips.com
 @@||google-analytics.com/analytics.js$domain=maz-online.de|ostsee-zeitung.de|lvz.de
-@@||google-analytics.com/analytics.js$domain=mediamarkt.*,stealth,important
 @@||google-analytics.com/analytics.js$domain=mediamarkt.be|mediamarkt.ch
 @@||google-analytics.com/analytics.js$domain=mediamarkt.com.tr
 @@||google-analytics.com/analytics.js$domain=mediamarkt.de
@@ -2930,7 +2927,6 @@
 @@||google-analytics.com/plugins/ua/ec.js$domain=lenovo.com.cn
 @@||google-analytics.com/plugins/ua/ec.js$domain=m.n11.com
 @@||google-analytics.com/plugins/ua/ec.js$domain=m.papajohns.ru
-@@||google-analytics.com/plugins/ua/ec.js$domain=mediamarkt.*,stealth,important
 @@||google-analytics.com/plugins/ua/ec.js$domain=mediamarkt.be|mediamarkt.ch
 @@||google-analytics.com/plugins/ua/ec.js$domain=mediamarkt.com.tr
 @@||google-analytics.com/plugins/ua/ec.js$domain=mediamarkt.de
@@ -3570,7 +3566,6 @@
 @@||hmvod.com.hk/website/static/skin/images/share/
 @@||hobbyking.com^*/gtm.js$script,~third-party
 @@||hoge.cn/advertisement.swf
-@@||hollaforums.com/js/adcash.js
 @@||homebank.ro/public/HomeBankLogin/js/fingerprint/fingerprint.js
 @@||homedepot.com/static/scripts/resxclsa.js
 @@||homedepotrebates11percent.com/js/third-party/angulartics-google-analytics/dist/angulartics-ga.min.js$script,~third-party
@@ -4730,7 +4725,6 @@
 @@||ncbi.nlm.nih.gov^$jsinject
 @@||nceea.cn/Content/images/ad/
 @@||ndr.de/common/resources/lib/atinternet/smarttag.js
-@@||neads.io^$domain=neads.io
 @@||nemlog-in.dk/resources/js/adrum.js$~third-party
 @@||neobux.com/css/ads.css
 @@||netbk.co.jp^$jsinject
@@ -5604,7 +5598,6 @@
 @@||secure-dcr.imrworldwide.com/novms/js/*/ggcmb*.js$domain=crackle.com
 @@||secure-dcr.imrworldwide.com/novms/js/*/ggcmb*.js$domain=sonycrackle.com
 @@||secure-it.imrworldwide.com/novms/js/2/ggcmb390.js$domain=tv.liberoquotidiano.it
-@@||secure.ccavenue.com/transaction/$stealth
 @@||secure.info.seek.com/b/ss/
 @@||secure.logmein.com/scripts/Tracking/$script,domain=logme.in|logmein.com
 @@||secure.logmein.com/scripts/Tracking/Tracking.js$domain=logmein.com
@@ -5703,7 +5696,6 @@
 @@||securitykiss.com$document
 @@||securitytrails.com/app/api/$domain=securitytrails.com
 @@||securitytrails.com/domain/$domain=securitytrails.com
-@@||seeitworks.com/advertisement.js
 @@||seewhy.com^$domain=nixon.com
 @@||segment-data.zqtk.net^$domain=wsj.com
 @@||segmentify.com//*/events/v1.json?apiKey=$domain=flo.com.tr
@@ -6009,7 +6001,6 @@
 @@||static.criteo.net/js/ld/publishertag.js$domain=shinden.pl
 @@||static.criteo.net/js/ld/publishertag.js$domain=xda-developers.com
 @@||static.crunchyroll.com/*/player.html$stealth
-@@||static.doubleclick.net/instream/ad_status.js$domain=fcine.net
 @@||static.doubleclick.net/instream/ad_status.js$domain=investing.com
 @@||static.doubleclick.net/instream/ad_status.js$domain=linksht.com
 @@||static.doubleclick.net^$app=com.google.android.apps.cultural
@@ -6635,6 +6626,7 @@
 @@||vk.com/ads$generichide
 @@||vk.com/ads.php$~third-party,xmlhttprequest
 @@||vk.com/ads.php?$subdocument,domain=vk.com
+@@||vk.com/ads?$popup,domain=vk.com
 @@||vk.com/ads?act=$~third-party
 @@||vk.com/ads_*php?$subdocument,~third-party
 @@||vk.com/images/ads_$domain=vk.com
@@ -6970,6 +6962,7 @@
 @@||zhaopin.cn/js/app/popShow.
 @@||zhaopin.cn^*/adbox_
 @@||zhuti.xiaomi.com^
+@@||ziffdavis.com/edaa^$domain=youronlinechoices.com
 @@||zillowstatic.com/c/*/linktrack.js$domain=zillow.com
 @@||zinro.net/m/end.php?$~third-party
 @@||zinro.net/m/log.php
