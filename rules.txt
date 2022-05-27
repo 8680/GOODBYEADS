@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 4 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、补充规则
-! Version: 2022-05-27 04:18:30（北京时间） 
-! Total count: 108396
+! Version: 2022-05-27 09:19:42（北京时间） 
+! Total count: 108413
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -17056,7 +17056,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 85st.com#%#//scriptlet('prevent-window-open')
 85tube.com##.block-album > .table > .opt
 85tube.com##.block-video > .table
-85tube.com##.player + .sponsor
 85tube.com#%#//scriptlet("set-constant", "flashvars.protect_block", "")
 85tube.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'document.createElement')
 85tube.com#@#.ads-iframe
@@ -30760,6 +30759,7 @@ google.*##.cu-container
 google.*##.gws-product_ads__close-button
 google.*##.uEierd
 google.*##div[data-attrid="kc:/local:promotions"]
+google.*##div[jscontroller="wuEeed"]
 google.*#?##kp-wp-tab-overview > div[data-hveid]:has(> div[jsname] div[class*="__wholepage-card"] > div > div[class] div[class] > a[href^="/aclk?"])
 google.*#?##kp-wp-tab-overview > div[data-hveid]:has(> div[jsname] div[class*="__wholepage-card"] > div > div[class] div[class] > a[href^="https://www.googleadservices.com/pagead/"])
 google.*#?##views > div > div[class][decode-data-ved="1"] > div[class]:has(> div > div[class] > div[class] > div[class][jscontroller] > div[class^=" _-"])
@@ -40727,6 +40727,7 @@ thegatewaypundit.com##.persistent-footer
 thegay.com##.wrapper + section
 thegay.com#%#//scriptlet("abort-on-property-read", "GameLacker")
 thegay.com#%#//scriptlet("abort-on-property-read", "adver.popunder.neverblock")
+thegay.com#?#.underplayer__info > div:has( > div#und_ban)
 theglobeandmail.com##.container-with-ad
 theguardian.com##.fc-slice__item--mpu-candidate
 theguardian.com##.js-top-banner
@@ -43077,6 +43078,7 @@ xhamster.com##.ts
 xhamster.com##div[data-object^='{"widgetName']
 xhamster.com##main a[href^="https://xhamsterlive.com/api/external"]
 xhamster.com#$#.xh-scroll-disabled { overflow: visible !important; position: absolute !important; }
+xhamster.com#%#//scriptlet("set-constant", "history.replaceState", "noopFunc")
 xhamster.com,xhamster.one,xhamster2.com##[class^="xplayer-banner"]
 xhamster.com,xhamster2.com#$#.video-view-ads { display: none!important; }
 xhamster.com,xhamster2.com#$#body { overflow: visible!important; position: static!important; }
@@ -44224,6 +44226,7 @@ zznews.cn##.ad:not([style])
 |samsungqbe.com^
 |ws*://$websocket,domain=fullmatchesandshows.com|1337x.to|allkpop.com|auroravid.to|boards2go.com|celebdirtylaundry.com|celebritymozo.com|collectivelyconscious.net|dailycaller.com|destructoid.com|dumpaday.com|firstrowau.eu|firstrowus1.eu|flash-x.tv|flashsx.tv|flashx.me|flashx.run|flashx.tv|flashx1.tv|fmovies.to|free-torrent.org|free-torrents.org|gamenguide.com|gofirstrow.eu|gorillavid.in|gsmarena.com|health-weekly.net|i4u.com|ifirstrow.eu|ifirstrowit.eu|img24.org|instanonymous.com|itechpost.com|izismile.com|jpost.com|lifehacklane.com|livescience.com|mobilenapps.com|mobipicker.com|natureworldnews.com|navbug.com|ncscooper.com|newsarama.com|noslocker.com|nowfeed2all.eu|nowvideo.ag|nowvideo.co|nowvideo.li|nowvideo.to|okceleb.com|omgwhut.com|opensubtitles.org|parentherald.com|pornhub.com|pornhubthbh7ap3u.onion|prnt.sc|putlocker9.com|pwinsider.com|snoopfeed.com|sportsmole.co.uk|stream-tv-series.net|stream-tv2.to|stream2watch.cc|streamgaroo.com|technobuffalo.com|the-watch-series.to|thevideo.me|thinkinghumanity.com|todayshealth.buzz|tomsguide.com|tomshardware.co.uk|tomshardware.com|toptenz.net|torrentino.me|tribune.com.pk|uberhavoc.com|universityherald.com|vidmax.com|vidzi.tv|viewmixed.com|viralands.com|wccftech.com|webfirstrow.eu|whydontyoutrythis.com|wrestlinginc.com|wrestlingnews.co|xilfy.com|yourtango.com
 ||*.$image,redirect=1x1-transparent.gif,third-party,domain=rmdown.com
+||*.doppiocdn.com/hls/*/master/*.m3u8$domain=xhamster.com
 ||*/ad/$redirect=noopmp3-0.1s,domain=huaren.tv
 ||*^sdtfrom=^$media,redirect=noopmp3-0.1s,domain=qq.com
 ||*report.wc.yahoodns.net/cs/
@@ -46287,6 +46290,7 @@ zznews.cn##.ad:not([style])
 ||8seaa.com/template/assets1/js/vue.js
 ||8t100.cn^
 ||8xia.com/otherhtml/
+||8zhou.wang^
 ||8ziyuan.com/images/infolinksad.jpg
 ||900.la/imgs/1bb725da-974f-43da-9eb9-dfdebc224949/2015-12-18/zg3wwaug.gif
 ||900.la/imgs/d829d551-1d6e-4018-b3fe-78991bbbe2d6/2016-06-27/yiwmbica.gif
@@ -53764,6 +53768,7 @@ zznews.cn##.ad:not([style])
 ||baomeidiaosu.cn^
 ||baomihua.com/yy/
 ||baomitu.duapp.com/js/layer.js
+||baopengys.vip^
 ||baoquanworld.com.cn^
 ||baoren.tech^
 ||baotf.com^
@@ -57930,6 +57935,7 @@ zznews.cn##.ad:not([style])
 ||cloudcdn.yousee.com^
 ||cloudconf.fengkongcloud.com^
 ||clouddn.com/960x60.gif
+||clouddream.ltd^
 ||cloudemb.com/js/jquery/*/jquery-*.min.js?v=
 ||clouderrorreporting.googleapis.com^
 ||cloudflare.com/_cf/analytics.js
@@ -60906,6 +60912,7 @@ zznews.cn##.ad:not([style])
 ||data.mainpost.de^
 ||data.mapp.com^
 ||data.mediaworld.it^
+||data.mimikama.at^
 ||data.minute.ly^
 ||data.mistat.india.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
@@ -61825,6 +61832,7 @@ zznews.cn##.ad:not([style])
 ||dimestore.com^$third-party
 ||dimml.io^$third-party
 ||din1j0su0u99.artwallstreet.io^
+||dingbiao.top^
 ||dingdangcake.cn^
 ||dingdangsheji.com^*/%E5%9B%BE%E6%80%AA%E5%85%BD
 ||dingdangsheji.com^*/%E7%94%BB%E6%9D%BF-
@@ -63774,6 +63782,7 @@ zznews.cn##.ad:not([style])
 ||egglikelt.com^
 ||eggnogsicerya.com^
 ||eggplant.cloud^$third-party
+||eghnmj.xyz^
 ||egistonemes.com^
 ||egjyqfidcsfw.com^
 ||egmontpublishing.dk/tracking/
@@ -66930,6 +66939,7 @@ zznews.cn##.ad:not([style])
 ||gaoqing.la/wp-content/uploads/*980x
 ||gaoqing.la/wp-content/uploads/*GOOVIS
 ||gaoqing.la/wp-content/uploads/*banner
+||gaoyuhu.top^
 ||gaozhuang.xyz^
 ||gapl.hit.gemius.pl/gplayer.js$script,redirect=noopjs,domain=player.antyradio.pl|player.radiozet.pl|player.chillizet.pl|player.meloradio.pl
 ||gapp1.com^
@@ -67783,7 +67793,9 @@ zznews.cn##.ad:not([style])
 ||go.visma.com^
 ||go.vrvm.com^
 ||go.wtcmachinery.com^
+||go.xhamster.com/api/models/vast
 ||go.xhamster.com/api/models?$domain=xhamster.com
+||go.xhamster.com/eye.gif
 ||go.xxxiijmp.com^
 ||go.zendesk.com^
 ||go.zic.co.nz^
@@ -72060,7 +72072,7 @@ zznews.cn##.ad:not([style])
 ||infranken.de/fileadmin/scripts/tracking
 ||infuriateharder.com^
 ||infusionsoft.app/app/webTracking/
-||infusionsoft.com/app/webTracking/getTrackingCode?
+||infusionsoft.com/app/webTracking/getTrackingCode
 ||infusionsoft.com^*/getTrackingCode?
 ||infvb.com^
 ||ing.com.tr/assets/scripts/dataroid.websdk-
@@ -72820,7 +72832,6 @@ zznews.cn##.ad:not([style])
 ||iztwp.com/images/
 ||izuis.com^
 ||izzs.cc/wp-content/mm/
-||j.9136.com^
 ||j.adeaz.com^
 ||j.appjiagu.com^
 ||j.avz4.com^
@@ -73424,6 +73435,7 @@ zznews.cn##.ad:not([style])
 ||jmypdkzixne.com^
 ||jmypodeqqf.com^
 ||jn1biifafz.cn^
+||jnbd43jh.xyz^
 ||jnborycvjjk.com^
 ||jnbvckgophfkop.com^
 ||jncacp.cn^
@@ -73569,7 +73581,6 @@ zznews.cn##.ad:not([style])
 ||js.5068.com^
 ||js.578965.com^
 ||js.5xml.com^
-||js.9136.com^
 ||js.92aliyun.com^
 ||js.9669.cn^
 ||js.ad-stir.com^
@@ -73802,6 +73813,7 @@ zznews.cn##.ad:not([style])
 ||jsyzw132.com^
 ||jsztl.com/img/particular/tbyhq.jpg
 ||jtdxz.top^
+||jtj7tq6c.xyz^
 ||jtjsevmr.com^
 ||jtkshop.net^
 ||jtosgk.123pneus.fr^
@@ -73993,6 +74005,7 @@ zznews.cn##.ad:not([style])
 ||jystea.com^
 ||jytc.xyz^
 ||jytjw.com^
+||jywangluo.top^
 ||jywigigu.com^
 ||jyz.fjtzjy.com^
 ||jyzae.cn^
@@ -77475,6 +77488,7 @@ zznews.cn##.ad:not([style])
 ||mairuan.com^
 ||mairuan.net^
 ||mairuanwang.com^
+||majiamei.fun^
 ||majomalonic.com^
 ||makaidong.com/img/
 ||makantime.tv/analytics.js
@@ -89613,6 +89627,7 @@ zznews.cn##.ad:not([style])
 ||sbbanner.com^$third-party
 ||sbbd1.qulishi.com^
 ||sbcomniture.focus.de^
+||sbdm.net/js/222.js
 ||sbdtds.com^$third-party
 ||sbeacon.sina.com.cn^
 ||sbenx.com^
@@ -98488,6 +98503,7 @@ zznews.cn##.ad:not([style])
 ||tongbaimi.cn^$third-party
 ||tongdejiayuan.com^
 ||tongdianku.com^
+||tongfanglianhe.com^
 ||tonghao.ltd^
 ||tonghuacun.com/js/uc.js
 ||tonghuaji.com^
@@ -104516,6 +104532,7 @@ zznews.cn##.ad:not([style])
 ||wuxinb.com^$third-party
 ||wuxiqiangheng.com^
 ||wuygmdi.cn^
+||wuyicom.top^
 ||wuyoudan.cn^
 ||wuyulou.com^*.php
 ||wuzefei.top^
