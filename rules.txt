@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 4 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、补充规则
-! Version: 2022-05-29 04:17:09（北京时间） 
-! Total count: 108476
+! Version: 2022-05-29 09:25:26（北京时间） 
+! Total count: 108494
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -2213,6 +2213,7 @@
 ##.ad-identifier
 ##.ad-iframe
 ##.ad-img
+##.ad-in-artilce
 ##.ad-in-content
 ##.ad-in-post
 ##.ad-in-read
@@ -6429,6 +6430,7 @@
 ##a[href*="/winbox.plus"]
 ##a[href*="/x5092.com"]
 ##a[href*="/xapps5.xyz"]
+##a[href*="/xchina.fun/redirect/ad"]
 ##a[href*="/xmkgc.com/"]
 ##a[href*="/yb6277.vip"]
 ##a[href*="/yhbet50.vip"]
@@ -7881,6 +7883,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 .flipboard.com/usage?
 .fm/ads/
 .fun/ad/
+.fun/scripts/my_33.js
 .ga/*.wasm
 .gatracker.
 .gatracking.js
@@ -8009,6 +8012,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 .me/gg.js
 .me/l.gif?
 .me/s.php?id=$script,third-party
+.me/scripts/my_33.js
 .members.babbel.com/mo/
 .men/ads/
 .mgmailer.binance.com/o/$image
@@ -17694,6 +17698,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||1trackapp.com//static/tracking/$script,domain=1track.ru
 @@||1trackapp.com/static/tracking/$domain=1track.ru
 @@||1trackapp.com/static/tracking/$script,stylesheet,~third-party
+@@||1trackapp.com^$stealth,xmlhttprequest,domain=1track.ru
 @@||2018x.bid/adview.js
 @@||230book.com/images/bqg.js$domain=230book.net
 @@||2345.com/images/activity/20171111/open/j/close.png
@@ -19726,6 +19731,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||football-lineups.com^$generichide
 @@||forecast.lemonde.fr/p/event/pageview?$image,~third-party
 @@||forexprostools.com^$domain=shougedui.com
+@@||forexprostools.com^$subdocument,domain=fx-rashinban.com
 @@||forgeofempires.com/game/json
 @@||forrest.adverticum.net/inapp/user^$domain=embed.indavideo.hu
 @@||forum.51nb.com/images/*/
@@ -20293,7 +20299,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||googletagmanager.com/gtag/js$domain=srek.net
 @@||googletagmanager.com/gtag/js$domain=xl-bygg.no
 @@||googletagmanager.com/gtag/js$script,domain=dholic.co.jp
-@@||googletagmanager.com/gtag/js$script,domain=honeystinger.com|kawasaki.com|m.putlocker.how|mediaite.com|schwab.com
+@@||googletagmanager.com/gtag/js$script,domain=honeystinger.com|kawasaki.com|m.putlocker.how|mediaite.com|schwab.com|toptal.com
 @@||googletagmanager.com/gtag/js$script,domain=radiosarajevo.ba
 @@||googletagmanager.com/gtag/js$script,domain=rjno1.com
 @@||googletagmanager.com/gtag/js$script,domain=timparty.tim.it
@@ -24300,7 +24306,6 @@ abendblatt.de,morgenpost.de,derwesten.de,waz.de##.article__body > .admarker + am
 abendzeitung-muenchen.de##.ad-widebox
 abendzeitung-muenchen.de##.adv-container
 abendzeitung-muenchen.de##.artikel-detail-mobile-ad
-abetterrouteplanner.com##.r-145dblm.r-nc4a30
 abminbuy.com##body > a[rel="nofollow"] > img
 about.com##.adhesive
 about.com#@##adcontainer1
@@ -35015,9 +35020,9 @@ mangareader.net#%#//scriptlet("abort-on-property-read", "parts")
 mangareddit.com#%#//scriptlet("prevent-setTimeout", "advert")
 mangareddit.com#@#.ad_box
 mangarock.com#%#Object.defineProperty(window, 'NativeAd', { get: function() { return function() {}; } });
-mangarockteam.com##.c-top-second-sidebar
 mangarockteam.com##.demand-supply
 mangarockteam.com#?#.body-wrap > .c-top-second-sidebar:not(:has(.widget-manga-popular-slider))
+mangarockteam.com,nitroscans.com##.c-top-second-sidebar
 mangasail.co#%#//scriptlet("abort-on-property-read", "adb_checker")
 mangashiro.co#%#//scriptlet("prevent-window-open")
 mangastream.com##.mobile-ad-home
@@ -46607,6 +46612,7 @@ zznews.cn##.ad:not([style])
 ||a.bitmango.com^
 ||a.breaktime.com.tw^$third-party
 ||a.bshu.com^
+||a.bxwblog.cn^
 ||a.cdn-hotels.com/cos/travel-pixel/
 ||a.cdn.searchiq.co/app/search/content/presearch/js/presearch.js
 ||a.check24.net/misc/click.php?
@@ -54109,6 +54115,7 @@ zznews.cn##.ad:not([style])
 ||bds.hainan.net^
 ||bds.snssdk.com^
 ||bdsearch.2345.com^
+||bdsmstreak.com/vast
 ||bdsmx.tube/ps/37pg3s.js
 ||bdsp.x.jd.com^
 ||bdstatic.com/5bVYsj_p_tVS5dKfpU_Y_D3/data/5e4103a342883a925a81aea7fe356bef
@@ -58048,6 +58055,7 @@ zznews.cn##.ad:not([style])
 ||cloudservice24.kingsoft-office-service.com/cards
 ||cloudservice27.kingsoft-office-service.com^
 ||cloudtracer101.com^$third-party
+||cloudweekly.vip^
 ||cloudwp.io^
 ||cloudzhuge.cn^
 ||clownfish.aaronmoodie.com^
@@ -60516,6 +60524,7 @@ zznews.cn##.ad:not([style])
 ||d3bbyfw7v2aifi.cloudfront.net^
 ||d3beefy8kd1pr7.cloudfront.net^
 ||d3bj8nkfly20uo.cloudfront.net^
+||d3bo67muzbfgtl.cloudfront.net^
 ||d3c3cq33003psk.cloudfront.net^
 ||d3c3uihon9kmp.cloudfront.net^
 ||d3cgm8py10hi0z.cloudfront.net^
@@ -63849,6 +63858,7 @@ zznews.cn##.ad:not([style])
 ||ejzr.golden1.sogou.com^
 ||ejzzv.cn^
 ||ek8.voyage-prive.com^
+||ekareqif.xyz^
 ||ekfe.tmmjgcp.cn^
 ||ekfottltamc.com^
 ||ekg.riotgames.com^
@@ -65170,6 +65180,7 @@ zznews.cn##.ad:not([style])
 ||ezexfzek.com^
 ||ezfashion.com.cn^
 ||ezhefg9gbhgh10.com^
+||ezijyfiq.xyz^
 ||ezlian.com^$third-party
 ||ezmob.com^$third-party
 ||ezodn.com^
@@ -66092,7 +66103,7 @@ zznews.cn##.ad:not([style])
 ||forever-k.com.cn^
 ||foreveryoung.gz01.bdysite.com^
 ||forex.americanexpress.com^
-||forexprostools.com^
+||forexprostools.com^$third-party
 ||forflygonom.com^
 ||forfrogadiertor.com^
 ||forgetfulflowers.com^
@@ -70456,6 +70467,7 @@ zznews.cn##.ad:not([style])
 ||hubspot.com/usage-logging/
 ||hubturn.info^
 ||hubvisor.io^$third-party
+||hucang.cloud^
 ||hucy87.icu^
 ||hudb.pl^$third-party
 ||hudong.alicdn.com/api/data/$domain=player.youku.com
@@ -70559,6 +70571,7 @@ zznews.cn##.ad:not([style])
 ||huojutt.com^
 ||huosai.net.cn^
 ||huoyan.tv/yb/img/*.gif
+||hupneyv.cn^
 ||huppahshoras.com^
 ||hupu.com^*/stream.js
 ||hur.cn/AhurD/*.gif
@@ -83924,6 +83937,7 @@ zznews.cn##.ad:not([style])
 ||paht.tech^
 ||pahtag.tech^$third-party
 ||pahtgq.tech^$third-party
+||pahthf.tech^
 ||pahtwt.tech^
 ||pahtzh.tech^
 ||paid.outbrain.com^
@@ -83959,6 +83973,7 @@ zznews.cn##.ad:not([style])
 ||panc.cc/uploads/hongbao.png
 ||panchaxumbilic.com^
 ||panda.adsame.com^
+||panda.kasika.io^
 ||panda.kasika.io^$third-party
 ||panda.kdnet.net^
 ||panda.moritz-petersen.de^
@@ -97725,6 +97740,7 @@ zznews.cn##.ad:not([style])
 ||telemetry.art19.com^
 ||telemetry.battle.net^
 ||telemetry.chrobinson.com^
+||telemetry.firez.one^
 ||telemetry.goodlifefitness.com^
 ||telemetry.jivosite.com^
 ||telemetry.malwarebytes.com^
@@ -105740,6 +105756,7 @@ zznews.cn##.ad:not([style])
 ||xchgx.com^
 ||xchina.co/plugins/jquery.modal/
 ||xchina.co/upload/ad/
+||xchina.fun/plugins/jquery.modal/jquery.modal.min.js
 ||xcho.top^
 ||xcjy876.com^
 ||xclaimwords.net^$third-party
@@ -106617,6 +106634,7 @@ zznews.cn##.ad:not([style])
 ||yanu.qiniudn.com/270300.jpg
 ||yanyanbiji.com^
 ||yanzunyang.top^
+||yaobao.cc^
 ||yaodaipeishi.cn^
 ||yaofaweb.xyz^
 ||yaohq.com^
