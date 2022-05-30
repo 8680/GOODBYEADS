@@ -1,4 +1,4 @@
-! Version: 2022-05-30 09:26:38（北京时间） 
+! Version: 2022-05-30 12:36:41（北京时间） 
 ! Total count: 6973
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -17,6 +17,7 @@
 @@.co.uk/wp-banners.js$domain=suffolknews.co.uk|advertiserandtimes.co.uk|northern-scot.co.uk|kentonline.co.uk
 @@.com/ad.aspx|$domain=xdingdiann.com
 @@.com/adv/$domain=my.ctrip.com
+@@.com/click-$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@.com/js/a_d/$domain=cocomanga.com|cocomanhua.com
 @@.com/js/ad_/ad*.js$domain=cocomanga.com|cocomanhua.com
 @@.com/js/ad_/pic*.png$domain=cocomanga.com|cocomanhua.com
@@ -508,6 +509,7 @@
 @@||addon.dismall.com/resource/*/ad
 @@||addons.opera.com/ru/extensions/details/$stealth
 @@||addthisedge.com/live/$xmlhttprequest,domain=serialomaniak.pl
+@@||adengine.rt.ru^$domain=rt.ru
 @@||adf.acrosspf.com/js/acrossadx.js$domain=ytn.co.kr
 @@||adf.ly/static/image/ad_top_bg2.png?
 @@||adgaterewards.com/assets/js/vc/advertisement.js|$~third-party
@@ -623,7 +625,6 @@
 @@||ads.tiktok.com^$popup
 @@||ads.tiktok.com^$~third-party
 @@||ads.twitter.com^$domain=ads.twitter.com|analytics.twitter.com
-@@||ads.viralize.tv/player/$domain=ilrestodelcarlino.it
 @@||ads.vk.com^$popup
 @@||ads1.atpclick.com/atpClick.aspx?$image,script,domain=jobnet.co.il|jobs-israel.com
 @@||adsafeprotected.com/iasPET.$script,domain=bloomberg.com|reuters.com
@@ -743,7 +744,6 @@
 @@||allmusic.com/images/tracking/tracking_pixel.jpg
 @@||allthatsinteresting.com/wordpress/wp-content/plugins/bwp-minify^
 @@||almanilan.com/ads/$~third-party
-@@||almayadeen.net/Content/VideoJS/js/videoPlayer/VideoAds.js$domain=almayadeen.net
 @@||almayadeen.net/Content/VideoJS/js/videoPlayer/VideoAds.js$script,~third-party
 @@||alotof.software/wp-content/themes/alosss/ads.php
 @@||alternate.de/js/emos2.js
@@ -1080,7 +1080,6 @@
 @@||autotrader.co.uk^*/advert$~third-party
 @@||av30.xyz/cs/2.js
 @@||av4u.info/source/plugin/unadblock^
-@@||avalanche.state.co.us/caic/pub_bc_avo.php?zone_id=
 @@||avclub.com^*/adManager.$script,~third-party
 @@||aveda.com/sites/aveda/themes/aveda_base/js/shared/analytics.min.js$script,~third-party
 @@||avforums.com/*ad$script
@@ -1175,8 +1174,8 @@
 @@||bdstatic.com/po/??*,*,*,
 @@||bdstatic.com/static/common/widget/ui/admanager/
 @@||bdstatic.com/static/exp-pc/article/widget/cms-banner-ads/cms-banner-ads_*.css
+@@||bdstatic.com/static/v1/mip$domain=100fanwo.com|biqugesc.com
 @@||bdstatic.com/static/v1/mip$domain=biqugecom.com
-@@||bdstatic.com/static/v1/mip$domain=biqugesc.com
 @@||bdstatic.com^$domain=17k.com|bxwx888.org
 @@||beacon.guim.co.uk/accept-beacon?
 @@||beanfun.com/ADClient/
@@ -1320,7 +1319,7 @@
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=wgntv.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=wivb.com
 @@||c.disquscdn.com/next/embed/*$domain=thewindowsclub.com
-@@||c.mipcdn.com^$domain=77dushu.com|biqugesc.com|prpcoin.com
+@@||c.mipcdn.com^$domain=100fanwo.com|77dushu.com|biqugesc.com|prpcoin.com
 @@||c.mmcdn.net^*/flash/config/metrics.xml$domain=moshimonsters.com
 @@||c.newsinc.com/getids^$domain=washingtonexaminer.com
 @@||c.paypal.com/da/r/fb.js$script
@@ -2253,7 +2252,6 @@
 @@||emailregex.com^$generichide
 @@||emathhelp.net^$csp
 @@||embed.binkies3d.com/content/$domain=gsmarena.com
-@@||embed.binkies3d.com^$stealth,domain=gsmarena.com
 @@||embed.meomeo.pw/fastmedia/$stealth
 @@||embed.redditmedia.com/widgets/platform.js$domain=gamerant.com
 @@||embeddedanalytics.com/updateeakpi.html$domain=brocardi.it
@@ -2342,6 +2340,7 @@
 @@||facebook.com/ads/profile/$~third-party,xmlhttprequest
 @@||facebook.com/adsmanager^
 @@||facebook.com/bluebar/modern_settings_menu^$stealth
+@@||facebook.com/connect/xd_arbiter.php$jsinject,elemhide
 @@||facebook.com/dialog/oauth$document
 @@||facebook.com/login.php$stealth
 @@||facebook.com/share/share_now_menu/$domain=facebook.com
@@ -3753,6 +3752,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=get.x-link.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=globoplay.globo.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=gocolumbialions.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=gsgazete.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=h5.4j.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=haber7.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=haberglobal.com.tr
@@ -5479,7 +5479,6 @@
 @@||s.ip-cdn.com/img/ag.jpg
 @@||s.ip-cdn.com/img/logo.gif
 @@||s.jsrdn.com/s/1.js$domain=lcpdfr.com
-@@||s.stormedia.info/*.mp4$stealth
 @@||s.tgfcer.com^$generichide
 @@||s.thebrighttag.com/tag?site=$domain=sephora.com
 @@||s.visilabs.net/Target.js^$domain=boyner.com.tr
@@ -5961,7 +5960,6 @@
 @@||states.newegg.com/b/ss/neweggprod/
 @@||static-cdn.spot.im/production/*/*.js$domain=bizpacreview.com
 @@||static-cf.cleverbridge.com/mycontent^$domain=secure.ccleaner.com,stealth
-@@||static-file.com^$stealth,domain=eyny.com
 @@||static-redesign.cnbcfm.com/dist/components-PcmModule-Ads-BoxInline-*.js$domain=cnbc.com
 @@||static-redesign.cnbcfm.com/dist/components-PcmModule-Taboola-*.js$domain=cnbc.com
 @@||static-v*.trbo.com/plugin/trbo_*.js$domain=blau.de
@@ -6133,7 +6131,6 @@
 @@||t1.daumcdn.net/adfit/static/kp.js$domain=m.card-gorilla.com
 @@||t2.hulu.com/*/adinteraction^$domain=player.hulu.com
 @@||t7z.cupid.iqiyi.com/show2?$xmlhttprequest,domain=m.iqiyi.com
-@@||tab.gladly.io/newtab/|$document,subdocument
 @@||tab.gladly.io/newtab/|$document,subdocument,badfilter
 @@||tablespoon.com/library/js/TBSP_ntpagetag.js
 @@||tablica.pl^*/xtcore.js
@@ -6323,6 +6320,9 @@
 @@||torrindex.net^$image,script,stylesheet,domain=thepiratebay.org
 @@||totaldebrid.org^$generichide
 @@||totheglory.im/pic/ttg_logo
+@@||towideo.pl/assets/ads_configs/sasPluginData.js
+@@||towideo.pl/assets/ads_configs/sas_ad_config_vod.js
+@@||towideo.pl/assets/ads_configs/sas_vod.js
 @@||toyota.com/recall/static/js/custom/facebookPixel.js$~third-party
 @@||tpc.googlesyndication.com/simgad/$domain=rtxkeeda.com|techssting.com|techyneed.com
 @@||tpc.googlesyndication.com^$script,~third-party
