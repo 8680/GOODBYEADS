@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 4 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、补充规则
-! Version: 2022-05-30 04:17:39（北京时间） 
-! Total count: 108477
+! Version: 2022-05-30 09:26:38（北京时间） 
+! Total count: 108493
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -3574,6 +3574,7 @@
 ##.advertising-container
 ##.advertising-container-top
 ##.advertising-content
+##.advertising-disclaimer
 ##.advertising-notice
 ##.advertising-right
 ##.advertising-top
@@ -10192,6 +10193,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /beacon/page?
 /beacon/perf
 /beacon/portal-lite?
+/beacon/receive
 /beacon/stats
 /beacon/timing?
 /beacon/track/*
@@ -27020,6 +27022,7 @@ cityam.com##.notice-header
 cityam.com#@#.sponsored-post
 cityheaven.net##.astl
 citymagazine.si#@#iframe[width="300"][height="250"]
+citynews.ca###Bigbox_300x250
 citynow.it#%#//scriptlet("set-constant", "advanced_ads_check_adblocker", "noopFunc")
 citypizza.ru#%#window.yaCounter9890803 = { reachGoal: function() {} };
 citystar.ru$$script[tag-content="acn.rucounter.ru"][max-length="500"]
@@ -29058,6 +29061,7 @@ ettoday.net#@#AMP-AD
 ettoday.net#@#amp-ad
 ettvcentral.com#%#//scriptlet("json-prune", "0.cu")
 ettvproxies.com,prostylex.org,nsw2u.com,ettvcentral.com,btdb.nl,switch-xci.com,skytorrents.to,btdb.eu###vpnvpn
+euobserver.com,medicinehatnews.com##.top
 euractiv.com##.ea-gat-slot-wrapper
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -29848,7 +29852,7 @@ fotodovana.com#%#//scriptlet("prevent-window-open")
 fox-saying.com#?##sidebar__inner > #links-row-1 > .box.folder:has(> h4:contains(AD))
 fox-saying.com,maxfoodfun.com,pixnet.net##.header-fixed-area
 fox-saying.com,pixnet.net##li[data-source^="ad_mobile_"]
-fox10phoenix.com,foxla.com##.vendor-unit
+fox10phoenix.com,fox26houston.com,fox4news.com,fox7austin.com,foxla.com##.vendor-unit
 foxaholic.com##div[class*="foxaholic-publift-"][class*="_sticky"]
 foxaholic.com,manhwatop.com,webtoon.xyz,manhuas.net,mangarocky.com##.body-wrap > .c-bottom-sidebar
 foxbaltimore.com,foxchattanooga.com,foxillinois.com,foxlexington.com,foxnebraska.com,foxreno.com,foxrochester.com,foxsanantonio.com,nbcmontana.com,okcfox.com,siouxlandnews.com,wach.com,wchstv.com,wcyb.com,wfxl.com,wgxa.tv,wlos.com,wsbt.com,wsmh.com,wvah.com,cbs2iowa.com,fox4beaumont.com,mycbs4.com,mynews4.com,news4sanantonio.com,abc6onyourside.com,wtov9.com,turnto10.com,fox11online.com,mynbc15.com,nbc16.com,abc22now.com,fox23maine.com,nbc24.com,fox28media.com,myfox28columbus.com,fox42kptm.com,fox45now.com,fox56.com##div[id^="interstory_first_ddb_"]
@@ -32402,6 +32406,7 @@ inporn.com##.video__wrapper > div.header__item
 inporn.com,bdsmx.tube###in_v
 inporn.com,bdsmx.tube##.btn-close
 inquirer.net###billboard_article
+insauga.com##.proper-content-dynamic
 inside-digital.de##.content-contentad
 inside-digital.de##.social-share-mobile + #sonder-ueber-content
 inside-digital.de##.spo-marker
@@ -35232,6 +35237,7 @@ medicalnewstoday.com#%#window.atob = function() {};
 medicalnewstoday.com#?#span ~ div[class]:has(> aside[class] div[data-empty="true"])
 medicalnewstoday.com,healthline.com#?##__next > aside > div:has(> button.icon-hl-close-thick)
 medicalxpress.com,techxplore.com##.embed-responsive-trendmd
+medicinehatnews.com###stickyleaderboard
 medien-studieren.net,medienstudienfuehrer.de##.leaderboard .banner
 medindia.net,addictivetips.com##.adslabel
 medonet.pl,onet.pl###onet-ad-flat-belkagorna
@@ -41946,6 +41952,7 @@ valetudo.ru#?#.v_left > div.moduletable:has(script[src^="https://www.googletagma
 valleybreeze.com#%#//scriptlet('remove-attr', 'hidden', '#asset-content[hidden]')
 valueresearchonline.com##.googleadservices
 valueresearchonline.com#%#AG_onLoad(function() { if (window.location.pathname.indexOf('/ads/splash.asp') > -1) { document.cookie = "HasSeenSplash=True; path=/;"; window.location = 'http://valueresearchonline.com/'; } });
+vancouverisawesome.com###leaderboard-container
 vandal-elespanol-com.cdn.ampproject.org,google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,google.be,google.bf,google.bg,google.bi,google.bj,google.bs,google.bt,google.by,google.ca,google.cat,google.cd,google.cf,google.cg,google.ch,google.ci,google.cl,google.cm,google.cn,google.co.ao,google.co.bw,google.co.ck,google.co.cr,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.ls,google.co.ma,google.co.mz,google.co.nz,google.co.th,google.co.tz,google.co.ug,google.co.uk,google.co.uz,google.co.ve,google.co.vi,google.co.za,google.co.zm,google.co.zw,google.com,google.com.af,google.com.ag,google.com.ai,google.com.ar,google.com.au,google.com.bd,google.com.bh,google.com.bn,google.com.bo,google.com.br,google.com.bz,google.com.co,google.com.cu,google.com.cy,google.com.do,google.com.ec,google.com.eg,google.com.et,google.com.fj,google.com.gh,google.com.gi,google.com.gt,google.com.hk,google.com.jm,google.com.kh,google.com.kw,google.com.lb,google.com.ly,google.com.mm,google.com.mt,google.com.mx,google.com.my,google.com.na,google.com.nf,google.com.ng,google.com.ni,google.com.np,google.com.om,google.com.pa,google.com.pe,google.com.pg,google.com.ph,google.com.pk,google.com.pr,google.com.py,google.com.qa,google.com.sa,google.com.sb,google.com.sg,google.com.sl,google.com.sv,google.com.tj,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vc,google.com.vn,google.cv,google.cz,google.de,google.dj,google.dk,google.dm,google.dz,google.ee,google.es,google.fi,google.fm,google.fr,google.ga,google.ge,google.gg,google.gl,google.gm,google.gp,google.gr,google.gy,google.hn,google.hr,google.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.je,google.jo,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tk,google.tl,google.tm,google.tn,google.to,google.tt,google.vg,google.vu,google.ws##.publicidad_amp
 vanis.io#?##overlay > .container > .fade-box.box-1:has(> div[style="padding: 4px;"]:contains(/^Advertisement$/))
 vanpeople.com##.advlr
@@ -54315,6 +54322,7 @@ zznews.cn##.ad:not([style])
 ||befuglago.live^
 ||beget.com/p$image,third-party
 ||beginnerdole.com^
+||beginnerpancake.com^
 ||begintrain.com^
 ||begun.ru^
 ||begun.ru^$third-party
@@ -63837,6 +63845,7 @@ zznews.cn##.ad:not([style])
 ||eiu.com/n/wp-content/plugins/eiu-google-tag-manager/assets/dist/js/eiu-google-tag-manager.min.js
 ||eiv.baidu.com^
 ||eivbjsegbino.com^
+||eiyxjls.cn^
 ||ejcgtv.spim.ru^
 ||ejd3q.life^
 ||ejdkqclkzq.com^
@@ -67306,6 +67315,7 @@ zznews.cn##.ad:not([style])
 ||getfreebacklinks.com^$third-party
 ||getfreebl.com^$third-party
 ||getglue.com^*/count?
+||getibih.cn^
 ||getinfo.fullsail.edu^
 ||getitall.top/ds/*.html
 ||getitfree.cn/wp-content/plugins/adunblocker/*.js
@@ -69062,6 +69072,7 @@ zznews.cn##.ad:not([style])
 ||h5.wannaplay.cn^
 ||h501.cn^$third-party
 ||h559.stamfordadvocate.com^
+||h5634t.site^
 ||h5log.zongheng.com^
 ||h6295.com^$popup
 ||h728.cn^
@@ -74865,6 +74876,7 @@ zznews.cn##.ad:not([style])
 ||kz.admaster.com.cn^
 ||kz2oq0xm6ie7gn5dkswlpv6mfgci8yoe3xlqp12gjotp5fdjxs5ckztb8rzn.codes^
 ||kzdmci.masku.com^
+||kzhtgnv.cn^
 ||kzsicw.chip.de^
 ||kzsicw.fitforfun.de^
 ||kzsicw.focus.de^
@@ -88089,6 +88101,7 @@ zznews.cn##.ad:not([style])
 ||rhksxx.nencinisport.it^
 ||rhlxm.top^
 ||rhoxnc.studentuniverse.com^
+||rhufmpa.cn^
 ||rhxshop.com^
 ||rhybey.gap.co.jp^
 ||rhymezebra.com^
@@ -96150,6 +96163,7 @@ zznews.cn##.ad:not([style])
 ||stubhub.com/bfx/api/logging
 ||studcat.infra.systems^
 ||studiocustomers.com^$popup
+||studiostack.com^$third-party
 ||studocu.com/27m703Hm/init.js
 ||study.jcu.edu.au^
 ||study.vu.edu.au^
@@ -97886,6 +97900,7 @@ zznews.cn##.ad:not([style])
 ||tf1.fr^$cookie=ABTastySession
 ||tf1.fr^$cookie=atidvisitor
 ||tf1.fr^$cookie=gguserid
+||tf111.xyz^
 ||tf639.top^
 ||tfdtpa.dot-st.com^
 ||tfeluikknbiq.com^
@@ -103044,6 +103059,7 @@ zznews.cn##.ad:not([style])
 ||vyk.admaster.com.cn^
 ||vymhnxjyj.com^
 ||vyplzy.job-medley.com^
+||vyrhxfi.cn^
 ||vytxocb.cn^
 ||vyule.com^
 ||vyyikx.sixt.ch^
