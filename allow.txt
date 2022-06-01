@@ -1,4 +1,4 @@
-! Version: 2022-06-01 04:19:17（北京时间） 
+! Version: 2022-06-01 09:46:40（北京时间） 
 ! Total count: 6976
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -81,8 +81,7 @@
 @@/advertisement/*$domain=ininin.com|midea.com|muyingzhijia.com|nmkjxy.com
 @@/advertising/*$domain=315.sh.cn
 @@/adverts/*$domain=onlychild.cn
-@@/adview_pic_$domain=1090ys8.com|2hanju.com|laimanhua.com|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|sssam.com|xiaoz.me|ykit.cn|zgpingshu.com|zyshow.net
-@@/adview_pic_$domain=fydy8.com
+@@/adview_pic_$domain=1090ys8.com|2hanju.com|fydy8.com|laimanhua.com|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|sssam.com|xiaoz.me|ykit.cn|zgpingshu.com|zyshow.net
 @@/advs/*$domain=ciros.com.cn|gotobuy.com.tw|sj-touch.com
 @@/adx.$domain=tanx.com
 @@/analytics.php?$domain=xcar.com.cn
@@ -418,6 +417,7 @@
 @@||accounts.google.com^$jsinject,generichide
 @@||accounts.google.com^$popup
 @@||accounts.google.com^$stealth
+@@||accounts.intuit.com/fe_logger?$~third-party
 @@||accounts.nintendo.com/account/js/pages/$script,~third-party
 @@||accounts.nintendo.com^$stealth
 @@||acdn.adnxs.com/ast/ast.js$domain=msn.com
