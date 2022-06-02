@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 4 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、补充规则
-! Version: 2022-06-02 04:18:35（北京时间） 
-! Total count: 109371
+! Version: 2022-06-02 09:26:00（北京时间） 
+! Total count: 109384
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -9337,7 +9337,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /ads/counter.
 /ads/delivery.
 /ads/desktop-
-/ads/google_
 /ads/gpt/*
 /ads/gpt_
 /ads/home/*
@@ -11821,7 +11820,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /googleTracker.
 /googleTracking.js
 /google_ad.
-/google_ads.
 /google_ads/*
 /google_ads_
 /google_analitycs.
@@ -23516,6 +23514,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||tui.click/js/ads.js
 @@||tui.click^$generichide
 @@||tune.pk/player/embed_player.php^$popup
+@@||tunein.com/api/v1/comscore$~third-party
 @@||turkcelltvplus.com.tr^*/google_analytics/main.js?
 @@||turkdown.com/*/advertisement.js
 @@||turner.com/cnn/*/video/chartbeat.js$domain=cnn.com
@@ -24521,6 +24520,7 @@ aena.es#%#//scriptlet("set-constant", "window.digitalChange", "noopFunc")
 aeroexpo.online,agriexpo.online,directindustry.com,fonearena.com,frontlinesoffreedom.com,stakingrewards.com,winemag.com###header-banner
 afaqs.com##.topban-container
 afar.com,m.economictimes.com##.adContainer
+affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,fraudstercrew.su,pugski.com,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
 affyun.com##.text
 affyun.com##.text ~ a
 afl.com.au#@#a[href^="http://pubads.g.doubleclick.net/"]
@@ -26018,7 +26018,6 @@ bigb0ss.net#%#//scriptlet("prevent-window-open")
 bigbangnews.com##.container_publi
 bigbrothercanada.ca#%#//scriptlet('set-constant', 'video_player_config.players.0.adblock', 'false')
 bigbtc.win#%#//scriptlet("set-constant", "canRunAds", "true")
-bigbtc.win,shrink.*##div[style^="width:300px;height:250px"]
 bigcommerce.com#@#.advert-container
 bigear.cn##.adpicright
 bigear.cn##a[href^="/?module=dantian&"]
@@ -32580,6 +32579,7 @@ investing.com#?##siteWrapper > div.wrapper > section.boxItem:has(> div.OUTBRAIN)
 investing.com#?##siteWrapper > div.wrapper > section.boxItem:has(> ins.adsbygoogle)
 investing.com#?#.wrapper div > div.OUTBRAIN:upward(1)
 investing.com,esportsearnings.com##div[class^="ad_"]
+investopedia.com###performance-marketing_1-0
 investopedia.com##.partnerlinks
 iobit.com##[class^="itop"]
 iobroker.net##.jss125
@@ -36234,7 +36234,6 @@ myhackingworld.com#@#.an-sponsored
 myhome.ge##.h-banners
 myhouseabroad.com,njuskalo.hr,starbuy.sk.data10.websupport.sk#@#.ad_item
 myip.ms#@#.google_ads
-myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,fraudstercrew.su,pugski.com,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
 myk3.com##a[href*="?aid="]
 myli3k.com#%#//scriptlet("prevent-window-open")
 mylifetime.com#@#.block-doubleclick
@@ -43653,6 +43652,7 @@ yeecloud.com###adFirefox
 yeeyi.com##.boardnav > #ct > .sd
 yeeyi.com##.sd.pph > .mbm.hm
 yellowfaucet.ovh#%#//scriptlet("abort-on-property-read", "_cpp")
+yellowstone-btc.com,bigbtc.win,shrink.*##div[style^="width:300px;height:250px"]
 yelp.at,yelp.be,yelp.ca,yelp.ch,yelp.cl,yelp.co.jp,yelp.co.nz,yelp.co.uk,yelp.com,yelp.com.ar,yelp.com.au,yelp.com.br,yelp.com.hk,yelp.com.mx,yelp.com.ph,yelp.com.sg,yelp.com.tr,yelp.cz,yelp.de,yelp.dk,yelp.es,yelp.fi,yelp.fr,yelp.ie,yelp.it,yelp.my,yelp.nl,yelp.no,yelp.pl,yelp.pt,yelp.se##.ABP
 yelp.at,yelp.be,yelp.ca,yelp.ch,yelp.cl,yelp.co.jp,yelp.co.nz,yelp.co.uk,yelp.com,yelp.com.ar,yelp.com.au,yelp.com.br,yelp.com.hk,yelp.com.mx,yelp.com.ph,yelp.com.sg,yelp.com.tr,yelp.cz,yelp.de,yelp.dk,yelp.es,yelp.fi,yelp.fr,yelp.ie,yelp.it,yelp.my,yelp.nl,yelp.no,yelp.pl,yelp.pt,yelp.se#?#div[class^=" container_"]:-abp-has(a[href^="/adredir?"])
 yelp.be,yelp.ca,yelp.ch,yelp.co.nz,yelp.co.uk,yelp.com,yelp.com.au,yelp.com.sg,yelp.ie##.data-ad-placement
@@ -60083,6 +60083,7 @@ zznews.cn##.ad:not([style])
 ||csxsyp.cn^
 ||csxvsd.cn^
 ||csyfe.com^
+||csygxdym.com^
 ||csykhjry.com^
 ||csyqts.tmon.co.kr^
 ||csyys0731.com^
@@ -60983,6 +60984,7 @@ zznews.cn##.ad:not([style])
 ||daisycontroversy.com^
 ||daitianyu.vip^
 ||daiwofei2019.top^
+||daixishuai.pw^
 ||daizhangguanjia.com.cn^
 ||dajean.com^
 ||dajiadu8.com/17.js
@@ -65729,6 +65731,8 @@ zznews.cn##.ad:not([style])
 ||fatlossremedies.com^
 ||fatsosjogs.com^
 ||fatwalkinger.club^
+||faucet4news.xyz/img/adend.gif
+||faucet4news.xyz/img/tempmailad.gif
 ||faucons.viessmann.fr^
 ||faultycanvas.com^$third-party
 ||faultyfowl.com^
@@ -67231,6 +67235,7 @@ zznews.cn##.ad:not([style])
 ||ganon.yahoo.com^
 ||gansudaily.com.cn/2017zt/images/*gg
 ||gao.ynet.com^
+||gaoai.wang^
 ||gaobata.com^
 ||gaobook.review/asset/*.min.js?*=*&
 ||gaofen.com/source/plugin/gaofen_ad/
@@ -68443,6 +68448,7 @@ zznews.cn##.ad:not([style])
 ||gotchosen.com^$third-party
 ||gotdns.com/track/blank.aspx?
 ||goteacher.cn^
+||gotie.tunein.com^
 ||gotmojo.com/track/
 ||goto.benchmarkeducation.com^
 ||goto.dresslily.com^
@@ -69012,6 +69018,7 @@ zznews.cn##.ad:not([style])
 ||gstatic.com/wcm/impl-
 ||gstatic.com/wcm/loader.js
 ||gstats.cn^$third-party
+||gsyc.icu^
 ||gsycdb.com^
 ||gsycl.top^
 ||gsyegj.shatura.com^
@@ -73583,6 +73590,7 @@ zznews.cn##.ad:not([style])
 ||jianshen114.com/images/Advistings/
 ||jianshu.com/asimov/ab_test/info$xmlhttprequest,redirect=nooptext,important
 ||jiansuo.dsxdn.com^
+||jiantiquan.cn^
 ||jianxinshanghai.com^
 ||jianxun.io/ad/
 ||jianyihang.com^
@@ -77580,6 +77588,7 @@ zznews.cn##.ad:not([style])
 ||m.mgogo.com^
 ||m.mianbao99.com/js/detail.js
 ||m.miaoxinqipei.com^
+||m.mradx.net^$app=com.allgoritm.youla
 ||m.mradx.net^$app=com.avito.android
 ||m.mradx.net^$app=ru.sports
 ||m.msujd.cn^
@@ -86277,6 +86286,7 @@ zznews.cn##.ad:not([style])
 ||prisma-tr.prismamedia.com^
 ||prismaconnect.fr/prd/ping
 ||prismarrears.com^
+||priv.gc.ca/m/m.js
 ||privacy-api.9gag.com^
 ||privacy-center.org^*/events
 ||privacy-policy.truste.com^$third-party
@@ -88343,6 +88353,7 @@ zznews.cn##.ad:not([style])
 ||reports.koalametrics.com^
 ||reports.pagesuite-professional.co.uk^
 ||reports.sdiapi.com^
+||reports.tunein.com^
 ||reports.wes.df.telemetry.microsoft.com^
 ||reportsk.web.sdo.com^
 ||representativeray.com^
@@ -108862,6 +108873,7 @@ zznews.cn##.ad:not([style])
 ||zhulong.com/poster/get?positions_name=ZY_SP_300
 ||zhululm.com^$third-party
 ||zhuna.cn/static/knowledge_pc/img/bussness
+||zhuogego8.top^
 ||zhuoyuanxcl.cn^
 ||zhuozhongfangshui.cn^
 ||zhushihuahan.com^
@@ -109200,6 +109212,7 @@ zznews.cn##.ad:not([style])
 ||zuyapixel.com^$third-party
 ||zuzab.com^$third-party
 ||zvfzqw.cotta.jp^
+||zvkoukk.cn^
 ||zvqbbj.cn^
 ||zvs1.cnzz.com^
 ||zvs2.cnzz.com^
