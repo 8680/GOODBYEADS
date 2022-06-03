@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 4 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、补充规则
-! Version: 2022-06-04 00:23:28（北京时间） 
-! Total count: 109459
+! Version: 2022-06-04 04:16:27（北京时间） 
+! Total count: 109464
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -26023,6 +26023,7 @@ bflix.to#%#//scriptlet('set-cookie', 'pads', '1')
 bfm.ru##.banner-mobile-wrap
 bfmusic.com.tw,workercn.cn#@#.ad_content
 bg-mania.jp###sp_bg-mania_billboard
+bg-mania.jp##.wrapper > div.narrowView-only[style^="text-align:center; min-height"]
 bgames.com##.slot-container
 bgr.in##div[class="amp-flying-carpet-text-border"][style^="font-size:12px;background-color: #000; color: #fff;text-align: center;"]
 bh.sb##.large
@@ -27595,6 +27596,7 @@ crazygames.com,tenforums.com##div[style^="height:250px;"]
 crazyshit.com#%#//scriptlet("abort-current-inline-script", "jQuery", "document.cookie")
 crazyshit.com,sleazyneasy.com,katestube.com,pervclips.com,vikiporn.com,fetishshrine.com,wankoz.com,sheshaft.com,pornicom.com,morazzia.com,pornwhite.com,yeswegays.com##a[href^="https://claring-loccelkin.com/"]
 crb-kolomna.ru,uk-parkovaya.ru,viarum.ru##.flat__4_out
+crea.bunshun.jp###wrapper > div[style^="text-align:center ; min-height: 260px"]
 crea.bunshun.jp##div[style="text-align:center; border-top: 1px solid #f3f3f3; border-bottom: 1px solid #f3f3f3;margin-bottom:20px;"]
 creaders.net###guanggao2
 creaders.net##.border_b > tbody > tr > td[height^="2"]
@@ -28284,6 +28286,7 @@ dojrzewamy.pl#%#//scriptlet("abort-current-inline-script", "setTimeout", "adbloc
 dokonline.com###Counters
 dokonline.com###Counters + div[class="block"]
 dokuha.jp##.ad-size-rect
+domani.shogakukan.co.jp##div[style="display: flex; justify-content: center; align-items: center; min-height: 100px;"]
 domodedovo.ru#@##adBanner1
 domodedovo.ru#@##adLink1
 domonet.jp##main > section.banner_block + section.bnr_block
@@ -33819,6 +33822,7 @@ ladbible.com#$#body > div[id].margin-Advert { display: block !important; }
 ladbible.com#%#//scriptlet("set-constant", "pbjs.adUnits", "emptyArr")
 ladbible.com#@#div[class*="margin-Advert"]
 lady.mail.ru##.teaser
+ladytopi.jp#?#.uk-text-center.uk-margin-bottom > div[id^="div-gpt-"]:upward(1)
 lahoo.ca###diyrighttop
 lahoo.ca##.a_af
 lahoo.ca##.right_multi_banner
@@ -42842,7 +42846,7 @@ westseattleblog.com#@#.custom-ad
 westseattleblog.com#@#.header-ad
 weszlo.com#%#//scriptlet("abort-current-inline-script", "jQuery", "window.open(getUrl")
 wetpussy.sexy#%#AG_onLoad(function(){document.querySelectorAll('a[href^="/cc/out.php?"][href*="/o.php?u=http"]').forEach(function(a){var b=a.getAttribute("href").split("/o.php?u=");a.setAttribute("href",b[1])})});
-wetter.com##.ad-container
+wetter.com##body div.ad-container
 wetter.com##div[class*="performanceRectangle"]
 wetter.com##div[id^="ad-fullbanner"]
 wetter.com##div[id^="ad-mbanner"]
@@ -45325,7 +45329,6 @@ zznews.cn##.ad:not([style])
 ||3.ssqzj.com^
 ||3.up.qingdaonews.com^
 ||300daytravel.com^
-||300daytravel.com^$third-party
 ||300segundos.com^
 ||301848.com^
 ||30350f.com^
@@ -87043,6 +87046,8 @@ zznews.cn##.ad:not([style])
 ||qagyb.cn^
 ||qajypx.com^
 ||qamnyl.bever.nl^
+||qamwm5o8dlgijte.com^
+||qamwm5o8dlgijte.com^$popup
 ||qaolyke.cn^
 ||qaops.jgwsmqx.com^$third-party
 ||qapm.baidu.com^
