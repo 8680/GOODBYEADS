@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 4 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、补充规则
-! Version: 2022-06-04 16:18:03（北京时间） 
-! Total count: 109483
+! Version: 2022-06-04 20:24:34（北京时间） 
+! Total count: 109497
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -582,6 +582,7 @@
 ###adbox2
 ###adcenter
 ###adchoices-icon
+###adchoicesBtn
 ###adclose
 ###adcode
 ###adcode1
@@ -1698,6 +1699,7 @@
 ###taboola-below-article-thumbnails-express
 ###taboola-content
 ###taboola-mid-article-thumbnails
+###taboola-mobile-article-thumbnails
 ###taboola-right-rail
 ###taboola-right-rail-express
 ###takeover-ad
@@ -1823,6 +1825,7 @@
 ###xinnxi
 ###yahoo_ad
 ###yandex_ad
+###zdcFloatingBtn
 ###zergnet-wrapper
 ##.AD300x250
 ##.ADBox
@@ -4617,6 +4620,7 @@
 ##.infinity-ad
 ##.injectedAd
 ##.inline-ad
+##.inline-ad-container
 ##.inline-ad-placeholder
 ##.inline-ad-wrap
 ##.inline-ad-wrapper
@@ -4910,6 +4914,7 @@
 ##.mobile-ads
 ##.mobile-fixed-ad
 ##.mobile-instream-ad-holder-single
+##.mobile-leaderboard-fader
 ##.mobileAd
 ##.mobile_ad_container
 ##.mobileadunit
@@ -4925,6 +4930,7 @@
 ##.module--ad
 ##.module-ad
 ##.module-ads
+##.module-adslist
 ##.module-zerg
 ##.module1colAds
 ##.moduleAd
@@ -5138,6 +5144,7 @@
 ##.player-bottom-gg
 ##.player-info > .recommend-two.recommend-list
 ##.player-leaderboard-ad-wrapper
+##.player-rm > a[href*="/ad.html?url="]
 ##.player-rm-float
 ##.player-section__ad-block
 ##.player-section__ad-wrapper
@@ -7443,11 +7450,11 @@ $third-party,xmlhttprequest,domain=alltube.pl|alltube.tv
 $third-party,xmlhttprequest,domain=faselhd.top,badfilter
 $third-party,xmlhttprequest,domain=opensubtitles.org
 $webrtc,domain=195.43.95.234|50.7.31.226|50.7.31.227|50.7.31.228|50.7.31.229|50.7.31.230|cntvboxnow.com|tvboxnow.com
-$webrtc,domain=ack.net|allthetests.com|azvideo.net|champion.gg|clicknupload.link|colourlovers.com|convertcase.net|csgolounge.com|dispatch.com|fastplay.to|go4up.com|gounlimited.to|janjua.pw|janjua.tv|jpost.com|megaup.net|merriam-webster.com|netdna-storage.com|ouo.io|ouo.press|rlslog.net|sourceforge.net|spanishdict.com|telegram.com|torlock.icu|torlock2.com|uptobox.com|videowood.tv|vidtodo.com|yts.gs|yts.mx
+$webrtc,domain=ack.net|allthetests.com|azvideo.net|champion.gg|clicknupload.link|colourlovers.com|csgolounge.com|dispatch.com|fastplay.to|go4up.com|gounlimited.to|janjua.pw|janjua.tv|jpost.com|megaup.net|merriam-webster.com|netdna-storage.com|ouo.io|ouo.press|rlslog.net|sourceforge.net|spanishdict.com|telegram.com|torlock.icu|torlock2.com|uptobox.com|videowood.tv|vidtodo.com|yts.gs|yts.mx
 $webrtc,domain=avgle.com
 $webrtc,websocket,xmlhttprequest,domain=pirateproxy.live|thehiddenbay.com|thepiratebay.org|thepiratebay10.org
 $websocket,domain=123telugu.com|7tors.com|ajplugins.com|akvideo.stream|alltube.pl|alltube.tv|animeteatr.ru|bigspeeds.com|biter.tv|bitvid.sx|bmovie123.me|btstors.com|centrum-dramy.pl|cinemafacil.com|clipwatching.com|coinfaucet.eu|coinhub.win|crictime.com|crictime.is|deltabit.co|djs.sk|dragonballzpolo.blogspot.com|estream.to|estream.xyz|fileone.tv|flashx.cc|flashx.co|flashx.sx|flashx.to|flashx.tv|flashx.ws|fmoviesgo.me|gomovie123.me|gomovies123.me|hdvid.tv|hentai-online.pl|ianimes.co|idope.tv|jkanime.net|kinokrad.co|kinoprofi.org|kinostuff.com|lafmacun.net|lewd.ninja|love-drama.pl|netiap.com|netu.tv|nowvideo.sx|onlinevideoconverter.com|onvid.club|onvid.fun|onvid.online|onvid.pw|onvid.xyz|pebx.pl|potomy.ru|povw1deo.com|powvideo.net|protect-iframe.com|proxyportal.eu|reactor.cc|sherlockonline.ru|shrink-service.it|skyback.ru|skytorrents.me|sleeptimer.org|sorteosrd.com|streambeam.io|streamplay.me|streamplay.to|szukajka.tv|theappguruz.com|thepiratebay.org|vidoza.net|vidtodo.com|vidtodo.me|vidtodo.pro|vidup.io|vidup.tv|void.cat|wallpoper.com|wearesaudis.net|yazilir.com|zenexplayer.com
-$websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|convertcase.net|fastpic.ru|fileone.tv|filmlinks4u.is|flashx.tv|imagefap.com|keepvid.com|megaup.net|merriam-webster.com|olympicstreams.me|pocketnow.com|pornhub.com|pornhubthbh7ap3u.onion|postimg.org|powvideo.net|roadracerunner.com|shorte.st|tribune.com.pk|tune.pk|vcpost.com|vidmax.com|vidoza.net|vidtodo.com|webfirstrow.eu
+$websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fastpic.ru|fileone.tv|filmlinks4u.is|flashx.tv|imagefap.com|keepvid.com|megaup.net|merriam-webster.com|olympicstreams.me|pocketnow.com|pornhub.com|pornhubthbh7ap3u.onion|postimg.org|powvideo.net|roadracerunner.com|shorte.st|tribune.com.pk|tune.pk|vcpost.com|vidmax.com|vidoza.net|vidtodo.com|webfirstrow.eu
 $websocket,domain=5nj.com|cechi8.com
 $websocket,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|xtube.com|youporn.com|youporngay.com
 $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.com|povw1deo.com|powvideo.net|sleeptimer.org|sorteosrd.com|streambeam.io|szukajka.tv
@@ -24686,7 +24693,7 @@ albumoftheyear.org##div[class^="adTag"]
 albvid.com,m4ufree.tv,bludvfilmes.com,torrentrapid.com,speedvid.net,cda-hd.cc,ettv.tv,x1337x.se,hpjav.tv,bayproxy.eu,101xxx.xyz,xxxarray.com,veu.xxx,proxytpb.org,zombay.org,tpbbay.eu,proxyoneahoy.net,thepiratebay.bet,urbanproxy.eu,piratebays.co,pirateproxy.tf,piratebaymirror.eu,pirate.trade,thepiratebay-proxy.com,wearepirates.click,ukpirate.org,hyperproxy.net,duckingproxy.eu,piratebayproxy.tf,tpbmirror.us,pirateproxy.yt,alivbay.org,piratebay.red,pirateproxy.wf,ukpirateproxy.xyz,piratebay247.net,pirateprox.club,baypiratebay.be,indiaproxy.in,thepirate.click,piratepirate.eu,tpb.tw,seehd.pl,worldwidetorrents.me,superanimes.site,streamdreams.org,1me.club,vergol.com,vidmoly.me,anitubebr.com,1337x.bypassed.ws,mp3fiber.com,flashx.cc#%#!function(a,b){function c(i,j){return"function"!=typeof i||-1===i.toString().indexOf(j)}a=document.addEventListener,document.addEventListener=function(){c(arguments[1],"'popunder'")&&a.apply(document,arguments)},b=window.setInterval,window.setInterval=function(){return c(arguments[0],"'ppu_")?b.apply(window,arguments):void 0},AG_defineProperty("onbeforeunload",{beforeSet:function(j){return c(j,"location.href=options.url")?j:null}})}();
 alexa.cn##.importantList
 alexa.cn##.importantTop
-alexandriagazette.com,arlingtonconnection.com,burkeconnection.com,centre-view.com,connection-sports.com,fairfaxconnection.com,fairfaxstationconnection.com,forum.xda-developers.com,greatfallsconnection.com,herndonconnection.com,kusports.com,mcleanconnection.com,mountvernongazette.com,potomacalmanac.com,reston-connection.com,springfieldconnection.com,union-bulletin.com,viennaconnection.com##.spot
+alexandriagazette.com,arlingtonconnection.com,burkeconnection.com,centre-view.com,connection-sports.com,fairfaxconnection.com,fairfaxstationconnection.com,forum.xda-developers.com,greatfallsconnection.com,herndonconnection.com,kusports.com,mcleanconnection.com,mountvernongazette.com,phonearena.com,potomacalmanac.com,reston-connection.com,springfieldconnection.com,union-bulletin.com,viennaconnection.com##.spot
 alfalfalfa.com###microad_native
 alfalfalfa.com##.adsbox_responsive
 alfalfalfa.com##.dw_ads_sec
@@ -27447,6 +27454,7 @@ comicallyincorrect.com#@#.MBoxAdMain
 comicallyincorrect.com#@#.ad-banner:not([style="height: 5px; width: 5px; position: absolute; top: 0;"]):not(.blocker-tester + .ad-banner)
 comicat.org,dapenti.com,douyu.com,iqiyi.com,jinti.com,kisssub.org,libvio.me,mvcat.com,mzh.ren,rufengso.net,v.qq.com##a[href*=".jd.com"]
 comicat.org,kisssub.org##a[href*="db."]
+comicbook.com##.mobile
 comicbook.com##.modernInContent
 comicbook.com##.oas
 comicbook.com#$#.ad_blk { position: absolute!important; left: -3000px!important; }
@@ -30865,6 +30873,8 @@ goal.com##li[data-type="AdComponent"]
 goal.com,thisislondon.co.uk##.commercial
 goat.com.au##.container__block--sidebar.col-desktop-5
 goat.com.au##.mrec-half-page-wrap
+gobankingrates.com##.bestbanks-slidein
+gobankingrates.com##.rate-table-header
 gobankingrates.com##.snippet-in-content
 goblintvfree.com###izlemac-yayin > div.embed-responsive
 gocmod.com#%#//scriptlet("abort-current-inline-script", "document.createElement", "adsbygoogle")
@@ -36808,6 +36818,8 @@ nintendolife.com##.insert-label
 nintendolife.com##.items > .item-insert
 nintendolife.com##div[data-dfp-sizes]
 nintendolife.com,purexbox.com,pushsquare.com##.for-desktop
+nintendolife.com,purexbox.com,pushsquare.com##.insert-label
+nintendolife.com,purexbox.com,pushsquare.com##.item-insert
 niotv.com##.epg_ad3
 niotv.com##.epg_ad_list
 niotv.com##.right_ad1
@@ -59420,7 +59432,6 @@ zznews.cn##.ad:not([style])
 ||conversions.genieventures.co.uk^
 ||conversityz.club^
 ||convertcart.com^$third-party
-||convertcase.net^$csp=script-src 'self' '*' blob: data:
 ||convertexperiments.com^$third-party
 ||convertflow.co^*/visitors/
 ||convertglobal.com^$third-party
@@ -68217,6 +68228,7 @@ zznews.cn##.ad:not([style])
 ||goaww.com/stats.php
 ||goazlf.mytoys.de^
 ||gobali.cn^
+||gobankingrates.com/fp/
 ||gobicyice.com^
 ||gobiidinshore.com^
 ||goblin.hupu.com^
@@ -85112,6 +85124,7 @@ zznews.cn##.ad:not([style])
 ||phone-analytics.com^$third-party
 ||phone-analyzer.com^$document
 ||phonearena.com/_track.php
+||phonearena.com/js/ops/taina.js
 ||phonograph2.voxmedia.com^
 ||phontomsasa.cfd^
 ||phoobsoo.net^
@@ -86426,6 +86439,7 @@ zznews.cn##.ad:not([style])
 ||productivepear.com^$third-party
 ||productreview.com.au^$cookie=pr_guest_id
 ||productreview.com.au^$cookie=pr_visitor_id
+||products.gobankingrates.com^
 ||products.gobankingrates.com^$domain=cnn.com
 ||products.ricoh.ie^
 ||productsup.com^$third-party
