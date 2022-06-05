@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 4 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、补充规则
-! Version: 2022-06-05 20:25:48（北京时间） 
-! Total count: 109439
+! Version: 2022-06-06 00:20:15（北京时间） 
+! Total count: 109444
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -7289,6 +7289,7 @@ $popup,third-party,domain=sbplay2.com,badfilter
 $popup,third-party,domain=streamlare.com,badfilter
 $popup,third-party,domain=videovard.sx,badfilter
 $popup,third-party,domain=webkaka.com
+$popup,third-party,domain=xmflv.com
 $removeparam=/^curator_clanid/,domain=steampowered.com|steamcommunity.com
 $removeparam=ActionID,domain=otto.de|ottoversand.at
 $removeparam=AffiliateID,domain=otto.de|ottoversand.at
@@ -8859,8 +8860,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /^https:\/\/x?1337x\.(?:eu|g3g\.sbs|gd|to|se)\/images\/[0-9a-z]+\.jpg/$image,~third-party,domain=1337x.g3g.sbs|1337x.gd|1337x.to|x1337x.eu|x1337x.se
 /^https?:\/\/(.+?\.)?hardware\.info\/js\/[a-z]{1,}\/[0-9]{4,}\.js/$domain=hardware.info
 /^https?:\/\/(.+?\.)?videogamesblogger\.com\/wp-content\/uploads\/.*[a-zA-Z0-9]{8,}\.*/$badfilter
-/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.(?:com|website)\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-5]\d{4}|[3-9]\d{3})(?:\?_=\d+)?$/$popup,third-party,match-case
-/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.(?:com|website)\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-5]\d{4}|[3-9]\d{3})(?:\?_=\d+)?$/$subdocument,script,xmlhttprequest,third-party,match-case
+/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.(?:com|website)\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-5]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$popup,third-party,match-case
+/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.(?:com|website)\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-5]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$subdocument,script,xmlhttprequest,third-party,match-case
 /^https?:\/\/(?:www\.)?[a-z0-9-]{5,}\.(?:com|bid|online|top|club)\/[0-9a-f]{32}\/invoke\.js/$script,third-party
 /^https?:\/\/(?:www\.|[a-z0-9]{7,10}\.)?[a-z0-9-]{5,}\.(?:com|bid|link|live|online|top|club)\/(?:[a-z0-9]{2}\/){2,3}[a-f0-9]{32}\.js/$script,xmlhttprequest,third-party
 /^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|mangapanda|mangareader|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([Ss]cripts|[Uu]ploads|[Ii]mages|assets|combined|content|cover|img|static|thumbs|wp-content|wp-includes))(.*)/$image,other,script,~third-party,xmlhttprequest,badfilter
@@ -49746,6 +49747,7 @@ zznews.cn##.ad:not([style])
 ||adsmogo.org^
 ||adsmoloco.com^
 ||adsnative.com^
+||adsninja.ca^$third-party
 ||adsniper.ru^
 ||adsniper.ru^$third-party
 ||adsnot.1javguru.xyz^
@@ -64128,6 +64130,7 @@ zznews.cn##.ad:not([style])
 ||eifeou.pandahall.com^
 ||eiftfa.fashionette.de^
 ||eiga.k-img.com/javascripts/td.js?1578981009
+||eignal.com^
 ||eiipskos.com^
 ||eiorzm.orvis.com^
 ||eirenefv.com^
@@ -87561,6 +87564,7 @@ zznews.cn##.ad:not([style])
 ||quelea.llresearch.dev^
 ||quelle.de/servlet/LandmarkServlet?clientId=
 ||quenchskirmishcohere.com^
+||quesid.com^
 ||questintegrity.actonservice.com^
 ||questionmarket.com^
 ||questionpro.com^$third-party
@@ -94064,6 +94068,7 @@ zznews.cn##.ad:not([style])
 ||snnnyy.com^
 ||sno1.snowrental.com^
 ||snodlycaccias.com^
+||snonoz.com^
 ||snoobi.com^$third-party
 ||snoresmile.com^
 ||snoresmile.com^$third-party
