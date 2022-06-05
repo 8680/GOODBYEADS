@@ -1,5 +1,5 @@
-! Version: 2022-06-05 09:26:08（北京时间） 
-! Total count: 6948
+! Version: 2022-06-05 12:18:19（北京时间） 
+! Total count: 6949
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$webrtc,domain=sourceforge.net
@@ -634,6 +634,7 @@
 @@||adsales.snidigital.com/*/ads-config.min.js$script
 @@||adsense.woso.cn^$~third-party
 @@||adserve.atedra.com/vast/wrap.php?$script,domain=repeatmyvids.com
+@@||adserve.atedra.com/zones.php$xmlhttprequest,domain=repeatmyvids.com
 @@||adserver.juicyads.com/js/jads.js$domain=netflav.com
 @@||adservice.google.*/adsid/integrator.js$domain=player.tubia.com
 @@||adservice.google.*/adsid/integrator.js^$domain=gentside.com|gentside.de|gentside.co.uk|gentside.com.br|esgentside.com|maxisciences.com|ohmymag.com|ohmymag.de|ohmymag.com.br|ohmirevista.com
@@ -653,7 +654,6 @@
 @@||adtng.com/get/$subdocument,domain=hanime.tv
 @@||adv.asahi.com^$popup
 @@||adv.bebad.it/js/ads.js$domain=badtaste.it
-@@||adv.gg^$popup
 @@||advert.kf5.com^
 @@||advert.vg.no/1v*.js?v=$~third-party
 @@||advertisement.vg.no/1v*.js?v=$~third-party
@@ -2184,6 +2184,7 @@
 @@||ebates.com^$generichide
 @@||ebaykorea.com/ADS/$image,domain=gmarket.co.kr
 @@||ebayrtm.com/rtm?$script,domain=annonces.ebay.fr|ebay.it
+@@||ebesucher.ru/js/fuckadblock.js
 @@||ec.atdmt.com/b/$domain=starwoodhotels.com
 @@||ec.europa.eu/eurostat/databrowser/assets/analytics/piwik.js
 @@||ec.europa.eu/eurostat/databrowser/assets/analytics/piwik.js$script,~third-party
@@ -2197,8 +2198,6 @@
 @@||eden.international/script/ad_banner/
 @@||eden.org.tw^*/ad_banner/
 @@||edge.microsoft.com/translate/auth
-@@||edge.mycdn.live/live/*.m3u8$stealth
-@@||edge.mycdn.live/live/*.ts$stealth
 @@||edge.mycdn.live^$stealth,domain=futemax.gratis|futebolplayhd.com
 @@||edgesuite.net/crossdomain.xml$domain=sbs.com.au
 @@||edgesuite.net^*/ad.css?
@@ -4187,6 +4186,7 @@
 @@||kissasian.*/js/ads.js$~third-party
 @@||kissasian.li/*/*?id=$popup
 @@||kissjav.com^$generichide
+@@||kiwihousesitters.co.nz/members$urlblock
 @@||kk665403.pixnet.net^$generichide
 @@||klarnaservices.com/lib.js$script,domain=brooksrunning.com
 @@||klaviyo.com/ajax/subscriptions/subscribe$domain=productionmusiclive.com
@@ -4983,7 +4983,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=vorsprung-online.de
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=b2bhint.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=liout.com|moneysave.info|ygodl.com|youneed.win
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=pigeonburger.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=m.twfanti.com
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=soranews24.com
@@ -4994,6 +4993,7 @@
 @@||pagead2.googlesyndication.com/pagead/managed/js/*/show_ads_impl_$script,domain=games.wkb.jp
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/$script,domain=ff14angler.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_with_ama_fy2019.js?client=ca-pub-$domain=downloads.descendant.me
+@@||pagead2.googlesyndication.com/pagead/osd.js$domain=soranews24.com
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=24sms.net
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=hexviewer.iblogbox.com
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
@@ -5193,6 +5193,7 @@
 @@||pornhub.*/recommended/ajax_rate?$~third-party,xmlhttprequest
 @@||pornhub.*/signup
 @@||pornhub.*/user^
+@@||pornhub.phncdn.com^$image,domain=pornhub.com|pornhub.org|pornhub.net|pornhubthbh7ap3u.onion|redtube.com|redtube.net|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
 @@||portal.mail.ru^$stealth
 @@||portalbici.es/lib/angulartics-google-analytics/dist/angulartics-ga.min.js
 @@||pos.baidu.com^$script,domain=fxpan.com|htqyy.com|jkpan.cc
@@ -5704,7 +5705,6 @@
 @@||service.videoplaza.tv/proxy/pulse-sdk-html5/*/latest.min.js$domain=rtl.be
 @@||services.brid.tv/player/build/plugins/adunit.js
 @@||services.fliqz.com/metrics/*/applications/$domain=leftlanenews.com
-@@||services.postcodeanywhere.co.uk/Capture/Interactive/$stealth
 @@||serving-sys.com/serving/adServer.bs?$popup,domain=hongkongcard.com
 @@||seselah.com^$generichide
 @@||sexgalaxy.net/wp-content/plugins^
@@ -6042,6 +6042,7 @@
 @@||stores.office.com/authredir
 @@||strangermeetup.com/socket.io/$~third-party
 @@||stream.adunity.com^$xmlhttprequest,domain=b1tv.ro
+@@||stream.nbcolympics.com/assets/page/general/ads.js
 @@||stream.nbcsports.com/assets/page/general/ads.js
 @@||stream4free.live^$generichide
 @@||streamango.com/assets/js/license.adbl.js
