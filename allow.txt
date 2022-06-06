@@ -1,5 +1,5 @@
-! Version: 2022-06-06 16:18:42（北京时间） 
-! Total count: 6951
+! Version: 2022-06-06 20:32:50（北京时间） 
+! Total count: 6954
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$webrtc,domain=sourceforge.net
@@ -952,6 +952,7 @@
 @@||api.olx.$app=com.app.tokobagus.betterb
 @@||api.onedrive.com^$stealth
 @@||api.ott.kinopoisk.ru^$stealth
+@@||api.penpencil.xyz^$stealth,domain=physicswallah.live|pw.live
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||api.solvemedia.com/papi/
 @@||api.solvemedia.com^$stealth
@@ -2064,6 +2065,7 @@
 @@||dlkoo.com/down/copy1
 @@||dlkoo.com^$generichide
 @@||dmcdn.net^$app=com.dailymotion.dailymotion
+@@||dmealkit.docomo.ne.jp/*_html.htm$jsinject,elemhide,extension
 @@||dmhy.b168.net^$generichide
 @@||dmm.com/p/general/$image,~third-party
 @@||dmp.im-apps.net/pms/*/pmt.js$domain=zakzak.co.jp
@@ -2247,7 +2249,6 @@
 @@||engine.presearch.org^$generichide
 @@||engine.widespace.com/map/provisioning?appId=com.sofoot$app=com.sofoot
 @@||england101.com/assets/js/prebid-add.js
-@@||englishcentral.com^$stealth
 @@||ens.nzz.ch^$~third-party
 @@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|britishairways.com|capitalone.com|caranddriver.com|cart.autodesk.com|citi.com|citigold.com.sg|citizensbank.com|dell.com|fidelity.com|france24.com|homedepot.com|hp.com|norton.com|rfi.fr|sbs.com.au|sfgate.com|staples.com|t-mobile.com|target.com|verizonwireless.com|williamhill.com|womenshealthmag.com|zales.com
 @@||ensighten.com^*/Bootstrap.js$domain=williamhill.it
@@ -3984,6 +3985,8 @@
 @@||infowars.com/wp-content/themes/$image
 @@||infowarsmedia.com/videojs-event-tracking/dist/videojs-event-tracking.js$script,~third-party
 @@||infoworld.com/www/js/ads/gpt_includes.js$~third-party
+@@||infusionsoft.app/aff.html$subdocument,domain=pages.infusionsoft.net|reginadancecity.ca
+@@||infusionsoft.com/aff.html$subdocument,domain=pages.infusionsoft.net|reginadancecity.ca
 @@||ing-diba.de^*/sitestat.js
 @@||ing.blueconic.net^$domain=ing.jobs
 @@||ingdirect.com.au^$document
