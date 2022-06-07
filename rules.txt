@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 4 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、补充规则
-! Version: 2022-06-07 12:25:20（北京时间） 
-! Total count: 108947
+! Version: 2022-06-07 16:20:39（北京时间） 
+! Total count: 108955
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -4312,6 +4312,7 @@
 ##.frAd
 ##.frn_adbox
 ##.front-video-ads
+##.frontendAd
 ##.frontpageAdvM
 ##.frontpage__article--ad
 ##.fs_ads
@@ -15720,7 +15721,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /wp-content/plugins/deblocker/js/deblocker.min*.js$~third-party
 /wp-content/plugins/eazy-ad-unblocker/*
 /wp-content/plugins/google-analytics-dashboard-for-wp/*$domain=xpornass.com|vitacig.eu.com
-/wp-content/plugins/google-analytics-for-wordpress/*$domain=graphicdesignresources.net|ebonyo.com|paesenews.it
+/wp-content/plugins/google-analytics-for-wordpress/*$domain=graphicdesignresources.net|ebonyo.com|paesenews.it|raportkolejowy.pl
 /wp-content/plugins/google-analytics-premium/*
 /wp-content/plugins/pageviews/pageviews.js
 /wp-content/plugins/pb-ga-google-analytics/*$domain=~wordpress.org
@@ -36771,6 +36772,7 @@ nijinchu.com###icon-adv
 nikee.net#?#td[valign="Top"] > div[style^=" font-family: Verdana; font-size:"] > div[style*="background-color:"]:contains(Reklama)
 nikkansports.com###TopAD
 nikkansports.com##div[id^="cx_"]
+nikkei.com##.k-ad__container--mobile
 nikkei.com##.panelIndent > ul.articleBoxList[style="margin-top:12px;margin-bottom:0;"]
 nikkei.com##.prBox
 nikkei.com##[class*="adForSmall_"]
@@ -38666,6 +38668,7 @@ ranking.goo.ne.jp##.first-banner
 ranking.goo.ne.jp##.overlay-ads-sp
 rapelust.com#%#//scriptlet("abort-current-inline-script", "Object.create", "break;case")
 rapidvideo.com#%#Object.defineProperty(window, '_axipp', { get: function() { return; } });
+raportkolejowy.pl##.footbottombar
 rarbg.to,rarbgaccess.org,rarbgmirror.com,rarbgmirror.org,rarbgproxy.com,rarbgproxy.org,rarbgunblock.com,rarbgunblocked.org##a[href][target="_blank"] > button
 rarbg.to,rarbgaccess.org,rarbgmirror.com,rarbgmirror.org,rarbgproxy.com,rarbgproxy.org,rarbgunblock.com,rarbgunblocked.org##tr > td + td[style*="height:"]
 rarbg2020.org,rarbgproxied.org,rarbg.to,rarbg-to.proxydude.xyz,rarbg-to.pbproxy.red,rarbg.unblocked.lol,rarbg.pbproxy2.co#?#td[align="justify"] > div > table[width="100%"][class="lista"] > tbody > tr:has(tr > td + td[style*="height:"])
@@ -42705,6 +42708,9 @@ web.de,gmx.*##.base-page__ad
 web.de,gmx.net##div[class^="coc-"]
 web.frontapp.com/api$image
 web.gekisaka.jp##.SP_NEWS_D_SP_ONLY
+web.goout.jp###secondary > div.bx-ad:first-child
+web.goout.jp##.bx-ad.mb-10
+web.goout.jp##.bx-ad.my-10
 web.humoruniv.com###wrap_cnts a[href*="/ad_read_"][onmouseover^="ad_choo_"]
 web.yokugames.com,cimavids.live,cimanow.*,2shrt.com,cnvids.com,iogames.army,classic-retro-games.com,ytmp3.cc,fxsolves.com,kodi-addons.club,lastpass.com,jsoneditoronline.org,mgnet.me,laliga-live.to,animeseed.com,robinwidget.com,ascoltareradio.com,bg-radio.org,ceskaradiaonline.cz,ecouterradioenligne.com,emisora.cl,emisora.org.es,emisoras.com.gt,emisoras.com.mx,emisoras.com.py,nederlandseradio.nl,nettiradiot.org,nettradionorge.com,onlineradio.pl,radio.cd,radio.co.ci,radio.co.cm,radio.co.dk,radio.co.ma,radio.co.si,radio.ht,radio.mg,radio.org.ro,radio.org.se,radio.pp.ru,radio.sn,radioalgerie.eu,radioarg.com,radiohallgatas.hu,radioonline.com.pt,radios.co.at,radios.co.cr,radios.co.ni,radios.co.ve,radios.com.bo,radios.com.co,radios.com.do,radios.com.ec,radios.com.pa,radios.com.pe,radios.com.sv,radios.com.uy,radios.hn,radios.hr,radios.org.il,radiosaovivo.net,radiosdecuba.com,radiosdepuertorico.com,radiosonline.be,radiosonline.ch,radiotunisienne.org,radioua.net,radyodinle.fm,surinaamseradio.com###ad
 web2.0calc.com#%#//scriptlet("set-constant", "doads", "true")
@@ -46428,6 +46434,7 @@ zznews.cn##.ad:not([style])
 ||88818122.cn^
 ||8881919.cc^
 ||8882915.com^
+||8886i.top^
 ||888888888888.online^
 ||88888888vip.top^
 ||8889573.com^
@@ -74100,6 +74107,7 @@ zznews.cn##.ad:not([style])
 ||jshosting.bid
 ||jsifaja.com^
 ||jsinfo.net^$third-party
+||jsiqql.xyz^
 ||jsjs.jbzj.com^
 ||jsjxhd.com^$third-party
 ||jskang.cn^
