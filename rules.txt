@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 4 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、补充规则
-! Version: 2022-06-08 00:24:32（北京时间） 
-! Total count: 108994
+! Version: 2022-06-08 04:17:26（北京时间） 
+! Total count: 109022
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -7293,6 +7293,7 @@ $popup,third-party,domain=sbplay2.com,badfilter
 $popup,third-party,domain=streamlare.com,badfilter
 $popup,third-party,domain=videovard.sx,badfilter
 $popup,third-party,domain=webkaka.com
+$removeparam=/^at_custom/,domain=bbc.com|bbc.co.uk
 $removeparam=/^curator_clanid/,domain=steampowered.com|steamcommunity.com
 $removeparam=ActionID,domain=otto.de|ottoversand.at
 $removeparam=AffiliateID,domain=otto.de|ottoversand.at
@@ -7318,6 +7319,8 @@ $removeparam=admitad_uid
 $removeparam=aiad_clid
 $removeparam=aid,domain=adguard-vpn.com|adguard-dns.com|adguard.com
 $removeparam=asgtbndr
+$removeparam=at_campaign,domain=bbc.com|bbc.co.uk
+$removeparam=at_medium,domain=bbc.com|bbc.co.uk
 $removeparam=bsft_aaid
 $removeparam=bsft_clkid
 $removeparam=bsft_eid
@@ -7361,7 +7364,13 @@ $removeparam=mtm_keyword
 $removeparam=mtm_medium
 $removeparam=mtm_placement
 $removeparam=mtm_source
+$removeparam=ns_campaign,domain=bbc.com|bbc.co.uk
+$removeparam=ns_fee,domain=bbc.com|bbc.co.uk
+$removeparam=ns_linkname,domain=bbc.com|bbc.co.uk
+$removeparam=ns_mchannel,domain=bbc.com|bbc.co.uk
+$removeparam=ns_source,domain=bbc.com|bbc.co.uk
 $removeparam=nx_source
+$removeparam=ocid,domain=bbc.com|bbc.co.uk
 $removeparam=oly_anon_id
 $removeparam=oly_enc_id
 $removeparam=oprtrack
@@ -15748,6 +15757,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /wp-counter.php
 /wp-js/analytics.
 /wp-pixels/*
+/wp-power-stats.js
 /wp-powerstat/*
 /wp-rum/*
 /wp-slimstat/*
@@ -27133,6 +27143,7 @@ citystar.ru$$script[tag-content="acn.rucounter.ru"][max-length="500"]
 cjjjs.com,cnblogs.com,fastadmin.net##a[href^="https://promotion.aliyun.com/"]
 cjn.cn###slidelr
 cjn.cn##.sidebar
+cjw123.com##.copy
 cjw123.com##a[href="http://tb.cjw123.com"]
 ck101.com###mobileFloat
 ck101.com###mobile_backgroundAD
@@ -46006,6 +46017,7 @@ zznews.cn##.ad:not([style])
 ||591hx.com/lunbo/
 ||591hx.com/zyrk_dy/gwjl.html
 ||592man.com^
+||5937081273.com^
 ||593pi.cn^
 ||59519.com^$third-party
 ||597txt2.com^*.php
@@ -48243,6 +48255,8 @@ zznews.cn##.ad:not([style])
 ||absenttwilly.com^
 ||absinfo.eagle.org^
 ||absolstats.co.za^$third-party
+||absoluteroute.com^
+||absoluteroute.com^$popup
 ||absorbingband.com^$third-party
 ||absorbingconstitution.com^
 ||absorbingcorn.com^$third-party
@@ -54180,7 +54194,6 @@ zznews.cn##.ad:not([style])
 ||bbbx.xyz^
 ||bbc.com/ngas/latest/dotcom-ads.js
 ||bbc.com/ngas/latest/dotcom-analytics.js
-||bbc.com^$removeparam=ocid
 ||bbcc.yxlady.com^
 ||bbelements.com^$third-party
 ||bbgs888.top^
@@ -57801,7 +57814,7 @@ zznews.cn##.ad:not([style])
 ||cjroq.bealge.sogou.com^
 ||cjs-cdkeys.com/index.php?action=track
 ||cjvdfw.com^
-||cjw123.com/jx/static/picture/tm.png
+||cjw123.com/jx/static/picture/
 ||cjwyvwbxpbo.com^
 ||cjx111.com/ads/
 ||cjy200107152004.ltd^
@@ -61826,6 +61839,7 @@ zznews.cn##.ad:not([style])
 ||developer.ad4game.com^
 ||developermedia.com^$third-party
 ||development.oregon4biz.com^
+||developmentencyclopaedia.com^
 ||developpez.com/public/js/track.js
 ||deviants.com/player/html.php?aid=*_html&video_id=*&*&referer
 ||device-analytics.rollout.io^$redirect=nooptext
@@ -72708,6 +72722,7 @@ zznews.cn##.ad:not([style])
 ||interia.pl^*/hit.
 ||intermarkets.net^
 ||intermundomedia.com^$third-party
+||internal-matomo.
 ||internalcomms.hubinternational.com^
 ||internalforms.legalsolutions.thomsonreuters.co.uk^
 ||internalsink.com^
@@ -73194,6 +73209,7 @@ zznews.cn##.ad:not([style])
 ||iyi.net^$third-party
 ||iyingdi.com/goood?
 ||iyisayfa.net/inc.php?
+||iykiuacppty.com^
 ||iymqlsiqdxu.com^
 ||iynmloa.cn^
 ||iynz7wde2t26.www.earthclassmail.com^
@@ -73357,8 +73373,10 @@ zznews.cn##.ad:not([style])
 ||jb.asqql.com^
 ||jb.dianshu119.com^
 ||jb.ecar168.cn^
+||jb2v9sv.world^
 ||jb51.net/imgby/logo_
 ||jb7hvckszone.com^
+||jb9vtov.xyz^
 ||jbdmb1.ynztzh.com^
 ||jbdz.shop^
 ||jbezdi.ilsole24ore.com^
@@ -75163,6 +75181,7 @@ zznews.cn##.ad:not([style])
 ||kuwoyy.com^
 ||kux5.raileurope.com^
 ||kuxinqi.com^
+||kv61xc8.xyz^
 ||kvartirant.ru/counter.php?
 ||kvcvonlakaigxwq.com^
 ||kveaa.com^
@@ -75792,6 +75811,7 @@ zznews.cn##.ad:not([style])
 ||lfannaifu.cn^
 ||lfdydk.com^
 ||lfercl.tcb-beauty.net^
+||lfjaqwwsgyu.com^
 ||lfjvvccsucsmxg.com^
 ||lfkesv.seeplaces.com^
 ||lflable.com^
@@ -84813,6 +84833,7 @@ zznews.cn##.ad:not([style])
 ||pebed.dm-event.net^
 ||peckleooze.com^
 ||pecukirom.com^$third-party
+||pecult.com^
 ||pedagogsecreta.com^
 ||pedailyu.com^
 ||pedropanther.com^$third-party
@@ -85544,6 +85565,8 @@ zznews.cn##.ad:not([style])
 ||plantdigestion.com^$third-party
 ||plantpotato.com^
 ||plantpotato.com^$third-party
+||plantpreventioncrab.com^
+||plantpreventioncrab.com^$popup
 ||plantrelation.com^
 ||plantronics.hb.omtrdc.net^
 ||plants.ink^
@@ -90257,6 +90280,7 @@ zznews.cn##.ad:not([style])
 ||scatteredheat.com^$third-party
 ||scatteredstream.com^
 ||scatteredstream.com^$third-party
+||scaupyfeuwmaxxt.com^
 ||sccdn.f2zd.com^
 ||sccnn.com/SF/zt.jpg
 ||scdn.co/static/js/baba.js$script,domain=spotify.com
@@ -96659,6 +96683,7 @@ zznews.cn##.ad:not([style])
 ||stripedburst.com^
 ||stripedburst.com^$third-party
 ||stripedcollar.net^$third-party
+||strivefoetus.com^
 ||strivesidewalk.com^$third-party
 ||strm.yandex.ru/log?
 ||stroeerdigitalmedia.de^$domain=planetsnow.de
@@ -101819,6 +101844,7 @@ zznews.cn##.ad:not([style])
 ||ucoz.kz/stat/
 ||ucoz.net/stat/
 ||ucoz.ru/stat/
+||ucqlpapdmyjv.com^
 ||ucs.betwaygroup.com^
 ||ucstat.baidu.com^
 ||uctrac.com^$third-party
@@ -102928,6 +102954,7 @@ zznews.cn##.ad:not([style])
 ||viavideo.digital^$third-party
 ||vibez.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script
 ||vibez.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*\n)//,script
+||vibuin.com^
 ||vic-m.co^
 ||viccscxz.cn^
 ||vice-web-statics-cdn.vice.com/fonts/mtiFontTrackingCode.js
@@ -107127,6 +107154,7 @@ zznews.cn##.ad:not([style])
 ||yangzheqing.cn^
 ||yanjiao.com/zt/indexad/
 ||yanjunbo.com^
+||yanko.cc^
 ||yanliang.vip^
 ||yanomami.cn^
 ||yansk.ru/counter/
