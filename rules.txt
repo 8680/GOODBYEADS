@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 4 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、补充规则
-! Version: 2022-06-09 16:23:17（北京时间） 
-! Total count: 109096
+! Version: 2022-06-09 20:33:04（北京时间） 
+! Total count: 109110
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -8922,7 +8922,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$script,third-party
 /^https:\/\/cdn\.jsdelivr\.net\/npm\/([a-z]|-|_){4,22}@latest\/dist\/script\.min\.js$/$domain=tgd.kr|loawa.com|ygosu.com|inven.co.kr|ppss.kr|dailymagazine.co.kr|dailian.co.kr|socialvalue.kr|usjournal.kr|basketkorea.com|jumpball.co.kr|joynews24.com|inews24.com|hobbyen.co.kr|thespike.co.kr|siminilbo.co.kr|mdtoday.co.kr|clien.net|ujeil.com|starnnews.com|sportsw.kr|enewstoday.co.kr|readersnews.com|algumon.com|1412.rest|twicenest.com|feedclick.net|tistory.com|sportalkorea.com|minelist.kr|donga.com
 /^https:\/\/ltn\.hitomi\.la\/[A-Za-z]{4,}\/(?=[a-z]{0,19}[A-Z])[A-Za-z]{4,20}\.js$/$script,~third-party,match-case,domain=hitomi.la
-/^https:\/\/x?1337x\.(?:eu|g3g\.sbs|gd|to|se)\/images\/[0-9a-z]+\.jpg/$image,~third-party,domain=1337x.g3g.sbs|1337x.gd|1337x.to|x1337x.eu|x1337x.se
+/^https:\/\/x?1337x\.(?:eu|g3g\.sbs|gd|to|se|unblockit\.name)\/images\/[0-9a-z]+\.jpg/$image,~third-party,domain=1337x.g3g.sbs|1337x.gd|1337x.to|x1337x.eu|x1337x.se|1337x.unblockit.name
 /^https?:\/\/(.+?\.)?hardware\.info\/js\/[a-z]{1,}\/[0-9]{4,}\.js/$domain=hardware.info
 /^https?:\/\/(.+?\.)?videogamesblogger\.com\/wp-content\/uploads\/.*[a-zA-Z0-9]{8,}\.*/$badfilter
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.(?:com|website)\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-5]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$popup,third-party,match-case
@@ -9340,8 +9340,9 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /adleft.
 /adlib.$domain=~adlib.info|~adlib.mu|~catharijneconvent.nl|~rws.nl
 /adline.$domain=~adline.co.il|~adline.com|~adline.si
-/adlink-$domain=~adlinktech.com|~github.io
-/adlink/*$domain=~adlinktech.com
+/adlink-$domain=~adlinktech.com|~github.com|~github.io
+/adlink.$domain=~adlink.guru|~adlinktech.com|~github.com
+/adlink/*$domain=~adlinktech.com|~github.com
 /adload.
 /adloader/*
 /adlog.
@@ -16300,6 +16301,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 131458.com##.divGuanggao
 131458.com##.ulfooter_top
 1337x.*,x1337x.*#?#.page-content a[id][href]:contains(/A.*n.*o.*Download|VPN/)
+1337x.proxyninja.org##a[href^="/vpnd-"]
 1337x.to#@#.box-info-detail > .torrent-category-detail + div[class]
 1337x.to,mexa.sh#%#//scriptlet("abort-current-inline-script", "openedWindows", "adfpoint")
 1337x.unblocker.win#%#Object.defineProperty(window, 'bbe365', { get: function() { return; } });
@@ -21661,7 +21663,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||mail.google.com/mail/$stealth
 @@||mail.google.com^$generichide
 @@||mail.proton.me^$generichide
-@@||mail.protonmail.com^$generichide
 @@||mail.wo.cn/ad/
 @@||mail.yahoo.com/d/gemini_api/?adCount=
 @@||mail.yahoo.com/neo/ymstat$xmlhttprequest
@@ -21695,6 +21696,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||marvel-*.bc0a.com/*/images/$domain=whittard.co.uk
 @@||masterkong.com.cn/adimages/
 @@||matchid.adfox.yandex.ru/?url=$script,domain=ctc.ru
+@@||material.angular.io^$generichide
 @@||mathworks.com^$stealth
 @@||matomo.miraheze.org/matomo.js$script,~third-party
 @@||matsukiyo.co.jp^*/js/analytics/GoogleTagManager.js$~third-party
@@ -24363,6 +24365,7 @@ _tm11_pmt_
 _top_ad_
 _topad.
 _trackWebtrekkEvents.
+_track_pixel.gif?
 _tracker.js.
 _tracker.js?
 _tracker.php?*http
@@ -29180,6 +29183,7 @@ eromanga-yoru.com###enhancedtextwidget-18
 eromanga-yoru.com###enhancedtextwidget-19
 eromanga-yoru.com###enhancedtextwidget-2
 eromanga-yoru.com###enhancedtextwidget-3
+eromanga-yoru.com###enhancedtextwidget-37
 eromanga-yoru.com###enhancedtextwidget-4
 eromanga-yoru.com###enhancedtextwidget-5
 eromanga-yoru.com###enhancedtextwidget-6
@@ -37676,6 +37680,7 @@ photopea.com##div[style^="padding-top: 10px; overflow: hidden; padding-left:"] >
 photopea.com##div[style^="padding-top: 10px; overflow: hidden; padding-left:"] > img
 photos.freeones.com#%#//scriptlet("remove-attr", "href", "a[href]#sponsorHref")
 photos.freeones.com#@#a[href^="http://click.payserve.com/"]
+php.cn##.wwads-cn
 phpvar.com##.aliPic
 phpvar.com##.post_content_linkad
 phpvar.com##.qrcode-swiper-container
@@ -45395,6 +45400,8 @@ zznews.cn##.ad:not([style])
 ||2e718yf5jypb.test.digitalsurge.io^
 ||2e8dgn8n0e0l.com^
 ||2efj.up.coop^
+||2ememain.be/c3650cdf-
+||2ememain.be/px/fbif?
 ||2f.com^$third-party
 ||2fzb.com/config/adv.js
 ||2g2h.com^
@@ -52640,7 +52647,7 @@ zznews.cn##.ad:not([style])
 ||app.jmusports.com^
 ||app.juwang.com^
 ||app.leadplan.ru/assets/img/1px.gif
-||app.leadsrx.com/visitor.js
+||app.leadsrx.com^
 ||app.leadster.com.br/*/analytics/
 ||app.linezing.com^
 ||app.link/_r?$script,third-party
@@ -64268,6 +64275,7 @@ zznews.cn##.ad:not([style])
 ||elecfans.com/skin-*/images/banner_ad
 ||elecfans.com/skin-*ad_
 ||elecfans.com/static/home_ad/
+||elecfans.com/webapi/advertisement/
 ||election-sandwich-en-stationi.carte-gr.total.fr^
 ||electrifai.actonservice.com^
 ||electronics.tradeshow.globalsources.com^
@@ -97830,6 +97838,7 @@ zznews.cn##.ad:not([style])
 ||tag.datariver.ru^$third-party
 ||tag.digitaltarget.ru^
 ||tag.elevaate.io^
+||tag.escalated.io^
 ||tag.flagship.io^
 ||tag.getdrip.com^$third-party
 ||tag.goadopt.io^$third-party
@@ -101135,6 +101144,10 @@ zznews.cn##.ad:not([style])
 ||trhccn.cn^
 ||trial.alcohol-soft.com^
 ||triariihurtled.com^
+||trib.al$removeparam=__tn__
+||trib.al$removeparam=c[0]
+||trib.al$removeparam=fbclid
+||trib.al$removeparam=h
 ||trib.al^$image,third-party
 ||tribalfusion.com^
 ||tribdss.com/meter/$third-party
@@ -102209,6 +102222,7 @@ zznews.cn##.ad:not([style])
 ||unityads.unity3d.com^
 ||unitymedia.de/beacon/
 ||universaltrackingcontainer.com^$third-party
+||uniworldgroup.asia^
 ||unjs.jfcdns.com^
 ||unknitting.com^
 ||unknowncheats.me/forum/images/ez^
