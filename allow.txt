@@ -1,5 +1,5 @@
-! Version: 2022-06-10 20:32:53（北京时间） 
-! Total count: 6934
+! Version: 2022-06-11 00:24:38（北京时间） 
+! Total count: 6938
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$webrtc,domain=sourceforge.net
@@ -197,6 +197,8 @@
 @@/yozons-lib/core.js$script,~third-party,domain=bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|elnuevoherald.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|macon.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com
 @@144.43.243.208$network
 @@://*/gg/$domain=gg.go.kr
+@@://192.168.0.1$generichide
+@@://192.168.1.1$generichide
 @@://googleadservices.com^|
 @@://www.coinbase.com^$stealth
 @@://www.fedex.com/Tracking?
@@ -2079,6 +2081,7 @@
 @@||docomo-analytics.com^|$app=com.nttdocomo.android.danimeapp
 @@||docs.amplify.aws^*/platform/js/autotrack.json$~third-party
 @@||docs.google.com/*/viewdata$~third-party
+@@||docs.google.com^$generichide
 @@||doctorzerenia.com/home/bower_components/angulartics-google-analytics/dist/angulartics-ga.min.js
 @@||dogemate.com/banner/*.gif$~third-party
 @@||dominos.com^*/assets/build/js/modules/dpz.tealium.js$script
@@ -6791,6 +6794,7 @@
 @@||www.statcounter.com/images/$image,third-party
 @@||www.ups.com/WebTracking/processInputRequest
 @@||www.zee5.com^$stealth,domain=zee5.com
+@@||www3.doubleclick.net/|$xmlhttprequest,domain=13tv.co.il
 @@||www3.doubleclick.net^$xmlhttprequest,domain=lineups.fun
 @@||www3.doubleclick.net^|$xmlhttprequest,other,domain=thingiverse.com
 @@||wx.qq.com/c/=/mpres/*/video_ad_
