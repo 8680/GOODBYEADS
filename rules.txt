@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 4 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、补充规则
-! Version: 2022-06-11 20:26:19（北京时间） 
-! Total count: 109174
+! Version: 2022-06-12 00:19:37（北京时间） 
+! Total count: 109181
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -979,6 +979,9 @@
 ###bigbox-ad
 ###billboard-atf
 ###billboard_ad
+###bing-text-ad-1
+###bing-text-ad-2
+###bing-text-ad-3
 ###bl_mobile_float
 ###block-ltadvertising-ltadvertising
 ###blogads
@@ -11510,6 +11513,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /facebook-tracking/*
 /facebookPixel.
 /facebook_fbevents.
+/facebook_pixel_
 /facebookpixel.
 /facebookpixel/*
 /facebookproductad/*$script
@@ -13453,6 +13457,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /partnerbanner/*
 /partnermetrics.
 /partners/ad-
+/partnership-ads/*
 /partnerships-ads-
 /paypic/*
 /pb.min.
@@ -18088,8 +18093,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||adnxs.com/ast/static/$domain=outlook.live.com
 @@||adnz.co/dmp/publisher.js$domain=finanzen.ch
 @@||adnz.co/header.js?adTagId=$domain=finanzen.ch
-@@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|crave.ca
-@@||adobedtm.com/*-source.min.js$script,domain=aarp.org|ally.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|hilton.com|ing.com.au|kroger.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com
+@@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|crave.ca|nbarizona.com
+@@||adobedtm.com/*-source.min.js$script,domain=aarp.org|ally.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|hilton.com|ing.com.au|kroger.com|nbarizona.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|hl.co.uk|kroger.com|telus.com
 @@||adobedtm.com/extensions/$script,domain=antena3.com|atresmedia.com|atresplayer.com|lasexta.com
 @@||adobedtm.com/extensions/$script,domain=apple.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|telus.com|verizon.com
@@ -23051,6 +23056,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||smetrics.ticketmaster.com/b/ss/$image
 @@||smp.sankei.co.jp/js/analytics/skd.Analysis.js
 @@||smtcaw.com^$generichide
+@@||smushcdn.com^*/1.gif$domain=retrounlim.com
 @@||snap.licdn.com/li.lms-analytics/insight.min.js$domain=msci.com
 @@||snapchat.com/static/js/autotrack.js
 @@||snowfl.com/ads/*.js$~third-party
@@ -28270,6 +28276,7 @@ dm5.com,dm5.hk##.cl970
 dm5.com,dm5.hk##a[href*=".wannaplay.cn"]
 dm530.net,hdshare.cn,it168.com###adv
 dmarge.com##.dx-ad-wrapper
+dmh8.com##img[src*="data:"]
 dmhy.anoneko.com##div[id$="_adv"]
 dmhy.b168.net##div[align="center"] > a[href^="https://www.baidu.com/?mm_sycmid="] > img
 dmhy.b168.net##div[align="center"] > a[onclick*="'ad'"] > img
@@ -41680,7 +41687,6 @@ tucao.in##div[style*="height:10"][style*="width:964"]
 tudaydeals.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 tui18.com##.wp[style^="width:"]
 tukif.com##.vjs-producer
-tuku.cc##.TLAD
 tuliu.com##.zx-advertising-box
 tumblr.com##.Qrht9
 tumblr.com##.XJ7bf
@@ -49861,6 +49867,7 @@ zznews.cn##.ad:not([style])
 ||adshares.net^$removeparam=cid
 ||adshmct.qq.com^
 ||adshmmsg.qq.com^
+||adshoper.com^
 ||adshort.space^
 ||adshost2.com^
 ||adshow.58.com^
@@ -53747,7 +53754,6 @@ zznews.cn##.ad:not([style])
 ||b.snow.com^
 ||b.telus.com^
 ||b.travel-assets.com/travel-pixel-js/
-||b.tukucc.com^
 ||b.tvsou.com^
 ||b.unjs.com^
 ||b.vlion.cn^
@@ -56251,7 +56257,6 @@ zznews.cn##.ad:not([style])
 ||c.cqpsf.cn^$third-party
 ||c.cyhx98.com^
 ||c.cyto-biotherapy.com^
-||c.d.cg/3C.JS
 ||c.daizhangguanjia.com.cn^
 ||c.data.mob.com^
 ||c.dcghp.top^
@@ -57871,6 +57876,7 @@ zznews.cn##.ad:not([style])
 ||city009.com^
 ||cityadstrack.com^$third-party
 ||citybeat.de/include/cbtrck.104.min.js
+||citydsp.com^
 ||citygridmedia.com/tracker/
 ||citypaketet.se^$third-party
 ||citysbs.com/chongqing/*/1920x179-
@@ -82069,6 +82075,7 @@ zznews.cn##.ad:not([style])
 ||nbalive.pw^$third-party,subdocument
 ||nbaprop.hb-api.omtrdc.net^
 ||nbaprop.hb.omtrdc.net^
+||nbarizona.com/metrics/
 ||nbbull.com^
 ||nbc-jite.nbcuni.com^
 ||nbc.com/webevents/
