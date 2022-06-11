@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 4 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、补充规则
-! Version: 2022-06-11 04:15:39（北京时间） 
-! Total count: 109231
+! Version: 2022-06-11 09:15:42（北京时间） 
+! Total count: 109248
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -19752,6 +19752,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||etonline.com/modules/contrib/ctd_cvp/js/prebid-ads.js$script,~third-party
 @@||etsy.com/api/v3/ajax/bespoke/*log_performance_metrics=$~third-party
 @@||etsy.com/your/shops/$document
+@@||eum-blue-saas.instana.io^$app=com.kaufland.Kaufland
 @@||ev.tpocdm.com^$xmlhttprequest,domain=wowma.jp
 @@||eventim.de^*/xtcore.js
 @@||events-collector.spot.im/api/$xmlhttprequest
@@ -23311,6 +23312,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||suumo.jp/sp/js/beacon.js$script,~third-party
 @@||svtrd.com^$domain=moneyou.de|ns.nl
 @@||swa.mail.ru/cgi-bin/counters?$script
+@@||swasc.kaufland.com^$app=com.kaufland.Kaufland
 @@||swedbank.ee^$document
 @@||switch.atdmt.com/iaction/$subdocument,domain=bestbuy.com
 @@||swr3.de/static/swrplayer/web/plugins/ivw/ivw.js
@@ -30248,6 +30250,7 @@ fssquad.com#@#.adsbygoogle
 fstore.biz#@##bannerad
 ft.com,ftchinese.com##.bn-ph
 ftop.ru#%#Object.defineProperty( window, 'random_imglink', { get: function() { return; } });
+fttxt.com##a[href*="type"]
 ftuapps.dev#%#//scriptlet("abort-on-property-read", "ai_set_cookie")
 ftuapps.dev#%#//scriptlet("abort-on-property-write", "adregain_wall")
 ftuapps.dev#?##secondary > aside[id^="custom_html-"]:has(> .textwidget > .adsbygoogle)
@@ -33057,6 +33060,7 @@ itsfuck.com,stilltube.com#%#//scriptlet("prevent-window-open")
 itsfuck.com,stilltube.com#%#//scriptlet("remove-attr", "onclick", ".previewhd > a")
 itshokunin.cc#$#.adsbygoogle { position: absolute!important; left: -3000px!important; }
 itv.com##.seek-bar__ad
+itxueyuan.com##a[href*="guanggaowei"]
 ivfree.asia##.vidoser-in span[style="font-size: 32px"]
 ivg.it#%#//scriptlet("set-constant", "checkForAdBlocker", "noopFunc")
 iview.abc.net.au/programs$replace=/("type"\:"preroll")[\s\S]*("type")/"type"/
@@ -46255,6 +46259,7 @@ zznews.cn##.ad:not([style])
 ||6667778882021.site^
 ||6668078.com^
 ||6669667.com^
+||666video.asia^
 ||668559.com^$third-party
 ||66993.top^
 ||66996.top^
@@ -48061,6 +48066,7 @@ zznews.cn##.ad:not([style])
 ||aahekppl.com^
 ||aaid.umeng.com^
 ||aajfoz.halfclub.com^
+||aak7.cn^
 ||aaktao.entel.cl^
 ||aaliyaheartha.com^
 ||aam.gumtree.com.au^
@@ -49772,6 +49778,7 @@ zznews.cn##.ad:not([style])
 ||ads.unister-gmbh.de^
 ||ads.vamaker.com^
 ||ads.viber.com^
+||ads.vidoomy.com^
 ||ads.vipbaihe.com^
 ||ads.voiceads.cn^
 ||ads.vserv.mobi^
@@ -54698,6 +54705,7 @@ zznews.cn##.ad:not([style])
 ||bee.andreawhitmer.com^
 ||bee.jbkmobiledj.com^
 ||bee.nfte.app^
+||bee.tc.easebar.com^
 ||beeaimaid.com^
 ||beeferzak.com^
 ||beeftransmission.com^$third-party
@@ -61783,6 +61791,7 @@ zznews.cn##.ad:not([style])
 ||defectivedress.com^$third-party
 ||defectivesun.com^
 ||defectivesun.com^$third-party
+||defenga.top^
 ||defenseone.com^$removeparam=oref
 ||defensetraverse.com^
 ||deferencedilutemurmur.com^
@@ -67911,6 +67920,7 @@ zznews.cn##.ad:not([style])
 ||ggsfq.com^
 ||ggtg8.com^
 ||ggtp-1255424916.cos.ap-chengdu.myqcloud.com^
+||gguuu.top^
 ||ggw.gusuwang.com^
 ||ggw.watertu.com^
 ||ggwan.com^$third-party,domain=~linghit.com
@@ -73782,6 +73792,7 @@ zznews.cn##.ad:not([style])
 ||jic.talkingdata.com^
 ||jice.admaster.com.cn^
 ||jicypigra.com^
+||jiedaibao.gs^
 ||jiedaibao120.cn^
 ||jiegeng.com/static/json/jg_topFixed.
 ||jiehe.me^
@@ -83933,6 +83944,7 @@ zznews.cn##.ad:not([style])
 ||optnx.com^$popup
 ||optorb.com^$third-party
 ||optyruntchan.com^
+||opuik.com^
 ||opus.analytics.yahoo.com^
 ||opvanillishan.com^
 ||opyyy.com^
@@ -97163,6 +97175,7 @@ zznews.cn##.ad:not([style])
 ||suumo.jp^*/tag/
 ||suvset.sohu.com^
 ||suzihaza.com^$badfilter
+||sv.aq.qq.com^
 ||sv.vgimer.cn^
 ||sv.video.qq.com^
 ||sv2.biz^$third-party
@@ -98936,6 +98949,7 @@ zznews.cn##.ad:not([style])
 ||timber.sendtonews.com^
 ||time.is/img/nod.png
 ||time4shopping.com.ua/api/api.php/stat
+||timejs.game.163.com^
 ||timeone.pro^
 ||timeout.*/static/js/ads-
 ||timeserver.cnzz.net^
@@ -99002,6 +99016,7 @@ zznews.cn##.ad:not([style])
 ||titan.guestworld.tripod.lycos.com^
 ||titan007.com/ad/
 ||titan007.com/images/item.gif
+||titan007.com/js/indexshow.
 ||titan007.com/news.aspx
 ||titan01.babytree.com^
 ||titan24.com/scripts/stats.js
@@ -99504,6 +99519,7 @@ zznews.cn##.ad:not([style])
 ||tourmake.it^*/stats?
 ||tourradar.com/def/partner?$third-party
 ||tout.com/tracker.js
+||toutao.pro^
 ||toutiao-frontier.snssdk.com^
 ||toutiao.2haha.com^
 ||toutiao.com/action_log/
@@ -108616,6 +108632,7 @@ zznews.cn##.ad:not([style])
 ||zhenxingkuangchanpin.com^
 ||zhev.com.cn/file/weixin/
 ||zhexnuq.cn^
+||zhflodsix.cn^
 ||zhiai.space^
 ||zhibo.me/js/fd.js
 ||zhibo.me/js/kh.js
