@@ -1,5 +1,5 @@
-! Version: 2022-06-15 16:22:26（北京时间） 
-! Total count: 6930
+! Version: 2022-06-15 20:30:56（北京时间） 
+! Total count: 6935
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$webrtc,domain=sourceforge.net
@@ -79,7 +79,7 @@
 @@/advertisement/*$domain=ininin.com|midea.com|muyingzhijia.com|nmkjxy.com
 @@/advertising/*$domain=315.sh.cn
 @@/adverts/*$domain=onlychild.cn
-@@/adview_pic_$domain=1090ys8.com|2hanju.com|fydy8.com|laimanhua.com|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|sssam.com|xiaoz.me|ykit.cn|zgpingshu.com|zyshow.net
+@@/adview_pic_$domain=bigpixel.cn|1090ys8.com|2hanju.com|fydy8.com|laimanhua.com|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|sssam.com|xiaoz.me|ykit.cn|zgpingshu.com|zyshow.net
 @@/advs/*$domain=ciros.com.cn|gotobuy.com.tw|sj-touch.com
 @@/adx.$domain=tanx.com
 @@/analytics.php?$domain=xcar.com.cn
@@ -1878,6 +1878,7 @@
 @@||cpro.baidu.com/cpro/ui/rt.js$domain=rjno1.com
 @@||cpro.baidustatic.com/cpro/ui/c.js$domain=htqyy.com
 @@||cpro.baidustatic.com/cpro/ui/cm.js$domain=ali213.net|tangdoucdn.com
+@@||cpro.baidustatic.com/cpro/ui/cm.js$domain=bigpixel.cn
 @@||cpro.baidustatic.com/cpro/ui/cm.js$script,domain=rjno1.com
 @@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/
 @@||cq.qq.com/js/cody/*scroll_ad.js
@@ -5182,6 +5183,8 @@
 @@||portalbici.es/lib/angulartics-google-analytics/dist/angulartics-ga.min.js
 @@||pos.baidu.com^$script,domain=fxpan.com|htqyy.com|jkpan.cc
 @@||pos.baidu.com^$script,domain=rjno1.com
+@@||pos.baidu.com^$subdocument,domain=bigpixel.cn
+@@||pos.baidu.com^*?di=u3160754&$domain=bigpixel.cn
 @@||post2go.ru/widget/tracking?$~third-party
 @@||postclickmarketing.com^$domain=adtspecials.com|befinanciallyfit.com|cursodemedicina.com.br|demandmetric.com|hootsuite.com|semipresencial.com.br|systemsprotect.com
 @@||postex.com/api/ping?$~third-party
@@ -5472,6 +5475,7 @@
 @@||sahibinden.com/assets/analytics*.js$script
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
 @@||salfordonline.com/wp-content/plugins/wp_pro_ad_system/$script
+@@||sandbox.cryptpad.info^$elemhide,jsinject,content,extension
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
 @@||sascdn.com/diff/js/smart.js$domain=deezer.com
@@ -6312,6 +6316,7 @@
 @@||track.shipstation.com/collections/trackingEvents.js$~third-party
 @@||track.svz.de/cre-*/tracking/tracking.js
 @@||track.toggl.com/auth^$stealth
+@@||track.ukrposhta.ua/tracking_*.html$stealth
 @@||track2.royalmail.com^
 @@||trackcmp.net^|
 @@||tracker.ai.xiaomi.com^
