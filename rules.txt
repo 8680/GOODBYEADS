@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 4 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、补充规则
-! Version: 2022-06-18 20:26:09（北京时间） 
-! Total count: 108451
+! Version: 2022-06-19 00:20:24（北京时间） 
+! Total count: 108467
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -6819,7 +6819,6 @@
 ##a[target="_blank"] > img[height="60px"][src*=".meituan.net"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*=".tripcdn.com"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*="qlogo.cn"][src$=".png"]
-##a[target="_blank"] > img[height^="60"][src*=".360buyimg.com"][src$=".gif"]
 ##a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
 ##amp-ad
 ##amp-auto-ads
@@ -12215,6 +12214,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /images/mxl.gif?
 /images/onebyone.gif$domain=khan.co.kr|hani.co.kr
 /images/segucrwj*.gif
+/images/segucrwj*.jpg
 /images/sgcrwj*.gif
 /images/sgcrwj*.jpg
 /images/sponsored.
@@ -26739,6 +26739,8 @@ cancam.jp,saitama-np.co.jp#@#div[id^="div-gpt-"]
 cangjige.net##.wp[style="height:36px;padding-top:15px;"]
 cankaoxiaoxi.com###qihupic
 canonrumors.com##.blogroll-ad
+canonsupports.com##.box
+canonsupports.com#@#.box_ads
 canuckaudiomart.com##div[id^="replacement-position-"]
 canuckaudiomart.com#@#.ad-title
 canyoublockit.com##.elementor-widget-container > center > p
@@ -30470,6 +30472,8 @@ gamerjournalist.com##.PrimisResponsiveStyle
 gamersglobal.de#@#.gg-box
 gamersky.com##.dl_url:nth-child(4)
 gamersky.com##.ngg_down
+gamersnexus.net#?##right_col > div:-abp-has(p:-abp-contains(Advertisement))
+gamersnexus.net#?#.moduleContent:-abp-contains(Advertisement)
 gamerstand.net,xn--gdkl0dubtwb7e.net,xn--o9j0bk1rwe8bvh.com,xn--o9j0bk3kzb8d3ee20ala8a.com,xn--o9j0bk5t7exbwe.com##.Bnr
 gamertweak.com,thelivemirror.com,nullpress.net,frendx.com##div[itemtype="https://schema.org/WPAdBlock"]
 games.app-liv.jp#$#.jack-content { display: none !important; }
@@ -40464,6 +40468,9 @@ streamadblockplus.com,shavetape.*,adblockstrtape.link,adblockstrtech.link,adbloc
 streamadblockplus.com,shavetape.*,adblockstrtape.link,adblockstrtech.link,adblockstreamtape.*,stape.fun,strcloud.link,streamtape.*#@#.google-ad
 streamadblockplus.com,shavetape.*,adblockstrtape.link,adblockstrtech.link,adblockstreamtape.*,stape.fun,strcloud.link,streamtape.*$$script[wildcard="*window*googleAd*"]
 streamadblockplus.com,shavetape.*,streamtapeadblock.*,adblockstrtape.link,adblockstrtech.link,adblockstreamtape.*,tubeload.co,stape.fun,streamtape.*,strcloud.link#%#AG_onLoad(function(){setTimeout(function(){var a=document.querySelector(".play-overlay");a&&(a.click(),a.click())},500)});
+streamadblockplus.xyz#%#//scriptlet("set-constant", "window.open", "noopFunc")
+streamadblockplus.xyz#%#AG_onLoad(function() { setTimeout(function() {var check = document.getElementsByClassName('play-overlay')[0]; if (check){check.click(); check.click(); }; }, 300); });
+streamadblockplus.xyz#@#.skyscraper.ad
 streamango.com#%#window.exclude = true;
 streamapi.xyz#%#(function(){var a={debug:{set:function(){return a}},on:function(b,c){b||setTimeout(function(){c()},1);return a},onDetected:function(b){return a.on(!0,b)},onNotDetected:function(b){return a.on(!1,b)},check:function(){}};Object.defineProperty(window,"fuckAdBlock",{get:function(){return a}})})();
 streamapi.xyz#%#(function(){var b=window.setTimeout;window.setTimeout=function(a,c){if(!/overlay/.test(a.toString()))return b(a,c)};})();
@@ -45438,6 +45445,7 @@ zznews.cn##.ad:not([style])
 ||301848.com^
 ||30350f.com^
 ||3055t.cn^
+||306842.com^
 ||31.14.252.148^$third-party
 ||310v.com/images/lingdai.gif
 ||310v.com/images/wap_520x60.gif
@@ -52127,6 +52135,7 @@ zznews.cn##.ad:not([style])
 ||apeng.club^
 ||apenterprise.io^
 ||aperio.leicabiosystems.com^
+||aperushmo.cam^
 ||apester.com/event^
 ||apexsql.com/images/blog-footer-banners/
 ||apexstats.com^$third-party
@@ -62603,6 +62612,7 @@ zznews.cn##.ad:not([style])
 ||dnwx.com/pic_ad/
 ||do-not-tracker.org^
 ||do-not-tracker.org^$third-party
+||do.aeoliancorojo.com^
 ||do.lymstsc.com^
 ||do09.net^$third-party
 ||do69ll745l27z.cloudfront.net^
@@ -72955,6 +72965,7 @@ zznews.cn##.ad:not([style])
 ||iteassemblyj.xyz^
 ||itechwall.com^$third-party
 ||item.mediav.com^
+||itemgnat.com^
 ||itemifs.tanx.com^
 ||iterable.com/analytics.js
 ||iterable.convoy.com^
@@ -90718,6 +90729,7 @@ zznews.cn##.ad:not([style])
 ||sensors.larkplayerapp.com^
 ||sensors.snappea.com^
 ||sensors.snaptubeapp.com^
+||sensorsdata.cn^$third-party
 ||sensorsdata.ruguoapp.com^
 ||sentifi.com^$third-party
 ||sentimenthypocrisy.com^
@@ -98294,6 +98306,7 @@ zznews.cn##.ad:not([style])
 ||tigtag.com/images/*1000x
 ||tigtag.com/images/pic1/
 ||tigtag.com/styles/phpcms/js/tigtag/ads.js
+||tihushuo.com^
 ||tiimg.com^$domain=678cn.com
 ||tijd.be/fb/?
 ||tijd.be/fb2?
@@ -98500,6 +98513,7 @@ zznews.cn##.ad:not([style])
 ||tkelq.genesys.com^
 ||tkkdoc.com^
 ||tklaxrrzzo.com^
+||tklm77.top^
 ||tklyfe.esthetic-nails.ru^
 ||tkmedia-cache.aotter.net^
 ||tkmedia.aotter.net^
@@ -100917,6 +100931,7 @@ zznews.cn##.ad:not([style])
 ||ttavav6.com/zz/
 ||ttayy.cn^
 ||ttbc33.com^
+||ttdds.top^
 ||ttffhe.top^
 ||ttgmjfgldgv9ed10.com^
 ||ttic.ru/counter^$third-party
@@ -108438,6 +108453,7 @@ zznews.cn##.ad:not([style])
 ~hrtsea.com##.widget_ui_ads
 ~hupu.com##div[id][style="width: 100%;"] > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ~ix8.la##div[class^="ADTOPLB_"]
+~jd.com##a[target="_blank"] > img[height="60"][src*=".360buyimg.com"][src$=".gif"]
 ~jxedu.com###haoetv
 ~lechinois.com##.container > .ads
 ~minecrafttoplist.nl##img[width="468"][height="60"]
