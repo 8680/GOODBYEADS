@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 4 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、补充规则
-! Version: 2022-06-19 12:28:57（北京时间） 
-! Total count: 108414
+! Version: 2022-06-19 16:18:11（北京时间） 
+! Total count: 108434
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -3149,6 +3149,7 @@
 ##.adsCont
 ##.adsDesktop
 ##.adsDiv
+##.adsFirst
 ##.adsFixed
 ##.adsFull
 ##.adsHeader
@@ -3158,6 +3159,7 @@
 ##.adsList
 ##.adsRight
 ##.adsRow
+##.adsSecond
 ##.adsSlot300600
 ##.adsSpacing
 ##.adsSticky
@@ -5995,6 +5997,7 @@
 ##.wall-ads-right
 ##.wall_ad
 ##.wallad
+##.wc-adblock-wrap
 ##.wcfAdLocation
 ##.wd-adunit
 ##.wdca_custom_ad
@@ -16920,7 +16923,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 4gtv.tv,80s.ai,ft.com,ftchinese.com,ftchinese.com.sz-dns.net,kartinfo.me,long7.qq.com,reh.tw,typecho.wiki#@#.adsbox
 4kporn.xxx,fpo.xxx##.footer-margin
 4kpornmovs.com,pornvideos4k.com#%#//scriptlet("abort-on-property-read", "__ASG_VAST")
-4kpornvideos.tv,flashtranny.com,gaymovievids.com,gaypornarchive.com,gayporno.fm,igayporn.tv,machogaytube.com,onlydudes.tv,ts-tube.net,verygayboys.com,xgaytube.tv##.ae-player__itv
+4kpornvideos.tv,flashtranny.com,gaymovievids.com,gaypornarchive.com,gayporno.fm,igayporn.tv,machogaytube.com,me-gay.com,onlydudes.tv,ts-tube.net,verygayboys.com,xgaytube.tv##.ae-player__itv
 4kya.com###player_pause
 4movierulz.red#%#//scriptlet("abort-current-inline-script", "String.fromCharCode", "decodeURIComponent")
 4pda.ru,4pda.to##amp-list[height="90"][width="728"]
@@ -20376,7 +20379,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||googleapis.com^$script,stylesheet,domain=canyoublockit.com
 @@||googledrive.com$document
 @@||googleoptimize.com/optimize.js$domain=tehnomanija.rs
-@@||googleoptimize.com/optimize.js$script,domain=inquirer.com|tentree.ca
+@@||googleoptimize.com/optimize.js$script,domain=inquirer.com|lodgecastiron.com|tentree.ca
 @@||googleoptimize.com/optimize.js$script,domain=wallapop.com
 @@||googlesyndication.com/simgad/$image,domain=pccomponentes.com
 @@||googletagmanager.com/gtag/$domain=usnews.com
@@ -22447,7 +22450,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||privat24.privatbank.ua^
 @@||pro.gooooal.com/ad/ad_2.js
 @@||pro.hit.gemius.pl/gplayer.js$domain=nova.cz
-@@||pro.ip-api.com/json$xmlhttprequest,domain=aljazeera.com|cookappsgames.com|nontongp.xyz|sheee.co.il|walla.co.il
+@@||pro.ip-api.com/json$xmlhttprequest,domain=aljazeera.com|cookappsgames.com|nontongp.xyz|sheee.co.il|walla.co.il|weatherscan.tk
 @@||pro.similarweb.com^$document
 @@||production-static.ondemandkorea.com/vendor/prebid/prebid*.*.js
 @@||promo.awempire.com/live_feeds/script_basic_livefeed.php?$domain=sexcamdb.com
@@ -23680,6 +23683,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||v.fwmrm.net/ad/g/1$domain=stream.nbcsports.com
 @@||v.fwmrm.net/ad/g/1$domain=uktvplay.uktv.co.uk
 @@||v.fwmrm.net/ad/g/1$domain=viafree.dk|viafree.fi|viafree.no|viafree.se
+@@||v.fwmrm.net/ad/g/1$script,domain=vevo.com
 @@||v.fwmrm.net/ad/g/1?$domain=01net.com
 @@||v.fwmrm.net/ad/g/1?$domain=channel4.com
 @@||v.fwmrm.net/ad/g/1?$domain=play.tv3.lt
@@ -30569,9 +30573,11 @@ gayforit.eu###navigation > div > a[target="_blank"]
 gayfuror.com##.menu > li > a[target="_blank"]
 gayfuror.com##a[id^="promotedlink_"]
 gayfuror.com,pornjam.com##.publis-bottom
+gaymovievids.com,me-gay.com,ts-tube.net,verygayboys.com##.random-td
 gaymovievids.com,verygayboys.com##.mobile-random
 gayporno.fm##.b-content__aside-head
 gayporno.fm##.traffic
+gayporno.fm,gaymaletube.name,gayporn.fm,gaysuperman.com##.b-uvb-spot
 gayporno.fm,gayporn.fm,igayvideos.tv##.b-content__aside > .b-random-column
 gaystream.pw##.a-block
 gaystream.pw#%#AG_onLoad(function(){setTimeout(function(){var a=document.querySelector(".streams .overlay-close > a");a&&a.click()},2E3)});
@@ -30913,7 +30919,7 @@ gohome.com.hk##div[id^="div-gpt-ad"][style]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 gohome.com.hk,idv.st#@##adFrame
 goldderby.com##.adma
-goldgay.tv,verytwink.com,redporn.xxx,me-gay.com,24porn.com,gayporno.fm##.ae-player__itv
+goldgay.tv,verytwink.com,redporn.xxx,24porn.com,gayporno.fm##.ae-player__itv
 golem.de###bottomAd
 golem.de###grandwrapper > #screen + div[style*="margin"]:not([class]):not([id])
 golem.de###screen > div.clearfix[style*="margin:"][style*="clear:"][style*="min-height"]
@@ -35413,9 +35419,8 @@ mdaily.bhaskar.com###atf_ad
 mdpr.jp##.recommend-dd-link
 mdpr.jp#?#.media__list > .media__item[-ext-has='.media__sup:contains(PR)']
 mdpr.jp#?#aside > .ad-f__link[-ext-has='.ad-f__sup--pr']
-me-gay.com,gayporno.fm,gaymaletube.name,gayporn.fm,gaysuperman.com##.b-uvb-spot
+me-gay.com##.b-uvb-spot
 me-gay.com,gaysuperman.com##.mobile-random
-me-gay.com,youtrannytube.com##.random-td
 mebelkmk.ru#%#window.yaCounter27017517 ={ reachGoal: function() {} };
 meczenazywo.pl,mecze24.pl#%#Object.defineProperty(window, 'aPopunder', { get: function() { return []; } });
 meczyki.pl##.placeholder
@@ -43939,7 +43944,7 @@ youjizz.com#%#AG_onLoad(function() { for (var key in window) { if (key.indexOf('
 youjizz.com#%#Object.defineProperty(window, 'nb', { get: function() { return; } });
 youjizz.com#%#Object.defineProperty(window, 'th_ab_pop', { get: function() { return {}; } });
 youjizz.com#@#[src*="blob:"]
-youjizz.com,youporngay.com##[src*="blob:"]
+youjizz.com,youporngay.com##[img][src*="blob:"]
 youku.com###lotteryToolbar
 youku.com###lotteryToolbarBig
 youku.com###playlistIkuAD
@@ -43991,6 +43996,7 @@ youth.cn##div[style="width:960px;height:90px;margin:0 auto;"]
 youthwant.com.tw##.flex-container
 youthwant.com.tw##.side_adbox
 youtnbe.xyz#%#//scriptlet("prevent-window-open")
+youtrannytube.com##.random-td
 youtube-nocookie.com##.ytp-ad-progress-list
 youtube-video.download#%#//scriptlet("prevent-window-open")
 youtube.com###YtKevlarVisibilityIdentifier
@@ -46160,6 +46166,7 @@ zznews.cn##.ad:not([style])
 ||666587.xyz^
 ||666589.xyz^
 ||666592.xyz^
+||666593.xyz^
 ||666666666666.site^
 ||6667778882021.site^
 ||6668078.com^
@@ -56377,6 +56384,7 @@ zznews.cn##.ad:not([style])
 ||caibaojian.com/d/uploads/*0-
 ||caichenguang.cn^
 ||caicj.club^
+||caicnax.cn^
 ||caigoubao.cc^*/960
 ||caijingzz.cn^
 ||caikuu.com/ckimages/*_gg
@@ -59542,6 +59550,7 @@ zznews.cn##.ad:not([style])
 ||counmg.greatvaluevacations.com^
 ||count.1133.cc^
 ||count.asnetworks.de^
+||count.candou.com^
 ||count.carrierzone.com^
 ||count.chanet.com.cn^
 ||count.channeladvisor.com^
@@ -65251,6 +65260,7 @@ zznews.cn##.ad:not([style])
 ||exchak.com^
 ||exchange-traffic.com^
 ||exchange-traffic.com^$third-party
+||exchangediscreditmast.com^
 ||excite.ie/?click_in=
 ||excitead.com^
 ||excited.me^$third-party
@@ -69547,6 +69557,7 @@ zznews.cn##.ad:not([style])
 ||haviouseulom.club^
 ||hawk.makroskop.eu^
 ||hawkyeye5ssnd.com^
+||hawsuffer.com^
 ||haxdym.min-breeder.com^
 ||haxrddfxbdu.com^
 ||haymarket.com/injector/deliver/
@@ -69918,6 +69929,7 @@ zznews.cn##.ad:not([style])
 ||hgdgdsgh.cn^
 ||hgdnd.cc^
 ||hgf4.zanzicar.fr^
+||hggtt.top^
 ||hghit.com^
 ||hguas.com^
 ||hgub2polye.com^$third-party
@@ -76683,6 +76695,7 @@ zznews.cn##.ad:not([style])
 ||lotour.net/bcef/388.js
 ||lotpt.top^
 ||lotsnippier.cam^
+||lotsooms.com^
 ||lottery.kuaiya.cn^
 ||lotteryhibernateauthorized.com^
 ||lotto.gmx.*^$removeparam=advertisementId
@@ -82719,6 +82732,7 @@ zznews.cn##.ad:not([style])
 ||oascentral.hosted.ap.org^
 ||oascentral.lycos.com^
 ||oask.xulizui6.com^
+||oatmeallump.com^
 ||ob.cheqzone.com^
 ||ob3o3r7.cn^
 ||obashwmzrfofi.com^
@@ -87095,6 +87109,7 @@ zznews.cn##.ad:not([style])
 ||quaintborder.com^
 ||quaintcan.com^$third-party
 ||qualaroo.com^$third-party
+||qualitydestructionhouse.com^
 ||quallyrimers.com^
 ||qualtrics.com/WRSiteInterceptEngine/?Q_Impress=$third-party
 ||qualtrics.com^$third-party
@@ -98872,6 +98887,7 @@ zznews.cn##.ad:not([style])
 ||tp.witt-international.sk^
 ||tp.yomonda.de^
 ||tp.your-look-for-less.se^
+||tp1jcgl644jk.com^
 ||tp4sul.jwzd.com.cn^
 ||tp88trk.com^$third-party
 ||tp992.top^
@@ -101755,6 +101771,7 @@ zznews.cn##.ad:not([style])
 ||uplynk.com/*.m3u8$replace=/#UPLYNK-SEGMENT: \S*\\,ad\s[\s\S]+?((#UPLYNK-SEGMENT: \S+\\,segment)|(#EXT-X-ENDLIST))/\$1/,domain=hgtv.com|diynetwork.com|abc11.com|abc7.com|abc7news.com|abc13.com|6abc.com|abc7chicago.com|discovery.com|foodnetwork.com|fox.com|investigationdiscovery.com|sciencechannel.com|motortrend.com|tlc.com|abc7ny.com,important
 ||uplynk.com/preplay2/*.mpd$replace=/<Period duration="[a-zA-Z\.\d]+" id="[a-zA-Z\-\d]+"><AssetIdentifier schemeIdUri="urn:com:uplynk:ad-asset-id".*?<\/AdaptationSet><\/Period>//,domain=go.discovery.com|discoveryplus.com|go.tlc.com|watch.hgtv.com|investigationdiscovery.com|sciencechannel.com
 ||uplynk.com/session/ping/
+||upodnvvvxvnxh.com^
 ||upoll.umengcloud.com^
 ||uponelectabuzzor.club^
 ||upornia.com/js/*.js?v=
@@ -103082,6 +103099,7 @@ zznews.cn##.ad:not([style])
 ||vyplzy.job-medley.com^
 ||vyrhxfi.cn^
 ||vyule.com^
+||vyvxx.com^
 ||vyyikx.sixt.ch^
 ||vz-cdn.contentabc.com^
 ||vz-cdn.trafficjunky.net^
@@ -103266,6 +103284,7 @@ zznews.cn##.ad:not([style])
 ||wangdq.com^
 ||wanghu2020.ltd^
 ||wanghualang.com/wp-content/gallery/ad/
+||wangjianxd.site^
 ||wangjing.cn*/upload/com/
 ||wangjing.cn/iframe/zhounian.php?
 ||wangjing.cn/images/js/YlFloat.js
@@ -104360,6 +104379,7 @@ zznews.cn##.ad:not([style])
 ||wordkeyhelper.com^$third-party
 ||wordpress.com/geo/
 ||worersie.com^
+||work.3dmgame.com/js/statistics.js
 ||work.ua/analytics/view-page/
 ||workableachiever.com^
 ||workableachiever.com^$third-party
