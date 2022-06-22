@@ -1,5 +1,5 @@
-! Version: 2022-06-22 20:31:56（北京时间） 
-! Total count: 6889
+! Version: 2022-06-23 00:23:37（北京时间） 
+! Total count: 6895
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$webrtc,domain=sourceforge.net
@@ -452,6 +452,7 @@
 @@||ad.de.doubleclick.net/imp;$object,domain=rtl-now.rtl.de|rtl2now.rtl2.de|rtlnitronow.de|superrtlnow.de|voxnow.de
 @@||ad.dotandad.com/mediamond_vm.jsp$domain=video.mediaset.it
 @@||ad.doubleclick.net/*/adi/com.ytbc/$domain=youtube.com
+@@||ad.doubleclick.net/clk*&destinationURL=$popup
 @@||ad.doubleclick.net/clk;$urlblock
 @@||ad.doubleclick.net/ddm/$popup,domain=billiger.de|guide-epargne.be|legacy.com|mail.yahoo.com|nytimes.com|spaargids.be
 @@||ad.doubleclick.net/ddm/ad/*$domain=twitch.tv,third-party
@@ -570,6 +571,8 @@
 @@||adpop.me^$domain=adpop.me
 @@||adroll.com/edaa^$domain=youronlinechoices.com
 @@||adroll.com^$xmlhttprequest,domain=adroll.com
+@@||ads-api.twitter.com/*/accounts/$domain=analytics.twitter.com
+@@||ads-api.twitter.com/*/apps?app_store_identifiers=$domain=analytics.twitter.com
 @@||ads-twitter.com/oct.js$domain=jp.square-enix.com
 @@||ads.3dtuning.com/ad?placement=*&$~third-party
 @@||ads.a-static.com/ads.js|
@@ -805,7 +808,10 @@
 @@||analytics.ooyala.com/static/analytics.js$script,domain=humo.be
 @@||analytics.tercept.com/js/ga.js$script,~third-party
 @@||analytics.tiktok.com/*/pixel/sdk.js$domain=wopilo.com
+@@||analytics.twitter.com/*/api$domain=analytics.twitter.com
 @@||analytics.twitter.com/mob_idsync_click
+@@||analytics.twitter.com/user/*.json?$domain=analytics.twitter.com
+@@||analytics.twitter.com/user/*/tweets/bundle?$domain=analytics.twitter.com
 @@||analytics.twitter.com^$domain=analytics.twitter.com
 @@||analytics.wearekiss.com/piwik.js$domain=spritepad.wearekiss.com
 @@||ananas.chaoxing.com^*video/ad/
@@ -998,6 +1004,7 @@
 @@||asahicom.jp/ad/js/video/ytpfp.js$domain=asahi.com
 @@||asandl.com/ads/img/$image,~third-party
 @@||ascii.jp/img/ad/yayoi/rank_$image,~third-party
+@@||asianembed.io/encrypt-ajax.php?id=
 @@||ask.qcloudimg.com^$stealth,domain=cloud.tencent.com
 @@||ask4movie.io^$generichide
 @@||asmwall.com/js/ads.js|$~third-party
@@ -4833,6 +4840,7 @@
 @@||onlinemschool.com/script/ads1.js
 @@||onlinemschool.com^$generichide
 @@||onlinetyping.org/detroitchicago/cmbdv2.js
+@@||onlyfans.com/theme/onlyfans/spa/statistics.js$~third-party
 @@||onlytech.com/community/js/*/AdsenseBlockView.js$domain=onlytech.com
 @@||ooyala.com/3rdparty/comscore_$domain=livetvcafe.net
 @@||ooyala.com/3rdparty/comscore_*.swf$domain=bloomberg.com|businessweek.com|greentechmedia.com
@@ -4954,7 +4962,7 @@
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=thebrickfan.com
 @@||pagead2.googlesyndication.com/pagead/show_companion_ad.js$domain=soranews24.com
 @@||paginegialle.it/js/shinystat.js
-@@||pagure.io/static/issues_stats.js?
+@@||pagure.io/static/issues_stats.js$~third-party
 @@||pandora.com/images/public/devicead/$image
 @@||pandora.com/static/ads/
 @@||pandora.com/web-client-assets/ads.*.js
@@ -4996,7 +5004,6 @@
 @@||paypalobjects.com/web/*/gAnalytics.js$script,domain=paypal.com
 @@||paywall-ad-bucket.s3.amazonaws.com/ad_300_250.jpg
 @@||pbs.twimg.com/ad_img/$image,xmlhttprequest
-@@||pbskids.org/js/ga-current.js
 @@||pcbac.com/web/legacy/js/analytics.js$script,~third-party
 @@||pcgamesn.com^$generichide
 @@||pchome.com.tw/img/js/xpcadshow.js$domain=game735.com
@@ -5072,7 +5079,6 @@
 @@||play.google.com/store/apps/$document
 @@||play.nova.bg/prebid-ads.js
 @@||play.vidyard.com^$stealth
-@@||playcanvas.com.*/keen.min.js
 @@||playep.pro/log_event$~third-party,xmlhttprequest
 @@||player-feedback-v1.glomex.com/pf/|$domain=player.glomex.com
 @@||player-smotri.mail.ru^$stealth
