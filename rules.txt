@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 4 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、补充规则
-! Version: 2022-06-23 04:16:14（北京时间） 
-! Total count: 108446
+! Version: 2022-06-23 09:18:01（北京时间） 
+! Total count: 108466
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -5815,6 +5815,7 @@
 ##.tnt-ads-container
 ##.tnt-dmp-reactive
 ##.tooltip > #tp
+##.top > a > .topline[src^="/photo/"]
 ##.top-ad
 ##.top-ad-970x90
 ##.top-ad-area
@@ -6737,6 +6738,7 @@
 ##a[href^="https://go.nordvpn.net/aff"] > img
 ##a[href^="https://go.strpjmp.com/"]
 ##a[href^="https://go.tmrjmp.com"]
+##a[href^="https://go.xlviirdr.com"]
 ##a[href^="https://go.xxxiijmp.com"]
 ##a[href^="https://go.xxxjmp.com"]
 ##a[href^="https://gohere.pl/"]
@@ -6898,6 +6900,7 @@
 ##div[class^="adbanner_"]
 ##div[class^="ads-partner-"]
 ##div[class^="adunit_"]
+##div[class^="is_"] > a > img[referrerpolicy="no-referrer"][src*="hdslb.com"]
 ##div[class^="kiwi-ad-wrapper"]
 ##div[class^="kiwiad-desktop"]
 ##div[class^="kiwiad-popup"]
@@ -6969,6 +6972,7 @@
 ##div[onclick*=".leyu"]
 ##div[onclick*=".lyty49.com"]
 ##div[onclick*=".rwnyou.com"]
+##div[onclick*=".yyav5.top"]
 ##div[onclick*="?i_code="]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
@@ -7066,7 +7070,6 @@
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/static/base.js"] + #couplet
 ##script[src="/template/kuhei2/skin/base.js"] + #couplet
-##section[class^="recirclist_recircList__"]
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ##span[title="neteasefooter"]
 ##style + .topd
@@ -12985,6 +12988,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /meta-tracker/*
 /metatraffic/track.asp?
 /metric/?mid=
+/metric/?wid=
 /metric/gauge
 /metrica/sp.js
 /metricool.js
@@ -18191,6 +18195,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||ads.muxiv.com/address/$xmlhttprequest
 @@||ads.pinterest.com^$popup
 @@||ads.privacy.qq.com^$domain=privacy.qq.com
+@@||ads.pubmatic.com/AdServer/js/pwt/$script,domain=india.com
 @@||ads.remix.es/advertisement.js|
 @@||ads.roblox.com/v*/sponsored-pages$xmlhttprequest
 @@||ads.roblox.com/v1/sponsored-pages$xmlhttprequest,domain=roblox.com
@@ -31820,6 +31825,7 @@ historycollection.com##div[class^="cis_add_block"]
 historydaily.org##.adwrapper
 historykon.pl##.adv_content
 hit180.com##.widget_ui_orbui:nth-child(-n+2)
+hitbdsm.com##a[href^="https://go.rabbitsreviews.com/"]
 hitc.com,dualshockers.com##.GRVMpuWrapper
 hitc.com,dualshockers.com#%#//scriptlet("set-constant", "pbjs.setConfig", "noopFunc")
 hitc.com,thefocus.news##.GRVMpuWrapper
@@ -36771,7 +36777,7 @@ news18a.com,tom.com##.ina_ad_class
 news24.jp##.adText > ul
 news24.jp#@#.adText
 news247.gr##body .ad-widget
-news24online.com##.db_shw_mb_blk
+news24online.com##.clearfix.db_shw_mb_blk
 news24online.com##mybot
 news4vip.livedoor.biz###f984a
 news4wide.net##.advertisement-position
@@ -41965,6 +41971,7 @@ ucbug.com###xidi
 ucbug.com##.BzClick
 ucbug.com##.baidu_fx
 ucbug.com##.bzxz128
+ucompares.com##.tablepress-id-46
 ucptt.com#%#(function() { window.open_ = window.open; var w_open = window.open, regex = /tw\.jav321\.com/; window.open = function(a, b) { if (typeof a !== 'string' || !regex.test(a)) { w_open(a, b); } }; })();
 udaff.com##[width="240"][height="300"]
 udn.com###ad-pall
@@ -45420,6 +45427,7 @@ zznews.cn##.ad:not([style])
 ||2529212.com^
 ||254a.com^
 ||258580w.cn^
+||258c7c3d75.com^
 ||258ydh.com^
 ||258zw.com^$third-party
 ||25917.shop^
@@ -53121,6 +53129,7 @@ zznews.cn##.ad:not([style])
 ||asdfix.com^
 ||asdkfjskl.guiliangtechnology.com^
 ||asdpoi.com^
+||asdqwe.ltd^
 ||asdsdvd4.com^
 ||asearch.alicdn.com^
 ||asemskull.com^
@@ -56594,6 +56603,7 @@ zznews.cn##.ad:not([style])
 ||cameraprive.com^$third-party
 ||cameraunswing.com^
 ||camghosts.com^$third-party
+||camilo4free.cfd^
 ||camiocw.com^
 ||camisado.actonservice.com^
 ||cammpaign.com^
@@ -57696,6 +57706,7 @@ zznews.cn##.ad:not([style])
 ||chimpanzee.ines-papert.com^
 ||chimpstatic.com/mcjs-connected/js/
 ||china-cdn3.unityads.unity3d.com^
+||china-india.wang^
 ||china.chemnet.com/cnbanner/
 ||china.cn/js/common/local_hydn/
 ||china.com.cn*/ads_js/
@@ -65786,6 +65797,7 @@ zznews.cn##.ad:not([style])
 ||fanghua2.cn^
 ||fangjslc.com^
 ||fangniaowang.net^
+||fangshan.us^
 ||fangzhixinxi.cn^
 ||fanhaodang.org/Runtime/js/
 ||fankwmgxe.com^
@@ -66821,6 +66833,7 @@ zznews.cn##.ad:not([style])
 ||fresnel.vimeocdn.com/add/player-test-impression?beacon
 ||fretfulfurniture.com^
 ||fretfulfurniture.com^$third-party
+||freudunsneck.com^
 ||freychang.fun^
 ||fridgestretched.com^
 ||friend17.net^
@@ -74761,6 +74774,7 @@ zznews.cn##.ad:not([style])
 ||kguke.com^
 ||khayatarai.com^
 ||khcdhu.saraschool.net^
+||khdry.top^
 ||khgayc.hackers.com^
 ||khgj.cn^$third-party
 ||khimxz.shoesforcrews.com^
@@ -81174,6 +81188,7 @@ zznews.cn##.ad:not([style])
 ||mu722.com^
 ||muatui.com^
 ||muchotrust.com^
+||mucinshasht.com^
 ||mucums.com^
 ||mud4.destinia.com.eg^
 ||muddledaftermath.com^
@@ -84867,6 +84882,7 @@ zznews.cn##.ad:not([style])
 ||pikedhelloed.com^
 ||pikeletkiyi.com^
 ||pikzor.com^$third-party
+||pilaryhurrah.com^
 ||pilgrimarym.club^
 ||pilot-ad.flurry.com^
 ||pilot-api.flurry.com^
@@ -91226,6 +91242,7 @@ zznews.cn##.ad:not([style])
 ||shqbsdjatunl.com^$third-party
 ||shqmetrics.sony.com^
 ||shrek.6.cn^
+||shrewdoscular.com^
 ||shriekdestitute.com^
 ||shrillbighearted.com^
 ||shrillspoon.com^
@@ -101416,6 +101433,7 @@ zznews.cn##.ad:not([style])
 ||ueuodgnrhb.com^$third-party
 ||uev.ad-stir.com^
 ||ufanw.com/js/hongbao.js
+||ufile.cc/crod.js
 ||ufile.io/assets/js/ab.js
 ||ufpcdn.com^
 ||ufsmcn.blackspade.com.tr^
@@ -102462,6 +102480,7 @@ zznews.cn##.ad:not([style])
 ||vic-m.co^
 ||vice-web-statics-cdn.vice.com/fonts/mtiFontTrackingCode.js
 ||vice.hb.omtrdc.net^
+||vichycobourg.com^
 ||vicspendig.club^
 ||victoriouspastimeculture.com^
 ||victorjx.com^
@@ -105594,6 +105613,7 @@ zznews.cn##.ad:not([style])
 ||wxwm1.ikuailian.com^
 ||wxwm2.ikuailian.com^
 ||wxxfqc.com^
+||wy123.fun^
 ||wy213.com^$popup,third-party
 ||wy95.xyz^
 ||wydong.top^
