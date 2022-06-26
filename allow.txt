@@ -1,5 +1,5 @@
-! Version: 2022-06-26 04:16:25（北京时间） 
-! Total count: 6888
+! Version: 2022-06-26 09:40:35（北京时间） 
+! Total count: 6889
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$webrtc,domain=sourceforge.net
@@ -220,6 +220,7 @@
 @@jd.com/*ad_
 @@weather.gov/xml/$document
 @@www.any.gs$urlblock
+@@|data:text^$popup,domain=box.com|clker.com|labcorp.com
 @@|http$script,~third-party,domain=mylink.*|my1ink.*|myl1nk.*|myli3k.*
 @@|http*.php?url=$stealth,domain=nicotv.me
 @@|http*://*.*/*.$image,third-party,domain=a2zupload.com
