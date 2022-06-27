@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 4 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、补充规则
-! Version: 2022-06-27 04:15:31（北京时间） 
-! Total count: 108365
+! Version: 2022-06-27 09:43:40（北京时间） 
+! Total count: 108378
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -2120,6 +2120,8 @@
 ##.ad-block--leader
 ##.ad-block--leader-extra
 ##.ad-block-300
+##.ad-block-banner-container
+##.ad-block-container
 ##.ad-block-inside
 ##.ad-block-mod
 ##.ad-block-section
@@ -16480,7 +16482,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 18h.avmimi.com##body > table[width="100%"]:nth-child(2)
 18moe.org##.alignnone[alt="恰饭广告"]
 18moe.vip##a[href^="http"]:not([href*="18moe.vip"]) > img[src*="tc.18moe.net"]
-18porn.sex,4kporn.xxx,bigtitslust.com,fpo.xxx,freeporn8.com,fuqer.com,gayck.com,hentai-moon.com,heroero.com,intporn.com,japaneseporn.xxx,mrdeepfakes.com,pornchimp.com,porndr.com,rare-videos.net,sortporn.com,tabootube.xxx,watchmygf.xxx,xcavy.com,xgroovy.com,xxxshake.com##.table
+18porn.sex,4kporn.xxx,bigtitslust.com,daporn.com,fpo.xxx,freeporn8.com,fuqer.com,gayck.com,hentai-moon.com,heroero.com,intporn.com,japaneseporn.xxx,mrdeepfakes.com,pornchimp.com,porndr.com,rare-videos.net,sortporn.com,tabootube.xxx,watchmygf.xxx,xcavy.com,xgroovy.com,xxxshake.com##.table
 1905.com##.ad-news
 1905.com##.mobile_ad_promote
 1909.me,xchina.co##.push-top
@@ -24854,6 +24856,8 @@ amf.pw#%#Object.defineProperty(window, 'PRPub2', { get: function() { return; } }
 amgreatness.com###ag-lead
 amgreatness.com##.bg-gray-200.mx-auto
 amgreatness.com##.mb-10.mx-auto
+aminoapps.com##.overflow-scroll-sidebar > div
+aminoapps.com,crash.net,trustpilot.com##.ad-block
 ammonnews.net##[class^="bestaAds_"]
 amp-focus-de.cdn.ampproject.org##[height="500"][width="500"]
 amp-focus-de.cdn.ampproject.org##article[data-teaser-type="unspecified_group"]
@@ -27595,7 +27599,6 @@ crackshash.com##.wp-ad
 crackshash.com#%#//scriptlet("abort-current-inline-script", "document.getElementsByClassName", "wp-ad")
 crackturkey.com,demonscripts.com,dpkghub.com,eurocccam.net,forum.shoppingtelly.com,hostingunlock.com,iptvsat-forum.com,isgfrm.com,ootech.vn,playstationhaber.com,spleaks.org,tamilbrahmins.com,tattle.life,turkishaudiocenter.com#%#//scriptlet("abort-current-inline-script", "$", "!document.getElementById(btoa")
 crash.net##.dmpu-container
-crash.net,trustpilot.com##.ad-block
 crazy4tv.com#%#Object.defineProperty(window, 'swal', { get: function() { return {}; } });
 crazyblog.in,studyuo.com##div[id*="_"][style^="min-width"]
 crazygames.com##.css-1h6nq0a
@@ -27898,6 +27901,7 @@ dapenti.com###center > div[align="center"][target="_blank"]
 dapenti.com##a[href*="cashier.iqiyi.com"]
 dapenti.com##a[href*="sq.cc"]
 daporn.com##.bottom-promo
+daporn.com,fpo.xxx##.top
 daringfireball.net###SidebarMartini
 darknessporn.com##.a-3.g-single
 darknessporn.com,familyporner.com,pisshamster.com,xanimu.com##.after-boxes
@@ -28121,6 +28125,7 @@ didispace.com##.widget-wrap > p[style="text-align: left;padding-bottom: 20px;lin
 diet-weight-lose.com#@#.ad-position
 digg.com##div[id^="bsa-zone_"]
 digg.com#?#article.fp-vertical-story:-abp-has(a[href="/channel/promotion"])
+digg.com#?#article.fp-vertical-story:-abp-has(div:-abp-contains(SPONSORED))
 digiato.com##.digiad
 digiboy.ir#?#.slider-tab-ring:has(> div.textwidget > :not([class]) > a[href])
 digiboy.ir#?#.slider-tab-ring:has(> div.textwidget > ul.vertical > li.sponsors-item)
@@ -30044,7 +30049,6 @@ foxtube.com,matureworld.ws#%#//scriptlet('prevent-window-open')
 fpdisplay.com##.class_adv1
 fpdisplay.com##table[width="960"][height="110"]
 fplgameweek.com##mobile-sticky-ads
-fpo.xxx##.top
 fpo.xxx#%#//scriptlet('set-constant', 'flashvars.adv_pre_src', '')
 fpsjp.net,ryukyushimpo.jp###sp_top_header
 fqlook.cn###rtj1009_iho3
@@ -55840,6 +55844,7 @@ zznews.cn##.ad:not([style])
 ||bt1.patexplorer.com^
 ||bt121.net/ats/
 ||bt888bf.com/da.aspx
+||btaawy.cn^
 ||btbt.tv/dd/
 ||btbtdy.*/js/slade888.js
 ||btbtdy.*/templets/btdy/js/ad
@@ -62413,6 +62418,7 @@ zznews.cn##.ad:not([style])
 ||dkskbu.demae-can.com^
 ||dkupaw9ae63a8.cloudfront.net^
 ||dkvuey.xyz^
+||dkxobcs.cn^
 ||dl-rms.com^
 ||dl-stage.zola.com^
 ||dl.2345.com^
@@ -65019,6 +65025,7 @@ zznews.cn##.ad:not([style])
 ||etui.fs.ml.com^
 ||etwun.com:8080/counter.php?
 ||etx.indiatimes.com^
+||etxggi.cn^
 ||etxjbxs.top^$third-party
 ||etyper.com^$third-party
 ||etznkn.ec-store.net^
@@ -65516,6 +65523,7 @@ zznews.cn##.ad:not([style])
 ||f.hongm.com^
 ||f.sen.seg.br^$third-party
 ||f.zgbmw.com.cn^$third-party
+||f05.xyz^
 ||f0nn.oney.fr^
 ||f0tiojboxnc1.bitdomain.biz^
 ||f1.06ps.com^
@@ -67706,6 +67714,7 @@ zznews.cn##.ad:not([style])
 ||gfstrck.com^
 ||gft2.de^$third-party
 ||gfv4.destinia.co.za^
+||gfvip06af.com^
 ||gfyoyo.adpolestar.net^
 ||gg-led.com/uploadFile/uploadCompanyLogo/*.gif
 ||gg.*.com/tonglan/tonglan.js
@@ -75906,6 +75915,7 @@ zznews.cn##.ad:not([style])
 ||linezing.com^$third-party
 ||lingdianshuwu.com/js/content
 ||linghangshouji.com^
+||lingke03.top^
 ||linglingccc.xyz^
 ||linglong.supersuer.com^
 ||lingows.appspot.com/page_data/?
@@ -87300,6 +87310,7 @@ zznews.cn##.ad:not([style])
 ||radiotime.com/reports/
 ||raeqqe.cn^
 ||rag3ca7t5amubr8eedffin.com^
+||rageagainstthesoap.com^
 ||raidlight.com/*/index.php?controller=statistics
 ||raigluce.net^
 ||rail.bankofamerica.com^$script,~third-party,xmlhttprequest
@@ -102529,6 +102540,7 @@ zznews.cn##.ad:not([style])
 ||vimeocdn.com/js_opt/logging_combined.min.js
 ||vinalsmuffish.com^
 ||vindicosuite.com^
+||vine.eu/track/
 ||vinlens.com^$third-party
 ||vinmec-prod.s3.amazonaws.com/images/vicaread
 ||vinsight.de^$domain=tvspielfilm.de
@@ -106488,6 +106500,7 @@ zznews.cn##.ad:not([style])
 ||yandex.ru^$app=com.nektome.talk
 ||yandex.ru^$app=limehd.ru.ctv
 ||yandex.ru^$app=ru.pikabu.android
+||yandex.ru^$app=ru.ria.ria
 ||yandex.ru^$app=ru.sports
 ||yandex.ru^$app=ru.swc.yaplakalcom
 ||yandexadexchange.net^
