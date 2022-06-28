@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 4 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、补充规则
-! Version: 2022-06-28 04:16:18（北京时间） 
-! Total count: 108664
+! Version: 2022-06-28 09:39:00（北京时间） 
+! Total count: 108685
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -3702,6 +3702,7 @@
 ##.articleAd
 ##.articleAdvert
 ##.article__adv
+##.article__header-ad-slot
 ##.article__inset--margin-ad
 ##.article_ad
 ##.article_ad_top
@@ -18317,6 +18318,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||analytics.cervell.io/api/collect/connect$domain=cildimveben.com
 @@||analytics.cervell.io/api/product/getProduct/$domain=cildimveben.com
 @@||analytics.edgekey.net/config/$xmlhttprequest,domain=nhk.or.jp
+@@||analytics.edgekey.net/config/beacon-$xmlhttprequest,domain=raiplay.it
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=br.de
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=nhk.or.jp
 @@||analytics.edgekey.net/js/csma.js^$domain=verdi.de
@@ -25237,7 +25239,7 @@ apteka.ru#%#window.yaCounter14913877={ reachGoal: function() {} };
 aptoide.com##div[class*="__AdsContainer-"]
 aptoslife.com,bohemian.com,constructionreviewonline.com,cyberparse.co.uk,eastbayexpress.com,eindhovennews.com,ericpetersautos.com,fenuxe.com,gameplayinside.com,gamezone.com,gilroydispatch.com,gizmochina.com,goodtimes.sc,greekreporter.com,greenfieldnews.com,healdsburgtribune.com,industryhit.com,kenyan-post.com,kingcityrustler.com,maltabusinessweekly.com,metrosiliconvalley.com,morganhilltimes.com,musictech.net,nasilemaktech.com,newsnext.live,nme.com,pacificsun.com,pajaronian.com,pressbanner.com,radioink.com,salinasvalleytribune.com,sanbenito.com,sonorannews.com,telugubullet.com,theindependent.co.zw##.td-a-rec
 arabam.com##.min-md-width > .homepage-jellybean-wrapper
-arabiaweather.com,bloomberg.com,gamesindustry.biz,news957.com,newscientist.com##.leaderboard-container
+arabiaweather.com,bloomberg.com,gamesindustry.biz,news957.com,newscientist.com,usgamer.net##.leaderboard-container
 arabplus2.co#%#//scriptlet("prevent-window-open")
 arabseed.*##.ads-aa
 arabseed.*##a[href^="https://bit.ly/"] > img
@@ -27147,7 +27149,7 @@ click-paid.com#%#window.open = function() {};
 click.icptrack.com/icp/$image
 click108.com.tw##.AD_300250
 click108.com.tw##.AD_730280
-click2houston.com,clickondetroit.com,clickorlando.com,local10.com,news4jax.com##.topWrapper
+click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,local10.com,news4jax.com##.topWrapper
 clicknupload.link#%#Object.defineProperty(document, 'onclick', { get: function() { null; } });
 clickondetroit.com##.fixedAd
 clickscoin.com#%#//scriptlet("abort-current-inline-script", "$", "'body'")
@@ -27313,7 +27315,7 @@ cnstock.com##.newslist[style="padding: 10px 0px;"]
 cntour2.com##.txtPicAd
 cntronics.com##.ads970-90
 cntronics.com##.cnt-ads90
-cnx-software.com,dailyveracity.com,metalsucks.net,mmoculture.com,nasaspaceflight.com,robloxhackscripts.com,techdows.com##.widget_custom_html
+cnx-software.com,dailyveracity.com,gamingonphone.com,metalsucks.net,mmoculture.com,nasaspaceflight.com,robloxhackscripts.com,techdows.com##.widget_custom_html
 cnxz.cn###js_focusimg3
 cnxz.cn##.showad
 cnxz.cn##[class*="-ad"]
@@ -28054,6 +28056,7 @@ deviantart.com#$#div[class*="dp-ad-"] {height: 0!important; width: 0!important; 
 deviantart.com#@#.mobile-ad
 deview.co.jp##.news-swad
 dexerto.com###articleContainer div[class=""] > div[style="text-align:center;"] > p.dn-ns[style="font-size:8px;color:#ccc;"]
+dexerto.com##.aspect-video
 dexerto.com##div[id^="dex-ad-"]
 dexerto.com##div[id^="dex-ad-mobile-"]
 dexerto.com##div[id^="dex-amp-ad"]
@@ -30433,6 +30436,7 @@ gamer.ne.jp##.adBottomRectangle_sp
 gamer.no#@#iframe[width="300"][height="250"]
 gamerant.com##.ad-zone-container
 gamerevolution.com##.aside-promo
+gamerevolution.com##.custom-html-widget
 gamerevolution.com##.pb-in-article-content
 gamerguides.com,instaud.io##.spons
 gamerjournalist.com##.PrimisResponsiveStyle
@@ -30443,6 +30447,7 @@ gamersnexus.net#?##right_col > div:-abp-has(p:-abp-contains(Advertisement))
 gamersnexus.net#?#.moduleContent:-abp-contains(Advertisement)
 gamerstand.net,xn--gdkl0dubtwb7e.net,xn--o9j0bk1rwe8bvh.com,xn--o9j0bk3kzb8d3ee20ala8a.com,xn--o9j0bk5t7exbwe.com##.Bnr
 gamertweak.com##.bannerdiv
+gamertweak.com##.kfzyntmcd-caption
 gamertweak.com,thelivemirror.com,nullpress.net,frendx.com##div[itemtype="https://schema.org/WPAdBlock"]
 games.app-liv.jp#$#.jack-content { display: none !important; }
 games.app-liv.jp#$#body.jack { padding-top: 12% !important; }
@@ -37452,7 +37457,8 @@ pcgamesn.com##.new_affiliate_embed
 pcgamesn.com##.saw-wrap
 pcgamesn.com#$##nn_astro_wrapper { height: 50px !important; }
 pcgamesn.com#$#body header.banner:not(#style_important) { top: 0 !important; }
-pcgamesn.com,theloadout.com##.inlinerail
+pcgamesn.com,pockettactics.com###nn_astro_wrapper
+pcgamesn.com,pockettactics.com,theloadout.com##.inlinerail
 pcgamingwiki.com#$#.home-information-column { padding-top: 40px!important; }
 pch.com##.ad_slot_header
 pch.com#%#//scriptlet("abort-current-inline-script", "pAPI", "location")
@@ -37469,6 +37475,7 @@ pchome.net###pchome_970_90_a
 pclab.pl#%#//scriptlet('prevent-setTimeout', 'document.body.getAttribute("abp")')
 pclicious.net#%#//scriptlet("set-constant", "wpquads_adblocker_check_2", "true")
 pcmacstore.com##.mobileHide
+pcmag.com###alertbar
 pcmag.com##.article_ads
 pcmag.com##.row.pcm-content
 pcmag.com##aside[class^="zmgad-"]
@@ -41559,6 +41566,7 @@ tsumino.com#%#//scriptlet("abort-on-property-read", "_wm")
 tt1069.com#@##adbrite
 ttshow.tw##div[id^="ad_article_"]
 ttshow.tw##div[id^="ad_index_"]
+ttsp.tv##.play_list_adbox
 ttv.pl,tvn24.pl#%#(function(){window.__pix2={event:function(){},track:function(){}}})();
 ttv.pl,tvn24.pl#%#//scriptlet("set-constant", "gemiusStream", "noopFunc")
 ttzmz.vip###footer > div[style]
@@ -46149,6 +46157,7 @@ zznews.cn##.ad:not([style])
 ||666627.xyz^
 ||666632.xyz^
 ||666637.xyz^
+||666638.xyz^
 ||666666666666.site^
 ||6667778882021.site^
 ||6668078.com^
@@ -48383,6 +48392,7 @@ zznews.cn##.ad:not([style])
 ||achicih.gitee.io^$third-party
 ||achievablecpmrevenue.com^
 ||achievehardboiledheap.com^
+||achieverknee.com^
 ||achunogo.com^
 ||achyrepeatitchy.com^
 ||acidpigs.com^
@@ -53182,6 +53192,7 @@ zznews.cn##.ad:not([style])
 ||atemda.com^
 ||atevaccination.com^
 ||ateveq.street-beat.ru^
+||atgsvcs.com/js/atgsvcs.js
 ||atgtfj.bettermusic.com.au^
 ||athena.api.kwalee.com^
 ||athena.wan.sogou.com^
@@ -53607,6 +53618,7 @@ zznews.cn##.ad:not([style])
 ||aze0.dmp.leclerc^
 ||azera-s014.com^$third-party
 ||azeriondigital.com^
+||azfrij.cn^
 ||azg1.emalu-store.com^
 ||azhibo.*/media/aimg/*.gif
 ||azhibo.*images/leisu.png
@@ -67766,6 +67778,7 @@ zznews.cn##.ad:not([style])
 ||gft2.de^$third-party
 ||gfv4.destinia.co.za^
 ||gfvip06af.com^
+||gfvip08af.com^
 ||gfyoyo.adpolestar.net^
 ||gg-led.com/uploadFile/uploadCompanyLogo/*.gif
 ||gg.*.com/tonglan/tonglan.js
@@ -74349,7 +74362,7 @@ zznews.cn##.ad:not([style])
 ||jwpcdn.com^$script,domain=bgr.com|dexerto.com|zimbio.com
 ||jwpepper.actonsoftware.com^
 ||jwplatform.com/ping.gif?
-||jwplayer.com^$domain=gamesradar.com|ginx.tv|tomshardware.com|whathifi.com
+||jwplayer.com^$domain=dexerto.com|gamesradar.com|ginx.tv|tomshardware.com|whathifi.com
 ||jwpltx.com/*/ping.gif
 ||jwpltx.com^$third-party
 ||jwvjcr.cn^
@@ -84887,6 +84900,7 @@ zznews.cn##.ad:not([style])
 ||pigspie.com^
 ||pigspie.com^$third-party
 ||pigtre.com^
+||piilvhtu.cn^
 ||piimg.com/508806/d53a8d13a40f814d.gif
 ||piimg.com^$domain=kisssub.org|lsjsoso.me
 ||pijiagui.cn^
@@ -85553,6 +85567,7 @@ zznews.cn##.ad:not([style])
 ||pofooz.cn^
 ||poiful.com/sdk/vrizeadsdk.
 ||pointillist.com^$third-party
+||pointlesspocket.com^
 ||pointlessrifle.com^
 ||pointlessrifle.com^$third-party
 ||pointlimitedzen.online^
@@ -88267,6 +88282,7 @@ zznews.cn##.ad:not([style])
 ||rhearthinkchlo.xyz^
 ||rhelog.com^
 ||rhetoricalloss.com^$third-party
+||rhetoricalveil.com^
 ||rhinoceros.codeagain.com^
 ||rhinoceros.krieger.io^
 ||rhinoseo.com^$third-party
@@ -94010,6 +94026,7 @@ zznews.cn##.ad:not([style])
 ||soysapslad.com^
 ||soyue.cc^$third-party
 ||sozcu.com.tr/aip/aip2Analytics.js
+||sozdzl.cn^
 ||sozi.cn/images/tj/downad
 ||sozi.cn/images/tj/hukead.gif
 ||sozi.cn/images/tj/szdown
@@ -101890,6 +101907,7 @@ zznews.cn##.ad:not([style])
 ||unwrittenspot.com^
 ||unwrittenspot.com^$third-party
 ||unwroteorcinus.com^
+||unypud.cn^
 ||uo.jstaogu.com^
 ||uo12.com^
 ||uoblij.farmaline.be^
@@ -104040,6 +104058,7 @@ zznews.cn##.ad:not([style])
 ||weld.uunice.com^
 ||weld830.uunice.com^
 ||weldsystem.online^
+||wellgroomedapparel.com^
 ||wellgroomedbat.com^
 ||wellgroomedbat.com^$third-party
 ||wellmadefrog.com^
@@ -107693,6 +107712,7 @@ zznews.cn##.ad:not([style])
 ||yyo876.com^*.php
 ||yyp17.com^
 ||yypd.top^
+||yyrrw.top^
 ||yyrtv.com/static/js/dsp.js
 ||yystzl.cn^
 ||yysvzaodorhv.com^
@@ -108617,6 +108637,7 @@ zznews.cn##.ad:not([style])
 ||zzy.weibopie.com^
 ||zzy1.mipujia.com^
 ||zzy1.weibopie.com^
+||zzycj.com^
 ||zzyonghao.com^
 ||zzys.haha5.cn^
 ||zzyytt.top^
