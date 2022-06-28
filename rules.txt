@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 4 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、补充规则
-! Version: 2022-06-28 20:33:36（北京时间） 
-! Total count: 108734
+! Version: 2022-06-29 00:25:28（北京时间） 
+! Total count: 108749
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -5979,6 +5979,7 @@
 ##.voc-advertising
 ##.vod_ad
 ##.vodads
+##.vpnad
 ##.vs_dfp_standard_postbit_ad
 ##.vuukle-ads
 ##.vw-header-ads-leader-board
@@ -6339,6 +6340,7 @@
 ##a[href*=".dztjy.com/"]
 ##a[href*=".eampakt.com/"]
 ##a[href*=".erolabs.cloud"]
+##a[href*=".etechedge.com/"]
 ##a[href*=".ex068.com"]
 ##a[href*=".fancyzf.com/"]
 ##a[href*=".fllkf.com/"]
@@ -22267,6 +22269,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||pataks.pl/core,_assets$script,~third-party
 @@||patreonusercontent.com/*.gif?token-$image,domain=patreon.com
 @@||patrick-wied.at/static/heatmapjs/src/heatmap.js
+@@||pay.yandex.ru/web/sdk/$stealth
 @@||payload.cargocollective.com^$image,~third-party
 @@||payments.braintree-api.com^$stealth
 @@||paypal.com/xoplatform/logger/api/logger$domain=play.leagueofkingdoms.com
@@ -29389,6 +29392,7 @@ fairfieldchampion.com.au,dailyadvertiser.com.au,newcastleherald.com.au##div[id^=
 fairfieldchampion.com.au,dailyadvertiser.com.au,newcastleherald.com.au#$#.md\:inline > .fixed.sticky { top: 0 !important; }
 fairfieldchampion.com.au,dailyadvertiser.com.au,newcastleherald.com.au#$#.md\:inline > .invisible { display: none !important; }
 fairyanime.com#%#AG_onLoad(function(){if(-1!=window.location.href.indexOf("/kosana/")&&"function"===typeof kosana.skipAd&&"function"===typeof kosana.setup){var a=kosana.setup.toString().match(/videoAdUrl/g);if(null!==a)for(var b=0;b<a.length;b++)kosana.skipAd()}});
+fajnegotowanie.pl##.banner-container
 fake-it.ws##.banner-frame
 fakenamegenerator.com##.bcsw
 fakeporn.tv#%#Object.defineProperty(window, 'prPuShown', { get: function() { return true; } });
@@ -38382,6 +38386,7 @@ proprofs.com##.new_ad_wrapper_all
 proptiger.com##div[style^="position:relative;"][style*="height:100px;"]
 prostream.to,pandamovies.me#%#//scriptlet("abort-on-property-read", "popunder")
 prothomalo.com##.anchor_ad_wrapper
+prothomalo.com##.multipurposeComponent-m__base__EbwQF
 prothomalo.com##div[class*="_ad-slot-"]
 prothomalo.com##div[class*="_ad_"] > a
 prothomalo.com##div[class*="_ads_"]
@@ -43205,6 +43210,8 @@ wpolityce.pl#@#.adunit
 wprost.pl##.ad-aside
 wprost.pl#$#body { overflow: auto !important; }
 wps.cn##.school
+wrestlezone.com###js-leaderboard
+wrestlezone.com##.custom-html-widget > p[style="font-size: 12px; text-align: center;"]
 wroclaw.pl##.bigAdBox
 wroffle.com#@##banner-advert-container
 wroffle.com#@#.SponsorAds
@@ -44579,6 +44586,7 @@ zznews.cn##.ad:not([style])
 |https://r.i.ua^
 |https://undefined/|$script,redirect=noopjs
 |lgtvsdp.com^
+|piwik.
 |samsungcloudsolution.com^
 |samsungcloudsolution.net^
 |samsungqbe.com^
@@ -56148,6 +56156,7 @@ zznews.cn##.ad:not([style])
 ||by4d.com/love/
 ||bybtlvcljrmhg.com^
 ||bydst.com^
+||byfft.top^
 ||bygr2ri20e4y.li.finance^
 ||byjus.com/byjusweb/js/tracking-2.min.js
 ||bypassprofessordemonstrate.com^
@@ -67296,6 +67305,7 @@ zznews.cn##.ad:not([style])
 ||gadgetsnow.com/ngwm/
 ||gadsabs.com^
 ||gadspmz.com^
+||gae.karte.io^
 ||gafxa.code.mytanwan.com^
 ||gagaz.cn^
 ||gaglxx.com/5_
@@ -73992,6 +74002,7 @@ zznews.cn##.ad:not([style])
 ||jpjmpqaupc.com^
 ||jpjrkdtbnwc.com^
 ||jpluzr.autoc-one.jp^
+||jpnbhyba.xyz^
 ||jponmlkj.carte-gr.total.fr^
 ||jppwzdbypenk.com^
 ||jpqgxy.com^
@@ -74645,7 +74656,6 @@ zznews.cn##.ad:not([style])
 ||kariyer.net^$cookie=jobviewcount
 ||karma.mdpcdn.com^
 ||karstadt.de/on/demandware.store/*/__Analytics-Tracking?
-||karte.io^$third-party
 ||kasaze.babosarang.co.kr^
 ||kaspersky.com^$removeparam=icid
 ||katecrochetvanity.com^
@@ -84418,6 +84428,7 @@ zznews.cn##.ad:not([style])
 ||pavv.co.kr^
 ||pawheatyous.com^
 ||pay.holaq.com^
+||pay.yandex.ru/web/clck/click$xmlhttprequest,ping
 ||payangopn.ingenioustech.biz^
 ||paydemic.com^$third-party
 ||payerscocoa.com^
@@ -85070,9 +85081,6 @@ zznews.cn##.ad:not([style])
 ||pivol.com/analytic/$third-party
 ||pivol.com/count.asp?
 ||piwik.filecrypt.cc^
-||piwik.matrix.ua^$third-party
-||piwik.onlinecasino-thai.com^
-||piwik.onlinecasino321.com^
 ||piwik.org^$third-party
 ||piwik.pro^$third-party
 ||piwik.pro^$third-party,domain=~clearcode.cc|~clearcode.pl|~piwikpro.de
@@ -88240,6 +88248,7 @@ zznews.cn##.ad:not([style])
 ||retrack.q-divisioncdn.de^
 ||retreatregular.com^
 ||retresco.de^*/stats/$third-party
+||retrieval-bd.duote.com^
 ||rettica.com^$third-party
 ||retty.me/gen204.php
 ||retty.me/javascripts/common/logging.js
@@ -91819,6 +91828,7 @@ zznews.cn##.ad:not([style])
 ||slightcareconditions.com^
 ||sliiindy.top^
 ||slike.indiatimes.com^
+||slilindy.top^
 ||slimindy.top^
 ||slimopinion.com^
 ||slimopinion.com^$third-party
@@ -93686,6 +93696,7 @@ zznews.cn##.ad:not([style])
 ||so.com/baike/ads?
 ||so.com/index/advertise
 ||so.com/recomm/simi?
+||so.com/resource/js/mod/detail/business.
 ||so.com/sug-hot?
 ||so.open.163.com/v/list.htm?pid=
 ||so.opentable.co.uk^
@@ -96472,6 +96483,7 @@ zznews.cn##.ad:not([style])
 ||strepenboweled.com^
 ||stretchedcreepy.com^
 ||stretchsister.com^
+||stretchsister.com^$third-party
 ||strikeadcdn.s3.amazonaws.com^
 ||stringsmile.com^
 ||strip.alicdn.com^
@@ -97823,6 +97835,7 @@ zznews.cn##.ad:not([style])
 ||tastefulsongs.com^$third-party
 ||tastelesstrees.com^
 ||tastelesstrees.com^$third-party
+||tastelesstrucks.com^$third-party
 ||tastierxyphoid.com^
 ||tastingraise.com^
 ||tatap.org/img_$third-party
@@ -101198,6 +101211,7 @@ zznews.cn##.ad:not([style])
 ||tubewolf.com/_a_ta/s/s/$redirect=nooptext,important
 ||tubous.fuckandcdn.com/tubous/tubousstatic/ads/mobile/
 ||tubzmfmqovh.com^
+||tucao.in/uploadfile/*/1000_150.
 ||tucao.in/uploadfile/*/ch.gif
 ||tucao.in/uploadfile/20*/*1000x
 ||tucao.in/uploadfile/20*/1000-*.gif
@@ -106839,6 +106853,7 @@ zznews.cn##.ad:not([style])
 ||yandex.ru/metrika/
 ||yandex.ru^$app=com.avito.android
 ||yandex.ru^$app=com.nektome.talk
+||yandex.ru^$app=jabi.pdd2
 ||yandex.ru^$app=limehd.ru.ctv
 ||yandex.ru^$app=ru.pikabu.android
 ||yandex.ru^$app=ru.ria.ria
