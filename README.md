@@ -3,9 +3,9 @@
 </div>
 
 ```
-更新时间: 2022-06-30 20:33:55 （北京时间） 
+更新时间: 2022-07-01 00:24:34 （北京时间） 
 
-AdRules 规则数量: 108764 
+AdRules 规则数量: 108777 
 Whitelist 规则数量: 6875 
 ``` 
 [🚀 AdGuard规则地址](https://raw.githubusercontent.com/8680/GOODBYEADS/master/rules.txt)
