@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 4 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、补充规则
-! Version: 2022-07-01 16:21:28（北京时间） 
-! Total count: 108802
+! Version: 2022-07-01 20:34:10（北京时间） 
+! Total count: 108812
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -4184,7 +4184,6 @@
 ##.dfp-double-mpu
 ##.dfp-leaderboard
 ##.dfp-leaderboard-container
-##.dfp-native
 ##.dfp-slot
 ##.dfp-space
 ##.dfp-tag-wrapper
@@ -18486,6 +18485,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||api.gamer.com.tw/mobile_app/anime/*/stat_ad.php
 @@||api.geetest.com^$stealth
 @@||api.getmakerlog.com/discussions/$~third-party,websocket,xmlhttprequest
+@@||api.hbo.com^$stealth
 @@||api.imgur.com^$stealth
 @@||api.infowarsmedia.com/videojs-event-tracking/dist/videojs-event-tracking.js
 @@||api.ip.sb/geoip$domain=ip.skk.moe
@@ -19341,6 +19341,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
 @@||connect.tapjoy.com/connect$app=com.lucasarts.starts_goo
 @@||connectivitycheck.gstatic.com^$important
+@@||console.otc.t-systems.com/mrs/rest/api/v1/log?type=$script,~third-party
 @@||console.statsig.com/_next/static/chunks/pages/$script,~third-party
 @@||constantcontact.com/js/WebTracking/
 @@||contacts.google.com^$generichide
@@ -20651,7 +20652,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||googletagmanager.com/gtm.js$domain=zakzak.co.jp
 @@||googletagmanager.com/gtm.js$domain=zeelandnet.nl
 @@||googletagmanager.com/gtm.js$domain=zolotoyvek.ua
-@@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|carcareplus.jp|cinemacafe.net|cmoa.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|gamebusiness.jp|gamespark.jp|hatenacorp.jp|inside-games.jp|junonline.jp|kakuyomu.jp|mainichi.jp|mangaseek.net|mycar-life.com|nap-camp.com|newscafe.ne.jp|okwave.jp|radiko.jp|rbbtoday.com|reanimal.jp|resemom.jp|response.jp|sanwacompany.co.jp|scan.netsecurity.ne.jp|spyder7.com|stage.parco.jp|viviennewestwood-tokyo.com|ymobile.jp|zakzak.co.jp
+@@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|carcareplus.jp|cinemacafe.net|cmoa.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|gamebusiness.jp|gamespark.jp|hatenacorp.jp|inside-games.jp|junonline.jp|kakuyomu.jp|mainichi.jp|mangaseek.net|mycar-life.com|nap-camp.com|newscafe.ne.jp|okwave.jp|radiko.jp|rbbtoday.com|reanimal.jp|resemom.jp|response.jp|sanwacompany.co.jp|scan.netsecurity.ne.jp|spyder7.com|stage.parco.jp|type.jp|viviennewestwood-tokyo.com|ymobile.jp|zakzak.co.jp
 @@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|carcareplus.jp|cinemacafe.net|cyclestyle.net|gamebusiness.jp|gamespark.jp|inside-games.jp|mycar-life.com|newscafe.ne.jp|reanimal.jp|resemom.jp|response.jp|scan.netsecurity.ne.jp|spyder7.com
 @@||googletagmanager.com/gtm.js$script,domain=beterbed.nl|finanzen.ch|mediamarkt.nl
 @@||googletagmanager.com/gtm.js$script,domain=cdon.fi|como.fi|episodi.fi|fum.fi|hobbyhall.fi|iltalehti.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi|veho.fi
@@ -23599,6 +23600,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||twitter.com/oct.js$domain=jp.square-enix.com
 @@||twowheeler.policybazaar.com/js/googleanalytics.js
 @@||txxx.ahcdn.com/key=$stealth
+@@||type.jp/common/js/clicktag.js
 @@||typhoon.zjwater.gov.cn^$stealth
 @@||uaprom.net/image/blank.gif?$image
 @@||ucoz.net/cgi/uutils.fcg?$script,third-party
@@ -29738,6 +29740,7 @@ filmvilag.org$$iframe[srcdoc="XMLHttpRequest"]
 filmweb.pl#$##mainSkyBanner-pl_PL { position: absolute !important; left: -3000px !important; }
 filmweb.pl#$#.ws__wrapper { visibility: hidden!important; }
 filmweb.pl#$#body > .fwPlusBtn[style]:not(#style_important), body > #advertBar-pl_PL[style]:not(#style_important), body > .clickArea[style]:not(#style_important), body > .advert[style]:not(#style_important), body > #mainSkyBanner-pl_PL[style]:not(#style_important), body > #ad[style]:not(#style_important), body > .rec-sponsored[style]:not(#style_important), body > .ws__wrapper[style]:not(#style_important), body > .text-ad[style]:not(#style_important), body > .textAd[style]:not(#style_important), body > #clickUrl1[style]:not(#style_important), body > #flashcontent3[style]:not(#style_important), body > #pasekup[style]:not(#style_important), body > .pub_728x90[style]:not(#style_important), body > .ad-internal[style]:not(#style_important), body > .ad-imagehold[style]:not(#style_important), body > .about_adsense[style]:not(#style_important), body > .abBoxAd[style]:not(#style_important), body > .HomeAds[style]:not(#style_important), body > .CommentAd[style]:not(#style_important), body > .Ad160x600[style]:not(#style_important), body > .ADTextSingle[style]:not(#style_important), body > .AD300Block[style]:not(#style_important) { display: block !important; }
+filmweb.pl#$#body.isSponsoringSticky .header.header--main { top: 0 !important; }
 filmweb.pl#%#(function(){var b=window.setTimeout;window.setTimeout=function(a,c){if(!/notDetectedBy/.test(a.toString()))return b(a,c)};})();
 filmweb.pl#%#//scriptlet("abort-current-inline-script", "IRI", "Adblock")
 filmweb.pl#%#//scriptlet("abort-current-inline-script", "addEventListener", "/faBar[\s\S]*?insertAdjacentElement/")
@@ -32678,9 +32681,8 @@ insider.gr##.admanager-content
 insidermonkey.com##.top-left-ad
 insidertracking.com#%#//scriptlet("prevent-setTimeout", "no_ad", "15000")
 insomnia.gr,kingsinteriors.co.uk#@#.adlink
-instacart.com##.css-uf7278
 instacart.com#?#div[class$="-ItemCardHoverProvider"]:-abp-has(div[data-ads-badge="Sponsored"])
-instacart.com#?#div[class$="-ItemCardHoverProvider"]:-abp-has(div[data-sp-badge="Sponsored"])
+instacart.com#?#div[class$="-ItemCardHoverProvider"]:-abp-has(div[data-spp-badge="Sponsored"])
 instalki.pl###outer > #banner
 instalki.pl##.module-adv
 instamp3.zone#%#//scriptlet("remove-attr", "href", "a.getUrl.btn")
@@ -33496,6 +33498,7 @@ jurong.cn,ld0766.com##.totalad
 justjared.com#%#//scriptlet('abort-current-inline-script', 'document.readyState', 'getAttribute("abp")')
 justjared.com$$script[tag-content="pub_300x250m"][max-length="14000"]
 justthenews.com##.region-pre-content
+justwatch.com##.promoted-buybox
 jutarnji.hr##.container--break[class*="break_"]
 juxia.com###fmt
 juxia.com##.game_img_list
@@ -40683,6 +40686,7 @@ sydneytoday.com##.news-list > .row > .col-xs-12
 sydneytoday.com##div[style$="-144px;top: 115px;"]
 sydsvenskan.se##.ad
 sydsvenskan.se##.ad--mobile
+sydsvenskan.se##.ad-welcome
 sydsvenskan.se##.burt-native-unit.teaser
 syndication.exosrv.com##body
 synonimy.pl#%#//scriptlet("abort-on-property-write", "showAddbockerMsg")
@@ -42899,6 +42903,7 @@ webmd.com##.ad-no-css
 webmd.com##.inStreamAd
 webmd.com##.medianet-ctr
 webmd.com##.module-f-hs
+webmd.com##.module-top-picks
 webmd.com##.responsive-sharethrough-wrapper
 webmd.com##div.ad[id^="ads"]
 webpornblog.com#%#//scriptlet('abort-current-inline-script', 'doMyStuff')
@@ -43042,6 +43047,7 @@ whattomine.com##.container .centered-image
 whcp4.com#%#//scriptlet("prevent-window-open")
 wheelofnames.com##.ad-declaration
 whiskyprices.co.uk#@#.advertorial
+whistleout.com.au##div[data-adplacement]
 whnews.cn###gd_l
 whnews.cn###gd_r
 whnews.cn###panel
@@ -103976,6 +103982,7 @@ zznews.cn##.ad:not([style])
 ||weblogger-dynamic-lb.playdom.com^
 ||weblytics.io^$third-party
 ||webmasterplan.com^$third-party
+||webmd.com/pixel/
 ||webmd.com/static/v/c?
 ||webmd.hb.omtrdc.net^
 ||webmet.creditreform.de^
@@ -104288,6 +104295,9 @@ zznews.cn##.ad:not([style])
 ||whisperingflesh.com^$third-party
 ||whistedsynapte.com^
 ||whistleout.com.au/track
+||whistleout.com.au/track?u=
+||whistleout.com.au^$cookie=ARRAffinity
+||whistleout.com.au^$cookie=ARRAffinitySameSite
 ||whiteclick.biz^$third-party
 ||whitefish.autharmor.com^
 ||whitefish.kenku.fm^
