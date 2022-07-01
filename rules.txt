@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 4 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、补充规则
-! Version: 2022-07-02 00:25:33（北京时间） 
-! Total count: 108834
+! Version: 2022-07-02 04:17:56（北京时间） 
+! Total count: 108842
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -36722,6 +36722,7 @@ news.webike.net###custom_html-5
 news.yahoo.co.jp##a[data-cl-params$="cl_link:bnr_b;"]
 news.yahoo.co.jp#?#.listModBox > .listModBoxS[-ext-has='a[href^="https://app-adforce.jp"]']
 news.yahoo.com###sda-LDRB
+news.yahoo.com##.caas-iframe.fireplace
 news18.com##.ad-cntainer
 news18.com##.article_main > div[class^="jsx-"] > span[style*="width:100%;text-align:center;"]
 news18.com##.closestickybtn
@@ -41077,6 +41078,7 @@ thefreedictionary.com###Content_CA_AD_1_BC > .box
 thefreedictionary.com#$#.content-holder > div[class][style^="height:"]  { position: absolute!important; left: -3000px!important; }
 thefreethoughtproject.com,gsmarena.com,lasvegassun.com,bail-bonds.me,website.informer.com##div[id^="div-gpt-ad"]
 thegatewaypundit.com##.persistent-footer
+thegay.com##.underplayer__info > div
 thegay.com##.wrapper + section
 thegay.com#%#//scriptlet("abort-on-property-read", "GameLacker")
 thegay.com#%#//scriptlet("abort-on-property-read", "adver.popunder.neverblock")
@@ -64618,6 +64620,7 @@ zznews.cn##.ad:not([style])
 ||ematicsolutions.com^$third-party
 ||embed.comicbook.com^$subdocument
 ||embed.ex.co^$third-party
+||embed.fireplace.yahoo.com/embed/*?articleId=$domain=news.yahoo.com
 ||embed.mystream.to^$popup,badfilter
 ||embed.sendtonews.com/player2/data_logging.php?
 ||embed.sendtonews.com^$domain=andhrafriends.com|titantv.com
@@ -84435,6 +84438,7 @@ zznews.cn##.ad:not([style])
 ||partnerearning.com^
 ||partnermktg.symantec.com^
 ||partners.etoro.com^$script
+||partners.etoro.com^$third-party
 ||partners.hostgator.com^
 ||partners.seek.intel.com^
 ||partnersuccess.cisco.com^
@@ -96428,6 +96432,7 @@ zznews.cn##.ad:not([style])
 ||stlog.d.dmkt-sp.jp^
 ||stm-cdn.cn.miaozhen.com^
 ||stm-collect.cn.miaozhen.com^
+||stmg-prod.mirror.co.uk/analytics.config.json
 ||stms.53.com^
 ||stnetsdk.appstore.vivo.com.cn^
 ||stnetsdk.vivo.com.cn^
@@ -98384,6 +98389,8 @@ zznews.cn##.ad:not([style])
 ||thefontzone.com^
 ||thefreedictionary.com/_/tr.ashx?
 ||thefreehitcounter.com^$third-party
+||thegay.com/nofa/
+||thegay.com/psyttioschbs/
 ||thehentaiworld.com/fro_lo*.js
 ||thehun.net/banners/
 ||themaxmall.com^
@@ -108199,6 +108206,7 @@ zznews.cn##.ad:not([style])
 ||zhctrack.net^
 ||zhcxvk.qvc.com^
 ||zhduni.rizap.jp^
+||zhe8000.pw^
 ||zhej78i1an8w6ceu.com^
 ||zhekoudajie.com^
 ||zhemaijs.net^
