@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 4 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、补充规则
-! Version: 2022-07-03 20:26:56（北京时间） 
-! Total count: 108577
+! Version: 2022-07-04 00:20:19（北京时间） 
+! Total count: 108586
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -904,6 +904,7 @@
 ###adzerk
 ###adzone-wallpaper
 ###adzone_content
+###affiliate_2
 ###after-dfp-ad-mid1
 ###after-dfp-ad-mid2
 ###after-dfp-ad-mid3
@@ -8912,6 +8913,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /^https:\/\/[a-z]{2,14}\.wp\.pl\/[a-zA-Z0-9_-]{200,}/$script,domain=poczta.o2.pl,badfilter
 /^https:\/\/cdn\.jsdelivr\.net\/npm\/([a-z]|-|_){4,22}@latest\/dist\/script\.min\.js$/$domain=tgd.kr|loawa.com|ygosu.com|inven.co.kr|ppss.kr|dailymagazine.co.kr|dailian.co.kr|socialvalue.kr|usjournal.kr|basketkorea.com|jumpball.co.kr|joynews24.com|inews24.com|hobbyen.co.kr|thespike.co.kr|siminilbo.co.kr|mdtoday.co.kr|clien.net|ujeil.com|starnnews.com|sportsw.kr|enewstoday.co.kr|readersnews.com|algumon.com|1412.rest|twicenest.com|feedclick.net|tistory.com|sportalkorea.com|minelist.kr|donga.com
 /^https:\/\/ltn\.hitomi\.la\/[A-Za-z]{4,}\/(?=[a-z]{0,19}[A-Z])[A-Za-z]{4,20}\.js$/$script,~third-party,match-case,domain=hitomi.la
+/^https:\/\/x?1337x\.(?:eu|g3g\.sbs|gd|to|se|unblockit\.name|st)\/(?:css\/)?(?:images\/)?[0-9a-z]+\.(?:gif|jpe?g)/$image,~third-party,domain=1337x.g3g.sbs|1337x.gd|1337x.to|x1337x.eu|x1337x.se|1337x.unblockit.name|1337x.st
 /^https?:\/\/(.+?\.)?hardware\.info\/js\/[a-z]{1,}\/[0-9]{4,}\.js/$domain=hardware.info
 /^https?:\/\/(.+?\.)?videogamesblogger\.com\/wp-content\/uploads\/.*[a-zA-Z0-9]{8,}\.*/$badfilter
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.(?:com|website)\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-5]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$popup,third-party,match-case
@@ -24829,7 +24831,7 @@ ameblo.jp##aside[class^="_"]:first-child > aside[class^="_"] > div[class^="_"][c
 ameblo.jp##aside[class^="_"]:only-child > aside[class^="_"] > div[class^="_"]:only-child > div[class^="_"]:only-child
 ameblo.jp##div._29jEfwlY.skin-bd-color
 ameblo.jp##div:not([class]) > div[class^="_"]:first-child > aside[class^="_"]:only-child > div[class^="_"]:last-child
-ameblo.jp##div[class^="_"] > aside[class^="_"] section[class] > div[class^="_"] > a[href^="https://dokusho-ojikan.jp/ameba_manga_login"]:only-child
+ameblo.jp##div[class^="_"] > aside[class^="_"] section > div[class^="_"] > a[href^="https://dokusho-ojikan.jp/ameba_manga_login"]:only-child
 ameblo.jp##div[class^="_"]:empty
 ameblo.jp##div[data-slot-type="injectedAds"]
 ameblo.jp##div[style="overflow: hidden;"] > main > div > div.LazyLoad[style="height: 80vw;"]:only-child
@@ -28235,6 +28237,7 @@ dm5.com,dm5.hk##a[href*=".wannaplay.cn"]
 dm530.net,hdshare.cn,it168.com###adv
 dmarge.com##.dx-ad-wrapper
 dmh8.com##div[id^="test"]
+dmh8.com##div[style="width:300px;height:300px;position:fixed;bottom:0;left:0;z-index:2147483647;"]
 dmhy.anoneko.com##div[id$="_adv"]
 dmhy.b168.net##div[align="center"] > a[href^="https://www.baidu.com/?mm_sycmid="] > img
 dmhy.b168.net##div[align="center"] > a[onclick*="'ad'"] > img
@@ -46188,6 +46191,7 @@ zznews.cn##.ad:not([style])
 ||666643.xyz^
 ||666645.xyz^
 ||666647.xyz^
+||666648.xyz^
 ||666666666666.site^
 ||6667778882021.site^
 ||6668078.com^
@@ -53853,6 +53857,7 @@ zznews.cn##.ad:not([style])
 ||badger.vbvf.org^
 ||badhniop.top^
 ||badirectoryz.carte-gr.total.fr^
+||badjniop.top^
 ||badjs.qq.com^
 ||badjs.weixinbridge.com^
 ||badmintoncn.com/cbo_include/js/cboaaa.js
@@ -79317,6 +79322,7 @@ zznews.cn##.ad:not([style])
 ||met.vgwort.de^
 ||met1.hp.com^
 ||met2.hp.com^
+||meta-wx.com^
 ||meta.ua/c.asp?
 ||meta.ua/f_new.asp?g=
 ||metabet.io/js/global.js
@@ -86764,6 +86770,7 @@ zznews.cn##.ad:not([style])
 ||qhzefk.drmartens.com^
 ||qi.wndlkj.com^
 ||qian-tao.xyz^
+||qianchengwenhua.xyz^
 ||qianclick.baidu.com^
 ||qianfengwang.top^
 ||qianggou8.top^
@@ -106307,6 +106314,7 @@ zznews.cn##.ad:not([style])
 ||xo704w18yt75.filmustage.com^
 ||xoimg.com^$domain=18board.com|18p2p.com
 ||xonlines.com/upload/gg/
+||xonlines.com/yyh_qp_200_200.png
 ||xoq.pmubrasil.com.br^
 ||xovq5nemr.com^
 ||xovq5nemr.com^$third-party
@@ -107149,6 +107157,7 @@ zznews.cn##.ad:not([style])
 ||ymvikp.estadao.com.br^
 ||ymviwl.just4camper.de^
 ||ymxlm.cc^
+||ymyh.club^
 ||ynagqs.vidaxl.pl^
 ||ynbojie.com^
 ||ynbyutongdianqi.com^
