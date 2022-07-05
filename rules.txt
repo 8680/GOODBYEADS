@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 4 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、补充规则
-! Version: 2022-07-05 12:34:56（北京时间） 
-! Total count: 108724
+! Version: 2022-07-05 16:19:52（北京时间） 
+! Total count: 108740
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -27395,6 +27395,7 @@ comicallyincorrect.com#@#.MBoxAdMain
 comicallyincorrect.com#@#.ad-banner:not([style="height: 5px; width: 5px; position: absolute; top: 0;"]):not(.blocker-tester + .ad-banner)
 comicat.org,dapenti.com,douyu.com,iqiyi.com,jinti.com,kisssub.org,libvio.me,mvcat.com,mzh.ren,rufengso.net,v.qq.com##a[href*=".jd.com"]
 comicat.org,kisssub.org##a[href*="db."]
+comicbook.com##.embedVideoContainer
 comicbook.com##.mobile
 comicbook.com##.modernInContent
 comicbook.com##.oas
@@ -31064,6 +31065,8 @@ gram.pl##.external-entity-container.adrino
 gram.pl##body .ad-wrapper
 gram.pl##div[id$="_bill_top"]
 grandhotelcalciomercato.com#%#//scriptlet('set-constant', 'canRunAds', 'true')
+granice.pl##.web_widebanner
+granice.pl##div[style^="width:100%;float:left;margin;border-top:"]
 grapee.jp##.article-wrap > div[id^="guno-m"][style^="height:210px;"]:empty
 grapee.jp##.ba-area > a[href][target="_blank"] > img
 grapee.jp##.box_outbrain
@@ -35418,7 +35421,9 @@ mediafire.com##.DLExtraInfo-downloadApp
 mediafire.com##.WinZip
 mediafire.com#%#//scriptlet("set-constant", "InfCustomFPSTAFunc", "noopFunc")
 mediafire.com#%#//scriptlet("set-constant", "InfCustomSTAMobileFunc", "noopFunc")
+mediafire.com#%#//scriptlet('prevent-addEventListener', 'click', 'ClickHandler')
 mediafire.com#%#//scriptlet('prevent-addEventListener', 'load', 'PopUnder')
+mediafire.com#%#//scriptlet('prevent-window-open', 'otnolatrnup.com')
 mediafire.com#%#if (typeof localStorage != 'undefined' && localStorage.setItem) { localStorage.setItem('InfNumFastPops', '5'); }
 mediafire.com#%#if (typeof localStorage != 'undefined' && localStorage.setItem) { localStorage.setItem('InfNumFastPopsExpire', new Date(new Date().setYear(2020))); }
 mediafire.com#@##adwrapper
@@ -52394,6 +52399,7 @@ zznews.cn##.ad:not([style])
 ||api.openinstall.io^
 ||api.opinary.com/*events
 ||api.parsely.com/*/analytics/
+||api.parsely.com/v2/profile?uuid=*&apikey=
 ||api.peers.tv/money_miner/$app=ru.cn.tv
 ||api.permutive.com/*/events^
 ||api.phnx.click/js/article-stat-
@@ -53851,6 +53857,7 @@ zznews.cn##.ad:not([style])
 ||badjs.qq.com^
 ||badjs.weixinbridge.com^
 ||badmintoncn.com/cbo_include/js/cboaaa.js
+||badmniop.top^
 ||badspads.com^
 ||badwolf.open-election-compass.com^
 ||bagbeam.com^$third-party
@@ -57204,6 +57211,7 @@ zznews.cn##.ad:not([style])
 ||cdnjjvcd.com^*.php
 ||cdnjke.com^
 ||cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/2.1.0/fingerprint2.js$script,redirect=fingerprintjs2,domain=picoworkers.com,important
+||cdnjs.hro-cosmetics.com^
 ||cdnjs.mopair-erm.net^
 ||cdnjs.z-face.cn^
 ||cdnjsp.wang^
@@ -57578,6 +57586,7 @@ zznews.cn##.ad:not([style])
 ||chihiro.nostalgie.fr^
 ||childlikecook.com^
 ||childlikecrowd.com^
+||childlikecrowd.com^$third-party
 ||childlikeform.com^
 ||childlikeform.com^$third-party
 ||chimpanzee.designerdailyreport.com^
@@ -60557,6 +60566,7 @@ zznews.cn##.ad:not([style])
 ||d13nu0oomnx5ti.cloudfront.net^
 ||d13qwbj37sfx89.cloudfront.net^
 ||d141wsrw9m4as6.cloudfront.net^
+||d14pdm1b7fi5kh.cloudfront.net^
 ||d15cjcet1djbmv.cloudfront.net^
 ||d15kdaxu5c0hfw.cloudfront.net^
 ||d15kdpgjg3unno.cloudfront.net^
@@ -87157,6 +87167,7 @@ zznews.cn##.ad:not([style])
 ||quant.jp/track/
 ||quant.jp^$third-party
 ||quanta.la^$third-party
+||quantcast.com/?log
 ||quantcast.mgr.consensu.org/?log
 ||quantcount.com^
 ||quantcount.com^$third-party
@@ -107611,6 +107622,7 @@ zznews.cn##.ad:not([style])
 ||yui-nya.com/wp-content/uploads/2016/12/neta370-370.jpg
 ||yujianmeihao179.cn^
 ||yukariyakumo.cn^
+||yular.cn^
 ||yule.fulevmy.com^
 ||yule8.net^
 ||yulidianshang.com^
@@ -107654,6 +107666,7 @@ zznews.cn##.ad:not([style])
 ||yupei.love^
 ||yupoo.com/dapenti/5cfa8673/c6045c69.jpeg
 ||yuquad.com^
+||yuretb.site^
 ||yurobl.rw-co.com^
 ||yushengyuancaishui.com^
 ||yushuha.com^
@@ -107904,6 +107917,8 @@ zznews.cn##.ad:not([style])
 ||zauglomo.net^
 ||zaventemdijleland.viessmann.be^
 ||zavporn.net/images/9.gif
+||zavvi.com^$removeparam=affil
+||zavvi.com^$removeparam=sv_campaign_id
 ||zax01.com^
 ||zayac2volk11.com^
 ||zaycev.net/clickmeter_
@@ -108293,6 +108308,7 @@ zznews.cn##.ad:not([style])
 ||ziyu.net^$third-party
 ||ziyuanm.com/js/g11.js
 ||ziyuantx.com^
+||ziyuanyinhang.wang^
 ||ziyunxs.com^
 ||zizcy.com^
 ||zjcxyh.cn^
