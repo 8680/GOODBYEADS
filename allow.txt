@@ -1,5 +1,5 @@
-! Version: 2022-07-06 04:16:54（北京时间） 
-! Total count: 6858
+! Version: 2022-07-06 09:49:52（北京时间） 
+! Total count: 6850
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$webrtc,domain=sourceforge.net
@@ -3379,7 +3379,7 @@
 @@||gtimg.com/qqcdn/*/beacon.min.js$script,domain=qq.com
 @@||guahao.cn/common/js/plugins/fingerprint.js
 @@||guancha.cn/ad/m_
-@@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
+@@||guce.advertising.com/collectIdentifiers$~third-party
 @@||guim.co.uk/flash/video/embedded/player-$object,domain=thedailywh.at
 @@||guim.co.uk/uploader/$image,~third-party
 @@||gumtree.co.za/my/ads.html$~third-party
@@ -3544,7 +3544,6 @@
 @@||i*.mangapanda.com^$image
 @@||i-funbox.com/images/
 @@||i-invdn-com.akamaized.net/js/ads.js
-@@||i-scmp.com/production/mixpanel.$domain=scmp.com
 @@||i.cdn.turner.com/ads/adfuel/ais/*/tbs-ais.min.js$domain=tbs.com
 @@||i.cdn.turner.com/ads/adfuel/ais/tcm-ais.js$domain=tcm.com
 @@||i.isnssdk.com^$app=com.ss.android.article.topbuzzvideo
@@ -3943,7 +3942,6 @@
 @@||ingress.com/intel?$document
 @@||injections.adguard.com^$document
 @@||innervision.co.jp/var/ezwebin_site/storage/images/ad/$image,~third-party
-@@||innovelsolutions.com^*/tracking/$~third-party
 @@||inoreader.com^$genericblock,generichide
 @@||inpad.com.tw/data/adv/
 @@||inpref.com/frosmo.xdm.html?
@@ -4130,6 +4128,7 @@
 @@||kissjav.com^$generichide
 @@||kiwihousesitters.co.nz/members$urlblock
 @@||kk665403.pixnet.net^$generichide
+@@||klarnaservices.com/images/$image,domain=cosmeticsnow.nz
 @@||klarnaservices.com/lib.js$script,domain=brooksrunning.com
 @@||klaviyo.com/ajax/subscriptions/subscribe$domain=productionmusiclive.com
 @@||klp.no/person/plugins/komponentbiblioteket/utils/tracking/Tracking.js
@@ -4163,6 +4162,7 @@
 @@||lanacion.com.ar/*module$removeparam=utm_source
 @@||landtop.com.tw/images/ad/
 @@||languagecloud.sdl.com/node_modules/fingerprintjs2/dist/fingerprint2.min.js
+@@||languagecloud.sdl.com/node_modules/fingerprintjs2/dist/fingerprint2.min.js$~third-party
 @@||laotiesao.vip^$generichide
 @@||laprovence.com/sites/all/modules/GHM/xiti_oas/js/xtcore.js
 @@||laredoute.pt/js/byside_webcare.js
@@ -4231,8 +4231,8 @@
 @@||litv.tv/ads/ads.js
 @@||liulanmi.com/wp-content/uploads/*/StatCounter-
 @@||liumingye.cn^$generichide
-@@||live.bbc.co.uk^*/comscore.js$script,~third-party
-@@||live.house.gov/js/analytics.$script,~third-party
+@@||live.bbc.co.uk^*/comscore.js$~third-party
+@@||live.house.gov/js/analytics.$~third-party
 @@||live.indiatimes.com/trackjs.cms
 @@||live.lequipe.fr/thirdparty/prebid.js$~third-party
 @@||live.streamtheworld.com/*.aac
@@ -4259,7 +4259,7 @@
 @@||logcg.content-delivery.top/wp-content/plugins/bwp-minify/min/?f=
 @@||logger.eigene.io/js/logger.min.js$domain=home-learn.co.kr
 @@||logging.apache.org^
-@@||logging.apache.org^$domain=apache.org
+@@||logging.apache.org^$~third-party
 @@||logi5.xiti.com/go.click$domain=schneider-electric.com
 @@||login.abc.net.au^$stealth
 @@||login.aliexpress.com^$stealth,domain=aliexpress.ru|aliexpress.com
@@ -4590,7 +4590,6 @@
 @@||mtvnetworks.tt.omtrdc.net^$script,domain=mtv.com
 @@||mui.com^$generichide
 @@||multiup.org/*/mirror^
-@@||musiclab.chromeexperiments.com/bin/lib/angulartics-google-analytics.js
 @@||musicstore.de^*/emos2.js
 @@||musicvideogenome.com/javascripts/stats.js
 @@||muumuu-domain.com/common/js/ga_social_tracking.js
@@ -4794,7 +4793,6 @@
 @@||omtrdc.net^*/mbox/standard?$script,domain=ancestry.com|ancestry.com.au|blogtalkradio.com
 @@||omtrdc.net^*/mbox/standard?$script,domain=kenkoukazoku.co.jp
 @@||ondemand.sas.com^$subdocument
-@@||onecall.whoson.com/stat.js$xmlhttprequest
 @@||onedrive.live.com^$generichide
 @@||onet.pl/?utm_source=$removeparam
 @@||onet.pl/?utm_source=$stealth
@@ -5067,7 +5065,6 @@
 @@||player.glomex.com/integration^$domain=t-online.de
 @@||player.ooyala.com^*/analytics-plugin/$script,domain=formula1.com|nintendo.com
 @@||player.pl^$generichide
-@@||player.sundaysky.com^$subdocument
 @@||player.vgtrk.com/js/stat.js?
 @@||player.vimeo.com/video^$stealth
 @@||player.ynet.co.il/*/flowplayer.ads.*.ynet.js$domain=ynet.co.il
@@ -5207,7 +5204,6 @@
 @@||pvtag.yahoo.co.jp^$script,domain=paypaymall.yahoo.co.jp
 @@||pwapi.washingtonpost.com/*&__amp_source_origin
 @@||px-cdn.net/api/v2/collector/ocaptcha$xmlhttprequest
-@@||q-examiner.online/api/Ping?
 @@||q.gs^$generichide
 @@||qhimg.com^*/monitor_analytic.
 @@||qhres.com^*/monitor_analytic.js$domain=mse.360.cn
@@ -5283,7 +5279,7 @@
 @@||recs.richrelevance.com/rrserver/p13n_generated.js$domain=drogaraia.com.br
 @@||redactor.creatium.io^$document
 @@||redbox.com/images/ads/pixel.png
-@@||redbull.com/gtm.js
+@@||redbull.com/gtm.js$~third-party
 @@||reddit.com/r/*/comments/
 @@||redditenhancementsuite.com/js/jquery.google-analytics.js
 @@||redditinc.com/assets/images/site/*_300x250.$image,~third-party
@@ -5308,7 +5304,7 @@
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
-@@||retailmenot.com/__wsm.gif$ping,xmlhttprequest
+@@||retailmenot.com/__wsm.gif$ping,~third-party,xmlhttprequest
 @@||retailmenot.com^$jsinject
 @@||retweetpicker.com^$generichide
 @@||reuters.com/ads.js|
@@ -5403,7 +5399,7 @@
 @@||sadeemapk.com^$generichide
 @@||safeframe.googlesyndication.com/safeframe/*/html/container.html$domain=castlesiege.io
 @@||safeframe.googlesyndication.com^$subdocument,domain=koigaku.machicon.jp
-@@||sahibinden.com/assets/analytics*.js$script
+@@||sahibinden.com/assets/analytics*.js$~third-party
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
 @@||sandbox.cryptpad.info^$elemhide,jsinject,content,extension
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
@@ -5795,9 +5791,8 @@
 @@||sportbikerider.us^$generichide
 @@||sportsgrid.com/decor/javascript/magnify_stats.js
 @@||spot.im/api/tracker/spot/$domain=russian.rt.com
-@@||spot.im^*/ab_test/$xmlhttprequest
 @@||sptmr.ru/sportmaster.ru/js/modules/gtm.js$script,domain=sportmaster.ru
-@@||src.fedoraproject.org/static/issues_stats.js?
+@@||src.fedoraproject.org/static/issues_stats.js?$~third-party
 @@||src.litix.io/core/*/mux.js$domain=kanald.com.tr
 @@||src.litix.io/videojs/*/videojs-mux.js$domain=dplay.co.uk
 @@||srv.clickfuse.com/showads/showad.js$domain=aha-music.com
@@ -5965,7 +5960,7 @@
 @@||storage.yandex.net/rdisk/$stealth
 @@||store-jp.nintendo.com^$cookie
 @@||store-web.dynamics.com^$stealth
-@@||store.usps.com/media/js/metrics/metrics.js
+@@||store.usps.com/media/js/metrics/metrics.js$~third-party
 @@||stores.office.com/authredir
 @@||strangermeetup.com/socket.io/$~third-party
 @@||stream.adunity.com^$xmlhttprequest,domain=b1tv.ro
@@ -6219,7 +6214,7 @@
 @@||tools.services.tvn.pl/_ads/advert.js
 @@||tools.services.tvn.pl/maertsg.js$domain=tvn24.pl
 @@||tools.usps.com/go/TrackConfirmAction
-@@||tools.usps.com/go/scripts/tracking.js
+@@||tools.usps.com/go/scripts/tracking.js$~third-party
 @@||top.list.ru/counter?id=$domain=crimea-kurort.com
 @@||top.list.ru/jump?from=$domain=pvo.guns.ru
 @@||top1porn.com^$generichide
@@ -6416,7 +6411,7 @@
 @@||urlex.org^$generichide
 @@||urlgalleries.net^$generichide
 @@||usaa.com^$document
-@@||usbank.com^*/adrum.js?$script
+@@||usbank.com^*/adrum.js?$~third-party
 @@||useinsider.com/ins.js$domain=pizzahut.jp
 @@||user.pnetlab.com/store/advs/check
 @@||user.weiyun.com/newcgi/outlink.fcg$document
@@ -6530,7 +6525,6 @@
 @@||vod.midas-i.com^$media,domain=pandora.tv
 @@||vod.olympics2010.msn.com/beacon?
 @@||vod.universalsports.com/beacon?
-@@||vodafone.com.au/analytics/js/$script
 @@||vodafonelimited.tt.omtrdc.net^
 @@||vodgc.net^*/genoa-event-tracking.min.js
 @@||vodjk.com/offlights.js
@@ -6572,7 +6566,6 @@
 @@||wargag.ru/public/js/counter.js?
 @@||wargaming.net^$stealth
 @@||wasabisyrup.com^$generichide
-@@||washingtonpost.com/wp-stat/analytics/latest/main.js
 @@||watch.globaltv.com^$generichide
 @@||watchcartoononline.io/back.jpg
 @@||watchporn.to/player/player_ads.html?advertising_id=$domain=watchporn.to
@@ -6761,7 +6754,6 @@
 @@||yandex.ru/metrika/tag.js$script,domain=kuchenland.ru
 @@||yandex.ru/metrika/watch.js$domain=alean.ru|anoncer.net|nabortu.ru|samozapis-spb.ru|tv.yandex.ru|tvrain.ru
 @@||yandex.ru/metrika/watch.js$domain=anoncer.net
-@@||yandex.ru/metrika/watch.js$domain=engwords.net
 @@||yandex.ru/watch/$xmlhttprequest,domain=anoncer.net
 @@||yandex.ru/webvisor/$xmlhttprequest,domain=anoncer.net
 @@||yandex.st/swfobject^
