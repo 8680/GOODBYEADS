@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 4 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、补充规则
-! Version: 2022-07-08 00:26:59（北京时间） 
-! Total count: 108826
+! Version: 2022-07-08 04:17:07（北京时间） 
+! Total count: 108846
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -8450,6 +8450,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /?mailoptin-ajax=track_optin_impression
 /?mob.ct=
 /?p=%2F*&h=https%3A%2F%2F*&r=&sid=*&qs=*&cid=$image,~third-party
+/?r=dir&zoneid=$removeparam
 /?rb=*&zoneid=$removeparam
 /?record&key=
 /?ref=$popup,domain=hltv.org
@@ -12582,7 +12583,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /krux-sass-helper.
 /krux.js
 /ksks_*_*_*.js?$script,third-party
-/ksoxqhlw.js
 /ktag/*
 /kuaiyuncn/ad/*
 /kukulufinger2.js$domain=erinn.biz|kuku.lu
@@ -14119,7 +14119,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /script/analytics/*
 /script/ga.js
 /script/logger.
-/script/ncsu.js$third-party
 /script/pixel.js
 /script/suurl4.php?$third-party
 /script/track?url=
@@ -14753,7 +14752,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /targeting/render.
 /targetingAd.
 /taxtag.js
-/tbeomspv.js
 /tblz_sailthru/*
 /tbuy/tracker/*
 /tbw/pixels/*
@@ -21275,6 +21273,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||j.gs^$generichide
 @@||j.wit.qq.com/sc/crystal_ad.js?$domain=888.sports.qq.com
 @@||j2apps.s.llnwi.net/assets-origin/static/js/mx-prebid-ads.js$domain=mxplayer.in
+@@||japopav.tv/vast.js
 @@||jav777.cc/advertise/
 @@||jav777.xyz/advertise/
 @@||javhdonline.com^$generichide
@@ -24705,7 +24704,6 @@ amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id*="_SponsoredProducts"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id*="_ad-placements-"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id="dpx-sponsored-products-detail_csm_instrumentation_wrapper"]
-amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id="sims-consolidated-3_csm_instrumentation_wrapper"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id="sims-mobile-consolidated-4_csm_instrumentation_wrapper"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id="sp-rhf-desktop-carousel_desktop-rhf_0"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id="sp-shiptrack-desktop-carousel_desktop-yo-shiptrack_0"]
@@ -24713,8 +24711,9 @@ amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id^="LEFT-SAFE_FRAME-"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id^="adplacements:"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id^="multi-brand-detail-creative-desktop_"]
+amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id^="sims-consolidated-"]
+amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id^="sims-mobile-consolidated-"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[data-a-carousel-options*="\\\"isSponsoredProduct\\\":\\\"true\\\""]
-amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[data-cel-widget="sims-consolidated-4_csm_instrumentation_wrapper"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[data-cel-widget="sp-rhf-desktop-carousel_desktop-rhf_1"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[data-cel-widget="sp-shiptrack-desktop-carousel_desktop-yo-shiptrack_0"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[data-cel-widget^="MAIN-FEATURED_ASINS_LIST-"]
@@ -28798,6 +28797,9 @@ edition.cnn.com##.zn-story-bottom-second
 edition.cnn.com##div[data-bundle="adzones"]
 edition.cnn.com##section[data-zone-label="Watch It"]
 edition.cnn.com##section[id^="ad-spon-"]
+edoujin.net#%#//scriptlet('prevent-refresh')
+edoujin.net$$meta[http-equiv="refresh"]
+edoujin.net,klmanga.net,kissasians.org,porncomixonline.net,tokyoblog.tv,monoschinos2.com,idolsblog.tv,zetporn.com,javtiful.com,torlock.com,javhub.net,kisscos.net,javfor.tv,watchmdh.to,highporn.net,kissanimex.com#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', '0x')
 edu.qq.com##.L
 educaplay.com###publiVideo
 educaplay.com##.busAct__resultados__anu
@@ -28861,6 +28863,8 @@ eikaiwa.dmm.com###container_bottom_overlay
 eikaiwa.dmm.com##.sp-main-banner
 einthusan.ca,einthusan.com,einthusan.tv##div[class^="adspace-"]
 einthusan.tv###load-status-screen
+eisamay.com##div[class^="ad"]
+eisamay.com##div[class^="ad-wrapper"]
 ekantipur.com##.static-sponsor
 ekino-tv.pl#%#Object.defineProperty(window,'time',{value:1});
 ekitan.com##.popup-info-bg
@@ -29107,6 +29111,7 @@ eslfast.com#%#//scriptlet("prevent-setTimeout", "test.offsetHeight")
 eslfast.com#@#.adsBox
 esnai.com##.tlgg
 esnai.com##table[width="960"] > tbody > tr > td[height="90"]
+esos.gr##.pane-ad-manager
 espncricinfo.com##.adSlotCnt
 esportnow.pl##aside a[href^="https://bit.ly/"] > img
 esportnow.pl#?#aside > .widget:has(> .textwidget > a[href^="https://bit.ly/"] > img)
@@ -30008,6 +30013,7 @@ fpdisplay.com##.class_adv1
 fpdisplay.com##table[width="960"][height="110"]
 fplgameweek.com##mobile-sticky-ads
 fpo.xxx#%#//scriptlet('set-constant', 'flashvars.adv_pre_src', '')
+fpsjp.net###widget-container-top-mobile
 fpsjp.net,ryukyushimpo.jp###sp_top_header
 fqlook.cn###rtj1009_iho3
 fqlook.cn###rtj1009_ren_imme1
@@ -32107,6 +32113,7 @@ icourse163.org#@#.sns-link
 icube.ru#@#.top-banners
 icutlink.com#%#(function() { var _eval = window.eval; window.eval = function(a) { if ( a.toString().indexOf('__PPU_CHECK') === -1 ) { _eval(a); return; } }; })();
 id97.cc##.fed-part-case > a
+idahostatesman.com,xxx-videosex.porn,vidsvidsvids.com##.zone
 idalponse.blogspot.com#@##adcontent
 idanmu.ee##.entry-body > div[class]:first-child
 idanmu.ee##aside > div[class="widget "]
@@ -33670,7 +33677,6 @@ kkw360.com##a[href^="https://sourl.cn/"]
 klart.se#@#.advertisement
 klikk.no##.affiliate-content
 klmanga.com,klmanga.net,shareae.com##.float-ck
-klmanga.net,kissasians.org,porncomixonline.net,tokyoblog.tv,monoschinos2.com,idolsblog.tv,zetporn.com,javtiful.com,torlock.com,javhub.net,kisscos.net,javfor.tv,watchmdh.to,highporn.net,kissanimex.com#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', '0x')
 klusidee.nl##.top-ad-special
 kmbb70.com###publicIndexBanner
 kmbc.com##.ad.rectangle
@@ -35582,7 +35588,6 @@ metruyenchu.com##main > section.nh-section > div.text-center.bg-light
 metruyenchu.com#?#main > section.nh-section:has(> div.text-center [class="text-muted"])
 metservice.com##.Header
 metx.me,starlive.xyz,daddylive.eu,vikistream.com,embedstream.me,streamgo.to#%#//scriptlet("prevent-window-open")
-metx.me,starlive.xyz,streamgo.to,daddylive.eu,aeblender.com,aileen-novel.online,ytstvmovies.xyz,javhay.net,mrunblock.*,hentaitube.online,ustream.to,freepornxxxhd.com,givemenflstreams.com,givemenbastreams.com,givememmastreams.com,givemeredditstreams.com,shinden.pl,ozporno.com,area51deportiva.com,xxxfree.watch,linksly.co,mhometheater.com#%#//scriptlet("abort-current-inline-script", "String.fromCharCode", "constructor")
 mexashare.com#%#//scriptlet("abort-current-inline-script", "document.getElementById", "adblockinfo")
 mfk-shorter.com#%#//scriptlet("prevent-window-open")
 mfor.hu##div[id^="banner_"]
@@ -39465,6 +39470,7 @@ sexlist.tv,mangovideo.club,cwtvembeds.com,vidbull.tv#%#//scriptlet("set-constant
 sexlivesex.net,xxxtop.org#%#//scriptlet("abort-current-inline-script", "onload", "window.open")
 sextb.net##.asg-overlay
 sextb.net##.sextb_300
+sextb.net##.sextb_728
 sextingforum.net#%#Object.defineProperty(window, 'stagedTmpFunc', { get: function() { return function() { }; } });
 sextubefun.com##.promo-sec
 sextubehub.com#%#var _st = window.setTimeout; window.setTimeout = function(a, b) { if(!/window\.location\.href = '\/xx\/o\.php/.test(a)){ _st(a,b);}};
@@ -40481,6 +40487,9 @@ strikeout.nu#%#//scriptlet("json-prune", "*.*", "*.clk")
 strmrdrfrx.live,strmrdrpx.xyz,tacsiz.com#%#//scriptlet("set-constant", "adsConfig.enabled", "false")
 strtape.*#%#//scriptlet("prevent-window-open")
 strtape.*#@#.google-ad
+strtapeadblocker.art#@#.skyscraper.ad
+strtapeadblocker.art,strtapeadblocker.*#%#//scriptlet("abort-current-inline-script", "document.createElement", "o.contentWindow.document.createElement")
+strtapeadblocker.art,strtapeadblocker.*,metx.me,starlive.xyz,streamgo.to,daddylive.eu,aeblender.com,aileen-novel.online,ytstvmovies.xyz,javhay.net,mrunblock.*,hentaitube.online,ustream.to,freepornxxxhd.com,givemenflstreams.com,givemenbastreams.com,givememmastreams.com,givemeredditstreams.com,shinden.pl,ozporno.com,area51deportiva.com,xxxfree.watch,linksly.co,mhometheater.com#%#//scriptlet("abort-current-inline-script", "String.fromCharCode", "constructor")
 studio.youtube.com#@$?#.opened { remove: true; }
 studio55.fi#@#.column-ad
 studygolang.com###ad-right1
@@ -52343,6 +52352,7 @@ zznews.cn##.ad:not([style])
 ||api.fc.mob.com^
 ||api.fd.mob.com^
 ||api.ffbbbdc6d3c353211fe2ba39c9f744cd.com^$third-party
+||api.ffm.to/sl/e/$image
 ||api.flocktory.com^
 ||api.flurry.com^
 ||api.fusepowered.com^
@@ -52957,6 +52967,7 @@ zznews.cn##.ad:not([style])
 ||arrowpushengine.com^$third-party
 ||arrows-hitech.com^
 ||arsdev.net^$third-party
+||arshineensnarl.com^
 ||arsonexchangefly.com^
 ||arstechnica.com/keys/arstechnica.com/p.js
 ||arswabluchan.com^
@@ -53496,6 +53507,7 @@ zznews.cn##.ad:not([style])
 ||averoconnector.com^$third-party
 ||avertium.actonservice.com^
 ||avgle.topgirlsdating.com^$domain=avgle.com
+||aviesanct.website^
 ||aviite.freaksstore.com^
 ||avistone.actonservice.com^
 ||avito.ru/stat/
@@ -54250,6 +54262,7 @@ zznews.cn##.ad:not([style])
 ||bawdybeast.com^$third-party
 ||bawdypets.com^
 ||bawdypets.com^$third-party
+||bawkedaimyos.casa^
 ||bax.xiawu.com^
 ||bay.xiawu.com^
 ||bayarea.summitry.com^
@@ -55653,6 +55666,7 @@ zznews.cn##.ad:not([style])
 ||bpimg.com/4851/19f7543667f26682.jpg
 ||bpmmqbtstmbf.com^
 ||bpmonline.com^$third-party
+||bpnhgan.cn^
 ||bpt.webedia-group.com/pixel.png?
 ||bptxcg.xyz^
 ||bqgimgs1.cdn.bcebos.com^
@@ -73325,6 +73339,7 @@ zznews.cn##.ad:not([style])
 ||j45.webringporn.com^
 ||j45.xyz^
 ||j46.xyz^
+||j46rwh.site^
 ||j49.xyz^
 ||j4a73n7v5k.com^
 ||j6rudlybdy.com^
@@ -73913,6 +73928,7 @@ zznews.cn##.ad:not([style])
 ||joomxer.fun^
 ||joskgw.sewingmachinesplus.com^
 ||jotform.io/getReferrer/$third-party
+||jotocyxe.xyz^
 ||jotrening.com^
 ||journal.tinkoff.ru$removeparam=mindbox-click-id
 ||journalforum.org^
@@ -75106,6 +75122,7 @@ zznews.cn##.ad:not([style])
 ||ktzhk.com/file/adv/
 ||ktzte.cn^
 ||ktzuoc.bueroshop24.de^
+||ku2d3a7pa8mdi.com^$all
 ||ku6.cnzz.com^
 ||ku6.com/ku6.gif?
 ||ku63.com^$third-party
@@ -75490,6 +75507,7 @@ zznews.cn##.ad:not([style])
 ||lavishvanish.com^
 ||law-lib.com/wstyle/images/gffirm.jpg
 ||lawful.wang^
+||lawhulophe.com^
 ||lawtv.com.cn/jd_ceshi.html
 ||lawtv.com.cn/skin/newplayer/ads_dianshi.php
 ||lawumi.cn^
@@ -99863,6 +99881,7 @@ zznews.cn##.ad:not([style])
 ||track.clkfly.com^$all
 ||track.clubcar.com^
 ||track.codepen.io^
+||track.coherentpath.com^
 ||track.collegeboard.org^
 ||track.collegehumor.com^
 ||track.connectwise.com^
@@ -108722,6 +108741,7 @@ zznews.cn##.ad:not([style])
 ||zylytavo.com^
 ||zymro.com^
 ||zynga.com/track/
+||zypanafo.pro^
 ||zype.com^$third-party,domain=bossip.com|hiphopwired.com|madamenoire.com
 ||zyq2.destinia.sk^
 ||zyqp9.com^
