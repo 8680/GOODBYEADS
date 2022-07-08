@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 4 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、补充规则
-! Version: 2022-07-08 04:17:07（北京时间） 
-! Total count: 108846
+! Version: 2022-07-08 09:42:49（北京时间） 
+! Total count: 108852
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -6146,7 +6146,6 @@
 ##DFP-AD
 ##FBS-AD
 ##LEADERBOARD-AD
-##SCRIPT + A[target="_bank"] > IMG[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
 ##[class*="__adspot-title-container"]
 ##[class*="__adv-block"]
 ##[class][onclick="window.location.href='/api/goapp/'"]
@@ -6366,6 +6365,7 @@
 ##a[href*=".sjzbqnxx.com/"]
 ##a[href*=".sky1818.net"]
 ##a[href*=".ssmh"][href*="?u="]
+##a[href*=".supernfp.com/"]
 ##a[href*=".tbb168.com"]
 ##a[href*=".tea123.me"]
 ##a[href*=".thejierou.net"]
@@ -6995,6 +6995,7 @@
 ##script + #coupletBox
 ##script + #rbbox
 ##script + a[href^="https://l.hyenadata.com/"]
+##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/static/base.js"] + #couplet
 ##script[src="/template/kuhei2/skin/base.js"] + #couplet
@@ -11027,7 +11028,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /csp_log?
 /csp_report.gne?
 /css/78dfj/*.js
-/css/ad-$domain=~ad-shield.io
 /css/ads-
 /css/adv.
 /css/analytics.js$domain=assia.*|assia4.com
@@ -26564,6 +26564,7 @@ calciomercato.com#%#(function(){var b=window.setTimeout;window.setTimeout=functi
 calciomercato.com#%#window.my_random_number = 1;
 calciomercato.com$$script[tag-content="AntiAdblock"][min-length="2000"][max-length="5000"]
 calciomercato.com$$script[tag-content="new FuckAdBlock"][max-length="30000"]
+calculat.io##.calc67-container
 calculate.plus#%#//scriptlet("prevent-setTimeout", "checkStopBlock")
 calculator-online.net##.adds
 calculator-online.net##div[style^="min-height: 250px;"][style*="margin-bottom: 15px;"]
@@ -46182,6 +46183,7 @@ zznews.cn##.ad:not([style])
 ||666657.xyz^
 ||666666666666.site^
 ||666672.xyz^
+||666673.xyz^
 ||6667778882021.site^
 ||6668078.com^
 ||6669667.com^
@@ -57298,6 +57300,7 @@ zznews.cn##.ad:not([style])
 ||cdsoso.me/img/hongbao.jpg
 ||cdsoso.me/static/image/760x60.jpg
 ||cdtbox.rocks^
+||cdweikebaba.xin^
 ||cdxyb.cn^
 ||cdxyb.cn^$third-party
 ||cdyee.com/external/5070.files/ad/
@@ -57966,6 +57969,7 @@ zznews.cn##.ad:not([style])
 ||cleaner.noxgroup.org/activity/ads/*
 ||cleanflawlessredir.com^
 ||cleanmediaads.com^
+||clear7.love^
 ||clearadnetwork.com^
 ||clearant.club^
 ||clearbit.com/*/fingerprint
@@ -76291,6 +76295,7 @@ zznews.cn##.ad:not([style])
 ||liuxue86.com/css/liuxue_output.js
 ||liuxue86.com/js/ideng/liuxue-show
 ||liuyangyang.cn^
+||liuzhen.love^
 ||liuziqiu.cn^
 ||liuzishen.com^
 ||live-ifs.tanx.com^
@@ -107885,6 +107890,7 @@ zznews.cn##.ad:not([style])
 ||yytcdn.com/swf/plugins_new.xml?$domain=yinyuetai.com
 ||yytcdn.com/user/bugles/*_*x*.jpg
 ||yyttc.top^
+||yyttm.top^
 ||yywz123.com/file/A*.js
 ||yyxjt.cloud^
 ||yyxrm.com^
