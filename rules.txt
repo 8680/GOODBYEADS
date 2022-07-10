@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 4 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、补充规则
-! Version: 2022-07-10 16:18:37（北京时间） 
-! Total count: 108931
+! Version: 2022-07-10 20:27:19（北京时间） 
+! Total count: 108947
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -6349,6 +6349,7 @@
 ##a[href*=".nktxv.com/"]
 ##a[href*=".open0317.top/"]
 ##a[href*=".picoville.com/"]
+##a[href*=".qilinsb.com/"]
 ##a[href*=".qtj5.com/"]
 ##a[href*=".quankan.tv"]
 ##a[href*=".qutaoka.com/"]
@@ -22709,7 +22710,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||secure.logmein.com/scripts/Tracking/$script,domain=logme.in|logmein.com
 @@||secure.logmein.com/scripts/Tracking/Tracking.js$domain=logmein.com
 @@||securegames.iwin.com/data/gtm.json$~third-party,xmlhttprequest
-@@||securemetrics.apple.com/b/ss/$image
 @@||securenetsystems.net/*/scripts/ads/prebid.js
 @@||securenetsystems.net/advertising/ad_campaign_get.cfm?$xmlhttprequest
 @@||securepubads.g.doubleclick.net/gampad/ads$domain=castlesiege.io
@@ -26643,6 +26643,8 @@ cannabishealthnews.co.uk##.mvp-side-widget img
 cannabishealthnews.co.uk##[href^="https://themedicalcannabisclinics.com/"]
 canonsupports.com##.box
 canonsupports.com#@#.box_ads
+canstar.com.au,designspiration.com,investors.com,search.genieo.com,search.installmac.com##.promoted
+canstar.com.au,mail.yahoo.com#@#a[href^="https://ad.doubleclick.net/"]
 canuckaudiomart.com##div[id^="replacement-position-"]
 canuckaudiomart.com#@#.ad-title
 canyoublockit.com##.elementor-widget-container > center > p
@@ -28003,7 +28005,6 @@ depor.com##.ad-amp-movil
 deportealdia.live,noweconomy.live,clk.asia#%#//scriptlet("prevent-window-open")
 depositfiles.com,depositfiles.org,dfiles.eu,dfiles.ru##.banner1
 derpibooru.org###imagespns
-designspiration.com,investors.com,search.genieo.com,search.installmac.com##.promoted
 desitellybox.me##.theiaStickySidebar > div.first.widget
 desktophut.com#%#//scriptlet("abort-current-inline-script", "document.getElementById", "test-block")
 destructoid.com#@#[src*="base64"]
@@ -35120,7 +35121,6 @@ mail.yahoo.com##div[data-test-id="right-rail-ad"]
 mail.yahoo.com##form[method="get"][action^="/mb/"] ~ div[class*=" "] > img[src*="beap.gemini.yahoo.com/"] + div
 mail.yahoo.com##form[name="showFolderForm"] > div.mb
 mail.yahoo.com#$#a[data-test-id^="pencil-ad"] { position: absolute!important; left: -3000px!important; }
-mail.yahoo.com#@#a[href^="https://ad.doubleclick.net/"]
 mail.yandex.by,mail.yandex.com,mail.yandex.com.tr,mail.yandex.fr,mail.yandex.kz,mail.yandex.ru,mail.yandex.ua##.direct
 mailbait.info#%#Object.defineProperty(window, 'adblock_present', { value: 200 });
 mailfoogae.appspot.com$image
@@ -37653,6 +37653,7 @@ physicsandmathstutor.com###PMT_Top
 piacenza24.eu##a.gofollow[data-track]
 pianba.net###jiedoubanban
 pianba.tv##.a-loading
+pianba.tv##.cpcad
 pianba.tv,pianba.net##.play-btn > a[target="_blank"]
 pianetafanta.it,fullcrackpc.com,wikitrik.com,duit.cc#@##AdRectangle
 pianetafanta.it,fullcrackpc.com,wikitrik.com,duit.cc#@##Adrectangle
@@ -50416,6 +50417,7 @@ zznews.cn##.ad:not([style])
 ||agreeablestew.com^
 ||agreeablestew.com^$third-party
 ||agreeabletouch.com^$third-party
+||agregadorcode.com^
 ||agrointel.ro/ga.js
 ||agrointel.ro/track.js
 ||agronews.com/js/tagmanager
@@ -61781,6 +61783,7 @@ zznews.cn##.ad:not([style])
 ||dejure.org/cgi-bin/sitzung.fcgi?
 ||dek-d.com^*/analytic.js
 ||delamer.jp/sites/cremedelamer2/themes/cremedelamer2_base/js/shared/analytics.js
+||delayeddisembroildisembroil.com^
 ||delegatediscussion.com^$third-party
 ||delfi.lv/t/p.js
 ||delfi.lv^$cookie=dcid
@@ -63871,6 +63874,9 @@ zznews.cn##.ad:not([style])
 ||ebayrtm.com/rtm?RtmIt
 ||ebaystatic.com/js/v/in/roverlv.js
 ||ebaystatic.com/rs/c/9527tracking/configuration.js$script,domain=ebay.com
+||ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js
+||ebaystatic.com/rs/v/enk4ekgiky2ufpj3l2fgfblxaqd.js
+||ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js
 ||ebaystatic.com^*/pulsar.js
 ||ebaystatic.com^*/rover_$script
 ||ebaystatic.com^*/tracking_
@@ -67887,6 +67893,7 @@ zznews.cn##.ad:not([style])
 ||ghdlry.greetz.nl^
 ||gheochecke.com^$third-party
 ||ghghgf.51dongshi.com^
+||ghhtt.top^
 ||ghjie.com/JS/youcegg.js
 ||ghjie.com/images/2012/images/bg
 ||ghl8.com^
@@ -69414,6 +69421,7 @@ zznews.cn##.ad:not([style])
 ||gxqzz.7766.org^
 ||gxtytj.com^
 ||gxyaxf.pixartprinting.be^
+||gxzhshop.com^
 ||gxzjzg.com^
 ||gxzxiww.com^
 ||gybyxsy1588.com^
@@ -78965,6 +78973,7 @@ zznews.cn##.ad:not([style])
 ||mdhv.io^
 ||mdialog.com/*/stream_time_events$replace=/[\s\S]+/{}/
 ||mdiyay.vseinstrumenti.ru^
+||mdjf9vh9.xyz^
 ||mdjxa.com^
 ||mdjxm.com^
 ||mdjxz.com^
@@ -79389,6 +79398,7 @@ zznews.cn##.ad:not([style])
 ||meizhou.com/images/topbanner
 ||meleguetre.com^
 ||melife.love^
+||mellivoracode.com^
 ||mellowads.com/pop.js$important
 ||mellowads.com^$third-party
 ||melodicminute.com^
@@ -81316,6 +81326,7 @@ zznews.cn##.ad:not([style])
 ||mtcs.nhk.or.jp^
 ||mtcvyv.sporx.com^
 ||mtcvyv.webaslan.com^
+||mthdqs.cn^
 ||mti.35kds.com^
 ||mtime.cn/tg/
 ||mtkure.gazin.com.br^
@@ -86547,6 +86558,7 @@ zznews.cn##.ad:not([style])
 ||puggedproses.com^
 ||puhtml.com^
 ||puhutv-static.akamaized.net/scripts/segmentify.$script
+||puitaexb.com^
 ||puiwrs.misterspex.de^
 ||pulingmu.top^
 ||pull.ninebox.cn^
@@ -88031,6 +88043,7 @@ zznews.cn##.ad:not([style])
 ||referrer.org^$third-party
 ||refersion.com^$third-party
 ||refinedads.com^$third-party
+||reflectedintegrity.com^
 ||reflectivereward.com^
 ||reflectivereward.com^$third-party
 ||reflexalright.com^
@@ -101258,6 +101271,7 @@ zznews.cn##.ad:not([style])
 ||trustev.com/trustev.min.js$third-party
 ||trustiseverything.de^$third-party
 ||trustmeiamapro.de^$third-party
+||trustpilot.com/stats/
 ||trustx.org^$third-party
 ||trustyfine.com^
 ||truvidplayer.com^$domain=technews.tw
@@ -102118,6 +102132,8 @@ zznews.cn##.ad:not([style])
 ||unknowntray.com^$third-party
 ||unl1zvy2zuyn.franchiseplus.nl^
 ||unlikelybeside.com^
+||unloadpoetry.com^
+||unloadpoetry.com^$popup
 ||unnaturalcaption.com^
 ||unnaturalcaption.com^$third-party
 ||unnqyqq.cn^
@@ -104525,7 +104541,6 @@ zznews.cn##.ad:not([style])
 ||widget.sellwild.com/amp/insideevs$domain=insideevs-com.cdn.ampproject.org
 ||widget.sellwild.com^
 ||widget.trustpilot.com/stats/
-||widget.trustpilot.com^$third-party
 ||widgetbe.com^
 ||widgetbox.com/syndication/track/
 ||widgethost.com/pax/counter.js?
@@ -108638,6 +108653,7 @@ zznews.cn##.ad:not([style])
 ||zopxzq.premiata.it^
 ||zorosrv.com$third-party
 ||zougg.com^
+||zoukankan.com^$csp=script-src 'self' * 'unsafe-eval'
 ||zouloafi.net^
 ||zouxinyan.xyz^
 ||zozo.jp/common/js/ads-inner-tracking.js
