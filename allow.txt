@@ -1,5 +1,5 @@
-! Version: 2022-07-15 13:03:02（北京时间） 
-! Total count: 6876
+! Version: 2022-07-15 16:20:51（北京时间） 
+! Total count: 6886
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$webrtc,domain=sourceforge.net
@@ -104,6 +104,7 @@
 @@/cdn-cgi/pe/bag2?*skimlinks.js$domain=droid-life.com
 @@/cdn-cgi/pe/bag2?*static.getclicky.com%2Fjs$domain=amazingpics.net
 @@/cdn-cgi/pe/bag2?*yieldbot.intent.js$domain=droid-life.com
+@@/cdn/*/tracks-*/*/*.js$stealth,domain=strims.top
 @@/cgi-bin/counter_module?action=list_models$subdocument,~third-party
 @@/check.php?callback=$script,domain=ytmp3.cc
 @@/clarity-*.js$domain=clarity-project.info
@@ -1523,6 +1524,8 @@
 @@||cdn.questionpro.com/stylesheets/$domain=surveyanalytics.com
 @@||cdn.questionpro.com^$domain=questionpro.*
 @@||cdn.radiostreamlive.com/v*/js/adblock/advert-1bb.js
+@@||cdn.raino.xyz/hls/*.m3u8$stealth
+@@||cdn.raino.xyz/hls/*.ts$stealth
 @@||cdn.rawgit.com/*/lazyload.js$domain=javmost.com
 @@||cdn.retailrocket.*/*/tracking.js$domain=ozerki.ru
 @@||cdn.retailrocket.ru/content/javascript/tracking.js$domain=comfy.ua
@@ -2251,6 +2254,7 @@
 @@||entitlements.jwplayer.com^$xmlhttprequest,domain=iheart.com
 @@||eolinker.com^$generichide
 @@||epicgames.com/id/api/analytics$~third-party,xmlhttprequest
+@@||eplayer.click/*/*.php$stealth
 @@||epst.hindustantimes.com/Js/_show_Ads.js
 @@||epub.ekh.no/*/static/analytics.js
 @@||epubit.com/static/epubit/share/js/share.min.js
@@ -4205,6 +4209,7 @@
 @@||ldxinyong.com^$generichide
 @@||leadpages.io/analytics/v1/observations/capture?$xmlhttprequest
 @@||leaklinks.com/js/prebid-ads.js
+@@||leanplum.com^$domain=arkadium.com
 @@||leanplum.com^$domain=nbc.com|leanplum.com
 @@||leboncoin.fr^$content
 @@||leechall.download^$generichide
@@ -5818,6 +5823,8 @@
 @@||src.litix.io/core/*/mux.js$domain=kanald.com.tr
 @@||src.litix.io/videojs/*/videojs-mux.js$domain=dplay.co.uk
 @@||srv.clickfuse.com/showads/showad.js$domain=aha-music.com
+@@||srv.vhls.ru.com/cdn/*/*/*.m3u8$stealth
+@@||srv.vhls.ru.com/cdn/*/*/*.ts$stealth
 @@||ss999.me/i.php?i=
 @@||ssl-images-amazon.com/images/$image,domain=affiliate-program.amazon.co.uk|affiliate-program.amazon.com|affiliate-program.amazon.in|affiliate.amazon.co.jp|afiliados.amazon.es|associados.amazon.com.br|associates.amazon.ca|associates.amazon.cn|partenaires.amazon.fr|partnernet.amazon.de|programma-affiliazione.amazon.it
 @@||ssl-images-amazon.com^*/satelliteLib-$script,domain=audible.com
@@ -5936,6 +5943,7 @@
 @@||static.okccdn.com/builds/desktop/js/tracking_center.$script,domain=okcupid.com
 @@||static.opensubtitles.org/libs/js/common.js
 @@||static.opensubtitles.org/libs/js/urlshortener.js
+@@||static.panda-novel.com/static/*/js/plugins/adview_*_ads.js
 @@||static.parsely.com/p.js$domain=nfl.com
 @@||static.parsely.com^$script,domain=dailystar.co.uk|express.co.uk|nydailynews.com
 @@||static.redtube.com/mobi/images/$domain=redtube.com|redtube.net
@@ -6392,6 +6400,7 @@
 @@||ulifestyle.com.hk/store/prod/iskypost/res/js/dfp-
 @@||ulogin.ru/auth.php
 @@||ulogin.ru/fill.php
+@@||ultimaterewardspoints.chase.com/web-analytics/ur-reporting.js$~third-party
 @@||ultimedia.com/api/widget/getwidget/$xmlhttprequest,domain=ouest-france.fr
 @@||ultimedia.com/js/common/jquery.gatracker.js
 @@||ulximg.com/image/*/banner/$domain=hotnewhiphop.com
@@ -6509,6 +6518,7 @@
 @@||vidtech.cbsinteractive.com^*/AkamaiAnalytics.swf$domain=kuathletics.com|mutigers.com|okstate.com
 @@||view.atdmt.com^$domain=starwoodhotels.com
 @@||viid.me^$generichide
+@@||vikistream.com:*/hls/*.m3u8$stealth
 @@||viprow.net^$generichide
 @@||vipstatic.com/img/share/blank.png
 @@||virpe.cc/includes/js/adver.js
