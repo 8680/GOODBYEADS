@@ -1,5 +1,5 @@
-! Version: 2022-07-16 09:40:47（北京时间） 
-! Total count: 6888
+! Version: 2022-07-16 12:27:53（北京时间） 
+! Total count: 6884
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$webrtc,domain=sourceforge.net
@@ -2303,6 +2303,7 @@
 @@||experienceleague.adobe.com^$~third-party
 @@||expertblogz.com/*/ads.js
 @@||explainxkcd.com/wiki/images/$image,~third-party
+@@||explosm.net/js/adsense.js
 @@||exponential.com^*/tags.js$domain=yellowbridge.com
 @@||extreme-down.plus^$popup,domain=extreme-down.plus
 @@||extreme-ip-lookup.com/json/$xmlhttprequest,domain=skaitv.gr
@@ -3424,6 +3425,7 @@
 @@||hach.de^*/emstrack.js
 @@||hackingwithphp.com/js/adsbygoogle.js
 @@||hackread.com/wp-content/uploads/$image,~third-party
+@@||haiwai.com^$generichide
 @@||halykbank.kz/assets/js/fingerprint2.min.js
 @@||hammonline.de/statistik/piwik.js
 @@||hamreus.com^$image,stealth,domain=manhuagui.com|mhgui.com
@@ -3805,7 +3807,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=video.capital.it
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=video.corriere.it
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=video.deejay.it
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=video.foxnews.com|video.foxbusiness.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=video.gazzetta.it
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=video.onnetwork.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=video.udn.com
@@ -3865,7 +3866,6 @@
 @@||imasdk.googleapis.com/native/sdkloader/native_sdk_v3.html?$app=com.goldtouch.ynet
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=foodnetwork.com
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=investigationdiscovery.com
-@@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=motortrend.com
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=pluto.tv
 @@||imasdk.googleapis.com^$app=bbc.mobile.news.ww
 @@||imasdk.googleapis.com^$app=be.persgroep.android.news.mobilead
@@ -3894,7 +3894,7 @@
 @@||img*.*.*^$stealth,domain=mangalib.me
 @@||img*.doubanio.com^$stealth,domain=accounts.douban.com
 @@||img*.kangaroobro.com/images/$image,domain=leyuman.com
-@@||img*.kangaroobro.com/images/$stealth,image,domain=leyuman.com
+@@||img*.kangaroobro.com^$stealth,domain=bnman.net
 @@||img*.nga$removeparam=cmpid
 @@||img-lescon.mncdn.com/UPLOAD/Banner/$domain=lescon.com.tr
 @@||img-trendyol.mncdn.com/assets/banner/slidertransparent.gif
@@ -4025,7 +4025,6 @@
 @@||j2apps.s.llnwi.net/assets-origin/static/js/mx-prebid-ads.js$domain=mxplayer.in
 @@||jav777.cc/advertise/
 @@||jav777.xyz/advertise/
-@@||javhdonline.com^$generichide
 @@||javpost.net/ads.php
 @@||jbj.co.uk^*/analytics.js$script,~third-party
 @@||jbprogramnotes.com^$generichide
@@ -4172,7 +4171,6 @@
 @@||kotaku.com/embed/comments$removeparam
 @@||kotaku.com/x-kinja-static/assets/new-client/adManager.$~third-party
 @@||koyi.pub/wp-content/plugins/fuzqing-ad-plus/assets/js/*.js
-@@||kqzyfj.com^$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@||krebsonsecurity.com
 @@||krok8.com/wp-content/plugins/pageviews/pageviews.min.js$script,~third-party
 @@||kropka.onet.pl^*/onet.js$domain=tvnwarszawa.pl
@@ -4338,7 +4336,6 @@
 @@||macauo2o.com/advertise/
 @@||maedchen.de/sites/default/files/google_tag/google_tag_manager_fuersie/google_tag.script.js
 @@||mafia-rules.net^$app=net.bestmafia,document
-@@||mahimeta.com/networks/ad_code.php$domain=farescd.com
 @@||mahimeta.com/networks/ad_code.php$domain=gaminplay.com|informaxonline.com
 @@||mail-www.baynote.net^$domain=mail.com
 @@||mail.biz.rr.com/images/portal/blank.gif$domain=mail.biz.rr.com
@@ -5026,7 +5023,6 @@
 @@||petrochina.com.cn/advertisement_
 @@||pg-wuming.com^$generichide
 @@||phatcatmedia.net/images/ad.jpg$image,domain=allsonicgames.net
-@@||phimmedia.tv/templates/themes/phim/js/advertisement.js
 @@||photofunia.com/effects/$image,~third-party
 @@||photopea.com/ads.js
 @@||photopea.com/promo/no_ads.png
@@ -5261,6 +5257,7 @@
 @@||qq.com^*?ADTAG=
 @@||qspfw.com/r/cms/www/qspfw/common/img/ad_
 @@||qualtrics.com/jfe/form/$subdocument,domain=kor.tellburgerking.com
+@@||quantcast$domain=soundcloud.com
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quantserve.com/quant.js$domain=apps.facebook.com|caranddriver.com|g4tv.com|nymag.com|salon.com|theblaze.com
 @@||quanzhi.cn/v3/images/index_ad/
@@ -5436,7 +5433,6 @@
 @@||safeframe.googlesyndication.com^$subdocument,domain=koigaku.machicon.jp
 @@||sahibinden.com/assets/analytics*.js$~third-party
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
-@@||sandbox.cryptpad.info^$elemhide,jsinject,content,extension
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
 @@||sarapbabe.com/nativeads-v2.js
