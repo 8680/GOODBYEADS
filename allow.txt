@@ -1,4 +1,4 @@
-! Version: 2022-07-21 12:41:47（北京时间） 
+! Version: 2022-07-21 16:20:45（北京时间） 
 ! Total count: 6871
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -16,7 +16,6 @@
 @@.co.uk/wp-banners.js$domain=advertiserandtimes.co.uk|northern-scot.co.uk|suffolknews.co.uk|kentonline.co.uk
 @@.com/ad.aspx|$domain=xdingdiann.com
 @@.com/adv/$domain=my.ctrip.com
-@@.com/click-$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@.com/js/a_d/$domain=cocomanga.com|cocomanhua.com
 @@.com/js/ad_/ad*.js$domain=cocomanga.com|cocomanhua.com
 @@.com/js/ad_/pic*.png$domain=cocomanga.com|cocomanhua.com
@@ -513,11 +512,9 @@
 @@||adjs.8591.com.tw^$script
 @@||adjust.com/adjust-latest.min.js$domain=anchor.fm
 @@||adlink.wf^
-@@||adload.ru^
 @@||adm.fwmrm.net/crossdomain.xml
 @@||admin.mailchimp.com^
 @@||admin.memberspace.com/sites/*/analytics/views$~third-party
-@@||admob.google.com/static/$domain=admob.google.com
 @@||adnet.pravda.com/examples/adriver.core.2.minifire.js
 @@||adnet.qq.com^$~third-party
 @@||adnxs.com/ast/static/$domain=outlook.live.com
@@ -962,6 +959,7 @@
 @@||apkmirror.com^$generichide
 @@||app-advertise.zhihuishu.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
+@@||app.adroll.com^$generichide
 @@||app.clarity.so^$~third-party
 @@||app.khz.se/api/*&ad_type=preroll-channel$domain=ilikeradio.se
 @@||app.sendgrid.com$document
@@ -1976,6 +1974,7 @@
 @@||daumcdn.net/adfit/static/ad-native.min.js$domain=daum.net
 @@||daumcdn.net/adfit/static/ad.min.js$script,domain=daum.net
 @@||daumcdn.net/tistory/*/skin/images/ads.js$domain=shlee0882.tistory.com
+@@||daumcdn.net/tistory/*/skin/images/fuckadblock.js$domain=tistory.com
 @@||daxab.com/player/$stealth
 @@||dayanzai.me/image/ad/$image
 @@||daziba.cn/Images/share.css
@@ -3346,7 +3345,6 @@
 @@||googletagservices.com/tag/js/gpt.js$domain=gamestar.de
 @@||googletagservices.com/tag/js/gpt.js$domain=gentside.com|gentside.de|gentside.co.uk|gentside.com.br|esgentside.com|maxisciences.com|ohmymag.com|ohmymag.de|ohmymag.com.br|ohmirevista.com
 @@||googletagservices.com/tag/js/gpt.js$domain=gotrip.hk
-@@||googletagservices.com/tag/js/gpt.js$domain=ikitesurf.com
 @@||googletagservices.com/tag/js/gpt.js$domain=imgur.com
 @@||googletagservices.com/tag/js/gpt.js$domain=koigaku.machicon.jp
 @@||googletagservices.com/tag/js/gpt.js$domain=nbcsports.com
@@ -4107,6 +4105,7 @@
 @@||kapaza.be/nl/js/xtcore_$script,domain=kapaza.be
 @@||kaptcha.com/collect/sdk?$domain=wyze.com
 @@||kaspersky.co$content
+@@||kaspersky.ru/advert/
 @@||kataweb.it/wt/wt.js?http$domain=gelocal.it|video.huffingtonpost.it|video.ilsecoloxix.it|video.lastampa.it|video.repubblica.it
 @@||katfile.com/js/*ad*.js
 @@||kawasaki.com/Scripts/Analytics/BaseAnalytics.js$script,~third-party
@@ -4743,6 +4742,7 @@
 @@||ntust.edu.tw/bin/showads.
 @@||ntv.io/serve/load.js$domain=mcclatchydc.com
 @@||nuggad.net^$domain=video.sport1.de
+@@||nulledsite.com/ads-prebid.js
 @@||nullforums.net/js/*/uvb-tag-ad.js
 @@||nutritiondata.self.com/ads/js/cn.dart.bun.min.js
 @@||nwolb.com^
@@ -4935,6 +4935,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=fc.madshiba.fun
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=b2bhint.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=liout.com|moneysave.info|ygodl.com|youneed.win
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=pigeonburger.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=smallseotools.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=spigotunlocked.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=theteacherscorner.net
@@ -5566,6 +5567,7 @@
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=hdblog.it
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=hdmotori.it
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=irctc.co.in
+@@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=musixmatch.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=navbharattimes.indiatimes.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=ndtv.in
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=news.tvb.com
@@ -6223,7 +6225,6 @@
 @@||tm.jsuol.com.br/uoltm.js$script,domain=uol.com.br
 @@||tmall.com/add?
 @@||tmall.com/go/*/banner.php
-@@||tmearn.com/js/ads*.js
 @@||tmgrup.com.tr/bd/hb/prebid.js$domain=atv.com.tr
 @@||tms.delta.com/delta/dl_bastian/*.js$domain=delta.com
 @@||tms.delta.com/delta/dl_bastian/serverComponent.php$domain=delta.com
@@ -6241,7 +6242,6 @@
 @@||tools.usps.com/go/scripts/tracking.js$~third-party
 @@||top.list.ru/counter?id=$domain=crimea-kurort.com
 @@||top.list.ru/jump?from=$domain=pvo.guns.ru
-@@||top1porn.com^$generichide
 @@||toplay.biz/log_event$~third-party,xmlhttprequest
 @@||torrentsafe.com/fingerprint2.min.js
 @@||torrindex.net^$image,script,stylesheet,domain=thepiratebay.org
@@ -6339,7 +6339,6 @@
 @@||turkdown.com/*/advertisement.js
 @@||turner.com/cnn/*/video/chartbeat.js$domain=cnn.com
 @@||tv.ads.spotx.tv^$domain=rakuten.tv
-@@||tv.kakao.com^$stealth
 @@||tv.youtube.com^$generichide
 @@||tv5.org/cms/javascript/*/sitestat.js
 @@||tvarticles.org^$generichide
@@ -6722,6 +6721,7 @@
 @@||www.googleadservices.*/aclk?*&adurl=$~third-party
 @@||www.googletagmanager.com/gtm.js$script,domain=book.impress.co.jp
 @@||www.googletagmanager.com^$domain=onlineshop.smt.docomo.ne.jp
+@@||www.gstatic.com/admanager/outstream/rewarded_web_video_canary_en.js$domain=safeframe.googlesyndication.com
 @@||www.olx.ua/api^$app=ua.slando
 @@||www.ruanyifeng.com^$csp=script-src 'self' * 'sha256-0McqMM66/wAVZmxF6zXpjNsb1UMbTl4LXBXdhqPKxws='
 @@||www.statcounter.com/images/$image,third-party
@@ -6812,6 +6812,7 @@
 @@||ynet.co.il/Common/App/Video/Gemius/gstream.js
 @@||ynetnews.com/Common/App/Video/Gemius/gstream.js
 @@||yohalabs.com^
+@@||yoox.com/images/$stealth
 @@||yospace.com/csm/builder/*,proxy$domain=joyn.de
 @@||yottaa.com/rapid.min.js$script,domain=corkcicle.com|wineenthusiast.com
 @@||yottaa.net^*/analytics/gtm-analytics-events.min.js$domain=hannaandersson.com
@@ -6829,7 +6830,6 @@
 @@||youtube.com/get_video_info?$xmlhttprequest,domain=music.youtube.com|tv.youtube.com
 @@||youtube.googleapis.com/embed^$stealth
 @@||yqszkzx.cn/images/ad
-@@||ytimg.com^*_banner$domain=youtube.com
 @@||yu.xyz.mn/images/event.gif?$image,~third-party
 @@||yunlin.com.tw/php01/ad/showad.
 @@||yygsz.com^$generichide
