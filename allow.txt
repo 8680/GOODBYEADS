@@ -1,5 +1,5 @@
-! Version: 2022-07-26 09:48:01（北京时间） 
-! Total count: 6876
+! Version: 2022-07-26 13:06:04（北京时间） 
+! Total count: 6885
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$webrtc,domain=sourceforge.net
@@ -223,7 +223,6 @@
 @@jd.com/*ad_
 @@weather.gov/xml/$document
 @@www.any.gs$urlblock
-@@|data:text^$popup,domain=box.com|clker.com|labcorp.com
 @@|http$script,~third-party,domain=mylink.*|my1ink.*|myl1nk.*|myli3k.*
 @@|http*.php?url=$stealth,domain=nicotv.me
 @@|http*://*.*/*.$image,third-party,domain=a2zupload.com
@@ -375,6 +374,7 @@
 @@||9anime.nl/assets^
 @@||9anime.to/ajax/
 @@||9anime.to/assets^
+@@||9anime.to/user/ajax/
 @@||9anime.vip/ajax/
 @@||9cache.com^$stealth,domain=9gag.com
 @@||9cdn.net^*/js/tracking/$script,domain=nine.com.au
@@ -808,6 +808,7 @@
 @@||ancestrycdn.com/ui-static/lib/tracking/$domain=ancestry.com
 @@||android-api-de.gumtree.com/api/users/*/ads.json
 @@||android.clients.google.com/market/GetBinary/$document
+@@||androidcentral.com^$csp=script-src 'self' * 'unsafe-inline'
 @@||angrybirdsnest.com/wp-content/themes/abn-responsive/js/ads.js
 @@||anhuinews.com/zhuyeguanli/2020ad/xidad.jpg
 @@||ani.gamer.com.tw^$generichide
@@ -815,6 +816,7 @@
 @@||aniboom.one/embed/$stealth
 @@||anime-loads.org/assets/pub/js/ads.com/ads.js
 @@||anime1.me/ads.js
+@@||animeflv.com/efire.php^
 @@||aniwatcher.com/adblock.js
 @@||annhe.net^$generichide
 @@||annuaire.118000.fr/js/xtcore.js
@@ -1474,6 +1476,7 @@
 @@||cdn.krxd.net/controltag/*.js$domain=video.foxnews.com|video.foxbusiness.com
 @@||cdn.lib.getjad.io/library/$domain=purepeople.com
 @@||cdn.lib.getjad.io/prebid/$domain=purepeople.com
+@@||cdn.lsicloud.net/kendall/Images/AD/$domain=shop.kendallelectric.com
 @@||cdn.maskinbladet.dk/*assets/templates/*/img/adblocker/ads.png
 @@||cdn.mxpnl.com/libs/mixpanel*.min.js$domain=account.cyberghostvpn.com
 @@||cdn.mxpnl.com/libs/mixpanel*.min.js$domain=grammarly.com
@@ -2301,6 +2304,7 @@
 @@||eye.swfchan.com/flash.asp?id=*.swf$domain=eye.swfchan.com
 @@||ez3c.tw/js/adblockDetector.js
 @@||ez3c.tw^$generichide
+@@||ezsoftwarestorage.com^$image,media,domain=ezfunnels.com
 @@||f-droid.org/assets/Ads_$~third-party
 @@||f.monetate.net/trk/$domain=debenhams.com
 @@||f95zone.to/login/$stealth
@@ -2421,6 +2425,7 @@
 @@||freeopenvpn.org^$generichide
 @@||freeplayervideo.com^$subdocument
 @@||freeporn8.com/nb/frot_lod.js
+@@||freeproxylist.me^$generichide
 @@||freereceivesms.com/js/*.js
 @@||freundin.de/*_wrapper_format=drupal_ajax
 @@||friday.tw/backend/uploadpic/adindex/
@@ -3889,6 +3894,7 @@
 @@||img.bondinternational.net^$stealth,image,domain=leyuman.com
 @@||img.eplayer.is^$stealth,domain=hpav.tv
 @@||img.gazetesok.com/images/content/*/reklam-
+@@||img.techwallacdn.com/300x250/photos.demandstudios.com/getty/article/*/*.jpg
 @@||img.tfd.com/ads.js
 @@||img.zcool.cn/ad_manager/location/$domain=zcool.com.cn
 @@||img4399.com/static/huodong/daily/fpv2.js
@@ -5816,6 +5822,7 @@
 @@||srv.clickfuse.com/showads/showad.js$domain=aha-music.com
 @@||srv.vhls.ru.com/cdn/*/*/*.m3u8$stealth
 @@||srv.vhls.ru.com/cdn/*/*/*.ts$stealth
+@@||ss.phncdn.com^$script,domain=redtube.com|redtube.net
 @@||ss999.me/i.php?i=
 @@||ssl-images-amazon.com/images/$image,domain=affiliate-program.amazon.co.uk|affiliate-program.amazon.com|affiliate-program.amazon.in|affiliate.amazon.co.jp|afiliados.amazon.es|associados.amazon.com.br|associates.amazon.ca|associates.amazon.cn|partenaires.amazon.fr|partnernet.amazon.de|programma-affiliazione.amazon.it
 @@||ssl-images-amazon.com^*/satelliteLib-$script,domain=audible.com
@@ -5944,6 +5951,7 @@
 @@||static.trbo.com/img/$domain=o2online.de
 @@||static.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@||static.wikia.nocookie.net^*/tracking-opt-in.min.js$script,domain=fandom.com
+@@||static.xmovies88.online/themes/*/js/ads.js
 @@||static00.forvo.com/_presentation/assets/js/vendor_mobile_no_ads.js
 @@||staticflickr.com^*/analytics-min.js$domain=flickr.com
 @@||statics.cfmcdn.net/*/scripts/webtrends-$script,domain=cheapflights.com
@@ -6105,6 +6113,7 @@
 @@||taipit-mebel.ru/upload/resize_cache/$image,~third-party
 @@||tajs.qq.com/stats?$~third-party
 @@||takeda.com.dxcloud.episerver.net^$domain=takeda.com
+@@||talkgadget.google.com^$jsinject
 @@||tamin.ir/content/ads/
 @@||tangdou.com/sample/share/advert?$domain=tangdoucdn.com
 @@||tansuo.cntv.cn^*/tansuo_Advertise.js
