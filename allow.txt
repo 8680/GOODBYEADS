@@ -1,4 +1,4 @@
-! Version: 2022-08-01 09:50:09（北京时间） 
+! Version: 2022-08-01 13:12:59（北京时间） 
 ! Total count: 6902
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -583,7 +583,6 @@
 @@||ads.alafish.cn^$~third-party
 @@||ads.allegro.pl^$domain=ads.allegro.pl
 @@||ads.cdn.tvb.com^*.key
-@@||ads.colombiaonline.com/ad/$domain=colombiaonline.com
 @@||ads.com^$popup
 @@||ads.creative-serving.com/yoc^$domain=youronlinechoices.com
 @@||ads.cricbuzz.com/adserver/units/mobile/set_ads_values.php
@@ -653,6 +652,7 @@
 @@||adx.yiche.com/cityindex.ashx
 @@||adx.yiche.com/ssp/echo/v1.0/en?*,*,*&cs=
 @@||adyou.me^$generichide
+@@||adz7short.space^$generichide
 @@||aeries.net^*/require/analytics/views/$script,~third-party
 @@||aetv.com^$generichide
 @@||aff.bstatic.com/static/affiliate_base/js/booking_sp_widget.js$domain=arukikata.co.jp
@@ -914,6 +914,7 @@
 @@||api.ebay-kleinanzeigen.de/api/ads.json?$app=com.ebay.kleinanzeigen
 @@||api.ebay-kleinanzeigen.de/api/ads/
 @@||api.ebay-kleinanzeigen.de/api/ads/*.json$app=com.ebay.kleinanzeigen
+@@||api.friends.ponta.jp/api/$~third-party
 @@||api.fw.tv/embed/$domain=filmibeat.com
 @@||api.gamer.com.tw/mobile_app/anime/*/stat_ad.php
 @@||api.geetest.com^$stealth
@@ -3501,6 +3502,7 @@
 @@||hit.gemius.pl^$app=pl.allegro
 @@||hit.interia.pl/iwa_core$script,~third-party
 @@||hit.stat24.com/*ad.xml$xmlhttprequest,other,domain=polsatnews.pl|polsatsport.pl|twojapogoda.pl|geekweek.pl
+@@||hitbits.io/v1/ads2/ads/$xmlhttprequest
 @@||hitfile.net/platform/js/fdlogger/fdlogger.js$script,~third-party
 @@||hiveworkscomics.com/frontboxes/300x250_$image,~third-party
 @@||hj.flxpxl.com^*.js?r=*&m=*&a=$domain=twitch.tv
@@ -3538,7 +3540,6 @@
 @@||hotstarext.com/web-messages/core/error/v52.json$xmlhttprequest,domain=hotstar.com
 @@||hotwirestatic.com^*/opinionLab.js$domain=hotwire.com
 @@||howtonote.jp/google-analytics/$image,~third-party
-@@||hoyts.com.au/media/*_300x250
 @@||hoyts.com.au^$generichide
 @@||hqq.to/ad/api/popunder.js$script
 @@||hqq.to/e/$generichide
@@ -3589,7 +3590,6 @@
 @@||i2.bahamut.com.tw/JS/ad/animeVideo2.js^$domain=ani.gamer.com.tw
 @@||i3.sinaimg.cn/video/deco/2013/0325/js/
 @@||ia.hit.interia.pl/*/date?$domain=interia.pl|pomponik.pl
-@@||iamcdn.net/players/*ads*.js$domain=hydrax.net|playhydrax.com
 @@||ias.global.rakuten.com/adv/$script,domain=rakuten.co.jp
 @@||iatv.tmgrup.com.tr/*/advmanager.js$domain=atv.com.tr
 @@||ib.adnxs.com/getuidj|$domain=independent.co.uk
@@ -3708,7 +3708,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=get.x-link.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=globoplay.globo.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=goducks.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=gostanford.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=gousfbulls.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=h5.4j.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=haber7.com
@@ -3778,6 +3777,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=puzzles.msn.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=radio.at|radio.net|radio.de
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=repubblica.it
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=romaniatv.net
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=rte.ie
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=sbs.com.au
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=shahid.mbc.net
@@ -4049,7 +4049,6 @@
 @@||jokerly.com/Okidak/vastChecker.htm$document,subdocument
 @@||jolie.de/sites/default/files/google_tag/google_tag_manager/google_tag.script.js
 @@||joyk.com^$generichide
-@@||jpost.com^$csp=script-src 'self' 'unsafe-inline' http: https: blob:
 @@||jpush.cn^$domain=jiguang.cn
 @@||js-agent.newrelic.com/nr-*.min.js$domain=copy.com
 @@||js-agent.newrelic.com/nr-spa-$script,domain=kapwing.com
@@ -5665,6 +5664,7 @@
 @@||service.videoplaza.tv/proxy/pulse-sdk-html5/*/latest.min.js$domain=rtl.be
 @@||services.brid.tv/player/build/plugins/adunit.js
 @@||services.fliqz.com/metrics/*/applications/$domain=leftlanenews.com
+@@||services.postcodeanywhere.co.uk/Capture/Interactive/$stealth
 @@||serving-sys.com/serving/adServer.bs?$popup,domain=hongkongcard.com
 @@||seselah.com^$generichide
 @@||sexgalaxy.net/wp-content/plugins^
@@ -5706,6 +5706,7 @@
 @@||showheroes.com/publishertag.js$domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
 @@||showheroes.com/pubtag.js$domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
 @@||showheroes.com/spot/iframe?pageurl=$script,subdocument,domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
+@@||shtu.pro^$generichide
 @@||shumafen.cn/api/file_u/$extension
 @@||shutterbug.com^$elemhide
 @@||sign.mojebanka.cz$elemhide,jsinject
@@ -6260,7 +6261,6 @@
 @@||ton.twimg.com^$domain=ads.twitter.com|analytics.twitter.com
 @@||toolbox.dfb.de/img/partner-logos^
 @@||toolfk.com/tools/js/share/js/jquery.share.min.js
-@@||tools.services.tvn.pl/_ads/advert.js
 @@||tools.services.tvn.pl/maertsg.js$domain=tvn24.pl
 @@||tools.usps.com/go/TrackConfirmAction
 @@||tools.usps.com/go/scripts/tracking.js$~third-party
@@ -6461,7 +6461,6 @@
 @@||usbank.com^*/adrum.js?$~third-party
 @@||useinsider.com/ins.js$domain=pizzahut.jp
 @@||user.pnetlab.com/store/advs/check
-@@||user.weiyun.com/newcgi/outlink.fcg$document
 @@||userload.co/ads/ads-banner.png
 @@||userload.co/popads.js
 @@||userreport.com/*/settings.js$domain=csb.app
@@ -6870,6 +6869,7 @@
 @@||z.moatads.com/*/moatheader.js$domain=standard.co.uk
 @@||z.moatads.com^$script,domain=standard.co.uk
 @@||zanpinc.com/api/ad.php?
+@@||zap.in^$content
 @@||zappos.com/js/trackingPixel/mercentTracker.js
 @@||zavedenia.com/resources/js/angularytics.min.js$script,~third-party
 @@||zcache.ca^$image,domain=zazzle.ca
