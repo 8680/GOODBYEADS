@@ -1,5 +1,5 @@
-! Version: 2022-08-02 09:55:41（北京时间） 
-! Total count: 6907
+! Version: 2022-08-02 13:08:18（北京时间） 
+! Total count: 6906
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$webrtc,domain=sourceforge.net
@@ -322,6 +322,7 @@
 @@||4kya.com/?url=$stealth,domain=netflix.mom
 @@||4strokemedia.com^$domain=ilmeteo.it
 @@||50.7.*.*:8081/*?wmsAuthSign=$stealth
+@@||50.7.161.20:8081/*.m3u8?$stealth
 @@||51hanhua.com/2013/brtxt.js
 @@||51img1.com/??*/adsys.
 @@||51zxw.net/getvutf.asp?$domain=51zxw.net
@@ -1129,7 +1130,6 @@
 @@||banner.yt^$image,domain=socialblade.com
 @@||banners.s1.citilink.ru^$image,domain=citilink.ru
 @@||barclays.touchclarity.com^$domain=barclaycard.co.uk
-@@||base64.online/ads.txt
 @@||bat.bing.com/bat.js$domain=airbnb.ru
 @@||bats.video.yahoo.com$app=com.yahoo.mobile.client.android.mail
 @@||baumberger.shop/cache/javascript_*_responsive_ad_footer.js$~third-party
@@ -1214,7 +1214,6 @@
 @@||bitbucket.org^$generichide
 @@||bitent.com/lock_html5/adPlayer/v*/adPlayer.js
 @@||bitent.com/lock_html5/adscontrol.js$domain=bitent.com
-@@||bitfun.co^$generichide
 @@||bitporno.com^$generichide
 @@||bitrix.info/ba.js$domain=galamart.ru
 @@||bitssurf.com/assets/ads-*.js$~third-party
@@ -3417,7 +3416,6 @@
 @@||guim.co.uk/uploader/$image,~third-party
 @@||gumtree.co.za/my/ads.html$~third-party
 @@||gumtree.com.au/p-post-ad*.html
-@@||gunosy.co.jp/img/ad/$image,~third-party
 @@||guru3d.com/core_javaload/$document
 @@||h-sdk.online-metrix.net^$app=com.ebay.mobile
 @@||haaretz.co.il/logger/p.gif?$image,xmlhttprequest
@@ -3801,7 +3799,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tvp.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tvp.pl|tvp.info
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=ultimedia.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=umterps.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=uptostream.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=video.capital.it
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=video.corriere.it
@@ -4308,6 +4305,7 @@
 @@||loki.delve.office.com/api/$stealth
 @@||loltmcheck.com/js/ads.js
 @@||longtailvideo.com/5/googlytics/googlytics-1.js$domain=arte.tv
+@@||lookcam.com/fuckadblock.js
 @@||looker.com/api/internal/$~third-party
 @@||lootup.me/assets/js/ads-prebid.js
 @@||lotto-bw.de^$jsinject
@@ -4938,7 +4936,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kiiw.icu
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kitguru.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mobile-tracker-free.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=moviemakeronline.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=photopea.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=populistpress.com|canadafreepress.com|thelibertydaily.com|writerscafe.org|populist.press|welovetrump.com|grammarist.com|protrumpnews.com|concomber.com|videogamesblogger.com|gamersheroes.com|letocard.fr|100percentfedup.com|thepalmierireport.com|kresy.pl|beforeitsnews.com|thepatriotjournal.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=prepostseo.com
@@ -5096,7 +5093,6 @@
 @@||play.vidyard.com^$stealth
 @@||playep.pro/log_event$~third-party,xmlhttprequest
 @@||player-feedback-v1.glomex.com/pf/|$domain=player.glomex.com
-@@||player-smotri.mail.ru^$stealth
 @@||player.aniview.com/script/$script,domain=odysee.com
 @@||player.aplhb.adipolo.com/prebidlink/$script,domain=dropgalaxy.com
 @@||player.avplayer.com^$script,domain=explosm.net
@@ -5174,6 +5170,7 @@
 @@||postnord.no/api/tracking/$~third-party
 @@||posttrack.com^$xmlhttprequest,~third-party
 @@||potalapalace.cn/upload/images/advertise/picture/131030000583.jpg
+@@||potokcdn.com^$stealth
 @@||powvideo.net/$~third-party,popup
 @@||powvideo.net/new/css/fonts/font/custom-icons.$font
 @@||pp-serve.newsinc.com^*/unitsdata.js?$domain=timesfreepress.com
@@ -5333,6 +5330,7 @@
 @@||redguide.top^*/ad.css?$stylesheet
 @@||redirect.appmetrica.yandex.com^
 @@||redirect.appmetrica.yandex.net^
+@@||redirect.disqus.com^
 @@||redventures.io/lib/dist/prod/bidbarrel-$script,domain=cnet.com|techrepublic.com|zdnet.com
 @@||regapi.37.com/api/p_register.php?login_account=
 @@||reinvigorate.net/re_.js$domain=thenounproject.com
@@ -5636,6 +5634,7 @@
 @@||securitykiss.com$document
 @@||securitytrails.com/app/api/$domain=securitytrails.com
 @@||securitytrails.com/domain/$domain=securitytrails.com
+@@||seeitworks.com/advertisement.js
 @@||seewhy.com^$domain=nixon.com
 @@||segment-data.zqtk.net^$domain=wsj.com
 @@||segmentify.com//*/events/v1.json?apiKey=$domain=flo.com.tr
@@ -6215,6 +6214,7 @@
 @@||thetenthwatch.com/js/tracking.js$~third-party
 @@||thingiverse.com/assets/ad/$image,~third-party
 @@||thisav.com^$generichide
+@@||thoaimedia.com^$generichide
 @@||thomas.co/sites/default/files/google_tag/primary/google_tag.script.js$script,~third-party
 @@||threatbook.cn/public/asset/js/zhugeIo.
 @@||thron.com/shared/plugins/tracking/current/tracking-library-min.js$domain=dainese.com
@@ -6254,6 +6254,7 @@
 @@||tm.jsuol.com.br/uoltm.js$script,domain=uol.com.br
 @@||tmall.com/add?
 @@||tmall.com/go/*/banner.php
+@@||tmearn.com/js/ads*.js
 @@||tmgrup.com.tr/bd/hb/prebid.js$domain=atv.com.tr
 @@||tms.delta.com/delta/dl_bastian/*.js$domain=delta.com
 @@||tms.delta.com/delta/dl_bastian/serverComponent.php$domain=delta.com
@@ -6296,7 +6297,6 @@
 @@||track.rundschau-online.de/cre-*/tracking/tracking.js
 @@||track.shipstation.com/collections/trackingEvents.js$~third-party
 @@||track.svz.de/cre-*/tracking/tracking.js
-@@||track.ukrposhta.ua^$stealth
 @@||track2.royalmail.com^
 @@||trackcmp.net^|
 @@||tracker.ai.xiaomi.com^
@@ -6762,7 +6762,6 @@
 @@||www.ruanyifeng.com^$csp=script-src 'self' * 'sha256-0McqMM66/wAVZmxF6zXpjNsb1UMbTl4LXBXdhqPKxws='
 @@||www.statcounter.com/images/$image,third-party
 @@||www.ups.com/WebTracking/processInputRequest
-@@||www3.doubleclick.net/|$xmlhttprequest,domain=13tv.co.il
 @@||www3.doubleclick.net^|$domain=smsonline.cloud
 @@||www3.doubleclick.net^|$xmlhttprequest,other,domain=thingiverse.com
 @@||wwwimage-tve.cbsstatic.com^
