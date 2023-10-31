@@ -1,0 +1,40 @@
+name: Update Rules
+on: 
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */12 * * *'
+    
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+          
+      - name: Update Rules
+        continue-on-error: true
+        run: |
+          bash ./data/script/update-rules.sh
+          
+      - name: Update ReadMe
+        run: |
+          bash ./data/script/clean-readme.sh
+
+      - name: Git push assets to Github
+        run: |
+          git init
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git checkout --orphan latest_branch
+          git add -A
+          git commit -am "Updated at $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')（北京时间）"
+          git branch -D master
+          git branch -m master
+          git push -f origin master
+
+      - name: Delete workflow runs 
+        uses: Mattraks/delete-workflow-runs@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          retain_days: 0
+          keep_minimum_runs: 0
