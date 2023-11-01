@@ -2,7 +2,7 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2023-11-01 09:15:00（北京时间） 
+! Version: 2023-11-01 20:37:15（北京时间） 
 ! Total count: 6761
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -40,7 +40,7 @@
 @@/^https:\/\/st\.pussyspace\.(?:com|net)\/upload\/poster_img_url\/par\/c3Rhci9[%0-9A-Za-z]{16,32}&size_width\/par\/160\/l\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/www\.[a-z]{7,14}\.com\/[a-z]{1,4}\.js/$script,third-party,domain=shinden.pl,badfilter
 @@/_js/pubfig.min.js$~third-party,domain=svethardware.cz|relaxuj.cz|svetmobilne.cz|digimanie.cz
-@@/acton/content/aoAdDetect.js$domain=unifilabs.com|freedomiot.ai|westernstatescat.com|marketing.rsvpportal.com
+@@/acton/content/aoAdDetect.js$domain=unifilabs.com|freedomiot.ai|westernstatescat.com|marketing.rsvpportal.com|zeomega.com
 @@/ad-close.png$domain=ch.com
 @@/ad/banner/_adsense_/_adserver/_adview_.ad.json
 @@/ad/images/*$domain=37-express.com|vnnox.com
@@ -640,7 +640,6 @@
 @@||adx.yiche.com/cityindex.ashx
 @@||adx.yiche.com/ssp/echo/v1.0/en?*,*,*&cs=
 @@||adyou.me^$generichide
-@@||adz7short.space/*js/viewad.js$domain=adz7short.space
 @@||adz7short.space^$generichide
 @@||aeries.net^*/require/analytics/views/$script,~third-party
 @@||aetv.com^$generichide
@@ -1238,6 +1237,7 @@
 @@||brutalmania.io/ads.js
 @@||bt.com^*/touchclarity/homepage/omtr_tc.js
 @@||bt.dk/build/prebid-ads-advertisement_adbanner.*.js
+@@||btgigs.info/index.php$generichide
 @@||btloader.com/tag?$domain=programme-tv.net
 @@||btloader.com/tag?$domain=voici.fr
 @@||btloader.com/tag?h=prismamedia-com&upapi=true$script,domain=maxisciences.com|gentside.*|ohmymag.*
@@ -2040,7 +2040,6 @@
 @@||discord.com^$generichide
 @@||discordapp.com/banners/$image
 @@||discoveryplus.in/*/ads/banner_ad.js
-@@||discretemath.org/ads/
 @@||discretemath.org^$image,stylesheet
 @@||disneyplus.com^$generichide
 @@||disneyplus.disney.co.jp/view/vendor/analytics/$~third-party
@@ -2104,6 +2103,7 @@
 @@||doubleclick.net/gpt/pubads_impl$domain=www.gamer.com.tw
 @@||doubleclick.net/gpt/pubads_impl_$domain=mytvsuper.com|tvb.com|tvbs.com.tw
 @@||doubleclick.net/instream/ad_status.js$domain=investing.com
+@@||doubleclick.net/ssai/*/streams$xmlhttprequest,domain=snippet.univtec.com
 @@||doubleclick.net^$app=com.google.android.music
 @@||doubleclick.net^$domain=video.sport1.de
 @@||douyucdn.cn^*-share-master/
@@ -3357,6 +3357,7 @@
 @@||googletagservices.com/tag/js/gpt.js$domain=fukuishimbun.co.jp
 @@||googletagservices.com/tag/js/gpt.js$domain=gamestar.de
 @@||googletagservices.com/tag/js/gpt.js$domain=gentside.com|gentside.de|gentside.co.uk|gentside.com.br|esgentside.com|maxisciences.com|ohmymag.com|ohmymag.de|ohmymag.com.br|ohmirevista.com
+@@||googletagservices.com/tag/js/gpt.js$domain=ikitesurf.com
 @@||googletagservices.com/tag/js/gpt.js$domain=imgur.com
 @@||googletagservices.com/tag/js/gpt.js$domain=koigaku.machicon.jp
 @@||googletagservices.com/tag/js/gpt.js$domain=nbcsports.com
@@ -3502,7 +3503,6 @@
 @@||hit.gemius.pl^$app=pl.allegro
 @@||hit.interia.pl/iwa_core$script,~third-party
 @@||hit.stat24.com/*ad.xml$xmlhttprequest,other,domain=polsatnews.pl|polsatsport.pl|twojapogoda.pl|geekweek.pl
-@@||hiveworkscomics.com/frontboxes/300x250_$image,~third-party
 @@||hj.flxpxl.com^*.js?r=*&m=*&a=$domain=twitch.tv
 @@||hk.on.cc/js/v4/oncc-adbanner.js
 @@||hk.on.cc/js/v4/oncc-adbanner.js$domain=hk.on.cc
@@ -3795,7 +3795,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=vvvvid.it
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=wetteronline.de
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=wetv.vip
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=wibc.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=wink.ru
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=wordgames.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=worldsurfleague.com
@@ -4438,6 +4437,7 @@
 @@||meizu.com/fileserver/ad/img/
 @@||member.aetna.com/appConfig/
 @@||merlincdn.net^*/common/images/spacer.gif$image,domain=turkcell.com.tr
+@@||messenger.com^$extension
 @@||meta.wikimedia.org/wiki^
 @@||metabomb.net^$generichide
 @@||metrics.bangbros.com/tk.js$~third-party
@@ -4724,6 +4724,7 @@
 @@||oa.tr.line.me^$document
 @@||oasjs.kataweb.it/adsetup*.js$domain=huffingtonpost.it
 @@||oasjs.kataweb.it/adsetup*.js$domain=video.lastampa.it
+@@||oasjs.kataweb.it/adsetup.real.js$domain=video.capital.it
 @@||oasjs.kataweb.it/adsetup.real.js$domain=video.deejay.it
 @@||oasjs.kataweb.it/adsetup.real.js$domain=video.repubblica.it
 @@||oasjs.kataweb.it/adsetup_cmp.js$domain=repubblica.it
@@ -5480,6 +5481,7 @@
 @@||sdc.pingan.com^$~image
 @@||sdk.fra-02.braze.eu^$app=jp.co.cosmo_oil
 @@||sdk.mrf.io/statics/marfeel-sdk.js$domain=mundodeportivo.com
+@@||sdltutorials.com/Data/Ads/AppStateBanner.jpg$~third-party
 @@||sdn-global-audio-adswizz-cache.3qsdn.com/*/files/$other,media,domain=noz.de
 @@||se.monetate.net/js/*/custom.js$domain=debenhams.com
 @@||se.monetate.net/js/*/entry.js$domain=debenhams.com
@@ -5832,7 +5834,6 @@
 @@||statcounter.com/js/packed/statcounter-$script,~third-party
 @@||states.newegg.com/b/ss/neweggprod/
 @@||static-cdn.spot.im/production/ads/tags/*/ads/ads.js$domain=cgmagonline.com
-@@||static-cf.cleverbridge.com/mycontent^$domain=secure.ccleaner.com,stealth
 @@||static-redesign.cnbcfm.com/dist/components-PcmModule-Taboola-*.js$domain=cnbc.com
 @@||static-v*.trbo.com/plugin/trbo_*.js$domain=blau.de
 @@||static-v*.trbo.com/plugin/trbo_*.js$domain=o2online.de
@@ -6344,7 +6345,6 @@
 @@||upload.wikimedia.org/wikipedia/$image,media
 @@||uploadbox.io/js/advertisement.js
 @@||uploadcloud.pro^$generichide
-@@||uploadex.com^$elemhide
 @@||upos-sz-mirrorhw.bilivideo.com^$stealth
 @@||ups.com/*/WebTracking/track&dcs
 @@||ups.com/*/tracking.cgi
@@ -6431,6 +6431,7 @@
 @@||vidoza.net/embed-*.html$subdocument
 @@||vidoza.net/js/pop.js
 @@||vidtech.cbsinteractive.com^*/AkamaiAnalytics.swf$domain=kuathletics.com|mutigers.com|okstate.com
+@@||vietget.net^$generichide
 @@||viid.me^$generichide
 @@||vipi.tv/ads.js
 @@||vipstatic.com/img/share/blank.png
@@ -6444,7 +6445,6 @@
 @@||visualwebsiteoptimizer.com^*/vis_opt-$script,domain=gre.magoosh.com
 @@||viu.com^*/tracking/
 @@||viu.tv^$generichide
-@@||vivo.bg/gpt.js
 @@||vivo.sx^$generichide
 @@||vivocha.com/a/kartell/api/vivocha.js$domain=kartell.com
 @@||vivocha.com^*/vivocha.js?$script,domain=kartell.com
