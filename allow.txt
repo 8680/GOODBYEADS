@@ -2,8 +2,8 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2023-11-10 20:31:07（北京时间） 
-! Total count: 6774
+! Version: 2023-11-11 10:11:54（北京时间） 
+! Total count: 6779
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$subdocument,third-party,stealth=referrer,domain=sport.starsites.fun
@@ -110,6 +110,7 @@
 @@/cgi-bin/counter_module?action=list_models$subdocument,~third-party
 @@/chunks.m3u8$stealth
 @@/clarity-*.js$domain=clarity-project.info
+@@/clickn(download|upload)\.[a-z]{3,5}/$script,xmlhttprequest,domain=clickndownload.org|clicknupload.click|clicknupload.link|clicknupload.red|clicknupload.vip|clicknupload.xyz
 @@/common/cf/*$domain=66u.com|changhong.com|fei3d.com|oneplusbbs.com|readboy.com
 @@/cpc_cpm_$domain=ygo-sem.cn
 @@/dash?tvid=$stealth,domain=iqiyi.com
@@ -2030,6 +2031,7 @@
 @@||deviantart.com^$stealth=ip
 @@||device-api.urbanairship.com^$app=com.caribou.caribouapp
 @@||diablo3.com/assets/js/jquery.google-analytics.js
+@@||dicasvalores.com^$stealth=referrer
 @@||dict.rambler.ru/fcgi-bin/$xmlhttprequest,domain=rambler.ru
 @@||dictionary.search.yahoo.com/beacon/sc?&ajaxdd=tabsCard&
 @@||dienmayxanh.com^$stealth=dpi
@@ -2408,6 +2410,7 @@
 @@||freebcc.org/assets/img/ad_468x60_*.png
 @@||freebitco.in^$generichide
 @@||freedidi.com^$generichide
+@@||freegamestreams.in/live/*.m3u8$stealth=referrer
 @@||freegeoip.net/json/|$domain=load.pelispedia.vip
 @@||freegeoip.net/json/|$domain=mudwars.io
 @@||freegeoip.net/json/|$domain=userstyles.org
@@ -4903,7 +4906,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=prepostseo.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=production-api.androidacy.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=quienhabla.mx,xmlhttprequest
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ravenscans.com|oatuu.org|papa4k.xyz
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ravenscans.com|oatuu.org|papa4k.xyz|techedubyte.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rekidai-info.github.io
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=repo.hackyouriphone.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=sammobile.com
@@ -6507,6 +6510,7 @@
 @@||wancaibb.com/share/js/share.min.js
 @@||wappass.baidu.com/static/touch/js/lib/fingerprint.js$domain=tieba.baidu.com
 @@||ware.shop.jd.com^$genericblock,generichide
+@@||warezstream.link/mp4$stealth=referrer
 @@||wargag.ru/public/js/counter.js?
 @@||wargaming.net^$stealth
 @@||watch.globaltv.com^$generichide
@@ -6741,6 +6745,7 @@
 @@||youporn.com/embed/$subdocument
 @@||youtube.com/$stealth,app=MicrosoftEdgeCP.exe
 @@||youtube.com/get_video_info?$xmlhttprequest,domain=music.youtube.com|tv.youtube.com
+@@||youtube.com/live_chat$stealth=referrer
 @@||youtube.com/live_chat?$stealth
 @@||youtube.googleapis.com/embed^$stealth
 @@||ytimg.com^*_banner$domain=youtube.com
