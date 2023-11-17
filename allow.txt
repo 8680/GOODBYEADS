@@ -2,8 +2,8 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2023-11-16 20:32:37（北京时间） 
-! Total count: 6781
+! Version: 2023-11-17 09:14:17（北京时间） 
+! Total count: 6788
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$subdocument,third-party,stealth=referrer,domain=sport.starsites.fun
@@ -171,6 +171,7 @@
 @@/pl/js/detect-adblock/*.js$domain=ddwloclawek.pl|ddtorun.pl|wpu24.pl
 @@/playlist.m3u8$stealth
 @@/pop.js|$domain=pornve.com
+@@/premium*/tracks-$stealth=referrer
 @@/pub/ad/*$domain=ruten.com.tw
 @@/pub1/??$domain=banggo.com
 @@/pubads*theguardian.com
@@ -3212,6 +3213,7 @@
 @@||googletagmanager.com/gtm.js$domain=plaion.com
 @@||googletagmanager.com/gtm.js$domain=plus.net
 @@||googletagmanager.com/gtm.js$domain=pointmall.rakuten.co.jp
+@@||googletagmanager.com/gtm.js$domain=portal.game.aug.wkb.jp
 @@||googletagmanager.com/gtm.js$domain=portsmouth.co.uk
 @@||googletagmanager.com/gtm.js$domain=post.ch
 @@||googletagmanager.com/gtm.js$domain=prego.ua
@@ -3430,6 +3432,7 @@
 @@||h-cast.jp^$script,domain=bookoffonline.co.jp
 @@||h-sdk.online-metrix.net^$app=com.ebay.mobile
 @@||h.imedia.cz/js/cmp2/scmp.js$domain=seznam.cz
+@@||h1g.jp/img/ad/ad_heigu.html$~third-party
 @@||haaretz.co.il/logger/p.gif?$image,xmlhttprequest
 @@||haaretz.co.il/logger/p.gif?*=COMMENTS$xmlhttprequest
 @@||haaretz.com/logger/p.gif?*=COMMENTS$xmlhttprequest
@@ -3526,6 +3529,7 @@
 @@||hlmod.ru^$xmlhttprequest,~third-party
 @@||hls-live.bdstatic.com/*/stream_$stealth
 @@||hlserve.com/Delivery/$domain=costco.com,script
+@@||hlsjs.ru/*.ts$stealth=referrer
 @@||hlssec.rambler.eaglecdn.com/key.bin$stealth
 @@||hltv.org/vendor/font-awesome
 @@||hm.baidu.com/h.js?$domain=weaku.com
@@ -3614,7 +3618,6 @@
 @@||identity.mparticle.com^$xmlhttprequest
 @@||idm.hit.gemius.pl/gplayer.js$domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl|eska.pl|radiosupernova.pl
 @@||idmsa.apple.com/appleauth/$stealth,domain=icloud.com|icloud.com.cn
-@@||idnes.cz^$generichide
 @@||idos.idnes.cz^$csp
 @@||idsly.com^$generichide
 @@||ifengimg.com/a/201*Player
@@ -4705,6 +4708,7 @@
 @@||nohup.it/js/webtrekk_js-media.js$domain=radioitalia.it
 @@||noizz.pl/*&srcc=ucs$removeparam=utm_source
 @@||noodid.ee/chordQuiz/$~third-party
+@@||noshwsmkm.com*/hls/$stealth=referrer
 @@||notafree.host^$generichide
 @@||novelpia.com^$stealth=ip
 @@||nowscore.com/script/common/adHelper.js
@@ -4752,6 +4756,7 @@
 @@||ohmanhua.com/js/*.js
 @@||oiihk.com^$generichide
 @@||oisd.nl^$generichide
+@@||oishi-kenko.com/kenko/assets/v2/ads/$~third-party
 @@||ok.ru/videoembed$stealth
 @@||ok.ru/web-api/music/conf$stealth
 @@||oklivetv.com/*&*=*&*&_=$xmlhttprequest,~third-party
@@ -5023,6 +5028,8 @@
 @@||pix04.revsci.net^*.js?$domain=t-online.de
 @@||pix2.services.tvn.pl/pix2.js$domain=tvn24.pl|ttv.pl|tvnturbo.pl
 @@||pixel.adsafeprotected.com/services/pub$domain=reuters.com
+@@||pixel.adsafeprotected.com/services/pub?$xmlhttprequest,removeparam=anId,domain=reuters.com
+@@||pixel.adsafeprotected.com/services/pub?$xmlhttprequest,removeparam=slot,domain=reuters.com
 @@||pixel.adsafeprotected.com^$xmlhttprequest,domain=gentside.com|ohmymag.com
 @@||pixel.facebook.com/ajax/gigaboxx/endpoint/UpdateLastSeenTime.php?$image
 @@||pixel.facebook.com/ajax/notifications/mark_read.php?*&alert_ids%$image
