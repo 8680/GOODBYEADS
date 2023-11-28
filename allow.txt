@@ -2,8 +2,8 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2023-11-27 20:32:49（北京时间） 
-! Total count: 6786
+! Version: 2023-11-28 09:15:04（北京时间） 
+! Total count: 6792
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$subdocument,third-party,stealth=referrer,domain=sport.starsites.fun
@@ -1314,6 +1314,7 @@
 @@||captcha.qq.com^*&refer=http
 @@||captcha.qq.com^*?*=*=*=$subdocument
 @@||captcha.su.baidu.com^
+@@||card-form.diehard.yandex.net^$stealth=referrer
 @@||care2.com/assets/scripts/cookies/care2/NitroCookies.js
 @@||careermap.co.uk/careers/js/google-analytics.js
 @@||carefood.kz/upload/$image
@@ -1398,6 +1399,7 @@
 @@||cdn.contentful.com/spaces^$stealth
 @@||cdn.cpex.cz/cmp/v*/cpex-cmp.min.js$domain=zive.cz
 @@||cdn.cpex.cz/logos/cnc.png$domain=zive.cz
+@@||cdn.cquotient.com/js/$domain=fender.com
 @@||cdn.cquotient.com/js/*/gretel.min.js$domain=karstadt.de
 @@||cdn.cquotient.com/js/*/gretel.min.js$domain=sloggi.com
 @@||cdn.crowdtwist.com/img/$image,domain=myperks.catchow.com
@@ -2173,6 +2175,7 @@
 @@||e-gen.or.kr^$stealth=dpi
 @@||e-stat.go.jp/modules/custom/retrieve/src/js/stat.js?$script,~third-party
 @@||e.cn.miaozhen.com/r/k=*=http
+@@||e.cquotient.com/recs/$script,domain=fender.com
 @@||e.cquotient.com/recs/*?callback=$domain=karstadt.de
 @@||e.cquotient.com/recs/*?callback=$domain=sloggi.com
 @@||e.issuu.com^$stealth
@@ -4058,6 +4061,7 @@
 @@||js.iplsc.com/inpl.abd/*/proxy.html?host=$generichide
 @@||js.iplsc.com/inpl.abd/latest/ads.js?$domain=pomponik.pl|interia.pl|js.iplsc.com
 @@||js.mamydirect.com^$app=com.adguard.dns
+@@||js.monitor.azure.com/scripts/$script,domain=genya.it
 @@||js.monitor.azure.com/scripts/$script,domain=genya.it|microsoft.com|rubex.efilecabinet.net
 @@||js.monitor.azure.com/scripts/*/ms.analytics-web-*.min.js$domain=mediastream.microsoft.com
 @@||js.monitor.azure.com/scripts/*/ms.analytics-web-*.min.js$domain=remoteassistance.support.services.microsoft.com
@@ -6172,6 +6176,7 @@
 @@||tkec.com.tw/api/ad/
 @@||tkqlhce.com^$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@||tlc.com^$generichide
+@@||tm.jsuol.com.br/modules/dmp-uol-sync.js$domain=uol.com.br
 @@||tm.jsuol.com.br/uoltm.js$domain=batepapo.uol.com.br|noticias.uol.com.br|economia.uol.com.br|hugogloss.uol.com.br
 @@||tm.jsuol.com.br/uoltm.js$domain=batepapo.uol.com.br|noticias.uol.com.br|economia.uol.com.br|tribunapr.uol.com.br|midiamax.uol.com.br
 @@||tm.jsuol.com.br/uoltm.js$domain=hugogloss.uol.com.br
@@ -6646,6 +6651,7 @@
 @@||www.googleadservices.*/aclk?*&adurl=$~third-party
 @@||www.googletagmanager.com/gtm.js$script,domain=book.impress.co.jp
 @@||www.googletagmanager.com^$domain=onlineshop.smt.docomo.ne.jp
+@@||www.nzherald.co.nz^$stealth=useragent
 @@||www.olx.ua/api^$app=ua.slando
 @@||www.pussyspace.com/class/captcha/arrow.png|
 @@||www.pussyspace.com/favicon.ico|
