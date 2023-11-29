@@ -2,8 +2,8 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2023-11-29 09:14:58（北京时间） 
-! Total count: 6804
+! Version: 2023-11-29 20:32:20（北京时间） 
+! Total count: 6800
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$subdocument,third-party,stealth=referrer,domain=sport.starsites.fun
@@ -26,6 +26,7 @@
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw
 @@.googleadservices.*.js$domain=ponominalu.ru
+@@.instantservice.com$document
 @@.jpg#$domain=huhupan.com
 @@.net/click-$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@.php?play_vid=$subdocument,stealth=referrer,domain=xyflv.cc
@@ -178,7 +179,7 @@
 @@/pub1/??$domain=banggo.com
 @@/pubads*theguardian.com
 @@/s_code_acdc.js$domain=adobe.com
-@@/sensorsdata-$domain=zkh.com
+@@/sensorsdata-$domain=aixiaoyuan.cn|zkh.com
 @@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|fenbi.com|imooc.com|kuque.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com|ttcdw.cn|xinrenxinshi.com|zzjiasuqi.com
 @@/setCookie?$domain=ctrip.com|ctrip.com.hk|pinyin.cn
 @@/share/js/*$domain=yunpanjingling.com
@@ -742,6 +743,7 @@
 @@||amplitude.com/libs/$script,domain=elconfidencial.com|kink.com|pdfexpert.com|xe.com
 @@||ams.cdn.arkadiumhosted.com/advertisement/display/stable/display-ads.js$domain=arkadium.com
 @@||ams.cdn.arkadiumhosted.com/advertisement/video/stable/video-ads.js$domain=arkadium.com
+@@||ams.cdn.arkadiumhosted.com/advertisement/video/stable/video-ads.js$domain=games.metv.com
 @@||ams.cdn.arkadiumhosted.com/assets/*/advertisements.js
 @@||ams.cdn.arkadiumhosted.com/assets/*/display-ads-f.js
 @@||an.yandex.ru^$app=com.badmanners.murglar
@@ -1279,7 +1281,6 @@
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=kark.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=spox.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=tasteofhome.com
-@@||c.amazon-adsystem.com/aax2/apstag.js$domain=time.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=wgntv.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=wivb.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$script,domain=diep.io
@@ -1302,7 +1303,6 @@
 @@||camelcamelcamel.com/tracker?rf=
 @@||camerabay.tv/ads/entry/camerabay/fullbk/bg.jpg
 @@||camhub.world/player/player_ads.html
-@@||camvideoshub.com/livejasmin.com.js$script
 @@||canada.com/js/ooyala/comscore.js
 @@||canadacomputers.com/templates/ccnew/assets/js/jquery.browser-fingerprint-$~third-party
 @@||canadiantire.ca^*/analytics.sitecatalyst.js
@@ -1317,7 +1317,6 @@
 @@||card-form.diehard.yandex.net^$stealth=referrer
 @@||care2.com/assets/scripts/cookies/care2/NitroCookies.js
 @@||careermap.co.uk/careers/js/google-analytics.js
-@@||carefood.kz/upload/$image
 @@||carexpert.com.tw/wp-content/plugins/like-box-pro/includes/javascript/front_end_js.js
 @@||carrefourpl.snrpage.com^$removeparam=utm_source
 @@||carsensor.net/usedcar/modules/clicklog_top_lp_revo.php$xmlhttprequest
@@ -2019,7 +2018,6 @@
 @@||delivery.adrecover.com/*/adRecover.js$domain=duplichecker.com
 @@||delivery.adrecover.com/allow.jpg$domain=duplichecker.com|smallseotools.com
 @@||delivery.satr.jp^$script,domain=mieru-ca.com
-@@||delivery.vidible.tv/jsonp/$script,domain=delivery.vidible.tv
 @@||dell.com^$cookie=/^AMCVS?_.*AdobeOrg/
 @@||delta.com/dlhome/ruxitagentjs$~third-party
 @@||demdex.net/dest4.html?d_nsid=$subdocument,domain=multipack.com.mx
@@ -2224,7 +2222,6 @@
 @@||egencia.com/pubspec/scripts/include/siteanalytics_include.js
 @@||egmobile.co.kr^$stealth=dpi
 @@||egybest.*^$stealth
-@@||einthusan.tv/prebid.js
 @@||einthusan.tv/prebid.js$script,~third-party
 @@||einthusan.tv^$generichide
 @@||eircomphonebook.ie/js/wt_capi.js?
@@ -2309,7 +2306,6 @@
 @@||experienceleague.adobe.com^$~third-party
 @@||explainxkcd.com/wiki/images/$image,~third-party
 @@||exponential.com^*/tags.js$domain=yellowbridge.com
-@@||extreme-down.plus^$popup,domain=extreme-down.plus
 @@||extreme-ip-lookup.com/json/$xmlhttprequest,domain=skaitv.gr
 @@||extreme-ip-lookup.com^$script,domain=bulkbarn.ca
 @@||extremereportbot.com/ads.js
@@ -3003,7 +2999,6 @@
 @@||googletagmanager.com/gtag/js$domain=photopea.com
 @@||googletagmanager.com/gtag/js$domain=playphrase.me
 @@||googletagmanager.com/gtag/js$domain=quackr.io
-@@||googletagmanager.com/gtag/js$domain=rakuten.ca
 @@||googletagmanager.com/gtag/js$domain=riamo.ru
 @@||googletagmanager.com/gtag/js$domain=roman.com.tr
 @@||googletagmanager.com/gtag/js$domain=ryanair.com
@@ -3479,7 +3474,6 @@
 @@||hcaptcha.com/*/api.js
 @@||hcaptcha.com/captcha/$script,subdocument
 @@||hcaptcha.com^*/api.js
-@@||hdfilmcehennemi.life^$stealth
 @@||hdfilmfullizle.com/_video_onu_yeni.php?v=1$domain=hdfilmifullizle.com|hdfilmfullizle.com
 @@||hdfilmifullizle.com/_video_onu_yeni.php$domain=hdfilmifullizle.com
 @@||hdsky.net/ad/down.png
@@ -3567,6 +3561,8 @@
 @@||huhupan.com/e/extend/down/$generichide
 @@||huke88.com^*-tracking.js
 @@||hulkshare.com/combine/*adblocker.js
+@@||hungryleech.com/redir^$popup
+@@||hungryleech.com/stream^$popup
 @@||huntington.com^$document
 @@||hutchgo.advertserve.com^$domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
 @@||hvemder.no/js/hitcount.min.js$~third-party
@@ -3611,7 +3607,6 @@
 @@||icloud.com^$stealth
 @@||icreativeidea.com/unique/assets/images/ad_photo/$app=com.icreativeidea
 @@||icutlink.com/ad.min.js
-@@||id.atlassian.com^$stealth
 @@||id.cxense.com/public/user/id?json=$domain=itmedia.co.jp
 @@||id.flybuys.com.au/*/fingerprint2.min.js
 @@||id.skyeng.ru^$stealth
@@ -3667,6 +3662,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=4gtv.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=4gtv.tv|881903.com|ani.gamer.com.tw|appledaily.com|hamivideo.hinet.net|line.me|linetv.tw|litv.tv|mytvsuper.com|nextmedia.com|now.com|tvb.com|udn.com|ulifestyle.com.hk
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=7plus.com.au
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=9am.ro
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=a1.ro
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=aksam.com.tr
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=alemfm.com
@@ -4759,7 +4755,6 @@
 @@||offgamers.com/checkout/buyNow/$document,xmlhttprequest
 @@||officeapps.live.com/*.aspx$stealth
 @@||officeworks.com.au^*/site-tracker.js
-@@||oglaszamy24.pl/*js-css/reklamy/bannery/*/adv.js
 @@||ohmanhua.com/js/*.js
 @@||oiihk.com^$generichide
 @@||oisd.nl^$generichide
@@ -5076,6 +5071,7 @@
 @@||player-feedback-v1.glomex.com/pf/|$domain=player.glomex.com
 @@||player.anyclip.com/anyclip-widget/lre-widget/$script,domain=dictionary.com|video.timeout.com|video.venturebeat.com
 @@||player.avplayer.com/script/*/avcplayer.js$domain=sportbible.com
+@@||player.avplayer.com/script/*/avcplayer.js$domain=topsporter.net
 @@||player.avplayer.com^$script,domain=explosm.net|gamingbible.co.uk|justthenews.com|ladbible.com
 @@||player.cdnm4m.nl/assets/js/prebid-ads.js$domain=player.cdnm4m.nl
 @@||player.clevercast.com/players/video-js/video-js-plugins/videojs.ads.min.js
@@ -5318,7 +5314,6 @@
 @@||redirect.appmetrica.yandex.net^
 @@||redirects.tradedoubler.com^$removeparam=utm_campaign
 @@||redirects.tradedoubler.com^$removeparam=utm_content
-@@||redtubefiles.com/_videos_
 @@||redventures.io/lib/dist/prod/bidbarrel-$script,domain=cnet.com|techrepublic.com|zdnet.com
 @@||regapi.37.com/api/p_register.php?login_account=
 @@||reinvigorate.net/re_.js$domain=thenounproject.com
@@ -5785,7 +5780,7 @@
 @@||src.litix.io/shakaplayer/*/shakaplayer-mux.js
 @@||src.litix.io/videojs/*/videojs-mux.js
 @@||src.litix.io/videojs/*/videojs-mux.js$domain=dplay.co.uk
-@@||src.litix.io/videojs/*/videojs-mux.js$domain=plus.nasa.gov
+@@||src.litix.io/videojs/*/videojs-mux.js$domain=nasa.gov
 @@||srv.clickfuse.com/showads/showad.js$domain=aha-music.com
 @@||srv.tunefindforfans.com/showads/track/srvclk.php?
 @@||ssl-images-amazon.com^*/satelliteLib-$script,domain=audible.com
@@ -6677,6 +6672,7 @@
 @@||www.ruanyifeng.com^$csp=script-src 'self' * 'sha256-0McqMM66/wAVZmxF6zXpjNsb1UMbTl4LXBXdhqPKxws='
 @@||www.statcounter.com/images/$image,third-party
 @@||www.ups.com/WebTracking/processInputRequest
+@@||wwwcache.wral.com/presentation/v3/scripts/providers/analytics/ga.js$~third-party
 @@||wwwimage-tve.cbsstatic.com^
 @@||wwwstream.pro^$subdocument,stealth
 @@||wx.qq.com/c/=/mpres/*/video_ad_
