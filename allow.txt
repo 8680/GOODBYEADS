@@ -2,8 +2,8 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2023-11-30 09:13:57（北京时间） 
-! Total count: 6822
+! Version: 2023-11-30 20:32:22（北京时间） 
+! Total count: 6823
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$subdocument,third-party,stealth=referrer,domain=sport.starsites.fun
@@ -349,6 +349,7 @@
 @@||520cc.cc/jspopunder.
 @@||520cc.cc^*/ad.php
 @@||520click.com/ad.php$stealth
+@@||520click.com/ad.php$stealth=referrer
 @@||5278.cool^$generichide
 @@||52zy.com/gg/
 @@||5692.com.ua/assets/*/ads-complain.js
@@ -422,6 +423,7 @@
 @@||ab.blogs.es/abtest.png?editorialRecommendations$domain=applesfera.com
 @@||abchina.com^*ad
 @@||abema-tv.com^$domain=abema.tv,stealth=3p-auth
+@@||abolishstand.net/embed$stealth
 @@||aboluowang.com^$generichide
 @@||about-australia.com/*/clickheat.js
 @@||ac.kr^$stealth=dpi
@@ -913,6 +915,7 @@
 @@||api.geetest.com^$stealth
 @@||api.getmakerlog.com/discussions/$~third-party,websocket,xmlhttprequest
 @@||api.github.com^$stealth
+@@||api.hostemb.ws^$stealth
 @@||api.imgur.com^$stealth
 @@||api.infowarsmedia.com/videojs-event-tracking/dist/videojs-event-tracking.js
 @@||api.ip.sb/geoip$domain=ip.skk.moe
@@ -1200,7 +1203,6 @@
 @@||binbucks.com^$generichide
 @@||bing.com/Passport.aspx$document
 @@||bing.com/fd/ls/GLinkPing.aspx?
-@@||bing.com/news/search?*InfiniteScroll=$document
 @@||bing.com/search?$generichide
 @@||bing.com/secure/Passport.aspx$stealth,important
 @@||bing.com/translator/api/Translate/TranslateArray?$third-party,xmlhttprequest
@@ -1232,7 +1234,6 @@
 @@||boatwizard.com/ads_prebid.min.js$script,domain=boats.com
 @@||bokecc.com/flash/playlog?
 @@||bolha.com/clicktracker/
-@@||bombhopper.io/prebid.js
 @@||book.com.tw/image/getImage?
 @@||book.com.tw/image/getImage?$domain=books.com.tw
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
@@ -2064,7 +2065,6 @@
 @@||digitrend.it/wonder-marketing/assets/wordpress/js/videojs.ga.js?$script,domain=vrsicilia.it
 @@||digworm.io^$generichide
 @@||dijilopedi.com/wp-content/uploads/$image,~third-party
-@@||directline.botframework.com^$stealth
 @@||directline.com/touchclarity/$script
 @@||discord.com^$generichide
 @@||discordapp.com/banners/$image
@@ -4376,7 +4376,6 @@
 @@||masterkong.com.cn/adimages/
 @@||material.angular.io^$generichide
 @@||material.io^$generichide
-@@||mathworks.com^$stealth
 @@||matomo.miraheze.org/matomo.js$script,~third-party
 @@||maxcdn.bootstrapcdn.com/font-awesome^
 @@||maxcdn.bootstrapcdn.com^$stylesheet,domain=shink.me|shon.xyz
@@ -5176,6 +5175,7 @@
 @@||prod.adspsp.com/adb.*.min.js$domain=healthline.com
 @@||prod.adspsp.com/adb.2418030m.min.js$domain=medicalnewstoday.com
 @@||promo.awempire.com/live_feeds/script_basic_livefeed.php?$domain=sexcamdb.com
+@@||promo.com/embed/$subdocument,third-party
 @@||promods.net/*.js$~third-party
 @@||proquest.com/modules.gz/snowplow/snowplow-
 @@||protopage.com^$generichide
@@ -5749,7 +5749,6 @@
 @@||soisk-me.pl/modules/*/js/advertisement.js
 @@||solr.sas.com/query/$xmlhttprequest,domain=jmp.com
 @@||solve-all-problems.info/googleads.js
-@@||solvetube.site/*js$domain=solvetube.site
 @@||solvetube.site^$generichide
 @@||som.aeroplan.com/b/ss/
 @@||sondakika.com/static/reklam/advertisement.gif
@@ -5872,6 +5871,7 @@
 @@||statcounter.com/js/packed/statcounter-$script,~third-party
 @@||states.newegg.com/b/ss/neweggprod/
 @@||static-cdn.spot.im/production/ads/tags/*/ads/ads.js$domain=cgmagonline.com
+@@||static-file.com^$stealth,domain=eyny.com
 @@||static-redesign.cnbcfm.com/dist/components-PcmModule-Taboola-*.js$domain=cnbc.com
 @@||static-v*.trbo.com/plugin/trbo_*.js$domain=blau.de
 @@||static-v*.trbo.com/plugin/trbo_*.js$domain=o2online.de
@@ -6318,6 +6318,7 @@
 @@||trustprofile.com/banners/$image
 @@||try.abtasty.com/403fb16c20596e4691fbe9ec5db9720e.js$domain=shop.euromaster.de
 @@||try.abtasty.com/78cb84f9b3158bdce6932109a6d7c7c1.js$domain=tf1.fr
+@@||tryit.w3schools.com^$document
 @@||tsyndicate.com/sdk/v1/n.js$domain=hpjav.tv
 @@||tt.omtrdc.net/rest/$xmlhttprequest,domain=shop.shoppersdrugmart.ca
 @@||tt1069.com/adbrite.js
