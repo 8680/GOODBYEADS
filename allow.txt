@@ -2,8 +2,8 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2023-12-01 09:20:33（北京时间） 
-! Total count: 6826
+! Version: 2023-12-01 20:32:14（北京时间） 
+! Total count: 6825
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$subdocument,third-party,stealth=referrer,domain=sport.starsites.fun
@@ -31,6 +31,7 @@
 @@.net/click-$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@.php?play_vid=$subdocument,stealth=referrer,domain=xyflv.cc
 @@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
+@@.porntube.com^$stealth
 @@.ts^$stealth
 @@//store.donanimhaber.com/ad/*$domain=forum.donanimhaber.com
 @@/Tag.rb$domain=github.com
@@ -154,7 +155,6 @@
 @@/jannah/*js/advertisement.js|$~third-party
 @@/jquery/*$domain=sobooks.cc
 @@/js/*.js?ad*=popup&ads=DisplayAd$~third-party,script,domain=streamhide.to|ahvsh.com|streamwish.to|streamxxx.online|abkrzkr.sbs|abkrzkz.sbs|mwish.pro|embedwish.com|leakslove.net|ankrzkz.sbs|awish.pro|wishfast.top|belegug.online|sfastwish.com|wolfstream.tv
-@@/js/*.js?ads*1&AdType=1&$~third-party,script,domain=streamhide.to|ahvsh.com|streamwish.to|streamxxx.online|abkrzkr.sbs|abkrzkz.sbs|mwish.pro|embedwish.com|leakslove.net|ankrzkz.sbs|awish.pro|wishfast.top|belegug.online|sfastwish.com|wolfstream.tv
 @@/js/ads.js|$script,~third-party,domain=~internethaber.com|~knaqu.tv
 @@/js/advert.js$~third-party
 @@/js/fuckadb.js$~third-party,domain=megaurl.in
@@ -807,7 +807,6 @@
 @@||animego.org^$stealth=ip
 @@||anisus.xyz/hls/$stealth=referrer
 @@||aniview.com/api/adserver/spt?$domain=sportbible.com
-@@||aniwatcher.com/adblock.js
 @@||annhe.net^$generichide
 @@||annuaire.118000.fr/js/xtcore.js
 @@||anonigviewer.com/assets/js/*.js
@@ -1191,6 +1190,7 @@
 @@||bigbtc.win/js/ads-prebid.js
 @@||bigfishaudio.com/banners/$image,~third-party
 @@||bikeforums.net/clientscript/vbulletin_analytics.js
+@@||bild.de^$stealth
 @@||bild.met.vgwort.de/na^$domain=bild.de
 @@||bilder-a.akamaihd.net/ip/js/ipdvdc/blockadblock.min.js$domain=rtl.de
 @@||bilder-a.akamaihd.net/ip/js/ipdvdc/ipdvdc.min.js$domain=n-tv.de|toggo.de|vip.de
@@ -1563,7 +1563,6 @@
 @@||cdn.static.zdbb.net/js/zd-email.min.js$domain=pcmag.com
 @@||cdn.staticfile.org^$script,domain=00ksw.com|147xiaoshuo.com|91zww.com|biququ.info|bxwx.live|lzbao.net|shenzu.org
 @@||cdn.staticfile.org^$script,domain=movieffm.net
-@@||cdn.taboola.com/libtrc/*/loader.js$domain=cnet.com
 @@||cdn.taboola.com/libtrc/*/loader.js$domain=ilmeteo.it
 @@||cdn.taboola.com/libtrc/*/tfa.js
 @@||cdn.taboola.com/libtrc/axelspringer-dieweltprojectberlin/loader.js$domain=welt.de
@@ -2359,7 +2358,6 @@
 @@||fbcdn.net^$stealth
 @@||fccbrea.org^*/swfaddress.js
 @@||fdj.fr/oad/js/xiti/xtcore.js
-@@||febbit.com^$generichide
 @@||fedex.com/apps/fedextrack$generichide
 @@||fedex.com/apps/myprofile/$generichide
 @@||feed.4strokemedia.com^$domain=video.corriere.it
@@ -2616,6 +2614,7 @@
 @@||go.ezodn.com/tardisrocinante/$domain=vtuupdates.com
 @@||go.gov.il^$stealth=dpi
 @@||go.kr^$stealth=dpi
+@@||go.xlirdr.com/api/models/vast$xmlhttprequest
 @@||go2stream.net/stream/live/track/view/Tracking.php$domain=go2stream.net
 @@||gocomics.com/assets/ad-dependencies-$script,~third-party
 @@||gogoplay1.com/download?id=$popup
@@ -3415,8 +3414,8 @@
 @@||gounlimited.to/embed-*.html
 @@||gounlimited.to/js/pop.js|
 @@||gov.cn/scripts/Comm/AdRotator.js
-@@||gplinks.in/*/data.php$domain=revadvert.com|mynewsmedia.co|rontymobile.in|globlenews.in|onlinegratuitycalculator.com|mydomainscan.com|netflixrelease.com|kejriwalyojana.com|sattanewss.com|digiclown.com|thenovbharattimes.com|nokrimilegi.in|serkarijobfind.com|kojnews.com|jabigetjob.com|iwitnessnews.in|howmany.co.in|freemodapp.com|satyaclub.in|blogviewers.com|onpointgame.net|blog24.me|latestpikashowapk.com|ccrushapp.com|aditechz.com|wwneed.com|mystudyhelp.in|extraking.in|myfirstname.in
-@@||gplinks.in/*/main.js$domain=revadvert.com|mynewsmedia.co|rontymobile.in|globlenews.in|onlinegratuitycalculator.com|mydomainscan.com|netflixrelease.com|kejriwalyojana.com|sattanewss.com|digiclown.com|thenovbharattimes.com|nokrimilegi.in|serkarijobfind.com|kojnews.com|jabigetjob.com|iwitnessnews.in|howmany.co.in|freemodapp.com|satyaclub.in|blogviewers.com|onpointgame.net|blog24.me|latestpikashowapk.com|ccrushapp.com|aditechz.com|wwneed.com|mystudyhelp.in|extraking.in|myfirstname.in
+@@||gplinks.in/*/data.php$domain=revadvert.com|mynewsmedia.co|rontymobile.in|globlenews.in|onlinegratuitycalculator.com|mydomainscan.com|netflixrelease.com|kejriwalyojana.com|sattanewss.com|digiclown.com|thenovbharattimes.com|nokrimilegi.in|serkarijobfind.com|kojnews.com|jabigetjob.com|iwitnessnews.in|howmany.co.in|freemodapp.com|satyaclub.in|blogviewers.com|onpointgame.net|blog24.me|latestpikashowapk.com|ccrushapp.com|aditechz.com|wwneed.com|mystudyhelp.in|extraking.in|myfirstname.in|ojasnew.in
+@@||gplinks.in/*/main.js$domain=revadvert.com|mynewsmedia.co|rontymobile.in|globlenews.in|onlinegratuitycalculator.com|mydomainscan.com|netflixrelease.com|kejriwalyojana.com|sattanewss.com|digiclown.com|thenovbharattimes.com|nokrimilegi.in|serkarijobfind.com|kojnews.com|jabigetjob.com|iwitnessnews.in|howmany.co.in|freemodapp.com|satyaclub.in|blogviewers.com|onpointgame.net|blog24.me|latestpikashowapk.com|ccrushapp.com|aditechz.com|wwneed.com|mystudyhelp.in|extraking.in|myfirstname.in|ojasnew.in
 @@||gpt-worldwide.com/js/gpt.js$~third-party
 @@||grapeshot.co.uk/image-resize/$image
 @@||grapeshot.co.uk/main/channels.cgi$script,domain=telegraph.co.uk
@@ -3431,6 +3430,7 @@
 @@||gstatic.com/ads/external/images/logo_google_ads_*px.png$domain=support.google.com
 @@||gstatic.com/cast/sdk/libs/sender/*/cast_framework.js$domain=pornhub.com|pornhub.org|pornhub.net
 @@||gstatic.com/cv/js/sender/*/cast_sender.js$domain=pornhub.com|pornhub.org|pornhub.net
+@@||gstatic.com/images/branding/product/*x/translate_24dp.png$image,domain=translate.googleapis.com
 @@||gstatic.com/recaptcha/
 @@||gstatic.com^$domain=mixdrop.co
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
@@ -3545,6 +3545,8 @@
 @@||hlidacstatu.cz/scripts/highcharts-6/modules/heatmap.js
 @@||hlmod.ru^$xmlhttprequest,~third-party
 @@||hls-live.bdstatic.com/*/stream_$stealth
+@@||hls.exmarketplace.com/*.m3u8$domain=tvserial.it
+@@||hls.exmarketplace.com/*.ts$domain=tvserial.it
 @@||hlserve.com/Delivery/$domain=costco.com,script
 @@||hlsjs.ru/*.ts$stealth=referrer
 @@||hltv.org/vendor/font-awesome
@@ -3625,7 +3627,6 @@
 @@||id.cxense.com/public/user/id?json=$domain=itmedia.co.jp
 @@||id.flybuys.com.au/*/fingerprint2.min.js
 @@||id.skyeng.ru^$stealth
-@@||id.tmtm.ru/login/
 @@||id.vk.com/auth$jsinject
 @@||identity.mparticle.com/v*/identify$domain=cwseed.com
 @@||identity.mparticle.com/v*/identify$domain=nbc.com
@@ -5225,7 +5226,6 @@
 @@||pubads.g.doubleclick.net^$app=com.cbs.app
 @@||pubads.g.doubleclick.net^$app=com.tour.pgatour
 @@||pubads.g.doubleclick.net^$app=com.treemolabs.apps.cbsnews
-@@||pubads.g.doubleclick.net^$domain=popsugar.com
 @@||pubads.g.doubleclick.net^$domain=twitch.tv
 @@||public-api.reviews.2gis.com^$stealth
 @@||public-ubiservices.ubi.com^$stealth
@@ -5352,7 +5352,6 @@
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
 @@||responder.wt-safetag.com/resp/api/get/$script,domain=myhermes.de
 @@||retailmenot.com/__wsm.gif$ping,~third-party,xmlhttprequest
-@@||retailmenot.com^$jsinject
 @@||reuters.com/ads.js|
 @@||reutersmedia.net/resources^
 @@||reutersmedia.net/resources_v*/js/rcom-scroll-tracker.js$domain=reuters.com
