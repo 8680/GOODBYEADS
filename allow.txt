@@ -2,8 +2,8 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2023-12-07 09:14:38（北京时间） 
-! Total count: 6825
+! Version: 2023-12-07 20:32:28（北京时间） 
+! Total count: 6823
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&__cf_chl_tk=$stealth,~third-party
@@ -234,7 +234,6 @@
 @@://googleadservices.com^|
 @@://localhost:$generichide
 @@://www.atlassian.com^$elemhide,jsinject,extension
-@@://www.coinbase.com^$stealth
 @@://www.fedex.com/Tracking?
 @@://www.googleadservices.com^|
 @@=mywebloadt1&$domain=myweb.hinet.net
@@ -412,6 +411,7 @@
 @@||9zvip.net/wp-content/plugins/detect-adblock/js/ads.js
 @@||9zvip.net^$elemhide
 @@||a-delivery*.mxdcontent.net/*/*?$popup,domain=mixdrop.co
+@@||a-delivery*.mxdcontent.net^$stealth,media
 @@||a.alimama.cn/tkapi$domain=ieeee.com
 @@||a.apkpure.com/analytics_*.js
 @@||a.bf-ad.net/adengine/fff/adengine.js$domain=fitforfun.de
@@ -934,6 +934,7 @@
 @@||api.infowarsmedia.com/videojs-event-tracking/dist/videojs-event-tracking.js
 @@||api.ip.sb/geoip$domain=ip.skk.moe
 @@||api.ipify.org/?format=json$domain=utils.surf
+@@||api.ipify.org/?format=json$domain=wirkaufens.de
 @@||api.ipify.org/?format=jsonp&callback=getIP$domain=embedflix.net
 @@||api.ipify.org^$xmlhttprequest,domain=offering-flower.com
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
@@ -1291,7 +1292,6 @@
 @@||bytedance.com/ttwid/union/register/
 @@||bytegoofy.com/ad/$domain=jinritemai.com
 @@||c.adsco.re^$domain=shorterall.com
-@@||c.amazon-adsystem.com/aax2/apstag.js$domain=androidpolice.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=atozmath.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=baltimoresun.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=epochtimes.de
@@ -1384,6 +1384,7 @@
 @@||cdn.adpushup.com/*/adpushup.js$domain=duplichecker.com
 @@||cdn.adrise.tv/js/ads.js$domain=tubitv.com
 @@||cdn.adsninja.ca/adsninja_client.js$domain=androidpolice.com
+@@||cdn.adsninja.ca/adsninja_client_style.css$domain=androidpolice.com
 @@||cdn.adspirit.de^$domain=cdn.adspirit.de
 @@||cdn.adswizz.com/adswizz/js/SynchroClient*.js$domain=lounge.fm
 @@||cdn.advertserve.com^$domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
@@ -2239,7 +2240,6 @@
 @@||edu.cn^*/ad.css?$stylesheet
 @@||educationcanada.com^$generichide
 @@||eduscho.at/*/exactag_clientside.js
-@@||edx.org^$stealth
 @@||ee.hit.gemius.pl/gplayer.js$domain=tv3play.tv3.ee
 @@||egbilisim.com.tr/wp-content/uploads/$image
 @@||egencia.com/pubspec/scripts/include/siteanalytics_include.js
@@ -3430,8 +3430,8 @@
 @@||gounlimited.to/embed-*.html
 @@||gounlimited.to/js/pop.js|
 @@||gov.cn/scripts/Comm/AdRotator.js
-@@||gplinks.in/*/data.php$domain=revadvert.com|mynewsmedia.co|rontymobile.in|globlenews.in|onlinegratuitycalculator.com|mydomainscan.com|netflixrelease.com|kejriwalyojana.com|sattanewss.com|digiclown.com|thenovbharattimes.com|nokrimilegi.in|serkarijobfind.com|kojnews.com|jabigetjob.com|iwitnessnews.in|howmany.co.in|freemodapp.com|satyaclub.in|blogviewers.com|onpointgame.net|blog24.me|latestpikashowapk.com|ccrushapp.com|aditechz.com|wwneed.com|mystudyhelp.in|extraking.in|myfirstname.in|ojasnew.in
-@@||gplinks.in/*/main.js$domain=revadvert.com|mynewsmedia.co|rontymobile.in|globlenews.in|onlinegratuitycalculator.com|mydomainscan.com|netflixrelease.com|kejriwalyojana.com|sattanewss.com|digiclown.com|thenovbharattimes.com|nokrimilegi.in|serkarijobfind.com|kojnews.com|jabigetjob.com|iwitnessnews.in|howmany.co.in|freemodapp.com|satyaclub.in|blogviewers.com|onpointgame.net|blog24.me|latestpikashowapk.com|ccrushapp.com|aditechz.com|wwneed.com|mystudyhelp.in|extraking.in|myfirstname.in|ojasnew.in
+@@||gplinks.in/*/data.php$domain=revadvert.com|mynewsmedia.co|rontymobile.in|globlenews.in|onlinegratuitycalculator.com|mydomainscan.com|netflixrelease.com|kejriwalyojana.com|sattanewss.com|digiclown.com|thenovbharattimes.com|nokrimilegi.in|serkarijobfind.com|kojnews.com|jabigetjob.com|iwitnessnews.in|howmany.co.in|freemodapp.com|satyaclub.in|blogviewers.com|onpointgame.net|blog24.me|latestpikashowapk.com|ccrushapp.com|aditechz.com|wwneed.com|mystudyhelp.in|extraking.in|myfirstname.in|ojasnew.in|djrajurjm.in
+@@||gplinks.in/*/main.js$domain=revadvert.com|mynewsmedia.co|rontymobile.in|globlenews.in|onlinegratuitycalculator.com|mydomainscan.com|netflixrelease.com|kejriwalyojana.com|sattanewss.com|digiclown.com|thenovbharattimes.com|nokrimilegi.in|serkarijobfind.com|kojnews.com|jabigetjob.com|iwitnessnews.in|howmany.co.in|freemodapp.com|satyaclub.in|blogviewers.com|onpointgame.net|blog24.me|latestpikashowapk.com|ccrushapp.com|aditechz.com|wwneed.com|mystudyhelp.in|extraking.in|myfirstname.in|ojasnew.in|djrajurjm.in
 @@||gpt-worldwide.com/js/gpt.js$~third-party
 @@||grapeshot.co.uk/image-resize/$image
 @@||grapeshot.co.uk/main/channels.cgi$script,domain=telegraph.co.uk
@@ -3695,7 +3695,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=a1.ro
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=aksam.com.tr
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=alemfm.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=androidpolice.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=antena3.ro
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=arkadium.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=atozmath.com
@@ -3756,7 +3755,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=kraloyun.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=ksl.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=laleggepertutti.it
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=lenta.ru
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=liderform.com.tr
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=linetv.tw
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=loot.tv
@@ -3822,6 +3820,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tvp.pl|tvp.info
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=ultimedia.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=umterps.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=video.capital.it
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=video.deejay.it
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=video.gazzetta.it
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=video.lastampa.it
@@ -4711,7 +4710,6 @@
 @@||newsroom.consilium.europa.eu/smarttag.js$domain=newsroom.consilium.europa.eu
 @@||newver.api.dedecms.com/index.php$subdocument
 @@||nextbigfuture.s3.amazonaws.com/uploads$stealth
-@@||nextcloud.com/remote.php/$~third-party,xmlhttprequest
 @@||nfmovies.com/static/side.jpg$xmlhttprequest,domain=nfmovies.com
 @@||ngastatic.com/*/tracker.js$domain=ads.allegro.pl
 @@||nhkondemand.sc.omtrdc.net^$domain=nhk-ondemand.jp
@@ -4723,6 +4721,7 @@
 @@||nintendolife.com/themes/base/javascript/fingerprint.js$~third-party
 @@||niotv.com^$generichide
 @@||nirsoft.net^$stealth=dpi
+@@||nitroflare.com/view/$xmlhttprequest
 @@||nittsu.com/Tracking/Scripts/Tracking/track.js
 @@||nmac.to/cdn-cgi/pe/bag2?r[]=*google-analytics.com
 @@||nmac.to/cdn-cgi/pe/bag2?r[]=*histats.com
@@ -4931,7 +4930,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mta-resource.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=navbharattimes.indiatimes.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=photopea.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=playvideohd.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=populistpress.com|canadafreepress.com|thelibertydaily.com|writerscafe.org|populist.press|welovetrump.com|grammarist.com|protrumpnews.com|concomber.com|videogamesblogger.com|gamersheroes.com|letocard.fr|100percentfedup.com|thepalmierireport.com|kresy.pl|beforeitsnews.com|thepatriotjournal.com|phoenixnewtimes.com|thepoke.co.uk|comicallyincorrect.com|thegatewaypundit.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=portmiamiwebcam.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=prepostseo.com
@@ -5334,6 +5332,7 @@
 @@||reddit.com^$generichide
 @@||reddit.com^$generichide,badfilter
 @@||redditenhancementsuite.com/js/jquery.google-analytics.js
+@@||redefineadpl.hit.gemius.pl/*redataredir?url=*.hit.stat24.com*ad.xml$domain=polsatnews.pl|polsatsport.pl|twojapogoda.pl
 @@||redfin.com/stingray/clicktracker.jsp?
 @@||redguide.top^*/ad.css?$stylesheet
 @@||redheadsound.video/player^$stealth
@@ -6476,6 +6475,7 @@
 @@||video*.xhcdn.com/key=$stealth
 @@||video.520cc.cc/ad.php|
 @@||video.520cc.cc^$generichide
+@@||video.adsninja.ca/valnetinc/AndroidPolice/*-projectRssVideoFile.mp4$domain=androidpolice.com
 @@||video.externulls.com/key=$stealth
 @@||video.fyber.com^$app=net.wooga.tropicats_tropical_cats_puzzle_paradise
 @@||video.javhdporn.net^$stealth
@@ -6632,6 +6632,7 @@
 @@||wiktionary.org^$generichide
 @@||wilderssecurity.com/forums/
 @@||willhaben.apa.net/clientscript/xtcore.js
+@@||windows101tricks.com/wp-content/plugins/better-adsmanager/js/advertising.min.js
 @@||winwk.com^$generichide
 @@||wipe.de/wa.js$domain=dasoertliche.de
 @@||wipe.de/wa.js$domain=dastelefonbuch.de
@@ -6649,7 +6650,6 @@
 @@||wordpress.org/wp-slimstat/assets/banner-$image,~third-party
 @@||work.ink^$generichide
 @@||wp.com/_static/*/gaAddons.js
-@@||wpadmngr.com/static/adManager.js$xmlhttprequest,domain=luscious.net
 @@||wpfc.ml/b.gif$image,domain=holybooks.com
 @@||wplocker.com/advertisement.js
 @@||wpnrtnmrewunrtok.xyz/*preview/*/preview.jpg$image,domain=camwhores.tv
@@ -6669,7 +6669,6 @@
 @@||ww251.smartadserver.com/ac?nwid=*&siteid=$domain=transfermarkt.de
 @@||wwa.wipe.de/wwa.js$domain=mobil.dasoertliche.de
 @@||wwe.com/sites/all/modules/wwe/wwe_analytics/s_wwe_code.js
-@@||www.gdata.pl^$elemhide
 @@||www.google-analytics.com^$app=com.fitbit.FitbitMobile
 @@||www.google-analytics.com^$app=com.google.android.apps.cultural
 @@||www.google-analytics.com^$app=jp.naver.line.android
@@ -6714,7 +6713,6 @@
 @@||xfinity.com/stream/js/api/fingerprint.js$domain=xfinity.com
 @@||xfinity.com/stream/js/api/fingerprint.js$~third-party
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideet^$generichide
 @@||xhcdn.com/*/fonts$font
 @@||xhscdn.com^$image,stealth,domain=xiaohongshu.com
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
