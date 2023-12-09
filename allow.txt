@@ -2,15 +2,15 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2023-12-08 20:31:36（北京时间） 
-! Total count: 6820
+! Version: 2023-12-09 09:13:08（北京时间） 
+! Total count: 6825
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&__cf_chl_tk=$stealth,~third-party
 @@&ad_type=$domain=ultimate-guitar.com
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@*$app=com.cinemark.mobile
-@@*.php?player=desktop$stealth=referrer,domain=feedzstream.com|cricplay2.xyz
+@@*.php?player=desktop$stealth=referrer,domain=feedzstream.com|cricplay2.xyz|antenatv.shop|virazo.sx
 @@*ad*.cms$domain=indiatimes.com|timesofindia.com
 @@-social-bar.$domain=mobi.yahoo.com
 @@.2o7.net/$domain=today.com
@@ -125,7 +125,7 @@
 @@/dh-anti-adblocker/public/js/adex.js
 @@/dh-anti-adblocker/public/js/prebid-ads.js
 @@/dh-new-anti-adblocker-lite/public/js/prebid-ads.js
-@@/embed/$stealth=referrer,subdocument,domain=sportsonline.so
+@@/embed/$stealth=referrer,subdocument,domain=sportsonline.so|sportstream.website|elixx.xyz
 @@/embed/comments^$removeparam,~third-party,domain=clickhole.com|lifehacker.com|splinternews.com|avclub.com|deadspin.com|gizmodo.com|jalopnik.com|jezebel.com|kotaku.com|qz.com|theinventory.com|theonion.com|theroot.com|thetakeout.com
 @@/fingerprint.$domain=abchina.com
 @@/fingerprint2.js$domain=fangcloud.com|fx678.com|gxpf.cn|hnair.com|pop-fashion.com
@@ -182,7 +182,10 @@
 @@/piwik-$domain=github.com
 @@/pl/js/detect-adblock/*.js$domain=ddwloclawek.pl|ddtorun.pl|wpu24.pl
 @@/playlist.m3u8$stealth
+@@/playstream/*/embed*.php$xmlhttprequest,stealth=referrer,domain=playstream.site
+@@/playstream/*/event.php$xmlhttprequest,stealth=referrer,domain=playstream.site
 @@/pop.js|$domain=pornve.com
+@@/premiumtv/*.php$subdocument,stealth=referrer,domain=klubsports.space
 @@/pub/ad/*$domain=ruten.com.tw
 @@/pub1/??$domain=banggo.com
 @@/pubads*theguardian.com
@@ -3893,6 +3896,7 @@
 @@||imasdk.googleapis.com^$app=ch.iAgentur.i20MinFr
 @@||imasdk.googleapis.com^$app=com.bamnetworks.mobile.android.gameday.atbat
 @@||imasdk.googleapis.com^$app=com.cbs.app
+@@||imasdk.googleapis.com^$app=com.foxnews.android
 @@||imasdk.googleapis.com^$app=com.graymatrix.did
 @@||imasdk.googleapis.com^$app=com.mperience.vvvvidmobile
 @@||imasdk.googleapis.com^$app=com.tour.pgatour
@@ -6479,6 +6483,7 @@
 @@||video.javhdporn.net^$stealth
 @@||video.oms.eu/crossdomain.xml$domain=badische-zeitung.de
 @@||video.oms.eu/projekt/download/OMSComponent.swf$domain=badische-zeitung.de
+@@||video.onnetwork.tv/frame*.php$stealth=referrer,domain=radiozet.pl
 @@||video.qq.com/getvinfo?*&otype=*&host=*&refer=htt$domain=v.qq.com
 @@||video.repubblica.it^*/nielsen.js
 @@||video.weibocdn.com^$stealth
