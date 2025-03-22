@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-03-22 09:44:17（北京时间）
+! Version: 2025-03-22 20:39:00（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14744
+! Total count: 14760
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -8675,6 +8675,7 @@
 @@||megaurl.in/adi/advertisement.js
 @@||megaurl.in^$generichide
 @@||megawypas.com^$generichide
+@@||megaxh.com^$script,~third-party
 @@||megaxz.com/ext/*.png#/
 @@||megaxz.com^$generichide
 @@||mein.mobile.de/*/*id=
@@ -14492,10 +14493,25 @@
 @@||xfinity.com^$stealth
 @@||xfreehd.com^$generichide
 @@||xg4ken.com/trk/*&adgroupid=
+@@||xhaccess.com^$script,~third-party
 @@||xhamster.com/ajax/
+@@||xhamster.com^$script,~third-party
+@@||xhamster.desi^$script,~third-party
+@@||xhamster1.desi^$script,~third-party
+@@||xhamster3.com^$script,~third-party
+@@||xhbig.com^$script,~third-party
+@@||xhbranch5.com^$script,~third-party
 @@||xhcdn.com/*.mp4$domain=xhamster.com
 @@||xhcdn.com/*/fonts$font
+@@||xhchannel.com^$script,~third-party
+@@||xhmoon5.com^$script,~third-party
+@@||xhofficial.com^$script,~third-party
 @@||xhscdn.com^$image,stealth,domain=xiaohongshu.com
+@@||xhspot.com^$script,~third-party
+@@||xhtotal.com^$script,~third-party
+@@||xhvid.com^$script,~third-party
+@@||xhwide2.com^$script,~third-party
+@@||xhwide5.com^$script,~third-party
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
 @@||xiaomi-miui.gr/*/advertisement.js
 @@||xiaomifirmwareupdater.com^$generichide
