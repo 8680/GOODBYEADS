@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-04-01 09:59:25（北京时间）
+! Version: 2025-04-01 20:47:12（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14802
+! Total count: 14801
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -4515,7 +4515,6 @@
 @@||eden.international/script/ad_banner/
 @@||eden.org.tw^*/ad_banner/
 @@||edge-*.gcdn.app/st/$stealth=referrer,domain=anilife.*
-@@||edge.api.brightcove.com/playback/v1/accounts/*/videos/$xmlhttprequest,domain=tver.jp,stealth=ip
 @@||edge.microsoft.com/translate/auth
 @@||edge.mycdn.live/live/*.m3u8$stealth
 @@||edge.mycdn.live^$stealth,domain=futebolplayhd.com
@@ -9191,7 +9190,6 @@
 @@||necksdesign.com^$generichide
 @@||neko-miku.com^$generichide
 @@||nekomeowmeow.com^$generichide
-@@||nekopoi.*/wp-content/themes/ThemeNekopoi/js/adsbygoogle.js$~third-party
 @@||nelonenmedia.fi/logger/logger-ini.json$xmlhttprequest,domain=embed.sanoma-sndp.fi|supla.fi
 @@||nemlog-in.dk/resources/js/adrum.js$~third-party
 @@||nensaysubs.net^$generichide
@@ -10754,6 +10752,7 @@
 @@||play.tv3.lt/static/scripts/ima3.js
 @@||play.tv3.lv^$generichide
 @@||play.vidyard.com^$stealth
+@@||playback.api.streaks.jp/*/projects/tver-*/medias/$domain=tver.jp,stealth=ip
 @@||playcode.io^$generichide
 @@||playep.pro/log_event$~third-party,xmlhttprequest
 @@||player*.cinestream.bid^$stealth
