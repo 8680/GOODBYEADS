@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-04-07 09:51:05（北京时间）
+! Version: 2025-04-07 20:47:07（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14810
+! Total count: 14814
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -740,7 +740,6 @@
 @@||a-ads.com/*?size=$xmlhttprequest,domain=hitbits.io
 @@||a-delivery*.mxdcontent.net^$stealth,media
 @@||a-invdn-com.akamaized.net/Broker_Button_New^$domain=investing.com
-@@||a.1gr.cz/mafra/tserver/$domain=idnes.cz
 @@||a.alimama.cn/tkapi$domain=ieeee.com
 @@||a.allegroimg.com^$domain=allegro.pl
 @@||a.bf-ad.net/adengine/fff/adengine.js$domain=fitforfun.de
@@ -806,7 +805,7 @@
 @@||ac.kr^$stealth=dpi
 @@||ac.namu.la^$domain=arca.live,media,image,stealth
 @@||ac.namu.la^$image,domain=arca.live,stealth=referrer
-@@||acacdn.com/script/ippg.js$domain=vgfplay.com|vgembed.com|gaystream.online|v6embed.xyz|vid-guard.com|vembed.net|embedv.net|fslinks.org|bembed.net|listeamed.net|tioplayer.com|elbailedeltroleo.site|vgfplay.xyz|go-streamer.net|gsfjzmqu.sbs
+@@||acacdn.com/script/ippg.js$domain=vgfplay.com|vgembed.com|gaystream.online|v6embed.xyz|vid-guard.com|vembed.net|embedv.net|fslinks.org|bembed.net|listeamed.net|tioplayer.com|elbailedeltroleo.site|vgfplay.xyz|go-streamer.net|gsfjzmqu.sbs|pistona.xyz
 @@||acacdn.com/script/ippg.jsdomain=dflix.top
 @@||acapellas.eu^$generichide
 @@||accaii.com^$domain=kyuusai2nd.net
@@ -6720,7 +6719,7 @@
 @@||healthgateway.gov.bc.ca/snowplow.js$~third-party
 @@||healthspiritbody.com^$generichide
 @@||healthytotal.net^$generichide
-@@||heardaccumulatebeans.com/*/*/*/*.js$domain=vgfplay.com|vgembed.com|gaystream.online|v6embed.xyz|vid-guard.com|vembed.net|embedv.net|fslinks.org|bembed.net|listeamed.net|tioplayer.com|elbailedeltroleo.site|vgfplay.xyz|go-streamer.net|gsfjzmqu.sbs
+@@||heardaccumulatebeans.com/*/*/*/*.js$domain=vgfplay.com|vgembed.com|gaystream.online|v6embed.xyz|vid-guard.com|vembed.net|embedv.net|fslinks.org|bembed.net|listeamed.net|tioplayer.com|elbailedeltroleo.site|vgfplay.xyz|go-streamer.net|gsfjzmqu.sbs|pistona.xyz
 @@||heartyhosting.com^$domain=muscleandfitness.com
 @@||heatmap.it^$domain=heatmap.com
 @@||heatmap.it^$domain=heatmap.com|heatmap.it|heatmap.me|heatmap.org
@@ -7363,6 +7362,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=wetteronline.de
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=wetv.vip
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=wibc.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=winfuture.de
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=wink.ru
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=winknews.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=wordgames.com
@@ -9389,7 +9389,7 @@
 @@||o2.pl^$generichide
 @@||o2tvseries.com^$generichide
 @@||oa.tr.line.me^$document
-@@||oaphoace.net/*/$script,domain=vgfplay.com|vgembed.com|gaystream.online|v6embed.xyz|vid-guard.com|vembed.net|embedv.net|fslinks.org|bembed.net|listeamed.net|tioplayer.com|elbailedeltroleo.site|vgfplay.xyz|go-streamer.net|gsfjzmqu.sbs
+@@||oaphoace.net/*/$script,domain=vgfplay.com|vgembed.com|gaystream.online|v6embed.xyz|vid-guard.com|vembed.net|embedv.net|fslinks.org|bembed.net|listeamed.net|tioplayer.com|elbailedeltroleo.site|vgfplay.xyz|go-streamer.net|gsfjzmqu.sbs|pistona.xyz
 @@||oasjs.kataweb.it/adsetup*.js$domain=huffingtonpost.it
 @@||oasjs.kataweb.it/adsetup*.js$domain=video.lastampa.it
 @@||oasjs.kataweb.it/adsetup.js$domain=video.capital.it
@@ -11157,6 +11157,7 @@
 @@||qlogo.cn^
 @@||qm.redbull.com/gtm.js$domain=redbull.com
 @@||qm.redbullracing.com/gtm.js$~third-party
+@@||qm.wrc.com/gtm.js$~third-party
 @@||qobuz.com^$generichide
 @@||qoe-*.yottaa.net/*/configure.rapid.js$domain=northerntool.com
 @@||qooqlevideo.com^$stealth
@@ -12591,6 +12592,7 @@
 @@||statcounter.com/js/packed/statcounter-$script,~third-party
 @@||states.newegg.com/b/ss/neweggprod/
 @@||static*.akacdn.ru/assets/min/frontend/all.$script,stylesheet,domain=9anime.one
+@@||static*.mfcdn*.xyz^$image,stealth=referrer,domain=mangafire.to
 @@||static*.nytimes.com/newsgraphics/*/_assets/graphics/$xmlhttprequest,elemhide,jsinject,extension
 @@||static-*.xvideos.com/*/js/
 @@||static-cdn.spot.im/production/*/*.js$domain=bizpacreview.com
@@ -13280,7 +13282,7 @@
 @@||thepoorcoder.com^$generichide
 @@||theregister.co.uk/*_adtech_
 @@||therichest.com^$generichide
-@@||thermometerinconceivablewild.com/*/*/*/*.js$domain=vgfplay.com|vgembed.com|gaystream.online|v6embed.xyz|vid-guard.com|vembed.net|embedv.net|fslinks.org|bembed.net|listeamed.net|tioplayer.com|elbailedeltroleo.site|vgfplay.xyz|go-streamer.net|gsfjzmqu.sbs
+@@||thermometerinconceivablewild.com/*/*/*/*.js$domain=vgfplay.com|vgembed.com|gaystream.online|v6embed.xyz|vid-guard.com|vembed.net|embedv.net|fslinks.org|bembed.net|listeamed.net|tioplayer.com|elbailedeltroleo.site|vgfplay.xyz|go-streamer.net|gsfjzmqu.sbs|pistona.xyz
 @@||thesaurus.com/assets/ads.js
 @@||theseotools.net^$generichide
 @@||thesouthern.com^$generichide
@@ -13759,6 +13761,8 @@
 @@||ulximg.com/image/*/banner/$domain=hotnewhiphop.com
 @@||um.viuapi.io/drm/$stealth
 @@||uma.media^$stealth
+@@||umeng.com/api/$domain=developer.umeng.com
+@@||umeng.com/college/$domain=developer.umeng.com
 @@||unbiasedsenseevent.com/embed/$stealth
 @@||uncensoredleak.com^$generichide
 @@||underurl.com^$generichide
