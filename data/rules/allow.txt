@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-04-10 20:46:33（北京时间）
+! Version: 2025-04-11 09:49:10（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14816
+! Total count: 14817
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -7301,7 +7301,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=sondakika.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=sonyliv.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=soonersports.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=southparkstudios.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=southpark.*|southparkstudios.*
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=spox.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=stack.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=startrek.com
@@ -7403,7 +7403,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=nick.com|nickjr.com|cc.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=play.virginmediatelevision.ie
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=sonyliv.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=southparkstudios.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=southpark.*|southparkstudios.*
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=timesnownews.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=vix.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=winknews.com
@@ -7427,7 +7427,7 @@
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=pluto.tv
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=pluto.tv|tunein.com
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=sciencechannel.com
-@@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=southparkstudios.com
+@@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=southpark.*|southparkstudios.*
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=tunein.com
 @@||imasdk.googleapis.com^$domain=cnet.com
 @@||imasdk.googleapis.com^$stealth,domain=news.tvb.com
@@ -9020,7 +9020,7 @@
 @@||mssl.fwmrm.net/*/MTG_Brightcove_HTML5/AdManager.js$domain=viasatsport.se
 @@||mssl.fwmrm.net/crossdomain.xml$domain=msn.com
 @@||mssl.fwmrm.net/crossdomain.xml$domain=vplayer.nbcsports.com
-@@||mssl.fwmrm.net/libs/adm/*/AdManager.js$domain=southparkstudios.com
+@@||mssl.fwmrm.net/libs/adm/*/AdManager.js$domain=southpark.*|southparkstudios.*
 @@||mssl.fwmrm.net/libs/adm/*/LinkTag2.js$domain=play.tv3.lt
 @@||mssl.fwmrm.net/libs/adm/*/LinkTag2.js$domain=tv3play.skaties.lv
 @@||mssl.fwmrm.net/p/abc_live/AdManager.js$domain=abc.go.com
@@ -12911,6 +12911,7 @@
 @@||support.weixin.qq.com^
 @@||supportcanon.com^$generichide
 @@||supremejav.com/supjav.php^$stealth
+@@||suratkargo.com.tr^$stealth=dpi
 @@||surfe.pro/js/net.js$domain=go.freetrx.fun
 @@||surfe.pro/js/net.js$script,xmlhttprequest,domain=btcbitco.in|btcsatoshi.net|cempakajaya.com|gainl.ink|wiour.com
 @@||surfe.pro/net/teaser$domain=btcbitco.in|btcsatoshi.net
