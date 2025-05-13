@@ -1,0 +1,65 @@
+name: Update Rules
+on: 
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */12 * * *'
+    
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+          
+      - name: Download Rules
+        continue-on-error: true
+        run: |
+          python ./data/python/dl.py
+          
+      - name: Merge Rules
+        run: |
+          python ./data/python/merge.py
+          
+      - name: Generate dns Rules
+        run: |
+          python ./data/python/filter-dns.py
+
+      - name: Generate qx Rules
+        run: |
+          python ./data/python/qx.py
+          
+      - name: Generate SmartDNS Rules
+        run: |
+          python ./data/python/smartdns.py
+          
+      - name: Generate SmartDNS Whitelist
+        run: |
+          python ./data/python/smartdns_whitelist.py
+          
+      - name: Generate Domain List
+        run: |
+          python ./data/python/domain_list.py
+
+      - name: Update Title&ReadMe
+        run: |
+          python ./data/python/title.py
+          python ./data/python/clean-readme.py
+
+      - name: Git push assets to Github
+        run: |
+          git init
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git checkout --orphan latest_branch
+          git add -A
+          git commit -am "Updated at $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')（北京时间）"
+          git branch -D master
+          git branch -m master
+          git push -f origin master
+
+      - name: Delete workflow runs 
+        uses: Mattraks/delete-workflow-runs@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          retain_days: 0
+          keep_minimum_runs: 0
