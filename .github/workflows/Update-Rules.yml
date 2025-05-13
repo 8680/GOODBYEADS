@@ -49,12 +49,10 @@ jobs:
           git init
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git checkout --orphan latest_branch
-          git add -A
-          git commit -am "Updated at $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')（北京时间）"
-          git branch -D master
           git branch -m master
-          git push -f origin master
+          git add --all
+          git commit -m "Updated at $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')（北京时间）"
+          git push -u origin -f
 
       - name: Delete workflow runs 
         uses: Mattraks/delete-workflow-runs@main
