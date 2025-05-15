@@ -22,7 +22,7 @@ def convert_to_smartdns_format(input_file, output_file):
             if line.startswith("||") and line.endswith("^"):
                 # Extract domain from the rule (remove || prefix and ^ suffix)
                 domain = line[2:-1]
-                if "/*." in domain:
+                if "*" in domain:
                     continue
                 # Write SmartDNS rule format: address /domain/#
                 file.write(f"address /{domain}/#\n")
