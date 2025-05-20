@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-05-20 09:56:42（北京时间）
+! Version: 2025-05-20 20:50:22（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14912
+! Total count: 14913
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -2558,6 +2558,7 @@
 @@||broadcastlv.chat.bilibili.com^
 @@||brocardi.it^$generichide
 @@||broncos.com.au^$generichide
+@@||brookaccessory.com^$stealth=dpi
 @@||browser-intake-datadoghq.com^$domain=pluto.tv
 @@||browser.covatic.io/sdk/v1/bauer.js$script,domain=hellorayo.co.uk
 @@||browser.sentry-cdn.com/*/bundle.min.js$domain=freebitz.xyz
@@ -9324,6 +9325,7 @@
 @@||niagotch.com^$generichide
 @@||nibbits.com^$generichide
 @@||nicecarsinfo.com^$generichide
+@@||nichepcgamer.com^$generichide
 @@||nihasi.ru/upload/resize_cache/*/300_250_$image,~third-party
 @@||nik-ser.at.ua/js/pagead2.ads.js$domain=remont-aud.net
 @@||nike.com/assets/measure/data-capture/analytics-client.min.js$script,~third-party
@@ -11383,7 +11385,6 @@
 @@||reddit.app.link^$stealth=useragent
 @@||reddit.com/r/*_advertising/
 @@||reddit.com/r/*_banner_ads_
-@@||reddit.com^$extension="AdGuard Popup Blocker"|"AdGuard Popup Blocker (Beta)"
 @@||reddit.com^$generichide
 @@||reddit.com^$generichide,badfilter
 @@||redditenhancementsuite.com/js/jquery.google-analytics.js
