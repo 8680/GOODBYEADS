@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-05-19 20:50:25（北京时间）
+! Version: 2025-05-20 09:56:42（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14913
+! Total count: 14912
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -13673,7 +13673,6 @@
 @@||trenddify.com^$generichide
 @@||trendiqq.com^$generichide
 @@||trf.greatviews.de/cl?$domain=mitarbeiterangebote.de
-@@||trgoals.*.workers.dev/*.jpg$stealth=referrer
 @@||trib.com^$generichide
 @@||trinitymedia.ai/player/$stealth=referrer
 @@||trip-jam.com/resources/js/adsense.js
@@ -14502,8 +14501,8 @@
 @@||wordpress.org/stats/plugin/$domain=wordpress.org
 @@||wordpress.org/wp-slimstat/assets/banner-$image,~third-party
 @@||work.ink^$generichide
+@@||workers.dev/*%3D%3D.$xmlhttprequest,stealth=referrer
 @@||workers.dev/*.m3u8$stealth=referrer
-@@||workers.dev/yayinstar$xmlhttprequest,stealth=referrer
 @@||world4.eu/wp-content/plugins/ad-inserter-pro/images/ads.png
 @@||world4.eu/wp-content/uploads/ad-inserter/*/*.js
 @@||world4.eu^$generichide
