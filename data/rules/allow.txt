@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-05-31 09:53:48（北京时间）
+! Version: 2025-05-31 20:43:36（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14930
+! Total count: 14932
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -8468,6 +8468,7 @@
 @@||ltv.lsm.lv/embed?$stealth=ip
 @@||lubetube.com^$generichide
 @@||luciferdonghua.in^$generichide
+@@||lulustream.com^$popup,domain=luluvdo.com
 @@||luluvdo.com^$stealth=useragent
 @@||luminalearning.com/affiliate-content/$image,~third-party
 @@||luminousstreamhaven.com^$stealth=referrer,domain=edgedeliverynetwork.com
@@ -12965,6 +12966,7 @@
 @@||streampass.org^$stealth=referrer
 @@||streamsb.net/pop.js
 @@||streamtape.*/ad.js
+@@||streamtape.com^$popup,domain=streamtape.to
 @@||streamwish.com/js/dnsads.js?ads
 @@||streanplay.cc^$stealth
 @@||strimov.site/embed$stealth=referrer
