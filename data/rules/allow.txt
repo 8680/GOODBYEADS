@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-06-03 20:50:52（北京时间）
+! Version: 2025-06-04 09:58:22（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14930
+! Total count: 14928
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -891,7 +891,6 @@
 @@||ad.a-ads.com/*?size=$domain=larvelfaucet.com
 @@||ad.a-ads.com/*?size=$domain=linkneverdie.com
 @@||ad.a-ads.com/*?size=$domain=pentafaucet.com
-@@||ad.a-ads.com/*?size=$subdocument,domain=bazadecrypto.com
 @@||ad.a-ads.com/*?size=300x250$domain=linkneverdie.com
 @@||ad.a-ads.com/*?size=320x50$domain=bchtechnologies.com
 @@||ad.a-ads.com/*?size=320x50$domain=phineypet.com
@@ -2256,7 +2255,6 @@
 @@||banner-hiroba.com/wp-content/uploads/$image,~third-party
 @@||banner.customer.kyruus.com^$domain=doctors.bannerhealth.com
 @@||banner.dna.fi^
-@@||banner.infoey.com/adbanner.png$domain=bazadecrypto.com
 @@||banner.infoey.com/adbanner.png$domain=bchtechnologies.com
 @@||banner.infoey.com/adbanner.png$domain=phineypet.com
 @@||banners.s1.citilink.ru^$image,domain=citilink.ru
@@ -3119,6 +3117,7 @@
 @@||cdn.pogo.com/*/exhibit/imasdk/application.js
 @@||cdn.pogo.com/*/exhibit/imasdk/imasdk-pogo-1.0.js
 @@||cdn.pogo.com/*/exhibit/imasdk/video_player.js
+@@||cdn.polarbyte.com^$domain=bab.la
 @@||cdn.popt.in/pixel.js$domain=userstyles.org
 @@||cdn.ptztv.live/flyads/streaming.js
 @@||cdn.pubfuture-ad.com/v2/unit/pt.js$domain=faqwiki.us
@@ -10019,7 +10018,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=imgo.info
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=indexsubtitle.cc
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=infidrive.net
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=infotamizhan.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=insidertracking.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=investguiding-com.custommapposter.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=investing.com
@@ -10332,7 +10330,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=youneed.win
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=yt-downloaderz.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ytstv.co
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ytstvmovies.me|ytstvmovies.xyz|ytstv.me|ytsyifymovie.com|torrents.vip|ytsyifytorrent.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ytstvmovies.me|ytstvmovies.xyz|ytstv.me|torrents.vip
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=z-lib.io
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=za.gl
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=zdopravy.cz
@@ -11000,6 +10998,7 @@
 @@||porntube.com/adb_detector.js|$~third-party
 @@||pornxp.com^$stealth=ip
 @@||pornxp.eu^$stealth=ip
+@@||pornxp.net^$stealth=ip
 @@||pornxxx.tv/ads.js
 @@||port.hu/js/advert.min.js
 @@||port.hu^$generichide
@@ -14394,7 +14393,6 @@
 @@||webfail.com^$generichide
 @@||webgains.com^$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@||webhook.frontapp.com/forms/$stealth=referrer
-@@||webhostingpost.com^$generichide
 @@||webkul.com/joomaddon//plugins/system/adblockerdetect^
 @@||weblet.square-enix.com/banner.php^
 @@||webmail.smartlinkcorp.com/dotrans_20160909.php
