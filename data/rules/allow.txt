@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-06-06 20:48:50（北京时间）
+! Version: 2025-06-07 09:55:51（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14940
+! Total count: 14941
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -1862,6 +1862,7 @@
 @@||api.production.k8s.y3o.tv/*/video-ads/$domain=yallo.tv
 @@||api.rhombusads.com/v*/embed/check$domain=spin.com
 @@||api.rmr.rocks^$stealth=3p-auth
+@@||api.rtl.nl/watch/$stealth=3p-auth
 @@||api.schale.network^$stealth=referrer|3p-auth
 @@||api.smartystreets.com/lookup$stealth=referrer,domain=att.com
 @@||api.solvemedia.com/papi/
