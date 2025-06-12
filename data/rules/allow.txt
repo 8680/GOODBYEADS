@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-06-12 09:57:38（北京时间）
+! Version: 2025-06-12 20:50:11（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14521
+! Total count: 14514
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -3856,6 +3856,7 @@
 @@||cy.com/hz/*/ad
 @@||cy.com^$generichide
 @@||cyberspace.world^$generichide
+@@||cybozu.com/*/event.gif?$~third-party
 @@||cyfostreams.com/advertisement.js
 @@||cz.mrezadosa.com^$domain=centrum.cz
 @@||cz.mrezadosa.com^$domain=idos.idnes.cz
@@ -3890,9 +3891,7 @@
 @@||d347cldnsmtg5x.cloudfront.net/util/1x1.gif$image,domain=aplaceforeverything.co.uk
 @@||d3c3cq33003psk.cloudfront.net/opentag$domain=sunglasses-shop.nl
 @@||d3njgrq4uvb497.cloudfront.net/videojs/videojs-contrib-ads.js$domain=ksl.com
-@@||d3u598arehftfk.cloudfront.net/prebid_hb_1670_2319.js$domain=blog.wiki-topia.com
 @@||d3u598arehftfk.cloudfront.net/prebid_hb_1670_2903.js$domain=blog.carstopia.net|blog.coinsvalue.net|blog.cookinguide.net|blog.freeoseocheck.com|blog.makeupguide.net
-@@||d3u598arehftfk.cloudfront.net/prebid_hb_3922_6541.js$domain=playstore.pw
 @@||d41.co/tags/ff-2.min.js$domain=ads.spotify.com
 @@||d81mfvml8p5ml.cloudfront.net/n8hnletr.js$domain=countryattire.com
 @@||d8rk54i4mohrb.cloudfront.net/js/video.js$domain=forbes.com
@@ -5846,7 +5845,6 @@
 @@||googletagmanager.com/gtag/js$domain=battlestick2.net
 @@||googletagmanager.com/gtag/js$domain=bihann.com|nehannn.com
 @@||googletagmanager.com/gtag/js$domain=bizimtoptan.com.tr
-@@||googletagmanager.com/gtag/js$domain=blog.wiki-topia.com
 @@||googletagmanager.com/gtag/js$domain=btcbunch.com
 @@||googletagmanager.com/gtag/js$domain=cmoa.jp
 @@||googletagmanager.com/gtag/js$domain=coin-free.com
@@ -5978,7 +5976,6 @@
 @@||googletagmanager.com/gtm.js$domain=blaklader.*
 @@||googletagmanager.com/gtm.js$domain=blaklader.at|blaklader.be|blaklader.ca|blaklader.com|blaklader.cz|blaklader.de|blaklader.dk|blaklader.ee|blaklader.es|blaklader.fi|blaklader.fr|blaklader.ie|blaklader.it|blaklader.nl|blaklader.no|blaklader.pl|blaklader.se|blaklader.uk
 @@||googletagmanager.com/gtm.js$domain=bleedingcool.com
-@@||googletagmanager.com/gtm.js$domain=blog.wiki-topia.com
 @@||googletagmanager.com/gtm.js$domain=blokker.nl
 @@||googletagmanager.com/gtm.js$domain=blue-tomato.com
 @@||googletagmanager.com/gtm.js$domain=braun.com
@@ -7153,7 +7150,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=player.motorsport-magazin.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=player.pl|vod.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=player.theplatform.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=playstore.pw
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=plex.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=pluscdn.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=pogo.com
@@ -7708,6 +7704,7 @@
 @@||js.monitor.azure.com/scripts/*/ms.analytics-web-*.min.js$domain=mediastream.microsoft.com
 @@||js.monitor.azure.com/scripts/*/ms.analytics-web-*.min.js$domain=remoteassistance.support.services.microsoft.com
 @@||js.monitor.azure.com/scripts/*/ms.analytics-web-*.min.js$domain=skype.com
+@@||js.monitor.azure.com/scripts/c/ms.jsll-*.min.js$domain=visualstudio.microsoft.com
 @@||js.monitor.azure.com/scripts/c/ms.jsll-3.min.js$domain=contentsafety.cognitive.azure.com
 @@||js.monitor.azure.com^$app=com.microsoft.office.officehubrow
 @@||js.revsci.net/gateway/gw.js$domain=boston.com|calgaryherald.com|calgarysun.com|celebuzz.com|montrealgazette.com|saveur.com
@@ -7755,7 +7752,6 @@
 @@||k12-company.ru^*/statistics.js$script
 @@||k12reader.com^$generichide
 @@||k258059.net^$generichide
-@@||k5a.io^$script,xmlhttprequest,domain=20min.ch|itavisen.no
 @@||kaamuu.com^$generichide
 @@||kabel-tv-plus.blogspot.com^$generichide
 @@||kabumap.com/servlets/kabumap/html/common/img/ad/$~third-party
@@ -8037,7 +8033,6 @@
 @@||lib.wtg-ads.com/lib.min.js$domain=dnevnik.hr
 @@||lib.wtg-ads.com/prebid/prebid_*.js$domain=tvn.pl
 @@||lib.wtg-ads.com/publisher/mmorpg.org.pl/lib.min.js$xmlhttprequest,domain=mmorpg.org.pl
-@@||lib.wtg-ads.com/publisher/wiki-topia.com/732ddef10898663e15a5.js$domain=blog.wiki-topia.com
 @@||libero.it^$generichide
 @@||libgen.li/ads.php
 @@||libros4.com^$generichide
@@ -8418,6 +8413,7 @@
 @@||matomo.miraheze.org/matomo.js$script,~third-party
 @@||matomo.moeci.com/matomo.js$domain=moeci.com
 @@||matrix.redditspace.com^$stealth=3p-auth
+@@||matsukiyococokara-online.com/store/*/rtoaster.js
 @@||matystudios.github.io/banner_ad.png$domain=serialyzdarma.eu
 @@||matzoo.pl^$generichide
 @@||max.com^$generichide
@@ -9695,7 +9691,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=forums-fastunlock.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=fox.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freebinchecker.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freebnbcoin.com|exotictgirl.blogspot.com|bospedia.com|rockmods.net|aiimsneetshortnotes.com|arabseed.onl|miuiku.com|tatangga.com|flash-firmware.blogspot.com|ghostsnet.com|rezkozpatch.xyz|rumahit.id|sekilastekno.com|romfirmware.com|gsmfirmware.net|akwam.*|health-and.me|fc-lc.com|fc.lc|note1s.com|paste1s.com|playstore.pw|pes-patches.com|ipacrack.com|codevn.net|traffic1s.com|adnews.me|eg-akw.com|ak4eg.*|xn--mgba7fjn.*|akw.to|ak4ar.*|nguyenvanbao.com|ak.sv|akw.cam|indokontraktor.com|shahee4u.cam|batch-kun.com|shed4u1.cam|shahid4u.*|neosatsu.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freebnbcoin.com|exotictgirl.blogspot.com|bospedia.com|rockmods.net|aiimsneetshortnotes.com|arabseed.onl|miuiku.com|tatangga.com|flash-firmware.blogspot.com|ghostsnet.com|rezkozpatch.xyz|rumahit.id|sekilastekno.com|romfirmware.com|gsmfirmware.net|akwam.*|health-and.me|fc-lc.com|fc.lc|note1s.com|paste1s.com|pes-patches.com|ipacrack.com|codevn.net|traffic1s.com|adnews.me|eg-akw.com|ak4eg.*|xn--mgba7fjn.*|akw.to|ak4ar.*|nguyenvanbao.com|ak.sv|akw.cam|indokontraktor.com|shahee4u.cam|batch-kun.com|shed4u1.cam|shahid4u.*|neosatsu.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freecoursesonline.me
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freeiptvgen.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freemagazines.top
@@ -9806,7 +9802,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=lumiafirmware.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=lustesthd.*|bonsaiprolink.*
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=made-by.org
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=madpremium.freemodsapp.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=magdyman.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=magesy.blog|magesy.pro
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=malaysianwireless.com
@@ -9872,7 +9867,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=plagiarismdetector.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=play.nova.bg
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=playertv.net
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=playstore.pw
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=pmsarkarijob.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=podu.me
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=popcrush.com
@@ -10105,7 +10099,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=egotter.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=esportstales.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=ewrc-results.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=exego.app
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=facciabuco.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=falpus.com|fooak.com|nexnoo.com|plknu.com|upfiles-urls.com|upfiles.app|upfilesurls.com|upfion.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=fastssh.com
@@ -10609,7 +10602,6 @@
 @@||playmyopinion.com/assets/developer/js/prebid-ads.js
 @@||playnewserie.xyz^$stealth=referrer
 @@||playshakespeare.com/*/js/prebid-ads.js
-@@||playstore.pw^$generichide
 @@||playtube.ws/ad/banner/*.json
 @@||playtube.ws/js/pop.js
 @@||playwire.com/bolt/js/zeus/embed.js$script,third-party
@@ -11673,7 +11665,6 @@
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=alternativeto.net
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=ani.gamer.com.tw
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=blog.carstopia.net|blog.coinsvalue.net|blog.cookinguide.net|blog.freeoseocheck.com|blog.makeupguide.net
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=blog.wiki-topia.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=bloomberg.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=britannica.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=castlesiege.io
@@ -13218,8 +13209,10 @@
 @@||tpc.googlesyndication.com/pagead/js/*/elements/html/countdown_handler_fy2021.js$domain=safeframe.googlesyndication.com
 @@||tpc.googlesyndication.com/pagead/js/*/elements/html/interstitial_ad_frame_$script,domain=safeframe.googlesyndication.com
 @@||tpc.googlesyndication.com/pagead/js/adsbygoogle.js$domain=sportshub.to
+@@||tpc.googlesyndication.com/pimgad/$image,domain=ads.google.com
 @@||tpc.googlesyndication.com/safeframe/*/html/container.html$xmlhttprequest,domain=megainteresting.com
 @@||tpc.googlesyndication.com/simgad/$domain=a2zapk.io,image
+@@||tpc.googlesyndication.com/simgad/$domain=ads.google.com
 @@||tpc.googlesyndication.com/simgad/$domain=dropgalaxy.com
 @@||tpc.googlesyndication.com/simgad/$domain=financemonk.net
 @@||tpc.googlesyndication.com/simgad/$domain=smartkhabrinews.com|streama2z.com
