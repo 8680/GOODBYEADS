@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-06-14 09:54:46（北京时间）
+! Version: 2025-06-14 20:44:16（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14464
+! Total count: 14467
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -2797,6 +2797,7 @@
 @@||cdn.betrad.com/pub/icon*.png$domain=ehow.co.uk
 @@||cdn.bewab.co/embed-$subdocument,stealth=referrer
 @@||cdn.bg/live/$stealth=referrer
+@@||cdn.bitmovin.com/analytics/web/*/bitmovinanalytics.min.js$script,domain=oe24.at
 @@||cdn.bluebillywig.com/apps/player/*/components/admanager.js$domain=eurogamer.net
 @@||cdn.blueconic.net/akc.js$domain=akc.org
 @@||cdn.blueconic.net/chronicle.js$domain=chronicle.com
@@ -14383,6 +14384,8 @@
 @@||youtube.com^$domain=gsmarena.com
 @@||youtube.googleapis.com/embed^$stealth=referrer
 @@||yoututosjeff.es^$generichide
+@@||youvisit.com/SmartScript/$script,domain=uaf.edu
+@@||youvisit.com/tour/$script,subdocument,domain=uaf.edu
 @@||ysokuhou.blog.jp^$generichide
 @@||ystream.gcdn.app/*/api/$stealth=referrer
 @@||yt.upshrink.com/adex.js
