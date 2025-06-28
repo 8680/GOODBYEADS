@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-06-28 09:56:00（北京时间）
+! Version: 2025-06-28 20:45:14（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14096
+! Total count: 14066
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -226,7 +226,6 @@
 @@/css/branding_*.css$domain=netgear.com
 @@/dash?tvid=$stealth=referrer,domain=iqiyi.com
 @@/data/editor/*$stealth=referrer,domain=coolenjoy.net
-@@/detector/adsbygoogle.js$~third-party,script,domain=streamratio.com
 @@/dh-anti-adblocker/assets/js/ads-prebid.js
 @@/dh-anti-adblocker/assets/js/prebid-ads-
 @@/dh-anti-adblocker/assets/js/prebid-ads.js
@@ -392,7 +391,7 @@
 @@/wp-content/img/*$stealth=referrer,domain=komikcast.*
 @@/wp-content/plugins/*/assets/js/ad.min.js$~third-party,domain=afk.guide|coastalvirginiamag.com
 @@/wp-content/plugins/ad-ace//includes/adblock-detector/advertisement.js$~third-party
-@@/wp-content/plugins/ad-inserter/*$domain=plugincrack.com|gaypornmasters.com|buydekhke.com|isekaisubs.web.id|javhoho.com|udoyoshi.com|amyscans.com|adrianoluis.net|animecast.net|armyranger.com|boxylucha.com|coreseeker.com|duniailkom.com|enciclopediaonline.com|eyalo.com|fosslovers.com|fotopixel.es|freeiphone.fr|hairstylesthatwork.com|ichberlin.com|indostarmedia.com|indrive.net|ireez.com|keepkoding.com|latribunadeautomocion.es|linemarlin.com|lumpiastudio.com|mobility.com.ng|mygardening411.com|newstvonline.com|organismes.org|papagiovannipaoloii.altervista.org|pictasty.com|playlists.rocks|rencah.com|riverdesdelatribuna.com.ar|sarkarinaukry.com|seamanmemories.com|socialmediaverve.com|solnechnyj-kitaj.ru|thefoodstorydotcom.wpcomstaging.com|theorie-musik.de|topperpoint.com|transformator220.ru|vita-water.ru|googledrivelinks.com|ccthesims.com|papunika.com
+@@/wp-content/plugins/ad-inserter/*$domain=plugincrack.com|gaypornmasters.com|buydekhke.com|isekaisubs.web.id|javhoho.com|udoyoshi.com|amyscans.com|adrianoluis.net|animecast.net|armyranger.com|boxylucha.com|duniailkom.com|enciclopediaonline.com|eyalo.com|fosslovers.com|fotopixel.es|freeiphone.fr|hairstylesthatwork.com|ichberlin.com|indostarmedia.com|indrive.net|ireez.com|keepkoding.com|latribunadeautomocion.es|linemarlin.com|lumpiastudio.com|mobility.com.ng|mygardening411.com|newstvonline.com|organismes.org|papagiovannipaoloii.altervista.org|pictasty.com|playlists.rocks|rencah.com|riverdesdelatribuna.com.ar|sarkarinaukry.com|seamanmemories.com|socialmediaverve.com|solnechnyj-kitaj.ru|thefoodstorydotcom.wpcomstaging.com|theorie-musik.de|topperpoint.com|transformator220.ru|vita-water.ru|googledrivelinks.com|ccthesims.com|papunika.com
 @@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~gaytube.com|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
 @@/wp-content/plugins/imedia-basic/adserver-*.js$domain=sgxnifty.org|dollarindex.org|cacfutures.org|dowfutures.org|nasdaqfutures.org|spfutures.org|ftsefutures.org|daxfutures.org|nikkeifutures.org|niftyfutures.org|comexlive.org|mcxlive.org|ncdexlive.org
 @@/wp-content/plugins/wordpress-popup/assets/js/ad.min.js$~third-party,domain=moviemaniak.com|datanaukri.com
@@ -771,7 +770,6 @@
 @@||abt.s3.yandex.net/expjs/latest/exp.js$script,domain=some.porn
 @@||abv-p.com/Images/
 @@||abv-p.com/Images/adv.png
-@@||abysstream.com/ads.js
 @@||ac*.namu.la^$domain=arca.live,media,image,stealth=referrer
 @@||ac.kr^$stealth=dpi
 @@||ac.namu.la^$domain=arca.live,media,image,stealth=referrer
@@ -1441,7 +1439,6 @@
 @@||amazonaws.com/static.madlan.co.il/*/heatmap.json?$xmlhttprequest
 @@||amazonaws.com/storage.liveabc.com/ads/$domain=store.liveabc.com
 @@||amazonaws.com/tracker/p/kompasreco/oval_web_analytics_latest.js$domain=kompas.com
-@@||amazonaws.com/zeroistanbulplaylist/$stealth=referrer,domain=zeroistanbul.com
 @@||amazonaws.com^$image,stealth=referrer,domain=help.nextdns.io
 @@||amazonaws.com^$stealth,domain=console.aws.amazon.com
 @@||amazoncustomerservice.d2.sc.omtrdc.net^$domain=amazon.es
@@ -2370,7 +2367,6 @@
 @@||blograffo.net^$generichide
 @@||blogthetech.com^$generichide
 @@||bloominc.jp/adtool/$~third-party
-@@||bludvfilmes.com^$generichide
 @@||bluearchive.nexon.com^$stealth=ip
 @@||blueconic.net/bostonglobemedia.js$domain=bostonglobe.com
 @@||blueconic.net/capitolbroadcasting.js$script,domain=wral.com
@@ -2492,7 +2488,6 @@
 @@||buy-*.piano.io^$script,stylesheet,stealth=useragent,domain=piano.io
 @@||buyad.bi-xenon.cn^
 @@||buydekhke.com^$generichide
-@@||bwb101.goo.ne.jp/b.js$domain=news.goo.ne.jp
 @@||by-promokod.by^$stealth=useragent
 @@||byfly.dualstack.speedtestcustom.com^$stealth=referrer
 @@||bytecdntp.com^$script,domain=51eshu.com
@@ -3607,12 +3602,11 @@
 @@||contextual.media.net/dmedianet.js$domain=leakite.com
 @@||contextual.media.net/dmedianet.js$domain=mashtips.com
 @@||contextual.media.net/dmedianet.js$domain=parzibyte.me
-@@||contextual.media.net/dmedianet.js$domain=plugincrack.com|gaypornmasters.com|buydekhke.com|isekaisubs.web.id|javhoho.com|udoyoshi.com|amyscans.com|adrianoluis.net|animecast.net|armyranger.com|boxylucha.com|coreseeker.com|duniailkom.com|enciclopediaonline.com|eyalo.com|fosslovers.com|fotopixel.es|freeiphone.fr|hairstylesthatwork.com|ichberlin.com|indostarmedia.com|indrive.net|ireez.com|keepkoding.com|latribunadeautomocion.es|linemarlin.com|lumpiastudio.com|mobility.com.ng|mygardening411.com|newstvonline.com|organismes.org|papagiovannipaoloii.altervista.org|pictasty.com|playlists.rocks|rencah.com|riverdesdelatribuna.com.ar|sarkarinaukry.com|seamanmemories.com|socialmediaverve.com|solnechnyj-kitaj.ru|thefoodstorydotcom.wpcomstaging.com|theorie-musik.de|topperpoint.com|transformator220.ru|vita-water.ru|googledrivelinks.com|ccthesims.com|papunika.com
+@@||contextual.media.net/dmedianet.js$domain=plugincrack.com|gaypornmasters.com|buydekhke.com|isekaisubs.web.id|javhoho.com|udoyoshi.com|amyscans.com|adrianoluis.net|animecast.net|armyranger.com|boxylucha.com|duniailkom.com|enciclopediaonline.com|eyalo.com|fosslovers.com|fotopixel.es|freeiphone.fr|hairstylesthatwork.com|ichberlin.com|indostarmedia.com|indrive.net|ireez.com|keepkoding.com|latribunadeautomocion.es|linemarlin.com|lumpiastudio.com|mobility.com.ng|mygardening411.com|newstvonline.com|organismes.org|papagiovannipaoloii.altervista.org|pictasty.com|playlists.rocks|rencah.com|riverdesdelatribuna.com.ar|sarkarinaukry.com|seamanmemories.com|socialmediaverve.com|solnechnyj-kitaj.ru|thefoodstorydotcom.wpcomstaging.com|theorie-musik.de|topperpoint.com|transformator220.ru|vita-water.ru|googledrivelinks.com|ccthesims.com|papunika.com
 @@||contextual.media.net/dmedianet.js$domain=politics-dz.com
 @@||contextual.media.net/dmedianet.js$domain=programmiedovetrovarli.it
 @@||contextual.media.net/dmedianet.js$domain=scubidu.eu
 @@||contextual.media.net/dmedianet.js$domain=sznlink.xyz
-@@||contextual.media.net/dmedianet.js$domain=tekfame.com
 @@||contextual.media.net/dmedianet.js$domain=world4.eu
 @@||contextual.media.net/fcmdynet.js$domain=webupd8.org
 @@||contextual.media.net/nmedianet.js$domain=webupd8.org
@@ -3635,7 +3629,6 @@
 @@||core.windows.net^*/annonser/$image,domain=kmauto.no
 @@||coremetrics.com*/eluminate.js
 @@||coremetrics.com/eluminate.js
-@@||coreseeker.com^$generichide
 @@||corneey.com^$generichide
 @@||corporatebenefits.spectrum8.de^$third-party,stealth=referrer
 @@||correotemporal.org^$generichide
@@ -4142,7 +4135,6 @@
 @@||doraflix.fluxcedene.net/api/$stealth=referrer
 @@||doridro.com/forum/styles/FLATBOOTS/theme/images/logo.png
 @@||doridro.com^$generichide
-@@||dormir-moins-bete.com^$generichide
 @@||doroni.me/js/-cpm-ads.js
 @@||dorzeczy.pl/dorzeczy/_i/button-125x40-app-store.png
 @@||dorzeczy.pl/dorzeczy/_i/button-125x40-google-play.png
@@ -4172,7 +4164,6 @@
 @@||dove-cameron.org^$generichide
 @@||down.cc/down/js/ad.js
 @@||down.mdiaload.com^$generichide
-@@||down2hub.com^$generichide
 @@||downfile.site/fuckadblock.js
 @@||downfile.site^$generichide
 @@||download.3dzip.org^$generichide
@@ -4708,7 +4699,6 @@
 @@||filesharing.io^$generichide
 @@||filespace.com^$generichide
 @@||filesus.com^$generichide
-@@||filetera.com^$generichide
 @@||filme.imyfone.com/assets/js/gatrack.js$~third-party
 @@||filmedonstage.com^$generichide
 @@||filmerotikizle.com/rek/katla2.gif
@@ -4849,7 +4839,6 @@
 @@||freedownloadae.com^$generichide
 @@||freegeoip.net/json/|$domain=mudwars.io
 @@||freegeoip.net/json/|$domain=userstyles.org
-@@||freehdsport.com^$stealth
 @@||freehorseracingtv.com^$generichide
 @@||freehostedscripts.net/online/$script,~third-party
 @@||freeiphone.fr^$generichide
@@ -5035,7 +5024,6 @@
 @@||gametop.com^$generichide
 @@||gametter.com^$generichide
 @@||gamezhero.com/api/ima3.js
-@@||gamezito.com^$generichide
 @@||gamezone.de^$generichide
 @@||gamezop.com^$domain=labgame.io
 @@||gaming-tools.com^$generichide
@@ -6399,7 +6387,6 @@
 @@||happypancake.se/static/prebid.*.js$domain=happypancake.se|happypancake.fi
 @@||happyride.se/img/admarket/
 @@||hardwarezone.com.sg/js/prebid.appnexus.js$domain=forums.hardwarezone.com.sg
-@@||hargawebsite.com/js/fuckadblock.js
 @@||harvard.edu/scripts/ga_social_tracking.js
 @@||hatauzmani.com^$generichide
 @@||havoc-os.com^$generichide
@@ -6689,10 +6676,9 @@
 @@||ib.adnxs.com^$image,domain=elektrikmen.com
 @@||ib.adnxs.com^$image,domain=exbulletin.com
 @@||ib.adnxs.com^$image,domain=game-owl.com
-@@||ib.adnxs.com^$image,domain=plugincrack.com|gaypornmasters.com|buydekhke.com|isekaisubs.web.id|javhoho.com|udoyoshi.com|amyscans.com|adrianoluis.net|animecast.net|armyranger.com|boxylucha.com|coreseeker.com|duniailkom.com|enciclopediaonline.com|eyalo.com|fosslovers.com|fotopixel.es|freeiphone.fr|hairstylesthatwork.com|ichberlin.com|indostarmedia.com|indrive.net|ireez.com|keepkoding.com|latribunadeautomocion.es|linemarlin.com|lumpiastudio.com|mobility.com.ng|mygardening411.com|newstvonline.com|organismes.org|papagiovannipaoloii.altervista.org|pictasty.com|playlists.rocks|rencah.com|riverdesdelatribuna.com.ar|sarkarinaukry.com|seamanmemories.com|socialmediaverve.com|solnechnyj-kitaj.ru|thefoodstorydotcom.wpcomstaging.com|theorie-musik.de|topperpoint.com|transformator220.ru|vita-water.ru|googledrivelinks.com|ccthesims.com|papunika.com
+@@||ib.adnxs.com^$image,domain=plugincrack.com|gaypornmasters.com|buydekhke.com|isekaisubs.web.id|javhoho.com|udoyoshi.com|amyscans.com|adrianoluis.net|animecast.net|armyranger.com|boxylucha.com|duniailkom.com|enciclopediaonline.com|eyalo.com|fosslovers.com|fotopixel.es|freeiphone.fr|hairstylesthatwork.com|ichberlin.com|indostarmedia.com|indrive.net|ireez.com|keepkoding.com|latribunadeautomocion.es|linemarlin.com|lumpiastudio.com|mobility.com.ng|mygardening411.com|newstvonline.com|organismes.org|papagiovannipaoloii.altervista.org|pictasty.com|playlists.rocks|rencah.com|riverdesdelatribuna.com.ar|sarkarinaukry.com|seamanmemories.com|socialmediaverve.com|solnechnyj-kitaj.ru|thefoodstorydotcom.wpcomstaging.com|theorie-musik.de|topperpoint.com|transformator220.ru|vita-water.ru|googledrivelinks.com|ccthesims.com|papunika.com
 @@||ib.adnxs.com^$image,domain=politics-dz.com
 @@||ib.adnxs.com^$image,domain=scubidu.eu
-@@||ib.adnxs.com^$image,domain=tekfame.com
 @@||ib.adnxs.com^$image,domain=world4.eu
 @@||ibeta-www.oss-cn-beijing.aliyuncs.com^$stealth=referrer,domain=betahub.cn
 @@||ibf.tw/user/plugins/webtech-topbar/fuckadblock.js
@@ -7363,7 +7349,6 @@
 @@||ipstatp.com/business_center/dist/img/ad-$domain=tiktok.com
 @@||iptunnels.com^$generichide
 @@||iptv.allkaicerteam.com^$generichide
-@@||iptvcanales.com^$generichide
 @@||ipv4.google.com/sorry^$stealth
 @@||ipv4.seeip.org/jsonip$domain=empire-streaming.app
 @@||irasutoya.blogspot.com^$generichide
@@ -7977,7 +7962,6 @@
 @@||localizaagencia.com^$generichide
 @@||log.mmstat.com/eg.js$domain=youku.tv
 @@||log000.goo.ne.jp/gcgw.js$domain=nttxstore.jp
-@@||log000.goo.ne.jp/js/VLTraceDMD.js$domain=news.goo.ne.jp
 @@||logcg.content-delivery.top/wp-content/plugins/bwp-minify/min/?f=
 @@||logger.eigene.io/js/logger.min.js$domain=home-learn.co.kr
 @@||logging.apache.org^
@@ -9020,7 +9004,6 @@
 @@||odc.officeapps.live.com/odc/$elemhide,jsinject,extension
 @@||odcdn.com^*/cm.js
 @@||oddee.com/w_files/scripts/adblock.js
-@@||oddreaders.com^$generichide
 @@||odkrywamyzakryte.com/wp-content/plugins/bwp-minify/min/?f=wp-content/plugins/
 @@||odnoklassniki.ru/get$stealth=referrer
 @@||oemdtc.com^$generichide
@@ -9321,7 +9304,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=arahdrive.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=arhplyrics.in
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=arkadium.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=asia-mag.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=askpaccosi.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=assistouest.fr
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=audiostereo.pl
@@ -9402,7 +9384,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=download.shareappscrack.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dqmsl-search.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dr-farfar.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=drivedrama.com|puressh.net|iptvbin.com|htnovo.net|frendz4m.org|bestnhl.com|safbits.com|codenova-center.web.app|rivanimation.com|elbierzodigital.com|uploadrar.com|vknsorgula.net|safelink.asia
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dropgalaxy.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dwgshare.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dynast.io
@@ -9625,6 +9606,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=pricez.co.il
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=production-api.androidacy.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=prostomob.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=puressh.net|iptvbin.com|htnovo.net|frendz4m.org|bestnhl.com|safbits.com|codenova-center.web.app|rivanimation.com|elbierzodigital.com|uploadrar.com|vknsorgula.net|safelink.asia
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=pvpoke-re.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=q84sale.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=qrcodemonkey.net,xmlhttprequest
@@ -10463,7 +10445,6 @@
 @@||privacy.tapad.com/edaa-coop^$domain=youronlinechoices.com
 @@||privat24.privatbank.ua^$stealth=referrer|3p-cookie
 @@||privatbank.ua/content/*/fp2.min.js$~third-party
-@@||pro-deals.com^$generichide
 @@||pro.gooooal.com/ad/ad_2.js
 @@||pro.hit.gemius.pl/gplayer.js$domain=nova.cz
 @@||pro.hit.gemius.pl/gstream.js$domain=embed.rtl.hu
@@ -10850,7 +10831,6 @@
 @@||rev.evrensel.net/www/delivery/*.php
 @@||revdownload.com/*.php$generichide
 @@||revive.adsession.com/www/delivery/ck.php$domain=spankwire.com
-@@||revsci.net/*/pcx.js?csid=$script,domain=video.foxnews.com|video.foxbusiness.com
 @@||rexdlfile.com/index.php?id=$stealth=referrer
 @@||rfksrv.com/rfk$domain=spirithalloween.com
 @@||rfksrv.com/rfk/js/*/init.js$script,domain=riteaid.com
@@ -10894,9 +10874,8 @@
 @@||router.infolinks.com/dyn/apn-usync$image,domain=game-owl.com
 @@||router.infolinks.com/dyn/apn-usync$image,domain=politics-dz.com
 @@||router.infolinks.com/dyn/apn-usync$image,domain=scubidu.eu
-@@||router.infolinks.com/dyn/apn-usync$image,domain=tekfame.com
 @@||router.infolinks.com/dyn/apn-usync$image,domain=world4.eu
-@@||router.infolinks.com/dyn/apn-usync?$image,domain=plugincrack.com|gaypornmasters.com|buydekhke.com|isekaisubs.web.id|javhoho.com|udoyoshi.com|amyscans.com|adrianoluis.net|animecast.net|armyranger.com|boxylucha.com|coreseeker.com|duniailkom.com|enciclopediaonline.com|eyalo.com|fosslovers.com|fotopixel.es|freeiphone.fr|hairstylesthatwork.com|ichberlin.com|indostarmedia.com|indrive.net|ireez.com|keepkoding.com|latribunadeautomocion.es|linemarlin.com|lumpiastudio.com|mobility.com.ng|mygardening411.com|newstvonline.com|organismes.org|papagiovannipaoloii.altervista.org|pictasty.com|playlists.rocks|rencah.com|riverdesdelatribuna.com.ar|sarkarinaukry.com|seamanmemories.com|socialmediaverve.com|solnechnyj-kitaj.ru|thefoodstorydotcom.wpcomstaging.com|theorie-musik.de|topperpoint.com|transformator220.ru|vita-water.ru|googledrivelinks.com|ccthesims.com|papunika.com
+@@||router.infolinks.com/dyn/apn-usync?$image,domain=plugincrack.com|gaypornmasters.com|buydekhke.com|isekaisubs.web.id|javhoho.com|udoyoshi.com|amyscans.com|adrianoluis.net|animecast.net|armyranger.com|boxylucha.com|duniailkom.com|enciclopediaonline.com|eyalo.com|fosslovers.com|fotopixel.es|freeiphone.fr|hairstylesthatwork.com|ichberlin.com|indostarmedia.com|indrive.net|ireez.com|keepkoding.com|latribunadeautomocion.es|linemarlin.com|lumpiastudio.com|mobility.com.ng|mygardening411.com|newstvonline.com|organismes.org|papagiovannipaoloii.altervista.org|pictasty.com|playlists.rocks|rencah.com|riverdesdelatribuna.com.ar|sarkarinaukry.com|seamanmemories.com|socialmediaverve.com|solnechnyj-kitaj.ru|thefoodstorydotcom.wpcomstaging.com|theorie-musik.de|topperpoint.com|transformator220.ru|vita-water.ru|googledrivelinks.com|ccthesims.com|papunika.com
 @@||routerlogin.com^$document
 @@||routerlogin.net^$document
 @@||rover.ebay.co.uk/rover/$domain=ebay.com|ebay.co.uk
@@ -11099,7 +11078,6 @@
 @@||sc.omtrdc.net^$domain=cibc.com
 @@||sc.youmaker.com/site/article/count?
 @@||sc2casts.com^$generichide
-@@||scaleya.com^$generichide
 @@||scambieuropei.info^$generichide
 @@||scamwatcher.com/js/pubPolicy/ads-prebid.js$domain=scamwatcher.com
 @@||scatfap.com/scat-porn/modules/vids/misc_static/adverts.js
@@ -12258,7 +12236,6 @@
 @@||strmrdr*/index.php?id=$stealth=referrer
 @@||studioclassroom.com/ad/
 @@||studizba.com^$generichide
-@@||studychacha.com^$generichide
 @@||studydhaba.com^$generichide
 @@||sturls.com^$generichide
 @@||stvkr.com/v*/click-$popup,domain=pepper.*
@@ -12519,9 +12496,6 @@
 @@||tecnomusic-evolution.com^$generichide
 @@||teenvogue.com/js/eventTracker.js
 @@||tehnotone.com^$generichide
-@@||tekfame.com/wp-content/plugins/ad-inserter/*/*.js
-@@||tekfame.com/wp-content/plugins/ad-inserter/images/ads.png
-@@||tekfame.com^$generichide
 @@||tekfiz.com^$generichide
 @@||teknolojiprojeleri.com^$generichide
 @@||teknomuda.com^$generichide
@@ -12617,7 +12591,6 @@
 @@||thehackernews.com/images^
 @@||thehansindia.com/xhr/
 @@||thehulltruth.com/clientscript/vbulletin_analytics.js
-@@||theinnews.com^$generichide
 @@||thekickass.org^$generichide
 @@||thelibrarydigital.blogspot.com^$generichide
 @@||them4ufree.com/*/player.php?$popup
@@ -13277,7 +13250,6 @@
 @@||vast.btrll.com^$domain=hinet.net
 @@||vast.com/vimpressions.js$domain=everycarlisted.com
 @@||vatanbilgisayar.com/upload/banner/
-@@||vatchus.com^$generichide
 @@||vattastic.com/js/fp2/fingerprint2.min.js
 @@||vaughnlive.tv/*/js/ima3.js
 @@||vaughnsoft.net/play/$stealth=referrer,domain=vaughn.live
@@ -13310,7 +13282,6 @@
 @@||vg247.com/wp-content/themes/vg247/scripts/AdsLoad.js
 @@||vi-serve.com/vis-media/*$domain=9gag.com
 @@||vi.freewheel.tv/static/creatives/fw-ad-300x250.jpg$domain=peacocktv.com
-@@||viajarhoje.com^$stealth=referrer
 @@||viamichelin.*/jQuery/ntpagetag.js
 @@||viamichelin.*/ntpagetag_vm.js
 @@||vibefm.pl^$generichide
@@ -13993,7 +13964,6 @@
 @@||youmath.it/media/base-dfp-prebid-script.js
 @@||youmath.it/sidebar-ad-/-doubleclick.js
 @@||youneed.win^$generichide
-@@||youporn.com/embed/$domain=porndollz.com
 @@||youporn.com/embed/$subdocument
 @@||yourbittorrent2.com^$csp=script-src 'self' 'unsafe-inline'
 @@||yourcinema.tv^$stealth=referrer
