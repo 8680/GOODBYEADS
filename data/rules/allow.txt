@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-06-30 20:51:11（北京时间）
+! Version: 2025-07-01 10:11:21（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 13874
+! Total count: 13870
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -195,9 +195,8 @@
 @@/beacon.js$domain=ww1.canada.com
 @@/cdn*/premium*/tracks-$xmlhttprequest,script,stealth=referrer
 @@/cdn-cgi/challenge-platform/*/orchestrate/jsch/v$domain=kat.*
-@@/cdn-cgi/pe/bag2?*google-analytics.com%2Fanalytics.js$domain=amypink.de|biznews.com|dailycaller.com|droid-life.com|forwardprogressives.com|fpif.org|fullpotentialma.com|geekzone.co.nz|hoyentec.com|is-arquitectura.es|lazygamer.net|lingholic.com|mmanews.com|nehandaradio.com|nmac.to|orain.org|tvunblock.com|unilad.co.uk|xrussianteens.com|youngcons.com
+@@/cdn-cgi/pe/bag2?*google-analytics.com%2Fanalytics.js$domain=amypink.de|biznews.com|dailycaller.com|droid-life.com|fpif.org|fullpotentialma.com|geekzone.co.nz|hoyentec.com|is-arquitectura.es|lazygamer.net|lingholic.com|mmanews.com|nehandaradio.com|nmac.to|orain.org|tvunblock.com|unilad.co.uk|xrussianteens.com|youngcons.com
 @@/cdn-cgi/pe/bag2?*googleadservices.com$domain=droid-life.com
-@@/cdn-cgi/pe/bag2?*googlesyndication.com%2Fpagead%2Fosd.js$domain=forwardprogressives.com
 @@/cdn-cgi/pe/bag2?*histats.com$domain=nmac.to|xrussianteens.com
 @@/cdn-cgi/pe/bag2?*log.outbrain.com$domain=dailycaller.com
 @@/cdn-cgi/pe/bag2?*newrelic.com$domain=clamav.net|dailycaller.com
@@ -366,7 +365,6 @@
 @@/track?*&ref=$~script,~xmlhttprequest,~other,~image
 @@/track_click?$~script,~xmlhttprequest,~other,~image
 @@/tracking.php?id$domain=a1.express
-@@/tracking.php?id$domain=esisk.de
 @@/tracks-v1a1/*$xmlhttprequest,stealth=referrer,domain=topembed.pw|poscishd.online|pkpakiplay.xyz
 @@/unadblock/adjs_$domain=hepan.com
 @@/uploads/*$image,stealth=referrer,domain=zonatmo.com|culturanimation.com|recetasmaria.com|techobras.com|babynombres.com
@@ -6195,7 +6193,7 @@
 @@||googletagservices.com/tag/js/gpt.js?ad_tag=$domain=clipmyhorse.tv
 @@||googletagservices.com/tag/js/gpt_mobile.js$domain=www.vulture.com
 @@||googletagservices.com^$script,domain=creaders.net
-@@||googlevideo.com/videoplayback/*dclk_video_ads$domain=10play.com.au
+@@||googlevideo.com/videoplayback/*dclk_video_ads$domain=10play.com.au|10.com.au
 @@||gooogle.how^$generichide
 @@||gorillanation.com/js/triggertag.js$domain=playstationlifestyle.net
 @@||gosuslugi.ru^$stealth=dpi
@@ -6705,7 +6703,7 @@
 @@||imasdk.googleapis.com/js/core/dai_iframe3$domain=southpark.cc.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3$domain=rotana.net
 @@||imasdk.googleapis.com/js/sdkloader/ima3*.js$domain=cbsnews.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=10play.com.au
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=10play.com.au|10.com.au
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=20min.ch|lessentiel.lu
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|airtelxstream.in|antena3.ro|api.screen9.com|asianctv.upns.pro|asianembed.cam|autokult.pl|bbc.com|blastingnews.com|bloomberg.co.jp|bloomberg.com|bsfuji.tv|cbc.ca|cbsnews.com|cbssports.com|chicagotribune.com|clickorlando.com|cnet.com|crunchyroll.com|delish.com|digi24.ro|distro.tv|doubtnut.com|einthusan.tv|etonline.com|farfeshplus.com|filmweb.pl|game.pointmall.rakuten.net|gamebox.gesoten.com|gamepix.com|gameplayneo.com|games.usatoday.com|gbnews.com|geo.dailymotion.com|givemesport.com|goodmorningamerica.com|goodstream.uno|gospodari.com|haberler.com|howstuffworks.com|humix.com|ignboards.com|iheart.com|insideedition.com|irctc.co.in|klix.ba|ktla.com|kxan.com|laurelberninteriors.com|lemino.docomo.ne.jp|locipo.jp|maharashtratimes.com|maxpreps.com|metacritic.com|minigame.aeriagames.jp|missoulian.com|myspace.com|nettavisen.no|paralympic.org|paramountplus.com|player.abacast.net|player.amperwave.net|player.earthtv.com|player.performgroup.com|plex.tv|pointmall.rakuten.co.jp|realmadrid.com|rte.ie|rumble.com|s.yimg.jp|scrippsdigital.com|sonyliv.com|southpark.lat|southparkstudios.com|spiele.heise.de|sportsbull.jp|sportsport.ba|stirr.com|success-games.net|synk-casualgames.com|tbs.co.jp|tdn.com|thecw.com|truvid.com|tubitv.com|tunein.com|tv-asahi.co.jp|tv.abcnyheter.no|tv.finansavisen.no|tv.rakuten.co.jp|tver.jp|tvp.pl|univtec.com|utsports.com|video.tv-tokyo.co.jp|vlive.tv|watch.nba.com|wbal.com|weather.com|webdunia.com|wellgames.com|worldsurfleague.com|wowbiz.ro|wsj.com|wtk.pl|zdnet.com|zeebiz.com
@@ -7031,7 +7029,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$domain=blackbird.zoomin.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$domain=f5haber.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$domain=zattoo.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=10play.com.au
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=10play.com.au|10.com.au
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=247sports.com|4029tv.com|bet.com|bloomberg.co.jp|bloomberg.com|cbc.ca|cbssports.com|cc.com|clickorlando.com|digi24.ro|gbnews.com|history.com|kcci.com|kcra.com|ketv.com|kmbc.com|koat.com|koco.com|ksbw.com|mynbc5.com|paramountplus.com|s.yimg.jp|sbs.com.au|tv.rakuten.co.jp|vk.sportsbull.jp|wapt.com|wbaltv.com|wcvb.com|wdsu.com|wesh.com|wgal.com|wisn.com|wjcl.com|wlky.com|wlwt.com|wmtw.com|wmur.com|worldsurfleague.com|wpbf.com|wtae.com|wvtm13.com|wxii12.com|wyff4.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=bloomberg.com,stealth=referrer
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=cbs.com|paramountplus.com|history.com
@@ -7779,7 +7777,7 @@
 @@||linemarlin.com^$generichide
 @@||linetv.tw/profile$stealth
 @@||linetv.tw^$generichide
-@@||linetv.tw^*/scripts/ads.js
+@@||linetv.tw^*/ad
 @@||lingolex.com^$generichide
 @@||linguatec.org/VoiceReaderWeb15WebService^$stealth=referrer
 @@||link-to.net^$generichide
@@ -8658,7 +8656,6 @@
 @@||nakanohito.jp^*/bi.js$domain=myna.go.jp
 @@||nakedwines.co.uk/search/hitcount?$~third-party
 @@||napi.hu/js/advertisement.js
-@@||narf-archive.com^*/clickstream.js
 @@||nartag.com^$generichide
 @@||nasa-i.akamaihd.net/hls/$stealth=referrer
 @@||nascar.com/wp-content/themes/ndms-2023/assets/js/inc/ads/prebid8.$~third-party
@@ -9160,7 +9157,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl_*.js$domain=sznlink.xyz
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl_with_ama_fy2021.js$domain=b2bhint.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=1025kiss.com|1027kord.com|1037theloon.com|103gbfrocks.com|103kkcn.com|1057crushfm.com|1057thehawk.com|1057thexrocks.com|1061evansville.com|1063cowboycountry.com|1063thebuzz.com|1075zoofm.com|1079ishot.com|929nin.com|929thebull.com|943thepoint.com|943thex.com|963theblaze.com|96xrocks.com|973rivercountry.com|973thedawg.com|975kgkl.com|979kickfm.com|97rockonline.com|983thesnake.com|98country.com|999ktdy.com|999thepoint.com|banana1015.com|bigfrog104.com|blakefm.com|bozemanskissfm.com|catcountry1073.com|classicrock1051.com|club937.com|gator995.com|highway989.com|k945.com|k96fm.com|k99.com|katsfm.com|kbat.com|kctr.com|keanradio.com|keyj.com|keyw.com|kezj.com|kffm.com|kfmx.com|kfox95.com|kicks105.com|kisscasper.com|kisselpaso.com|kissfm969.com|kixs.com|kkcb.com|kkyr.com|klaq.com|klaw.com|klubtejano.com|kmhk.com|knue.com|kqbr.com|kqvt.com|kxkx.com|kygl.com|kyssfm.com|lonestar1023.com|mix108.com|mix925abilene.com|mix931fm.com|mix949.com|my1035.com|mychannel957.com|mycountry955.com|mykisscountry937.com|power1029noco.com|power959.com|powerpeoria.com|q103albany.com|q1077.com|river967.com|rock967online.com|sojo1049.com|us103.com|wbkr.com|wbnq.com|wgna.com|wgrd.com|wkdq.com|wyrk.com|xlcountry.com|y95country.com|z94.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=10play.com.au
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=1cloudfile.com|koramaup.com|bowfile.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=1shortlink.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=360haven.com
@@ -9655,7 +9651,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=uploadmall.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,domain=topsporter.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$third-party,xmlhttprequest,domain=idyllic.app
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=10play.com.au
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=10play.com.au|10.com.au
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=3dtuning.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=4fuk.me
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=aii.sh|tii.la|oko.sh|tpi.li|oii.la
@@ -10404,24 +10400,23 @@
 @@||pubads.g.doubleclick.net/gampad/adx$domain=watoday.com.au
 @@||pubads.g.doubleclick.net/gampad/adx^$domain=saavn.com
 @@||pubads.g.doubleclick.net/gampad/live/ads?correlator=$domain=rx.iscdn.net
-@@||pubads.g.doubleclick.net/ondemand/*/content/*/streams/*.m3u8$domain=10play.com.au
-@@||pubads.g.doubleclick.net/ondemand/*/content/*/streams|$xmlhttprequest,domain=10play.com.au
-@@||pubads.g.doubleclick.net/ondemand/*/content/*/vid/*/SIN/streams/*/manifest.mpd$domain=10play.com.au
-@@||pubads.g.doubleclick.net/ondemand/*/content/*/vid/*/SIN/streams/*/time-events.json$domain=10play.com.au
+@@||pubads.g.doubleclick.net/ondemand/*/content/*/streams/*.m3u8$domain=10play.com.au|10.com.au
+@@||pubads.g.doubleclick.net/ondemand/*/content/*/streams|$xmlhttprequest,domain=10play.com.au|10.com.au
+@@||pubads.g.doubleclick.net/ondemand/*/content/*/vid/*/SIN/streams/*/manifest.mpd$domain=10play.com.au|10.com.au
+@@||pubads.g.doubleclick.net/ondemand/*/content/*/vid/*/SIN/streams/*/time-events.json$domain=10play.com.au|10.com.au
 @@||pubads.g.doubleclick.net/ondemand/*/content/*/vid/*/streams$domain=cbs.com|paramountplus.com|history.com
 @@||pubads.g.doubleclick.net/ondemand/hls/$domain=history.com
 @@||pubads.g.doubleclick.net/ondemand/hls/content/*/streams|$xmlhttprequest,domain=sbs.com.au
 @@||pubads.g.doubleclick.net/ondemand/hls/content/*/vid/*/streams$domain=sbs.com.au
 @@||pubads.g.doubleclick.net/pagead/js/adsbygoogle.js$domain=sportshub.to
 @@||pubads.g.doubleclick.net/ssai/
-@@||pubads.g.doubleclick.net/ssai/event/$xmlhttprequest,domain=10play.com.au
+@@||pubads.g.doubleclick.net/ssai/event/$xmlhttprequest,domain=10play.com.au|10.com.au
 @@||pubads.g.doubleclick.net/ssai/event/$xmlhttprequest,domain=sbs.com.au
 @@||pubads.g.doubleclick.net/ssai/event/$xmlhttprequest,domain=timesnownews.com
 @@||pubads.g.doubleclick.net/ssai/event/$xmlhttprequest,domain=zoomtventertainment.com
 @@||pubads.g.doubleclick.net/ssai/event/*/master.m3u8$domain=click2houston.com
 @@||pubads.g.doubleclick.net/ssai/event/*/master.m3u8$domain=digi24.ro
 @@||pubads.g.doubleclick.net/ssai/event/*/master.m3u8$domain=timesnowhindi.com|timesnowmarathi.com
-@@||pubads.g.doubleclick.net/ssai/event/*/streams$domain=10play.com.au
 @@||pubads.g.doubleclick.net/ssai/event/*/streams$domain=cbc.ca
 @@||pubads.g.doubleclick.net/ssai/event/*/streams$domain=engine.univtec.com|america.cgtn.com
 @@||pubads.g.doubleclick.net/ssai/event/*/streams$xmlhttprequest,domain=news4jax.com|gmg-wjxt-prod.cdn.arcpublishing.com
@@ -13170,6 +13165,7 @@
 @@||vidoza.net/js/pop.js
 @@||vidoza.net^$generichide
 @@||vidrame.pro^$subdocument,stealth=referrer
+@@||vidroll.cloud^$stealth=referrer
 @@||vidsrc.*/embed/$stealth=referrer
 @@||vidstream.to^$stealth=referrer,domain=egybest.*
 @@||vidtech.cbsinteractive.com^*/AkamaiAnalytics.swf$domain=kuathletics.com|mutigers.com|okstate.com
@@ -13511,7 +13507,7 @@
 @@||wplocker.com/advertisement.js
 @@||wpnrtnmrewunrtok.xyz/*preview/*/preview.jpg$image,domain=camwhores.tv
 @@||wpnrtnmrewunrtok.xyz/main/$image,domain=camwhores.tv
-@@||wpnrtnmrewunrtok.xyz^$domain=camwhores.ru.com
+@@||wpnrtnmrewunrtok.xyz^$domain=camwhores.ru.com|camvideos.org
 @@||wrestlinginc.com/wp-content/themes/unified/js/prebid.js$~third-party
 @@||wristreview.com^$generichide
 @@||writing.chegg.com/graphql$stealth=3p-auth,domain=citationmachine.net
