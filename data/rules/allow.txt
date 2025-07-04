@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-07-03 20:49:23（北京时间）
+! Version: 2025-07-04 09:59:50（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 13876
+! Total count: 13877
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -2354,6 +2354,7 @@
 @@||bluedollar.net/*/adserver$domain=bluedollar.net
 @@||bluekai.com/online-choices^$domain=youronlinechoices.com
 @@||bluemediafile*.*/imgads/*.gif$domain=bluemediafiles.*|bluemediafile.*|bluemediadownload.*|urlbluemedia.*|bluedownload.*
+@@||bluphoria.cms.tecreation.de^$stealth=3p-auth
 @@||bnc.lt/a/key_live$domain=pinterest.co.kr|pinterest.com|pinterest.de|pinterest.com.au|pinterest.com.mx|pinterest.es|pinterest.jp|pinterest.it|pinterest.ca|pinterest.co.uk|pinterest.ru|pinterest.ch|pinterest.fr|pinterest.cl|pinterest.at|pinterest.pt|pinterest.nz|pinterest.dk|pinterest.se|pinterest.ie|pinterest.ph|pinterest.info
 @@||bnet.163.com/
 @@||bnonews.com^$generichide
@@ -12071,6 +12072,7 @@
 @@||strimov.site/embed$stealth=referrer
 @@||stripe.com^$xmlhttprequest,domain=app.axenthost.com
 @@||strmrdr*/index.php?id=$stealth=referrer
+@@||sts.wavewalt.me/scripts/v*/embedv*.min.js$domain=cricstream.me
 @@||studioclassroom.com/ad/
 @@||studizba.com^$generichide
 @@||studydhaba.com^$generichide
@@ -13679,7 +13681,6 @@
 @@||xzeepb2clookuppsta001.blob.core.windows.net/comed/src/js/google-analytics.js$domain=secure1.comed.com
 @@||ya.ru/clck/redir/*data=url%3Dhttps%253A%252F%252Fpassport.yandex.ru
 @@||ya.ru/user-id?$subdocument,stealth=referrer
-@@||yabs.yandex.ru$domain=yandex.by|yandex.com.tr|yandex.kz|yandex.ru
 @@||yacine-tv.com^$generichide
 @@||yads.c.yimg.jp/js/yads-async.js$domain=kobe-np.co.jp|yahoo.co.jp
 @@||yahoo.adclixx.net/serv
