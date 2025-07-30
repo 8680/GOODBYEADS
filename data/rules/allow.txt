@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-07-30 10:10:08（北京时间）
+! Version: 2025-07-30 20:55:43（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 13870
+! Total count: 13873
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -8740,6 +8740,7 @@
 @@||nextcloud.com/remote.php/$~third-party,xmlhttprequest
 @@||nextstream.org^$stealth=referrer,domain=animepahe.com|kwik.cx
 @@||nextwavepathfinders.xyz/content/*.html$xmlhttprequest,stealth=referrer
+@@||nfl.com^$generichide
 @@||nflcdn.com/static/site/$script,domain=nfl.com
 @@||ngastatic.com/*/tracker.js$domain=ads.allegro.pl
 @@||nhk.or.jp^$content
@@ -10063,6 +10064,7 @@
 @@||platform-eu.cloud.coveo.com^$stealth=3p-auth,domain=fiskars.com
 @@||platform.bombas.com/external/gtm.js$script,~third-party
 @@||platform.cloud.coveo.com^$stealth=3p-auth,domain=intel.*
+@@||platform.pubadx.one/pubadx-ad.js$domain=embed.wcostream.com
 @@||platform.twitter.com/$domain=discovery.com
 @@||platform.twitter.com/js/moment~timeline~tweet.*.js$domain=gamerant.com
 @@||platform.twitter.com/js/tweet.*.js$domain=gamerant.com
@@ -11499,6 +11501,7 @@
 @@||slike.indiatimes.com/feed/stream/*.json$domain=timesofindia.indiatimes.com
 @@||slike.indiatimes.com/feed^$domain=tvid.in
 @@||slimjet.com/translate.php^$document
+@@||slingcommerce.com/graphql$stealth=3p-auth
 @@||slink.bid^$generichide
 @@||slit.cn/source/plugin/unadblock/*.js
 @@||sltrib.com/pb/resources/scripts/utils/ads/ads.js
