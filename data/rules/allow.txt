@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-08-01 10:26:38（北京时间）
+! Version: 2025-08-01 20:54:54（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 13874
+! Total count: 13875
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -1716,6 +1716,8 @@
 @@||api.mapbox.com/*/mapbox.mapbox-terrain-*,mapbox.mapbox-streets-*^$stealth=referrer
 @@||api.mapbox.com/*/mapbox.satellite/$stealth=referrer
 @@||api.mapbox.com/*?secure&access_token=$stealth
+@@||api.mapbox.com/*access_token=$stealth=referrer
+@@||api.mapbox.com/*mapbox.mapbox-$stealth=referrer
 @@||api.mapbox.com/geocoding/$stealth=referrer
 @@||api.mapbox.com^$stealth,domain=kamsnim.cz
 @@||api.mapbox.com^$stealth=referrer,domain=gpx.studio
@@ -3972,6 +3974,7 @@
 @@||discord.com^$generichide
 @@||discordapp.com/banners/$image
 @@||discordemoji.com^$generichide
+@@||discordsays.com/?instance_id=$stealth=referrer
 @@||discoveryplus.com^$generichide
 @@||discoveryplus.in/*/ads/banner_ad.js
 @@||discretemath.org/ads/
@@ -4591,10 +4594,8 @@
 @@||feedburner.com/~r/
 @@||feilusw.com/search.html$genericblock,generichide
 @@||feldherr.com^$stealth=3p-cookie
-@@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=dailystar.co.uk
-@@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=liverpoolecho.co.uk|mirror.co.uk|birminghammail.co.uk
-@@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=dailystar.co.uk
-@@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=liverpoolecho.co.uk|mirror.co.uk|birminghammail.co.uk
+@@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=liverpoolecho.co.uk|mirror.co.uk|birminghammail.co.uk|dailystar.co.uk|manchestereveningnews.co.uk
+@@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=liverpoolecho.co.uk|mirror.co.uk|birminghammail.co.uk|dailystar.co.uk|manchestereveningnews.co.uk
 @@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=mirror.co.uk
 @@||fengkongcloud.com/fpv2.js
 @@||ferina.xyz/hls2/$stealth=referrer
