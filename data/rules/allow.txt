@@ -2,14 +2,13 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-08-02 10:04:07（北京时间）
+! Version: 2025-08-02 20:49:58（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 13874
+! Total count: 13865
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$generichide,domain=stfly.cc
-@@$generichide,domain=vidoza.co|vidoza.net
 @@$subdocument,third-party,stealth=referrer,domain=sport.starsites.fun
 @@$subdocument,xmlhttprequest,stealth=referrer,domain=pichive.online
 @@$websocket,domain=xvideos.com
@@ -1283,13 +1282,10 @@
 @@||aixifan.com^*/sensorsdata.min.js?$domain=acfun.cn
 @@||ajax.cloudflare.com/cdn-cgi/scripts/*/cloudflare-static/mirage*.js$domain=rule34.xxx
 @@||ajax.cloudflare.com/cdn-cgi/scripts/*/cloudflare-static/rocket-loader.min.js$domain=cloudvideo.tv
-@@||ajax.googleapis.com/ajax/libs/$script,domain=govid.co
-@@||ajax.googleapis.com/ajax/libs/$script,domain=vidoza.co|vidoza.net
 @@||ajax.googleapis.com/ajax/libs/jquery$domain=gaypornwave.com
 @@||ajax.googleapis.com/ajax/libs/jquery/
 @@||ajax.googleapis.com^$script,domain=imgbox.com
 @@||ajax.googleapis.com^$script,domain=rule34hentai.net
-@@||ajax.googleapis.com^$script,domain=up-4ever.net
 @@||ajio.com/static/assets/vendors~static/chunk/common/libraries/fingerprintjs2.$script,~third-party
 @@||ak.http.anno.channel4.com^$domain=channel4.com
 @@||ak.sail-horizon.com/onsite/personalize.v0.0.4.min.js$domain=standard.co.uk
@@ -3058,7 +3054,6 @@
 @@||cdn.videoplaza.tv/contrib/de-ipd/svm/homadConfigVideoplaza-rtl.json$domain=rtl.de
 @@||cdn.videoplaza.tv/contrib/no-vg/svm/homadConfigVideoplaza-vgtv.json^$domain=vgtv.no
 @@||cdn.vidible.tv/stage/js/$domain=dev.vidible.tv
-@@||cdn.vidoza.co/js/$script,domain=vidoza.co|vidoza.net
 @@||cdn.vidyomani.com/*/*ads*.js
 @@||cdn.viglink.com/api/vglnk.js$domain=9to5google.com|9to5mac.com|9to5toys.com|dronedj.com|electrek.co
 @@||cdn.viglink.com/api/vglnk.js$domain=9to5mac.com|electrek.co
@@ -3094,7 +3089,6 @@
 @@||cdniptvpotok.com^$stealth=referrer
 @@||cdnjs.cloudflare.com/ajax/libs/$domain=f2movies.to
 @@||cdnjs.cloudflare.com/ajax/libs/$domain=xmoviesforyou.com
-@@||cdnjs.cloudflare.com/ajax/libs/$script,domain=vidoza.co|vidoza.net
 @@||cdnjs.cloudflare.com/ajax/libs/*.min.js$domain=audioz.download
 @@||cdnjs.cloudflare.com/ajax/libs/*/*.js$domain=faselhd.cafe
 @@||cdnjs.cloudflare.com/ajax/libs/Swiper/*/js/swiper.min.js$domain=9anime.*
@@ -3181,7 +3175,6 @@
 @@||cgtips.org^$generichide
 @@||chaintv.xyz/homestatic/js/adjs.js
 @@||challenges.cloudflare.com/turnstile/$script
-@@||challenges.cloudflare.com^$domain=download.megaup.net
 @@||challenges.cloudflare.com^$stealth
 @@||chamsko.pl/js/advertisement.js
 @@||chan.sankakucomplex.com^$generichide
@@ -3508,7 +3501,6 @@
 @@||connect.facebook.net/*/fbevents.js$domain=smartstore.naver.com
 @@||connect.facebook.net/en_US/fbevents.js$domain=irishradiolive.com|myonlineradio.at|myonlineradio.de|myonlineradio.hu|myonlineradio.nl|myonlineradio.sk|myradioendirect.fr|myradioenvivo.ar|myradioenvivo.mx|myradioonline.cl|myradioonline.es|myradioonline.it|myradioonline.pl|myradioonline.ro|ukradiolive.com
 @@||connect.facebook.net/en_US/fbevents.js$domain=linetv.tw
-@@||connect.facebook.net^$script,domain=up-4ever.net
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
 @@||connect.mobage.jp^$stealth=referrer
 @@||connect.ubisoft.com/oauth/*?redirectUrl$jsinject
@@ -12931,7 +12923,6 @@
 @@||unreshiramor.com/*/|$domain=disneyplayvn.net
 @@||up-load.io/*/img/*.png#
 @@||up-load.io^$generichide
-@@||up4ever.download^$domain=up-4ever.net
 @@||upaiyun.com^*.js$domain=cilimao.co|cilimao.one
 @@||upbitcoin.com^$generichide
 @@||updatesmarugujarat.in^$generichide
