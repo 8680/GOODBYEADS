@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-09-06 09:43:00（北京时间）
+! Version: 2025-09-06 20:39:59（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 13936
+! Total count: 13939
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -824,6 +824,7 @@
 @@||ad*.adbreak.ch/*ad_block=$domain=tio.ch
 @@||ad-api-v01.uliza.jp^$script,xmlhttprequest,domain=golfnetwork.co.jp|tv-asahi.co.jp
 @@||ad-cdn.bilgin.pro/app/ad-*.min.js$domain=medyafaresi.com
+@@||ad-delivery.net/px.gif$domain=bildderfrau.de,xmlhttprequest
 @@||ad-delivery.net/px.gif?$domain=explorecams.com
 @@||ad-delivery.net/px.gif?$domain=linuxcapable.com
 @@||ad-doge.com^$generichide
@@ -8353,6 +8354,7 @@
 @@||miauscan.com^$generichide
 @@||michezoafrika.com^$generichide
 @@||miclaro.com.gt/assets/analytics$domain=miclaro.com.gt
+@@||micro.rubiconproject.com/prebid/dynamic/$domain=bildderfrau.de
 @@||micro.rubiconproject.com/prebid/dynamic/$script,xmlhttprequest,domain=gamingbible.co.uk|ladbible.com|sportbible.com|viki.com
 @@||micro.rubiconproject.com/prebid/dynamic/*.js$domain=cnbc.com
 @@||micro.rubiconproject.com/prebid/dynamic/*.js$domain=ladbible.com|unilad.com|gamingbible.com|tyla.com
@@ -11060,6 +11062,7 @@
 @@||seccdn-gl.imrworldwide.com/novms/js/*/*.js$domain=heraldsun.com.au
 @@||secondlifetranslations.com^$generichide
 @@||secretflying.com/abd/adserver/adlogger_tracker.php
+@@||secure-assets.rubiconproject.com/floors/$domain=bildderfrau.de
 @@||secure-dcr.imrworldwide.com/novms/js/*/ggcmb*.js$domain=crackle.com
 @@||secure-dcr.imrworldwide.com/novms/js/*/ggcmb*.js$domain=sonycrackle.com
 @@||secure-gen-hapi.canal-plus.com/conso/playset^$stealth=3p-auth
