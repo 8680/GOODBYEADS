@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-09-10 09:44:30（北京时间）
+! Version: 2025-09-10 20:46:29（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 13945
+! Total count: 13946
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -1611,6 +1611,7 @@
 @@||api-*.spot.im/v*/widget/spot/sp_*/conversation_header$domain=bizpacreview.com
 @@||api-*us1*.cludo.com/api/*/search$stealth=3p-auth
 @@||api-analytics.magstimconnect.net^$~third-party
+@@||api-b2b.backenster.com/b1/api/$stealth=3p-auth
 @@||api-edge.cognitive.microsofttranslator.com/translate?
 @@||api-gw.spot.im/v*/feed/spot/sp_*/$domain=bizpacreview.com
 @@||api-js.datadome.co/js/$domain=account.samsung.com
@@ -2001,7 +2002,6 @@
 @@||audi.com.tr/*/modeller/$stealth=webrtc
 @@||audible.com^$stealth=3p-cookie
 @@||audience.io/api/$domain=campaign.aptivada.com
-@@||audience.io/api/v3/app/fetchPromo/$domain=campaign.aptivada.com
 @@||audiko.net/api/$stealth=referrer
 @@||audiomodern.com^$stealth=ip
 @@||audiostream.com^$elemhide
@@ -2187,7 +2187,7 @@
 @@||bdash-cloud.com/recommend-script/$script,domain=junonline.jp
 @@||bdash-cloud.com/tracking-script/*/tracking.js$domain=junonline.jp
 @@||bdimg.com/advert/js/advert.js$domain=music.baidu.com
-@@||bdimg.com/libs/$domain=yebiquge.com|taobiquge.com|piaotianxiaoshuo.com|bqduo.cc|biqutime.com|00ksw.com|147xiaoshuo.com|23xstxt.net|24kxs.cc|8181zw.vip|b520.cc|b5200.net|biqiuge8.cc|xbiquge99.cc|biqugecd.com|biqugewu.net|boquku.com|bqg999.net|bqwxg8.com|bxwx.live|ddbqgtxt.cc|gdbzkz.org|msxsw.com|paoshu8.com|piaotian55.com|quge66.com|shuyy8.com|sytxt.cc|txtwan.com|u33.me|xqianqian.cc|xxbiqudu.com|xygwh.cc|ygshu.com|ymxwx.com|yuyougu.com
+@@||bdimg.com/libs/$domain=yebiquge.com|taobiquge.com|piaotianxiaoshuo.com|bqduo.cc|biqutime.com|00ksw.com|147xiaoshuo.com|23xstxt.net|24kxs.cc|8181zw.vip|b520.cc|b5200.net|biqiuge8.cc|xbiquge99.cc|biqugecd.com|biqugewu.net|boquku.com|bqq999.cc|bqwxg8.com|bxwx.live|ddbqgtxt.cc|gdbzkz.org|msxsw.com|paoshu8.com|piaotian55.com|quge66.com|shuyy8.com|sytxt.cc|txtwan.com|u33.me|xqianqian.cc|xxbiqudu.com|xygwh.cc|ygshu.com|ymxwx.com|yuyougu.com
 @@||bdimg.com/static/wapwenku/static/common/widget/share/share_
 @@||bdimg.com/static/wenda-pc/widget/share/share_
 @@||bdimg.com/static/wkcore/widget/adControl/adControl_
@@ -13727,6 +13727,7 @@
 @@||xnxx.com/porn-maker/$xmlhttprequest,elemhide,jsinject,extension
 @@||xnxx.com/pornstar/$xmlhttprequest,jsinject,elemhide,extension
 @@||xp-cdn.net/video/$stealth=referrer,media,domain=xpornium.net
+@@||xp.audience.io/sdk.js$script,domain=foxla.com
 @@||xpicture.ru^$generichide
 @@||xploit.ink^$generichide
 @@||xpornium.net/imgs/160x600.jpg
