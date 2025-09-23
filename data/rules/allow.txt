@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-09-23 09:44:53（北京时间）
+! Version: 2025-09-23 20:47:03（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 13958
+! Total count: 13961
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -2546,6 +2546,7 @@
 @@||caf.fr/*/smarttag.js
 @@||caf.fr^*/smarttag.js$script,~third-party
 @@||cafe.naver.com/ArticleRead.nhn$stealth=useragent
+@@||cafe24.com^$stealth=dpi
 @@||caffenero-webassets-production.s3.eu-west-2.amazonaws.com/images/$stealth=referrer
 @@||calciomercato.com/prebid.js
 @@||calciomercato.com/promodisplay
@@ -4704,6 +4705,7 @@
 @@||finn.no/*/ad.html
 @@||fino.svc.litv.tv^
 @@||firebase.google.com/docs/analytics/$~third-party
+@@||firebaseremoteconfig.googleapis.com^$stealth=3p-cache,domain=app.smclinic.ru
 @@||firefaucet.win^$generichide
 @@||firefox.com.cn/media/img/mozcn/spread/468-60-
 @@||firmwaredrive.com/templates/default/html/en/assets/js/fingerprint2.min.js
@@ -12116,6 +12118,7 @@
 @@||store.tildaapi.one/api/$stealth=referrer
 @@||stores.office.com/authredir
 @@||stores.office.com/myaccount/advancedinstalls.aspx
+@@||stpd.cloud/saas/$domain=azrhymes.com
 @@||stpd.cloud/saas/$script,domain=dragontea.ink
 @@||stpd.cloud/saas/5274$domain=dgb.lol
 @@||stpd.cloud^$domain=freemcserver.net
@@ -12717,7 +12720,7 @@
 @@||tq121.com.cn/j/ad/caoyu-min.js$domain=products.weather.com.cn
 @@||tr3fit.xyz^$generichide
 @@||tra.scds.pmdstatic.net/advertising-core/$domain=voici.fr
-@@||tra.scds.pmdstatic.net/sourcepoint/$domain=businessinsider.fr|caminteresse.fr|capital.fr|voici.fr
+@@||tra.scds.pmdstatic.net/sourcepoint/$domain=businessinsider.fr|caminteresse.fr|capital.fr|geo.fr|voici.fr
 @@||traceparts.com/lib/piano-analytics/piano-analytics.js$script,~third-party
 @@||track.adform.net/*cpdir=$popup,domain=pepper.*
 @@||track.adform.net/*serving/opt/iab
