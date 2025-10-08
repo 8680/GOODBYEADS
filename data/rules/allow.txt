@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-10-08 09:45:43（北京时间）
+! Version: 2025-10-08 20:49:24（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 13989
+! Total count: 13992
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -3075,6 +3075,7 @@
 @@||cdn.tagdeliver.com/cipt/18911.js$domain=thepinknews.com
 @@||cdn.theatlantic.com/assets/static/*/js/advertisement.2.js
 @@||cdn.theguardian.tv/ad/*.m3u8$domain=theguardian.com
+@@||cdn.tiny.cloud/*/tinymce/*.js$stealth=referrer
 @@||cdn.trackjs.com/agent/v*/latest/t.js$domain=adshnk.com|adshrink.it
 @@||cdn.trackjs.com/agent/v*/latest/t.js$domain=delta.com
 @@||cdn.trackjs.com/releases/current/tracker.js$domain=express.com
@@ -6575,6 +6576,7 @@
 @@||html-load.com^$stealth=referrer
 @@||html5.5games.cc^$stealth=referrer,third-party
 @@||html5.gamedistribution.com/*/$stealth=referrer
+@@||htnovo.net^$generichide
 @@||htz-*upload.spac.me/pics_upload/$stealth=referrer
 @@||hu.adocean.pl/files/js/ado.js$domain=retroradio.hu
 @@||hugo3c.tw^$generichide
@@ -8113,7 +8115,6 @@
 @@||manoramamax.com/videojs/videojs-contrib-ads.min.js$domain=manoramamax.com
 @@||manta.com^$generichide
 @@||manualdamulher.net^$generichide
-@@||maol.meb.gov.tr^$stealth=dpi
 @@||map.poketrack.xyz/js/ads-min.js
 @@||mapandroute.de/MapAPI-$stealth=referrer,domain=dastelefonbuch.de
 @@||mapapi.cloud.huawei.com/mapjs/v*/api/$stealth=referrer,domain=petalmaps.com
@@ -8222,6 +8223,7 @@
 @@||mealty.ru/js/ga_events.js$~third-party
 @@||meanwell.com^$stealth=dpi
 @@||measure.medpex.de/gtm.js
+@@||meb.gov.tr^$stealth=dpi
 @@||mec.ca/media/javascript/resxclsx.js
 @@||medeberiya1.com^$generichide
 @@||medevel.com^$generichide
@@ -13972,6 +13974,7 @@
 @@||zmdownload.zoho.com/zm/imagedisplay$stealth=dpi
 @@||zmovs.com/js/pop.js
 @@||zohopublic.com^*/ADManager_$subdocument,xmlhttprequest,domain=manageengine.com|zohopublic.com
+@@||zol-img.com.cn^$stealth=referrer,domain=zol.com.cn
 @@||zombicide.com^$stealth
 @@||zonatmo.com/index.php/view_uploads/$stealth=referrer
 @@||zone.msn.com/js/gameplayer/admanager.js$domain=zone.msn.com
