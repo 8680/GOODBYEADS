@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-10-13 20:49:32（北京时间）
+! Version: 2025-10-14 09:47:24（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14002
+! Total count: 14004
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -1798,7 +1798,6 @@
 @@||apim.prd.natlot.be^$stealth=3p-auth
 @@||apis.google.com/js/plusone.js$domain=pornhub.com
 @@||apis.kostprice.com/fapi/$script,domain=gadgets.ndtv.com
-@@||apis.naver.com^$stealth=dpi
 @@||apis.wavve.com/fz/streaming$domain=wavve.com,stealth=ip
 @@||apiservices.krxd.net/click_tracker^
 @@||apjr.needrom.com/advert*.js
@@ -2437,6 +2436,7 @@
 @@||bs.serving-sys.com/crossdomain.xml$domain=rte.ie
 @@||bscfsdf.azzureedge.xyz/scripts/*.m3u8$stealth=referrer
 @@||bsp.needrom.com/advert*.js
+@@||bstlar.com^$generichide
 @@||bt*.t-ru.org^$stealth=useragent
 @@||bt.com^*/touchclarity/homepage/omtr_tc.js
 @@||bt.dk/build/prebid-ads-advertisement_adbanner.*.js
@@ -3446,6 +3446,7 @@
 @@||cnzz.com/q_stat.php$domain=qd.alibaba.com
 @@||cnzz.com/z_stat.php$domain=newsite.sherpa.com.cn
 @@||cnzz.com/z_stat.php?id=$domain=fapiao.bangnimang.net
+@@||co.kr^$stealth=dpi
 @@||cobachpl8.milaulas.com^$generichide
 @@||cocomanga.com/js/ad*/*.js
 @@||cocomanga.com/js/ad_/$image
@@ -4550,6 +4551,7 @@
 @@||eyalo.com^$generichide
 @@||eye.swfchan.com/captcha/*.gif$domain=eye.swfchan.com
 @@||eye.swfchan.com/flash.asp?id=*.swf$domain=eye.swfchan.com
+@@||eyejokerdb.com^$stealth=dpi
 @@||ez3c.tw/js/adblockDetector.js
 @@||ez3c.tw^$generichide
 @@||ezodn.com/cmp/gvl.json$xmlhttprequest
@@ -8737,6 +8739,7 @@
 @@||naturalbd.com^$generichide
 @@||naturalhealthy.xyz^$generichide
 @@||natureetdecouvertes.com^*/pixel.png$~third-party
+@@||naver.com^$stealth=dpi
 @@||naver.net/wcslog.js$domain=fragpunk.com|m.tv.naver.com
 @@||navratdoreality.cz^$generichide
 @@||nazolog.com^$generichide
@@ -8822,7 +8825,6 @@
 @@||nibbits.com^$generichide
 @@||nicecarsinfo.com^$generichide
 @@||nichepcgamer.com^$generichide
-@@||nid.naver.com^$stealth=dpi
 @@||nihasi.ru/upload/resize_cache/*/300_250_$image,~third-party
 @@||nik-ser.at.ua/js/pagead2.ads.js$domain=remont-aud.net
 @@||nike.com/assets/measure/data-capture/analytics-client.min.js$script,~third-party
@@ -9330,7 +9332,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=deblocker.merkulov.design
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=decrypt.day
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dgb.lol
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=digiclown.com|sattanewss.com|djflpduniya.com|gadix.in|raftarsamachar.in|cinedesi.in|health.blueridgegeorgia.us|openhouseperthinsurance.com|spatsify.com|marathivacancy.com|cyberlynews.com|bongguider.com|inklix.com|india.studentshelp.in|india.bgmiproconfig.com|web.quizrent.com|india.ctfest.org|hindi.sarkarijobinformation.com|health.wikizinsider.online
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=digiclown.com|sattanewss.com|djflpduniya.com|gadix.in|raftarsamachar.in|cinedesi.in|health.blueridgegeorgia.us|openhouseperthinsurance.com|spatsify.com|marathivacancy.com|cyberlynews.com|bongguider.com|inklix.com|india.studentshelp.in|india.bgmiproconfig.com|web.quizrent.com|india.ctfest.org|hindi.sarkarijobinformation.com|health.wikizinsider.online|india.sharpexamz.in|autorisuchna.in|india.bgmiproconfig.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=digitalinformationworld.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=diglink.blogspot.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dishy.co.ke
