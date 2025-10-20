@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-10-20 09:57:35（北京时间）
+! Version: 2025-10-20 20:50:35（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14014
+! Total count: 14021
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -502,7 +502,7 @@
 @@|steamgamesales.com^$urlblock
 @@|ws://*$websocket,domain=flirt4free.com
 @@||*.php?id=$subdocument,stealth=referrer,domain=dubznetwork.com
-@@||*.yt2api.com/api/$domain=api.ytapi.cc,stealth=referrer
+@@||*.yt2api.com/api/$domain=ytapi.cc,stealth=referrer
 @@||*hubst.guru/uploads/$stealth=referrer
 @@||*optout$domain=smartadserver.com
 @@||*optout$domain=youronlinechoices.com
@@ -2481,6 +2481,7 @@
 @@||buy-*.piano.io^$script,stylesheet,stealth=useragent,domain=piano.io
 @@||buyad.bi-xenon.cn^
 @@||buydekhke.com^$generichide
+@@||bvtpk.com/tag.min.js$xmlhttprequest,domain=spedostream2.shop|play.watch20.space
 @@||by-promokod.by^$stealth=useragent
 @@||byfly.dualstack.speedtestcustom.com^$stealth=referrer
 @@||bytecdntp.com^$script,domain=hushuge.com|51eshu.com
@@ -6051,6 +6052,7 @@
 @@||googletagmanager.com/gtm.js$domain=security-demo.extrahop.com
 @@||googletagmanager.com/gtm.js$domain=service.smt.docomo.ne.jp
 @@||googletagmanager.com/gtm.js$domain=sfd.pl
+@@||googletagmanager.com/gtm.js$domain=sferis.pl
 @@||googletagmanager.com/gtm.js$domain=shieldsgazette.com
 @@||googletagmanager.com/gtm.js$domain=shockwave.com
 @@||googletagmanager.com/gtm.js$domain=shop-apotheke.com
@@ -6083,6 +6085,7 @@
 @@||googletagmanager.com/gtm.js$domain=systemrequirementslab.com
 @@||googletagmanager.com/gtm.js$domain=t-online.de
 @@||googletagmanager.com/gtm.js$domain=tagesanzeiger.ch
+@@||googletagmanager.com/gtm.js$domain=tauron.pl
 @@||googletagmanager.com/gtm.js$domain=teb.com.tr
 @@||googletagmanager.com/gtm.js$domain=techadvisor.co.uk
 @@||googletagmanager.com/gtm.js$domain=techgenix.com
@@ -7088,6 +7091,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=redefine.pl|redcdn.pl|polsatnews.pl|polsatsport.pl|twojapogoda.pl|geekweek.pl|polsatboxgo.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=winknews.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=ksl.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$xmlhttprequest,domain=packers.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$domain=24ur.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$domain=blackbird.zoomin.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$domain=f5haber.com
@@ -8238,6 +8242,7 @@
 @@||meanwell.com^$stealth=dpi
 @@||measure.medpex.de/gtm.js
 @@||meb.gov.tr^$stealth=dpi
+@@||meb.k12.tr^$stealth=dpi
 @@||mec.ca/media/javascript/resxclsx.js
 @@||medeberiya1.com^$generichide
 @@||medevel.com^$generichide
@@ -9042,6 +9047,7 @@
 @@||omtrdc.net^*/mbox/standard?$script,domain=kenkoukazoku.co.jp
 @@||omutulove.blog.fc2.com^$generichide
 @@||omutulove.seesaa.net^$generichide
+@@||omuzaani.me^$generichide
 @@||onceagain.mooo.com/prebid.js$domain=bigbtc.win
 @@||ondemand.sas.com^$subdocument
 @@||onedrive.live.com^$generichide
@@ -9745,7 +9751,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=amritadrino.com|bhojpuritop.in
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=animefever.cc
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=animehub.ac
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=api.ytapi.cc
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=apkandroidhub.in
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=app.axenthost.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=arahcloud.com
@@ -9852,6 +9857,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=winshell.org|wingeno.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=wouterplanet.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=www.msn.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=ytapi.cc
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=zeroupload.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=zippyshare.day
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=zsexf.com
@@ -13996,6 +14002,7 @@
 @@||zmdownload.zoho.com/zm/imagedisplay$stealth=dpi
 @@||zmovs.com/js/pop.js
 @@||zohopublic.com^*/ADManager_$subdocument,xmlhttprequest,domain=manageengine.com|zohopublic.com
+@@||zoigvids.zoigg.com^$stealth=referrer,domain=zoig.com
 @@||zol-img.com.cn^$stealth=referrer,domain=zol.com.cn
 @@||zombicide.com^$stealth
 @@||zonatmo.com/index.php/view_uploads/$stealth=referrer
