@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-10-22 09:54:13（北京时间）
+! Version: 2025-10-22 20:52:17（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14023
+! Total count: 14024
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -1600,7 +1600,6 @@
 @@||aolcdn.com/omniunih_int.js$domain=autoblog.com
 @@||aolcdn.com^*/beacon.min.js$domain=autoblog.com|dailyfinance.com
 @@||aone-soft.com/style/images/ad2.jpg
-@@||aosmark.com/ads.js
 @@||ap6.ssl.msdk.qq.com^
 @@||aphim.co^$generichide
 @@||api-*.cludo.com/api/$stealth=referrer
@@ -1822,6 +1821,7 @@
 @@||app.adjust.net.in/*?campaign=*&redirect=
 @@||app.appsflyer.com/*?af_ios_url=https*shopee.co
 @@||app.appsflyer.com/id*&*navigate_url*shopee.co
+@@||app.axenthost.com^$generichide
 @@||app.clarity.so^$~third-party
 @@||app.clickfunnels.com/assets/lander.js$script,domain=propanefitness.com
 @@||app.datapacket.com^$content
@@ -9472,7 +9472,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=key-hub.eu
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kharisma-adzana.blogspot.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kimochi.info
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kio.ac
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kisahdunia.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kissanime.com.ru|kissanime.co|kissanime.sx|kissanime.is
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kitguru.net
@@ -9925,7 +9924,6 @@
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_fy2019.js$domain=dafontvn.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_fy2021.js$domain=alliptvlinks.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_fy2021.js$domain=bilinovel.com
-@@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_fy2021.js$domain=kio.ac
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_fy2021.js^$domain=linkneverdie.net
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_with_ama*.js$domain=searchftps.net
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_with_ama_*.js$domain=emailnator.com
@@ -9990,6 +9988,7 @@
 @@||parcel.app/webtrack.php?$~third-party
 @@||parenting.pl^$generichide
 @@||parhaye.com^$generichide
+@@||parliament.nz/*/stormcaster.js$script,~third-party
 @@||parsely.com/keys/$script,domain=wmmr.com|wrif.com
 @@||partner-api.jobbio.com/channels/data$xmlhttprequest,third-party,domain=jobs.dailymail.com
 @@||partner.googleadservices.com/gpt/pubads_$domain=mlb.com
@@ -10916,11 +10915,11 @@
 @@||s.jacquieetmichelelite.com/assets/popunder.js
 @@||s.jsrdn.com/s/1.js$domain=lcpdfr.com
 @@||s.nitropay.com/*.gif?*&adslot=$domain=minecraft.buzz
-@@||s.nitropay.com/ads-*.js$domain=app.axenthost.com
 @@||s.nitropay.com/ads-*.js$domain=dankmemer.lol
 @@||s.nitropay.com/ads-*.js$domain=soccerguru.live
 @@||s.nitropay.com/ads-*.js$domain=th.gl
 @@||s.nitropay.com/ads-437.js$domain=wago.io
+@@||s.nitropay.com^$domain=app.axenthost.com
 @@||s.ntv.io/serve/load.js$domain=bloomberg.com
 @@||s.ntv.io/serve/load.js$domain=titantv.com
 @@||s.optnx.com^
@@ -11757,6 +11756,7 @@
 @@||sozcu.com.tr^$generichide
 @@||sozcukbul.com^$generichide
 @@||sozi.cn/images/ad/tj
+@@||sp.auth.adobe.com/reggie/*/regcode$stealth=3p-auth
 @@||sp0.baidu.com/*/finance.pae.baidu.com/vapi/async$domain=baidu.com
 @@||sp1.baidu.com/*/gettts?$media
 @@||spanishdict.com^$generichide
@@ -11991,6 +11991,7 @@
 @@||static.cloudflareinsights.com/beacon.min.js$domain=topsporter.net
 @@||static.cloudflareinsights.com/beacon.min.js$xmlhttprequest,domain=werfgt.fun
 @@||static.cloudflareinsights.com/beacon.min.js^$domain=sportshub.to
+@@||static.cloudflareinsights.com^$domain=app.axenthost.com
 @@||static.criteo.net/images/pixel.gif$domain=diariodenavarra.es
 @@||static.criteo.net/js/ld/publishertag.js$domain=novayagazeta.ru
 @@||static.criteo.net/js/ld/publishertag.js$domain=shinden.pl
@@ -12196,7 +12197,7 @@
 @@||streamwish.com/js/dnsads.js?ads
 @@||streanplay.cc^$stealth
 @@||strimov.site/embed$stealth=referrer
-@@||stripe.com^$xmlhttprequest,domain=app.axenthost.com
+@@||stripe.com^$domain=app.axenthost.com
 @@||strmrdr*/index.php?id=$stealth=referrer
 @@||sts.wavewalt.me/scripts/v*/embedv*.min.js$domain=cricstreams.re
 @@||studioclassroom.com/ad/
