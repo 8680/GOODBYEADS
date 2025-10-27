@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-10-27 10:00:30（北京时间）
+! Version: 2025-10-27 20:51:50（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14032
+! Total count: 14041
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -84,7 +84,7 @@
 @@.ru/mylivetv/stream-*.php$stealth=referrer
 @@.ru/premiumtv/*.php$subdocument,xmlhttprequest,stealth=referrer
 @@.ts$stealth=referrer,domain=omuzaani.me
-@@.ts^$stealth=referrer
+@@.ts^$stealth=referrer|useragent
 @@.vaughnsoft.net/abvs.php?a=
 @@.vmall.com/oauth
 @@.xyz/premiumtv/*.php$subdocument,xmlhttprequest,stealth=referrer
@@ -1279,6 +1279,7 @@
 @@||aiasahi.jp/ads/$image,domain=japan.zdnet.com
 @@||aii.sh^$generichide
 @@||aiimgvlog.fun^$generichide
+@@||aile.gov.tr^$stealth=dpi
 @@||aimasummd.blog.fc2.com^$generichide
 @@||aimfar.solution.weborama.fr/fcgi-bin/oba.fcgi?action=opt$domain=youronlinechoices.com
 @@||aipebel.com^$generichide
@@ -1699,6 +1700,7 @@
 @@||api.cxense.com/public/widget/data?json=$domain=journaldequebec.com
 @@||api.cxense.com/public/widget/data?json=$domain=lavoz.com.ar
 @@||api.cxense.com/public/widget/data?json=$domain=milenio.com
+@@||api.cxense.com/public/widget/data?json=$domain=onetz.de
 @@||api.cxense.com/public/widget/data?json=$domain=pcgames.de
 @@||api.cxense.com/public/widget/data?json=$domain=s.response.jp
 @@||api.cxense.com/public/widget/data?json=$domain=shueisha.co.jp
@@ -2800,6 +2802,7 @@
 @@||cdn.crowdtwist.com/img/$image,domain=myperks.catchow.com
 @@||cdn.cxense.com/cx*.js$domain=bangkokpost.com
 @@||cdn.cxense.com/cx*.js$domain=farodevigo.es
+@@||cdn.cxense.com/cx*.js$domain=onetz.de
 @@||cdn.cxense.com/cx*.js$domain=tn.com.ar
 @@||cdn.cxense.com/cx.$script,domain=japannews.yomiuri.co.jp
 @@||cdn.cxense.com/cx.cce.js$domain=bild.de
@@ -2837,6 +2840,7 @@
 @@||cdn.cxense.com/cx.js$domain=tvnet.lv
 @@||cdn.cxense.com/cx.js$domain=variety.com
 @@||cdn.cxense.com/cx.js$domain=wsj.com
+@@||cdn.cxense.com/sp*.html$domain=onetz.de
 @@||cdn.cxense.com/sp1.html$domain=itmedia.co.jp
 @@||cdn.cxense.com/t_init.min.js$domain=dhnet.be
 @@||cdn.datatables.net^
@@ -3972,7 +3976,7 @@
 @@||dev.virtualearth.net/webservices/$domain=multiroute.de
 @@||dev.visualwebsiteoptimizer.com/j.php$script,domain=kb.arlo.com
 @@||dev.visualwebsiteoptimizer.com/server-side/settings?a=$domain=olx.co.id
-@@||dev.visualwebsiteoptimizer.com^$script,domain=dominos.jp
+@@||dev.visualwebsiteoptimizer.com^$script,xmlhttprequest,domain=dominos.jp
 @@||dev.visualwebsiteoptimizer.com^$stylesheet,script,domain=hancomdocs.com
 @@||devcourseweb.com^$generichide
 @@||developer.qcloudimg.com/http-save/$image,stealth=referrer
@@ -6380,6 +6384,7 @@
 @@||hardwarezone.com.sg/js/prebid.appnexus.js$domain=forums.hardwarezone.com.sg
 @@||harvard.edu/scripts/ga_social_tracking.js
 @@||hatauzmani.com^$generichide
+@@||havenclick.com/www/delivery/asyncjs.php
 @@||havoc-os.com^$generichide
 @@||hayrirsds24.cfd/channel.html?id=$stealth=referrer
 @@||hb.improvedigital.com/pbw/gameDistributionV*.min.js$domain=html5.gamedistribution.com
@@ -7826,7 +7831,6 @@
 @@||lib.hatenablog.com^$generichide
 @@||lib.wtg-ads.com/lib.min.js$domain=dnevnik.hr
 @@||lib.wtg-ads.com/prebid/prebid_*.js$domain=tvn.pl
-@@||lib.wtg-ads.com/publisher/kio.ac/sb_interstitial_wtg.js$domain=kio.ac
 @@||lib.wtg-ads.com/publisher/mmorpg.org.pl/lib.min.js$xmlhttprequest,domain=mmorpg.org.pl
 @@||libero.it^$generichide
 @@||libgen.li/ads.php
@@ -9055,6 +9059,7 @@
 @@||omutulove.blog.fc2.com^$generichide
 @@||omutulove.seesaa.net^$generichide
 @@||omuzaani.me^$generichide
+@@||omuzaani.me^$stealth=webrtc|useragent
 @@||onceagain.mooo.com/prebid.js$domain=bigbtc.win
 @@||ondemand.sas.com^$subdocument
 @@||onedrive.live.com^$generichide
@@ -9274,6 +9279,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=androidecuatoriano.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=anidraw.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=anime-king.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=animefreak.*
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=anycodings.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=apkhosto.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=apkmirror.com
@@ -9403,7 +9409,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=forum.release-apk.com,stealth,important
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=fox.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freebinchecker.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freebnbcoin.com|exotictgirl.blogspot.com|bospedia.com|rockmods.net|aiimsneetshortnotes.com|arabseed.onl|miuiku.com|tatangga.com|flash-firmware.blogspot.com|rumahit.id|romfirmware.com|gsmfirmware.net|akwam.*|fc-lc.com|fc.lc|note1s.com|paste1s.com|ipacrack.com|traffic1s.com|adnews.me|ak4eg.*|xn--mgba7fjn.*|akw.to|ak4ar.*|nguyenvanbao.com|ak.sv|akw.cam|indokontraktor.com|shahee4u.cam|batch-kun.com|shahid4u.*|neosatsu.com|shahidd4u.net|shahiid4u.net|shahid-4u.day|shaid4u.day|shahhid4u.cam|shhahid4u.*
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freebnbcoin.com|exotictgirl.blogspot.com|bospedia.com|rockmods.net|aiimsneetshortnotes.com|arabseed.onl|miuiku.com|tatangga.com|flash-firmware.blogspot.com|rumahit.id|romfirmware.com|gsmfirmware.net|akwam.*|fc-lc.com|fc.lc|note1s.com|paste1s.com|ipacrack.com|traffic1s.com|adnews.me|ak4eg.*|xn--mgba7fjn.*|akw.to|ak4ar.*|nguyenvanbao.com|ak.sv|akw.cam|indokontraktor.com|shahee4u.cam|batch-kun.com|shahid4u.*|neosatsu.com|shahidd4u.net|shahiid4u.net|shahid-4u.*|shaid4u.day|shahhid4u.cam|shhahid4u.*
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freecoursesonline.me
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freeiptvgen.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freemagazines.top
@@ -9558,6 +9564,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=paraphrasetool.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=password69.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=paste-drop.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=pcoptimizedsettings.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=peak.cz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=phoneky.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=plagiarismdetector.net
@@ -10447,6 +10454,7 @@
 @@||proper.io/*?proper_uid=$domain=salon.com
 @@||proper.io/embed/$domain=explosm.net
 @@||proquest.com/modules.gz/snowplow/snowplow-
+@@||proregion24.by^$stealth=dpi
 @@||protagcdn.com/check-bot/index.html$subdocument,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|thecubexguide.com|jytechs.in
 @@||protagcdn.com/s/dropgalaxy.com/site.js$script,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|thecubexguide.com|jytechs.in
 @@||protestia.com^$generichide
@@ -12203,6 +12211,7 @@
 @@||streamtape.com^$popup,domain=streamtape.to
 @@||streamwish.com/js/dnsads.js?ads
 @@||streanplay.cc^$stealth
+@@||strikeout.im^$stealth=webrtc
 @@||strimov.site/embed$stealth=referrer
 @@||stripe.com^$domain=app.axenthost.com
 @@||strmrdr*/index.php?id=$stealth=referrer
