@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-10-30 09:56:25（北京时间）
+! Version: 2025-10-30 20:50:18（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14049
+! Total count: 14052
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -23,6 +23,7 @@
 @@*.mp4?$media,stealth=referrer,domain=vidtube.pro
 @@*.php?player=desktop$stealth=referrer,domain=soccermlbstream.top|hitsports.pro|cricplay2.xyz|antenatv.shop|virazo.sx
 @@*/embed/$stealth=referrer,domain=cambabe.video|cambabe.me
+@@-728x90.$image,domain=elamigosgamez.com
 @@-atari-embeds.googleusercontent.com/embeds/*/inner-frame-minified.html$stealth=referrer
 @@-social-bar.$domain=mobi.yahoo.com
 @@-template-ads/*$domain=rapidgrab.pl
@@ -324,8 +325,8 @@
 @@/pdc_s_code.js$domain=adobe.com
 @@/piwik-$domain=github.com
 @@/player/*$stealth=referrer,domain=ibomma.*
-@@/player/stats.php$domain=85po.com|watchporn.to|viralpornhub.com|watchmdh.to|porn4fans.com
-@@/player_ads.html$domain=85po.com|watchporn.to|viralpornhub.com|camwhoresbay.porn|watchmdh.to|ebalovo.porn|ebalovo.adult|camwhores.*|camlovers.tv|camhub.tv|pornissimo.org|porntn.com|femdomtb.com|pornoham.me|tubsexer.com|homegrownfreaks.net|pornfd.com|sexcams-24.com|watchmdh.to
+@@/player/stats.php$domain=85po.com|85po.net|85xo.com|85xo.com|watchporn.to|viralpornhub.com|watchmdh.to|porn4fans.com
+@@/player_ads.html$domain=85po.com|85po.net|85xo.com|85xo.com|watchporn.to|viralpornhub.com|camwhoresbay.porn|watchmdh.to|ebalovo.porn|ebalovo.adult|camwhores.*|camlovers.tv|camhub.tv|pornissimo.org|porntn.com|femdomtb.com|pornoham.me|tubsexer.com|homegrownfreaks.net|pornfd.com|sexcams-24.com|watchmdh.to
 @@/playlist.m3u8$stealth=referrer|ip
 @@/playlist/*caxi.m3u8$xmlhttprequest,stealth=referrer,domain=crackstreamer.net|streameast.app|1stream.eu|buffstreams.app
 @@/playlists/*/play*.jpeg$xmlhttprequest,stealth=referrer
@@ -678,7 +679,7 @@
 @@||7plus.com.au^$generichide
 @@||7sim.net^$generichide
 @@||8591.com.tw^$stealth=dpi
-@@||85po.com/player/stats.php?event=$image,domain=85po.com
+@@||85po.com/player/stats.php?event=$image,domain=85po.com|85po.net|85xo.com|85xo.com
 @@||85po.com^$generichide
 @@||85tube.com/player/player_ads.html
 @@||85tube.com^$generichide
@@ -3645,6 +3646,7 @@
 @@||correotemporal.org^$generichide
 @@||corrieredellosport.it^$generichide
 @@||corvusrom.com^$generichide
+@@||cos.accelerate.myqcloud.com/assets/sensorsdata.min.js$domain=ruijienetworks.com
 @@||cosmomaker3.blogspot.com^$generichide
 @@||cosmos.azure.com^$stealth=referrer
 @@||costco.com.tw/_ui/shared/js/analyticsmediator.js
@@ -4626,6 +4628,7 @@
 @@||faq.viewcard.co.jp^$stealth=dpi
 @@||fast-down.com^$generichide
 @@||fast.fonts.net/jsapi/core/mt.js$script,domain=abeautifuldominion.com|bkmedical.com|eclecticbars.co.uk|gables.com|itsolutions-inc.com|kinsfarmmarket.com|senate.gov
+@@||fastag.kotak.com^$stealth=dpi
 @@||fastcoin.ga^$generichide
 @@||fastmail.com^$generichide
 @@||fastssh.com/dfp.min.js
