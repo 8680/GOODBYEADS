@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-11-13 09:56:24（北京时间）
+! Version: 2025-11-13 20:52:34（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14103
+! Total count: 14105
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -1118,7 +1118,7 @@
 @@||ads.nextday.media/prebid/jw-video/*.min.js$domain=gpblog.com
 @@||ads.pinterest.com^$domain=3dpchip.com
 @@||ads.pinterest.com^$popup
-@@||ads.poshtata.online/adsbygoogle.js$domain=seir-sanduk.com
+@@||ads.poshtata.online/*.js$domain=seir-sanduk.com
 @@||ads.poshtata.online/adsbygoogle.js$domain=seirsanduk.net
 @@||ads.privacy.qq.com^$domain=privacy.qq.com
 @@||ads.programattik.com/yoc$domain=youronlinechoices.com
@@ -12360,6 +12360,7 @@
 @@||szukajka.tv/link/$subdocument,domain=szukajka.tv
 @@||szukajka.tv/static/fonts/$font
 @@||t*.daumcdn.net/cafeattach/$stealth=referrer
+@@||t-j.ru^$stealth=useragent
 @@||t-mobile.cz/sms^$stealth
 @@||t-online.de/js/xtcore_t_online.js?$xmlhttprequest
 @@||t-online.de^*/xtcore.jstpl
@@ -13188,6 +13189,7 @@
 @@||usaa.com^$document
 @@||usanewstoday.club/safe*.php?link=$stealth=referrer
 @@||usdentaldepot.com/ads-
+@@||useast-*.ordercloud.io^$stealth=3p-auth
 @@||usefuldiy.com^$generichide
 @@||useinsider.com/ins.js$domain=pizzahut.jp
 @@||user-portal.*.edenred.io^$stealth=3p-auth
