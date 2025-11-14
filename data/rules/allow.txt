@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-11-14 09:55:45（北京时间）
+! Version: 2025-11-14 20:50:19（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14106
+! Total count: 14109
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -4446,6 +4446,7 @@
 @@||embed.binkies3d.com^$stealth=referrer,domain=gsmarena.com
 @@||embed.ex.co^$xmlhttprequest,domain=espncricinfo.com
 @@||embed.kijk.nl^$generichide
+@@||embed.nana2play.com^$subdocument,stealth=referrer
 @@||embed.new.video^$stealth=referrer|ip
 @@||embed.redditmedia.com/widgets/platform.js$domain=gamerant.com
 @@||embed.sendtonews.com/player*.php$domain=earth.com
@@ -8092,6 +8093,7 @@
 @@||lv.adocean.pl/files/js/aomini.js$domain=metabro.hu
 @@||lwadm.com/lw/pbjs?pid=$script,domain=sydostran.se
 @@||lyricsongation.com^$generichide
+@@||m.anon.tools/storage/js/adasync.js$~third-party
 @@||m.azonline.de/var/storage/images/*_image_300_250.jpg$~third-party
 @@||m.ctrip.com^
 @@||m.dbzstatic.com/assets/js/loader.js
@@ -9836,6 +9838,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=dessi.io
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=dudestream.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=duelmeta.com|linetv.tw|liout.com|moneysave.info|raenonx.cc|zxmee.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=edumailfree.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=egotter.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=egybist.site|egy-best.site|egybist.online
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=esportstales.com
