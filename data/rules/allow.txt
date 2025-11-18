@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-11-17 20:51:32（北京时间）
+! Version: 2025-11-18 09:54:53（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14114
+! Total count: 14124
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -85,11 +85,13 @@
 @@.ru.com/*/tracks-$xmlhttprequest,stealth=referrer
 @@.ru/mylivetv/stream-*.php$stealth=referrer
 @@.ru/premiumtv/*.php$subdocument,xmlhttprequest,stealth=referrer
+@@.shop/uploads/$stealth=referrer
 @@.ts$stealth=referrer,domain=omuzaani.me
 @@.ts^$stealth=referrer|useragent
 @@.vaughnsoft.net/abvs.php?a=
 @@.vmall.com/oauth
 @@.xyz/premiumtv/*.php$subdocument,xmlhttprequest,stealth=referrer
+@@/*.m3u8$domain=vidload.site,stealth=referrer
 @@/*/*-*/*.png$stealth=referrer,xmlhttprequest,domain=dbx.molystream.org
 @@/*/*-*/*.png$stealth=referrer,xmlhttprequest,domain=dizibox.tv
 @@/*/*.jpg$stealth=referrer,image,domain=mangarawjp.com
@@ -2608,6 +2610,7 @@
 @@||canadapolicereport.ca^$generichide
 @@||canadiantire.ca/*?adlocation=
 @@||canadiantire.ca^*/analytics.sitecatalyst.js
+@@||canadiantire.tt.omtrdc.net/rest/$domain=canadiantire.ca
 @@||canarytokens.com/nest/$domain=canarytokens.com
 @@||candidate.hr-manager.net/Advertisement/PreviewAdvertisement.aspx$subdocument,~third-party
 @@||canhan.gdt.gov.vn^$stealth=dpi
@@ -4411,6 +4414,7 @@
 @@||einthusan.tv^$generichide
 @@||eircomphonebook.ie/js/wt_capi.js?
 @@||ekamus.info^$generichide
+@@||eksenload.site^$stealth=referrer
 @@||elabs12.com/functions/message_view.html$document
 @@||elahmad.com/ads/fc.php
 @@||elconfidencial.com^*/AnalyticsEvent.js
@@ -4439,6 +4443,7 @@
 @@||elpais.com^$generichide
 @@||eltern.de/min.php?*/clickTracking.js
 @@||em.hk/wp-content/uploads/*_300_250.
+@@||email.inipulsa.my.id/storage/js/pogoadkit.js$~third-party
 @@||email.it/js/prebid-ads.js
 @@||emailapi.zdbb.net/subscriptions/$domain=extremetech.com
 @@||emailapi.zdbb.net/subscriptions/$domain=pcmag.com
@@ -4788,6 +4793,7 @@
 @@||flightradar24.com^$stealth=dpi
 @@||flipboard.com/*/vendors~videojs-contrib-ads.*.bundle.js
 @@||flipboard.com/*/videojs-contrib-ads.*.bundle.js
+@@||floppyjimmie.com^$stealth=ip
 @@||flormar.webinstats.com^$domain=flormar.com.tr
 @@||flow.opera.com/*/pairing-tokens$stealth=3p-auth
 @@||fls.doubleclick.net/activityi$domain=geforce.com
@@ -5492,6 +5498,7 @@
 @@||google-analytics.com/analytics.js$domain=zolotoyvek.ua
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=coolermaster.com
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=expressvpn.com
+@@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=mond.how
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=nordvpn.com,important
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=tv-media.at,important
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=upc.pl
@@ -5725,7 +5732,7 @@
 @@||googletagmanager.com/gtag/$domain=usnews.com
 @@||googletagmanager.com/gtag/destination$script,domain=musinsa.com
 @@||googletagmanager.com/gtag/destination?$domain=sloways.eu
-@@||googletagmanager.com/gtag/js$domain=17track.net|9to5mac.com|academy.com|acornonline.com|aena.es|afisha.timepad.ru|aliexpress.com|app.joinhandshake.com|carhartt-wip.com|cbslocal.com|checkout.ao.com|cmoa.jp|cnet.com|cram.com|devclass.com|dholic.co.jp|docs.wps.com|ecmweb.com|ejgiftcards.com|enmotive.com|espressif.com|euronics.ee|factory.pixiv.net|fanpage.it|game.anymanager.io|globo.com|gmanetwork.com|herculesstands.com|homeinspector.org|honeystinger.com|hostingvergelijker.nl|huion.com|inforesist.org|kawasaki.com|kinepolis.be|kinepolis.ch|kinepolis.es|kinepolis.fr|kinepolis.lu|kinepolis.nl|liene-life.com|livongo.com|m.putlocker.how|malegislature.gov|mall.heiwa.jp|mediaite.com|mirrativ.com|modehasen.de|montcopa.org|nihontsushin.com|o2.co.uk|oko.sh|panflix.com.br|papajohns.com|plex.tv|pptvhd36.com|radiosarajevo.ba|redstoneonline.jp|rhbgroup.com|rintraccialamiaspedizione.it|royalcams.com|schwab.com|seatmaps.com|showroom-live.com|skylar.com|slink.ptit.edu.vn|sloways.eu|square-enix.com|starblast.io|supplementmart.com.au|ticketmaster.com|timparty.tim.it|toptal.com|trespa.info|truckspring.com|virginmedia.com|virginplus.ca|webstatus.dev|winefolly.com|winhappy.com|xl-bygg.no|zf1.tohoku-epco.co.jp|zipair.net
+@@||googletagmanager.com/gtag/js$domain=17track.net|9to5mac.com|academy.com|acornonline.com|aena.es|afisha.timepad.ru|aliexpress.com|app.joinhandshake.com|carhartt-wip.com|cbslocal.com|checkout.ao.com|cmoa.jp|cnet.com|cram.com|devclass.com|dholic.co.jp|docs.wps.com|ecmweb.com|ejgiftcards.com|enmotive.com|espressif.com|euronics.ee|factory.pixiv.net|fanpage.it|game.anymanager.io|globo.com|gmanetwork.com|herculesstands.com|homeinspector.org|honeystinger.com|hostingvergelijker.nl|huion.com|inforesist.org|kawasaki.com|kinepolis.be|kinepolis.ch|kinepolis.es|kinepolis.fr|kinepolis.lu|kinepolis.nl|liene-life.com|livongo.com|m.putlocker.how|malegislature.gov|mall.heiwa.jp|mediaite.com|mirrativ.com|modehasen.de|mond.how|montcopa.org|nihontsushin.com|o2.co.uk|oko.sh|panflix.com.br|papajohns.com|plex.tv|pptvhd36.com|radiosarajevo.ba|redstoneonline.jp|rhbgroup.com|rintraccialamiaspedizione.it|royalcams.com|schwab.com|seatmaps.com|showroom-live.com|skylar.com|slink.ptit.edu.vn|sloways.eu|square-enix.com|starblast.io|supplementmart.com.au|ticketmaster.com|timparty.tim.it|toptal.com|trespa.info|truckspring.com|virginmedia.com|virginplus.ca|webstatus.dev|winefolly.com|winhappy.com|xl-bygg.no|zf1.tohoku-epco.co.jp|zipair.net
 @@||googletagmanager.com/gtag/js$domain=av01.tv|javhd.com
 @@||googletagmanager.com/gtag/js$domain=battlestick2.net
 @@||googletagmanager.com/gtag/js$domain=bihann.com|nehannn.com
@@ -5758,6 +5765,7 @@
 @@||googletagmanager.com/gtag/js$domain=mall.heiwa.jp
 @@||googletagmanager.com/gtag/js$domain=malwaretips.com
 @@||googletagmanager.com/gtag/js$domain=mobile01.com
+@@||googletagmanager.com/gtag/js$domain=mond.how
 @@||googletagmanager.com/gtag/js$domain=muji.order.place
 @@||googletagmanager.com/gtag/js$domain=nbc.com
 @@||googletagmanager.com/gtag/js$domain=nibelungen-kurier.de
@@ -7742,6 +7750,7 @@
 @@||konten.co.id/wp-content/*/fuckadblock.js
 @@||konto.play.pl^$extension
 @@||konto.play.pl^$stealth
+@@||konzolvilag.hu^*/click_tracking.js$~third-party
 @@||koora.golato.tv^$generichide
 @@||kora-tv.vip^$generichide
 @@||korail.com^$stealth=dpi
@@ -13385,6 +13394,7 @@
 @@||vidible.tv^*/ComScore.Viewability.js
 @@||vidlii.com^$generichide
 @@||vidload.lol/iframe/$stealth=referrer
+@@||vidload.site^$stealth=referrer
 @@||vidmoly.to/embed-$stealth=referrer|ip
 @@||vidoser.org^$elemhide
 @@||vidoza.net/embed-*.html$subdocument
