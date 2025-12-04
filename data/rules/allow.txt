@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-12-04 09:58:56（北京时间）
+! Version: 2025-12-04 20:54:57（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14174
+! Total count: 14176
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -8617,6 +8617,7 @@
 @@||moea.gov.tw/EgisWeb/Scripts/google-analytics.js
 @@||moegirl.org.cn^$generichide
 @@||moeni.net^$stealth=webrtc
+@@||mofl.pro^$stealth=referrer
 @@||mohanlalmovieshub.blogspot.com^$generichide
 @@||mojedatovaschranka.cz^$stealth=dpi
 @@||moly.cloud/*/*.m3u8$stealth=referrer
@@ -13385,6 +13386,7 @@
 @@||vid.springserve.com/vast/*einthusan.tv
 @@||vidabytes.com^$generichide
 @@||vidbom.com^$domain=anyanime.com
+@@||vidbox.site/streaming/$stealth=referrer
 @@||vidcache.net:*/*/*.mp4$stealth=referrer
 @@||vidcdn.co/iframe/$stealth=referrer
 @@||vide0.net^$generichide
