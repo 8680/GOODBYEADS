@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-12-13 20:48:35（北京时间）
+! Version: 2025-12-14 10:08:44（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14203
+! Total count: 14198
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -440,7 +440,7 @@
 @@://dfiles.ru^$domain=dfiles.ru,~third-party
 @@://doubleclick.com/|$xmlhttprequest,domain=watch.plex.tv
 @@://googlesyndication.com/|$domain=raenonx.cc
-@@://html-load.com/loader.min.js$domain=dogdrip.net|infinityfree.com|smsonline.cloud
+@@://html-load.com/loader.min.js$domain=dogdrip.net|smsonline.cloud
 @@://localhost/$generichide
 @@://localhost:$generichide
 @@://streamcdn.xyz/hls/$stealth=referrer
@@ -1246,8 +1246,6 @@
 @@||adv.lack-girl.com^$popup
 @@||adv.svo.aero/wifi_svo/*$domain=svo.aero
 @@||adv.welaika.com^$popup
-@@||adv.wp.pl/RM/Box/c/b/inline/inline-o2_gaf.js$domain=o2.pl
-@@||adv.wp.pl/RM/Box/c/b/inline/inline-o2_pudelek_pl.js$domain=pudelek.pl
 @@||adv.wp.pl/RM/Box/c/b/money_rail_and_frames/money-rail-1.0.2.js
 @@||adv.wp.pl/bar.gif
 @@||adv.yomiuri.co.jp^$domain=adv.yomiuri.co.jp
@@ -2428,6 +2426,7 @@
 @@||book.com.tw/image/getImage?$domain=books.com.tw
 @@||booking.vietjetair.com/searchrespax.aspx$stealth
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
+@@||bookoffonline.co.jp/files/tracking/ac/clicktag.js$~third-party
 @@||bookscool.com/*/advertisement.js
 @@||bookwalker.com.tw/images/p_img/pc_ad*.png$~third-party
 @@||bootcss.com^$script,domain=kan-tv.com
@@ -4163,6 +4162,7 @@
 @@||docs.expo.io/*/static/*/pages/versions/latest/sdk/*.js$domain=docs.expo.io
 @@||docs.google.com/*/viewdata$~third-party
 @@||docs.google.com^$generichide
+@@||docs.rucml.ru/e.gif?$~third-party
 @@||docs.woopt.com/wgact/$image,~third-party,xmlhttprequest
 @@||doda.jp/brand/ad/img/icon_play.png
 @@||doda.jp/cmn_web/img/brand/ad/ad_text_
@@ -6330,7 +6330,6 @@
 @@||googletagservices.com/tag/js/gpt.js$domain=tvb.com|tvbs.com.tw|www.gamer.com.tw
 @@||googletagservices.com/tag/js/gpt.js$domain=vegetarbloggen.no
 @@||googletagservices.com/tag/js/gpt.js$domain=weather.com
-@@||googletagservices.com/tag/js/gpt.js$domain=wp.pl|dobreprogramy.pl|o2.pl|pudelek.pl|so-magazyn.pl
 @@||googletagservices.com/tag/js/gpt.js$domain=xn--allestrungen-9ib.de
 @@||googletagservices.com/tag/js/gpt.js$script,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in
 @@||googletagservices.com/tag/js/gpt.js$xmlhttprequest,script,redirect=googletagservices-gpt,domain=acs.org
@@ -7148,7 +7147,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=video.udn.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=video.ufreegames.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=videonuz.ensonhaber.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=videostar.pl|o2.pl|dobreprogramy.pl|polygamia.pl|genialne.pl|pysznosci.pl|benchmark.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=videotarget.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=vidyome.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=viki.com
@@ -9844,7 +9842,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=worder.cat
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=world2our.com|healthy4pepole.com|bluetechno.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=worldmak.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=wp.pl|o2.pl|pudelek.pl|so-magazyn.pl
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=www.up-4.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=xcandid.top|1movierulzhd.*
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=xiebruce.top
@@ -13822,9 +13819,7 @@
 @@||wouterplanet.com^$generichide
 @@||wowclassicbis.com^$generichide
 @@||wp.com/_static/*/gaAddons.js
-@@||wp.pl/*-FwkqOxhmGz4XCSo7GGYbPhcJKjsYZhs-$script,domain=film.wp.pl|finanse.wp.pl|gwiazdy.wp.pl|kobieta.wp.pl|ksiazki.wp.pl|magazyn.wp.pl|moto.wp.pl|opinie.wp.pl|sportowefakty.wp.pl|tech.wp.pl|wiadomosci.wp.pl
 @@||wp.pl/*-FwkqOxhmGz4XCSo7GGYbPhcJKjsYZhs-$script,domain=pilot.wp.pl
-@@||wp.pl/b3RvQ2h1TVIzFCcBR0pAR3*DtBSkw=$script,domain=film.wp.pl|finanse.wp.pl|gwiazdy.wp.pl|kobieta.wp.pl|ksiazki.wp.pl|magazyn.wp.pl|moto.wp.pl|opinie.wp.pl|tech.wp.pl|wiadomosci.wp.pl
 @@||wp.pl^$generichide
 @@||wpb.shueisha.co.jp^$generichide
 @@||wpfc.ml/b.gif$image,domain=holybooks.com
