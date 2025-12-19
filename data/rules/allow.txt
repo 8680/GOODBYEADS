@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-12-18 20:53:59（北京时间）
+! Version: 2025-12-19 10:01:41（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14207
+! Total count: 14209
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -10478,6 +10478,7 @@
 @@||pornohype.cc/*/|$media,stealth=referrer
 @@||porntrex.com/*/?mode=async&action=js_stats&rand=$image,domain=porntrex.com
 @@||porntube.com/adb_detector.js|$~third-party
+@@||pornxp.*/videos/$stealth=ip
 @@||pornxp.com^$stealth=ip
 @@||pornxp.eu^$stealth=ip
 @@||pornxp.net^$stealth=ip
@@ -13712,6 +13713,7 @@
 @@||webzjac.reg.*.com^$stealth=referrer,domain=passport.youdao.com
 @@||webzjcaptcha.reg.*.com/api/$stealth=referrer,domain=passport.youdao.com
 @@||webzjcaptcha.reg.163.com^
+@@||weeab*.xyz^$stealth=referrer|ip,domain=japaneseasmr.com
 @@||wehellas.gr^$generichide
 @@||weibo.com/api/weipan/getAds
 @@||weibo.com/share/share.php$generichide
