@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-12-19 10:01:41（北京时间）
+! Version: 2025-12-19 20:52:18（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14209
+! Total count: 14213
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -35,6 +35,7 @@
 @@.amazon.*/sample/$stealth=referrer
 @@.b-cdn.net/*.m3u8?$xmlhttprequest,stealth=referrer
 @@.co.uk/wp-banners.js$domain=advertiserandtimes.co.uk|northern-scot.co.uk|suffolknews.co.uk|kentonline.co.uk|cambridgeindependent.co.uk|fenlandcitizen.co.uk|granthamjournal.co.uk|stratford-herald.com|spaldingtoday.co.uk
+@@.com/*/*.avif$image,stealth=referrer,domain=bilimanga.net
 @@.com/ad.aspx|$domain=xdingdian.cc
 @@.com/ad/$~image,~script,~third-party,domain=sso-idp.evergent.com
 @@.com/ad/$~third-party,domain=localbitcoins.com
@@ -1202,6 +1203,7 @@
 @@||adservice.google.com.tr/adsid/integrator.js$domain=playhub.com
 @@||adservice.google.com/adsid/integrator.js$domain=943thex.com
 @@||adservice.google.com/adsid/integrator.js$domain=961thebreeze.com
+@@||adservice.google.com/adsid/integrator.js$domain=ajdown.space
 @@||adservice.google.com/adsid/integrator.js$domain=logi.im
 @@||adservice.google.com/adsid/integrator.js$domain=next-episode.net
 @@||adservice.google.com/adsid/integrator.js$domain=soranews24.com
@@ -1648,7 +1650,6 @@
 @@||api-public.stoerungsauskunft.de/api$stealth=3p-auth
 @@||api-v*.trbo.com/r.php$domain=blau.de
 @@||api-v*.trbo.com/r.php$domain=o2online.de
-@@||api-v4.trbo.com/r.php?$script,domain=blau.de
 @@||api.*.commercetools.com^$stealth=3p-auth,domain=qt.io
 @@||api.1plus1.video^$stealth=referrer|ip
 @@||api.adguard-dns.io/api/
@@ -8685,6 +8686,7 @@
 @@||motherboard.vice.com^*/vmp_analytics.js
 @@||motherless.com/favorites/
 @@||motherlessmedia.com^$domain=motherless.com
+@@||motiezw.com^$image,stealth=referrer,domain=bilimanga.net
 @@||motika.com.mk/wp-content/plugins/ajax-hits-counter/display-hits.rapid.php$~third-party
 @@||moto-station.com^$generichide
 @@||motorradonline.de^$generichide
@@ -9383,6 +9385,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=adzsafe.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=aeprofree.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=aiarticlespinner.co
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ajdown.space
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=akashio.com|1991421.cn|kantie.org|kejilion.pro|bilinovel.com|mcappx.com|yeeach.com|blog.6ziz.com|docsmall.com|uiadmin.net|4horlover.com|23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|fsbot.xyz|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|mens1069.com|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=akinator.com|akinator.mobi
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=akinator.mobi|akinator.com
@@ -11323,6 +11326,7 @@
 @@||securepubads.g.doubleclick.net/gampad/ads?pvsid=$domain=portmiamiwebcam.com
 @@||securepubads.g.doubleclick.net/gampad/ads^$domain=theatlantic.com
 @@||securepubads.g.doubleclick.net/gpt/pubads$domain=line.me
+@@||securepubads.g.doubleclick.net/gpt/pubads_impl.js$domain=ajdown.space
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=allmusic.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=askmen.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=bloomberg.com
@@ -11930,6 +11934,7 @@
 @@||speedtest.net/javascript/ads.js
 @@||speedtestcustom.com^$subdocument,stealth=referrer
 @@||speedynews.xyz^$generichide
+@@||spezialklinik-neukirchen.de/matomo/$~third-party
 @@||spiegel.de/layout/js/http/netmind-$script
 @@||spiele-umsonst.de^$generichide
 @@||spiele.rtl.de/landingpage/index/$document
@@ -13018,7 +13023,6 @@
 @@||travel-assets.com/ads/*/expadsblocked.js^
 @@||travel-assets.com/platform-analytics-prime/$domain=chase.com
 @@||travel.mediaalpha.com/js/serve.js$domain=goseek.com
-@@||trbo.com/plugin/trbo_$script,domain=blau.de
 @@||trc*.taboola.com^$domain=msnbc.com
 @@||trc-events.taboola.com^$domain=asianetnews.com
 @@||trc.gpcdn.pl/*/tracker.js$domain=pracuj.pl
