@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-12-25 10:03:18（北京时间）
+! Version: 2025-12-25 20:52:23（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14227
+! Total count: 14229
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -2390,7 +2390,6 @@
 @@||blog.gouline.net/ads-b-feeders-on-raspberry-pi-
 @@||blog.krcesdev.com^$generichide
 @@||blog.kvb-koeln.de^$stealth=dpi
-@@||blog.livedoor.jp^$generichide
 @@||blog.malwarebytes.com/*/20*/|$~script,~xmlhttprequest
 @@||blog.naverblogwidget.com/ExternalWidgetRender.$stealth=referrer
 @@||blog.torproject.org^$stealth=dpi
@@ -10418,6 +10417,7 @@
 @@||plex.tv/api/v2/geoip$xmlhttprequest
 @@||plex.tv/wp-content/themes/plex/assets/js/conditional/lib/fastclick.min.js
 @@||plground.live^$stealth=referrer
+@@||plibcdn.com/media/$stealth=ip
 @@||plplayer.online/log_event$~third-party,xmlhttprequest
 @@||plugin.intuitcdn.net/vep-collab-smlk-ui/assets/vendor/glance/cobrowse/
 @@||plugincrack.com^$generichide
@@ -10484,6 +10484,7 @@
 @@||pornhub.phncdn.com^$image,domain=pornhub.com|pornhub.org|pornhub.net|redtube.com|redtube.net|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
 @@||pornhublive.com/bio.php?$popup,domain=pornhub.com|pornhub.org|pornhub.net
 @@||pornimg.xyz^$stealth=referrer,domain=popjav.tv
+@@||pornlib.com/player_config_json/$stealth=ip
 @@||pornofaps.com^$generichide
 @@||pornohype.cc/*/|$media,stealth=referrer
 @@||porntrex.com/*/?mode=async&action=js_stats&rand=$image,domain=porntrex.com
@@ -12344,6 +12345,7 @@
 @@||store.tildaapi.one/api/$stealth=referrer
 @@||stores.office.com/authredir
 @@||stores.office.com/myaccount/advancedinstalls.aspx
+@@||storm.vodvidl.site/proxy/$stealth=referrer
 @@||stpd.cloud/saas/$domain=azrhymes.com
 @@||stpd.cloud/saas/$script,domain=dragontea.ink
 @@||stpd.cloud/saas/5274$domain=dgb.lol
