@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-01-07 10:05:17（北京时间）
+! Version: 2026-01-07 20:56:37（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14258
+! Total count: 14257
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -745,6 +745,7 @@
 @@||a.allegroimg.com^$domain=allegro.pl
 @@||a.bf-ad.net/adengine/fff/adengine.js$domain=fitforfun.de
 @@||a.exosrv.com/ads.js$domain=javtiful.com
+@@||a.klaviyo.com/client/subscriptions/$xmlhttprequest,domain=ahead-nutrition.com
 @@||a.klaviyo.com/consent-pages/client/$xmlhttprequest
 @@||a.klaviyo.com/forms/api/*/full-forms?company_id=$domain=complyfoam.com
 @@||a.klaviyo.com/media/js/onsite/onsite.js$domain=kravebeauty.com
@@ -1379,7 +1380,6 @@
 @@||alicdn.com/??*/tracker/
 @@||alicdn.com/dt/tracker/2.5.1/tracker.js$domain=alimama.com
 @@||alicdn.com/dt/tracker/4.2.0/??tracker.
-@@||alicdn.com/img/ibank/2019/975/700/12603007579_1230538058.jpg
 @@||alicdn.com/js/*/xpopup.js
 @@||alicdn.com/mm/tb-page-peel/
 @@||alicdn.com/retcode/log/log.js
@@ -10132,7 +10132,6 @@
 @@||pandora.com^$generichide
 @@||panel.flops.ru/js/member/evercookie_init.js
 @@||panel.play.hosting/js/jquery.openxtag.js
-@@||panjiachen.github.io^$generichide
 @@||pantagraph.com^$generichide
 @@||papagiovannipaoloii.altervista.org^$generichide
 @@||papalah.com^$generichide
@@ -10980,7 +10979,6 @@
 @@||riverlink.etcchosted.com/widgets/com/mendix/widget/web/googletag/GoogleTag.js$~third-party
 @@||riverside.fm^$generichide
 @@||rizonesoft.com^$generichide
-@@||rltdxt.com/files/h5/app.js
 @@||rm.freex2line.online/loadon/?link=$stealth=referrer
 @@||rm.sina.com.cn/minisite/*/css/art_normal.css$domain=client.sina.cn
 @@||rmbooru.org/data/image/$domain=rmbooru.org
@@ -13243,6 +13241,7 @@
 @@||uim.tifbs.net/js/*.js$domain=web.de|gmx.net|gmx.ch|gmx.at
 @@||uim.tifbs.net/js/3423.js$domain=top.de
 @@||uim.tifbs.net/js/7732.js$domain=gewinnspiel.gmx.de|gewinnspiel.web.de
+@@||uin-sports.pt^$extension='AdGuard Popup Blocker'|'AdGuard Popup Blocker (Beta)'
 @@||ujinbi.com/UpLoadFile/guanggao/
 @@||ujjivansfb.in^$stealth=dpi
 @@||ukbride.co.uk/css/*/adverts.css
