@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-01-07 20:56:37（北京时间）
+! Version: 2026-01-08 10:05:35（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14257
+! Total count: 14256
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -26,6 +26,7 @@
 @@-728x90.$image,domain=elamigosgamez.com
 @@-atari-embeds.googleusercontent.com/embeds/*/inner-frame-minified.html$stealth=referrer
 @@-social-bar.$domain=mobi.yahoo.com
+@@-sponsor-ad.gif?advert=$domain=im9.eu
 @@-template-ads/*$domain=rapidgrab.pl
 @@.*.*/player.html?mdata=*&ilang=$stealth=referrer
 @@.2o7.net/$domain=today.com
@@ -287,7 +288,6 @@
 @@/images/*/*.gif$domain=maichun5.info|myhhg.com
 @@/images/*_share.png$domain=service.weibo.com
 @@/images/ad/*$domain=9588.com|casio.com.cn|dod-tec.com|ourgame.com|pro-partner.com.tw|snh48.com|tingbook.com
-@@/images/ads/advert.gif$domain=im9.eu
 @@/images/adv/*$domain=gueizu.com
 @@/images/share/*$domain=search.www.gov.cn
 @@/img/ad/*$domain=exp.qq.com
@@ -9549,7 +9549,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=forum.release-apk.com,stealth,important
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=fox.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freebinchecker.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freebnbcoin.com|exotictgirl.blogspot.com|bospedia.com|rockmods.net|aiimsneetshortnotes.com|arabseed.onl|miuiku.com|tatangga.com|flash-firmware.blogspot.com|rumahit.id|romfirmware.com|gsmfirmware.net|akwam.*|fc-lc.com|fc.lc|note1s.com|paste1s.com|ipacrack.com|traffic1s.com|adnews.me|ak4eg.*|xn--mgba7fjn.*|akw.to|ak4ar.*|nguyenvanbao.com|ak.sv|akw.cam|indokontraktor.com|shahee4u.cam|batch-kun.com|shahid4u.*|neosatsu.com|shahidd4u.net|shahiid4u.net|shahid-4u.*|shaid4u.day|shahhid4u.cam|shhahid4u.*|sshahid4u.*|sshahid4u.day|sd4u.net
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freebnbcoin.com|exotictgirl.blogspot.com|bospedia.com|rockmods.net|aiimsneetshortnotes.com|arabseed.onl|miuiku.com|tatangga.com|flash-firmware.blogspot.com|rumahit.id|romfirmware.com|gsmfirmware.net|akwam.*|fc-lc.com|fc.lc|note1s.com|paste1s.com|ipacrack.com|traffic1s.com|adnews.me|ak4eg.*|xn--mgba7fjn.*|akw.to|ak4ar.*|nguyenvanbao.com|ak.sv|akw.cam|indokontraktor.com|shahee4u.cam|batch-kun.com|shahid4u.*|neosatsu.com|shahidd4u.net|shahiid4u.net|shahid-4u.*|shaid4u.day|shahhid4u.cam|shhahid4u.*|sshahid4u.*|sshahid4u.day|sd4u.net|shah4u.*|shah4u.day
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freecoursesonline.me
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freeiptvgen.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freemagazines.top
@@ -13661,7 +13661,6 @@
 @@||walmart.com/b/ss/
 @@||walmart.com/orchestra/*/graphq$stealth=donottrack
 @@||walmart.com/orchestra/api$stealth=donottrack
-@@||walmart.com/px/*/captcha
 @@||walmart.com/swag/graphql$stealth=donottrack
 @@||walmart.com^*/track?event=$xmlhttprequest
 @@||walmartimages.com/webanalytics/omniture/omniture.jsp$domain=walmart.com
