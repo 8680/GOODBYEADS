@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-02-03 10:38:27（北京时间）
+! Version: 2026-02-03 21:12:53（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14308
+! Total count: 14299
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -1028,6 +1028,7 @@
 @@||adobe.tt.omtrdc.net/rest/v1/delivery?client=adobe&sessionId=$domain=acrobat.adobe.com
 @@||adobeactivators.blogspot.com^$generichide
 @@||adobedc.demdex.net/ee/v1/identity/$xmlhttprequest,domain=cibc.com
+@@||adobedc.demdex.net^$xmlhttprequest,domain=sc.com
 @@||adobedtm.com/extensions/$domain=antena3.com|apple.com|atresmedia.com|atresplayer.com|automobiles.honda.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|lasexta.com|telus.com|verizon.com|xfinity.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
 @@||adobedtm.com^$script,domain=sonystyle.com.cn
@@ -2498,7 +2499,6 @@
 @@||bt.dk/build/prebid-ads-advertisement_adbanner.*.js
 @@||btc.sldc.pl/libs/advertisement.js?ad_ids=
 @@||btcadspace.com/assets/ads-*.js
-@@||btcfaucet.best^$generichide
 @@||btcnewz.com^$generichide
 @@||btdunyasi.net/wp-content/plugins/adrotate-pro/library/jquery.cookie.js
 @@||btg.mtvnservices.com/aria/coda.html?site=nickelodeontv.ru$domain=nickelodeon.ru
@@ -3286,6 +3286,7 @@
 @@||ceesty.com^$generichide
 @@||celebfapper.com/js/adManager.js
 @@||celestialwallscapes.site^$stealth=referrer
+@@||centraljust.gov.ua^$stealth=dpi
 @@||centro.co.il^$generichide
 @@||certificateland.com^$generichide
 @@||certona.net^*/scripts/resonance.js$script,domain=canadiantire.ca|finishline.com|summitracing.com|tumi.com
@@ -3339,8 +3340,6 @@
 @@||checkout.paddle.com^$elemhide,jsinject,content
 @@||checkoutshopper-live-us.adyen.com^$stealth=referrer
 @@||checkoutshopper-live.adyen.com/checkoutshopper/*/securedFields.html$stealth=referrer
-@@||checkz.net/tools/*/*.$~third-party
-@@||checkz.net^$generichide
 @@||chelsea24news.pl^$generichide
 @@||chemicalbook.com^$stealth=ip
 @@||cherrymx.de^$stealth=dpi
@@ -3489,7 +3488,6 @@
 @@||cloudimg.io/*/analytics.$script,domain=michelinman.com
 @@||cloudinary.com/perimeterx/$image,domain=perimeterx.com
 @@||cloudssh.us,kissmanga.in^$generichide
-@@||cloudstorageoptions.com^$generichide
 @@||cloudvideo.tv/embed-$domain=139.99.120.222
 @@||cloudvideo.tv/embed-$stealth=referrer
 @@||clover-manga.com^$generichide
@@ -4323,6 +4321,7 @@
 @@||dropbox.com/*/oauth$document
 @@||dropbox.com^$generichide
 @@||dropbox.com^$generichide,badfilter
+@@||dropbox.com^$stealth=flash
 @@||dropgalaxy.com^$generichide
 @@||droplink.co^$stealth=referrer,~third-party
 @@||drphil.com/modules/contrib/ctd_cvp/js/prebid-ads.js
@@ -7812,6 +7811,7 @@
 @@||kinogo.*/*.flv$stealth=ip
 @@||kion.ru/api/$stealth=ip
 @@||kiplinger.112.2o7.net^
+@@||kissjav.$generichide
 @@||kissjav.com^$generichide
 @@||kit.fontawesome.com$stealth=referrer,domain=androidacy.com
 @@||kitsune-subs.anime-odcinki.pl/wp-content/themes/fanstrap/lib/js/advertisement.js
@@ -8541,7 +8541,6 @@
 @@||metrics.torproject.org^
 @@||metrics.us.playstation.com/b/ss/
 @@||mettablog.com^$generichide
-@@||meusfilmestorrents.com^$generichide
 @@||mexa.sh/advertisements.js
 @@||mexa.sh^$generichide
 @@||mexashare.com/advertisements.js
@@ -9271,7 +9270,6 @@
 @@||onlinetutorium.com^$generichide
 @@||onlinetyping.org/detroitchicago/cmbdv2.js
 @@||onlinevideoconverter.com^$generichide
-@@||onlinevideoconverter.pro^$generichide
 @@||onlytech.com/community/js/*/AdsenseBlockView.js$domain=onlytech.com
 @@||ontiva.com/js/prebid-ads.js
 @@||ontiva.com^$generichide
@@ -9583,7 +9581,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=forum.release-apk.com,stealth,important
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=fox.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freebinchecker.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freebnbcoin.com|exotictgirl.blogspot.com|bospedia.com|rockmods.net|aiimsneetshortnotes.com|arabseed.onl|miuiku.com|tatangga.com|flash-firmware.blogspot.com|rumahit.id|romfirmware.com|gsmfirmware.net|akwam.*|fc-lc.com|fc.lc|note1s.com|paste1s.com|ipacrack.com|traffic1s.com|adnews.me|ak4eg.*|xn--mgba7fjn.*|akw.to|ak4ar.*|nguyenvanbao.com|ak.sv|akw.cam|indokontraktor.com|shahee4u.cam|batch-kun.com|shahid4u.*|neosatsu.com|shahidd4u.net|shahiid4u.net|shahid-4u.*|shaid4u.day|shahhid4u.cam|shhahid4u.*|sshahid4u.*|sshahid4u.day|sd4u.net|shah4u.*|shah4u.day
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freebnbcoin.com|exotictgirl.blogspot.com|bospedia.com|rockmods.net|aiimsneetshortnotes.com|arabseed.onl|miuiku.com|tatangga.com|flash-firmware.blogspot.com|rumahit.id|romfirmware.com|gsmfirmware.net|akwam.*|fc-lc.com|fc.lc|note1s.com|paste1s.com|ipacrack.com|traffic1s.com|adnews.me|ak4eg.*|xn--mgba7fjn.*|akw.to|ak4ar.*|nguyenvanbao.com|ak.sv|akw.cam|indokontraktor.com|shahee4u.cam|batch-kun.com|shahid4u.*|neosatsu.com|shahidd4u.net|shahiid4u.net|shahid-4u.*|shaid4u.day|shahhid4u.cam|shhahid4u.*|sshahid4u.*|sshahid4u.day|sd4u.net|shah4u.*|shah4u.day|shaahed4u.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freecoursesonline.me
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freeiptvgen.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freemagazines.top
@@ -9995,7 +9993,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=japangaysex.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=javbee.*
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=kapang.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=kissjav.com|asianporn.li
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=kissjav.com|kissjav.li|asianporn.li
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=leakshaven.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=lenouvelliste.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=linetv.tw
@@ -11230,7 +11228,6 @@
 @@||sat-universe.com^$generichide
 @@||satellite-calculations.com/ads.js
 @@||satgobmx.com^$generichide
-@@||satilikhayvanim.com^$generichide
 @@||satoshihero.com^$generichide
 @@||satoshilabs.net^$generichide
 @@||satoshimonster.com^$generichide
@@ -12380,7 +12377,6 @@
 @@||stfly.$generichide
 @@||stfly.io^$generichide
 @@||stfly.me^$stealth=referrer
-@@||stiffgamerdown.com^$generichide
 @@||stippleit.com/stipple.js$domain=photos.toofab.com
 @@||stjscn.s-msn.com/portal/hp/2011/udctrack.
 @@||stltoday.com^$generichide
@@ -12978,7 +12974,6 @@
 @@||toramemoblog.com^$generichide
 @@||torrage.info/torrent.php$popup,third-party
 @@||torrentsafe.com/fingerprint2.min.js
-@@||torrentsgames.xyz^$generichide
 @@||torrentsmegafilmes.com^$generichide
 @@||torrentz.adclixx.net/mgid/ad.js
 @@||torrentz.adnetasia.com/mgid/ad.js
@@ -13077,7 +13072,6 @@
 @@||traffichaus.com/scripts/*ad*.js$domain=hdzog.com
 @@||traffichaus.com/scripts/banner-ad.js
 @@||trafficmanager.anyclip.com^$domain=content.dictionary.com
-@@||traficodetorrents.com^$generichide
 @@||trailrunnermag.com^$stealth=dpi
 @@||trakel.org/*/image_resize.php?ad=
 @@||trakus.org/kods_bird/uye/image_resize.php?ad=
@@ -13402,7 +13396,6 @@
 @@||usnlive.com/stream/$xmlhttprequest,stealth=referrer
 @@||usplastic.com/js/hawk.js
 @@||ut.pubmatic.com/geo?pubid=$domain=zeenews.india.com
-@@||utorrentgamesps2.blogspot.com^$generichide
 @@||uu.res.netease.com/pc/zt/*/img/ad_
 @@||uukanshu.com^$generichide
 @@||uverseonline.att.net/report/click_tracking_nes.json
@@ -13670,7 +13663,6 @@
 @@||vsh.visilabs.net/Visilabs.min.js$domain=paribucineverse.com
 @@||vsthouse.ru^$generichide
 @@||vstplugs.com^$generichide
-@@||vsttorrents.net^$generichide
 @@||vstx.ru^$generichide
 @@||vsx.pl^$generichide
 @@||vudeo.io/embed-$stealth=referrer
@@ -13734,7 +13726,6 @@
 @@||watchpsychonline.net^$generichide
 @@||watchseries.video^$generichide
 @@||watchsmallvilleonline.net^$generichide
-@@||watchthementalistonline.com^$generichide
 @@||watoday.com.au^$generichide
 @@||wavepc.pl/wp-content/*-500x100.png$image,~third-party
 @@||wavse.com^$generichide
