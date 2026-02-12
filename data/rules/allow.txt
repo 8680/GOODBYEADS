@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-02-12 10:44:32（北京时间）
+! Version: 2026-02-12 21:20:40（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14275
+! Total count: 14272
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -2516,7 +2516,6 @@
 @@||burnbutt.com^$generichide
 @@||burzowo.info/*.js?&
 @@||business-credits.cc^$generichide
-@@||business-mortgage.info^$generichide
 @@||business-mortgage.pw^$generichide
 @@||business-standard.com/ad/banner.js
 @@||business.financialpost.com^$generichide
@@ -3759,7 +3758,6 @@
 @@||crackle.com/vendor/AdManager.js$script,~third-party
 @@||crackle.com/vendor/adex.js
 @@||craftaro.com/build/assets/GoogleAd-*.js
-@@||cravesandflames.com^$generichide
 @@||crawlist.net^$generichide
 @@||crazyblog.in^$generichide
 @@||crazygames.com/prebid.js$script,~third-party
@@ -7678,6 +7676,7 @@
 @@||js.wpadmngr.com/static/adManager.js$domain=poophd.video-src.com
 @@||jsc.adskeeper.co.uk/*/hhkungfu.tv.*.js$domain=hhkungfu.tv
 @@||jsc.adskeeper.com/site/*.js$domain=ranoz.gg
+@@||jsc.adskeeper.com/site/*.js$xmlhttprequest,domain=lockr.so
 @@||jsc.idealmedia.io/*/onedio.com.*.js$domain=onedio.com
 @@||jscdn.greeter.me/dropgalaxy.onlinehead.js$script,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in
 @@||jsdelivr.net/combine/npm/$domain=ulifestyle.com.hk
@@ -9256,7 +9255,6 @@
 @@||onlinemschool.com/script/ads1.js
 @@||onlinemschool.com^$generichide
 @@||onlinetermine-agentur.allianz.de^$stealth=referrer
-@@||onlinetutorium.com^$generichide
 @@||onlinetyping.org/detroitchicago/cmbdv2.js
 @@||onlinevideoconverter.com^$generichide
 @@||onlytech.com/community/js/*/AdsenseBlockView.js$domain=onlytech.com
@@ -12427,7 +12425,6 @@
 @@||studioclassroom.com/ad/
 @@||studizba.com^$generichide
 @@||studydhaba.com^$generichide
-@@||sturls.com^$generichide
 @@||stvkr.com/v*/click-$popup,domain=pepper.*
 @@||stylished.de/js/vendors/emos2.js$domain=stylished.de
 @@||stylist.co.uk^$stealth=dpi
