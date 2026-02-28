@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-02-27 21:10:24（北京时间）
+! Version: 2026-02-28 10:23:10（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14307
+! Total count: 14310
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -2053,6 +2053,7 @@
 @@||audible.com^$stealth=3p-cookie
 @@||audience.io/api/$domain=campaign.aptivada.com
 @@||audiko.net/api/$stealth=referrer
+@@||audio-*.scdn.co/audio/$redirect=noopmp4-1s,app=com.apple.Safari
 @@||audiomodern.com^$stealth=ip
 @@||audiostream.com^$elemhide
 @@||audiotag.info/images/banner
@@ -6284,6 +6285,7 @@
 @@||googletagmanager.com/gtm.js$script,domain=musinsa.com
 @@||googletagmanager.com/gtm.js$script,domain=okwave.jp
 @@||googletagmanager.com/gtm.js$script,domain=radiko.jp
+@@||googletagmanager.com/gtm.js$script,domain=streetstyle24.pl
 @@||googletagmanager.com/gtm.js$script,domain=viviennewestwood-tokyo.com
 @@||googletagmanager.com/gtm.js$script,domain=www.nap-camp.com
 @@||googletagmanager.com/gtm.js$xmlhttprequest,domain=app.neilpatel.com
@@ -6882,6 +6884,7 @@
 @@||ikea.cn^*/img/ads/
 @@||ikea.com^*/analyticsEvent.$script,~third-party
 @@||iknow-pic.cdn.bcebos.com^$stealth=referrer
+@@||iko-yo.net/system/ad_images/$~third-party
 @@||illink.net^$generichide
 @@||ilovecreatives.com/ads?
 @@||ilpuntotecnico.com/forum/RealPopup/blockadblock.js
@@ -8493,7 +8496,6 @@
 @@||megacloud.*/embed-$stealth=referrer
 @@||megadrive-emulator.com^$generichide
 @@||megafon.ru/static/?files=*/tealeaf.js
-@@||megane.com.pl^$generichide,badfilter
 @@||megaplay.*/stream/$subdocument,stealth=referrer
 @@||megatube.xxx/atrm/s/s/js/m/pr-before.js
 @@||megatv.com^$generichide
@@ -9178,6 +9180,7 @@
 @@||ofertasahora.com^$generichide
 @@||offgamers.com/checkout/buyNow/$document,xmlhttprequest
 @@||officeapps.live.com/*.aspx$stealth
+@@||officeapps.live.com^$domain=cloud.microsoft
 @@||officeworks.com.au^*/site-tracker.js
 @@||oglaszamy24.pl/*js-css/reklamy/bannery/*/adv.js
 @@||ogrenciyegelir.com^$generichide
