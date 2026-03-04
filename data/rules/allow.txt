@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-03-04 10:31:27（北京时间）
+! Version: 2026-03-04 21:08:15（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14316
+! Total count: 14325
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -1609,6 +1609,7 @@
 @@||antiblock.org^$generichide
 @@||antibot.cloud/content/cloud*.php?$stealth=referrer
 @@||any-video-converter.com/promotion/*-christmas-sale/img/bottom-banner-ad.png
+@@||anyclip-watch-configuration-*.anyclip.com/*/config.json$domain=zerotackle.com
 @@||anydesk.my.site.com/ESWLiveChatDeployment$stealth=referrer
 @@||anyhentai.com/*.mp4$stealth=referrer
 @@||anyhentai.com/*.mp4?st=$stealth=referrer
@@ -1722,6 +1723,7 @@
 @@||api.cxense.com/public/widget/data?$domain=tvnet.lv
 @@||api.cxense.com/public/widget/data?json$domain=bangkokpost.com
 @@||api.cxense.com/public/widget/data?json$domain=tn.com.ar
+@@||api.cxense.com/public/widget/data?json=$domain=abc.com.py
 @@||api.cxense.com/public/widget/data?json=$domain=bild.de
 @@||api.cxense.com/public/widget/data?json=$domain=business.nikkei.com
 @@||api.cxense.com/public/widget/data?json=$domain=delfi.lt
@@ -1986,6 +1988,7 @@
 @@||assets.adobedtm.com/*launch-*.min.js$domain=samsung.com
 @@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=bestbuy.ca|identity.healthsafe-id.com|nbc.com|subwy.com|tatamotors.com|usanetwork.com
 @@||assets.adobedtm.com^$domain=wired.com
+@@||assets.anyclip.com/anyclip-widget/$domain=zerotackle.com
 @@||assets.anyclip.com^$domain=content.dictionary.com
 @@||assets.beinsports.com/*/scripts/ads.js$~third-party
 @@||assets.bilsyndication.com/plugins/safeframe/src/js/sf_host.min.js$domain=atozmath.com
@@ -2722,6 +2725,7 @@
 @@||cdn*.*.pw/*p_*.jpg$stealth=referrer,domain=vidload.lol
 @@||cdn*.anicdn.net/appsd*.mp4$stealth=referrer
 @@||cdn*.anyclip.com^$domain=content.dictionary.com
+@@||cdn*.anyclip.com^$domain=zerotackle.com
 @@||cdn*.downdetector.com/*/javascript*/adscript.js
 @@||cdn*.downdetector.com/*/javascript*/adscript_vars.js
 @@||cdn*.downloadapkgames.com/?session=$stealth=referrer
@@ -2867,6 +2871,7 @@
 @@||cdn.cxense.com/cx*.js$domain=onetz.de
 @@||cdn.cxense.com/cx*.js$domain=tn.com.ar
 @@||cdn.cxense.com/cx.$script,domain=japannews.yomiuri.co.jp
+@@||cdn.cxense.com/cx.cce.js$domain=abc.com.py
 @@||cdn.cxense.com/cx.cce.js$domain=bild.de
 @@||cdn.cxense.com/cx.cce.js$domain=bizjournals.com
 @@||cdn.cxense.com/cx.cce.js$domain=business.nikkei.com
@@ -2883,6 +2888,7 @@
 @@||cdn.cxense.com/cx.cce.js$domain=variety.com
 @@||cdn.cxense.com/cx.cce.js$domain=wsj.com
 @@||cdn.cxense.com/cx.cce.js$xmlhttprequest,domain=bizjournals.com
+@@||cdn.cxense.com/cx.js$domain=abc.com.py
 @@||cdn.cxense.com/cx.js$domain=allgemeine-zeitung.de|buerstaedter-zeitung.de|lampertheimer-zeitung.de|echo-online.de|main-spitze.de|wiesbadener-kurier.de|wormser-zeitung.de|mittelhessen.de
 @@||cdn.cxense.com/cx.js$domain=bild.de
 @@||cdn.cxense.com/cx.js$domain=bizjournals.com
@@ -3624,6 +3630,7 @@
 @@||concertads-configs.vox-cdn.com/sbn/sbn/config.json$domain=mmafighting.com
 @@||concertads-configs.vox-cdn.com/sbn/verge/config.json$domain=theverge.com
 @@||condorsoft.co^$generichide
+@@||config.anyclip.com/anyclip-widget/config/$domain=zerotackle.com
 @@||config.aps.amazon-adsystem.com/configs/$domain=kitco.com
 @@||config.aps.amazon-adsystem.com^$script,domain=newsweek.com
 @@||config.playwire.com/*/zeus.json$domain=explosm.net
@@ -6507,7 +6514,6 @@
 @@||hao123img.com/resource/zt/widget/service/util/clickTrack.
 @@||haokoubei.top/sz/tos_v_f.js
 @@||haoweichi.com/Public/js/ads.js
-@@||happy2hub.me^$generichide
 @@||happymh.com^$image,domain=hihimanga.com,stealth=referrer
 @@||happypancake.se/static/prebid.*.js$domain=happypancake.se|happypancake.fi
 @@||happyride.se/img/admarket/
@@ -8946,7 +8952,6 @@
 @@||natlawreview.com^$generichide
 @@||natro.com^$stealth=dpi
 @@||naturalbd.com^$generichide
-@@||naturalhealthy.xyz^$generichide
 @@||natureetdecouvertes.com^*/pixel.png$~third-party
 @@||naver.com^$stealth=dpi
 @@||naver.net/wcslog.js$domain=fragpunk.com|m.tv.naver.com
@@ -10433,6 +10438,8 @@
 @@||player.adcdn.tv^$stealth=webrtc
 @@||player.aniview.com/script/$script,domain=odysee.com|pogo.com
 @@||player.aniview.com/script/*/AVmanager.js$domain=adnkronos.com
+@@||player.anyclip.com/anyclip-widget/$domain=zerotackle.com
+@@||player.anyclip.com/lreprx/js/v1/src/lreprx.js$domain=zerotackle.com
 @@||player.aplhb.adipolo.com/prebidlink/$script,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in
 @@||player.arsenal.com/adverts/video
 @@||player.avplayer.com/script/*/avcplayer.js$domain=sportbible.com
@@ -11274,6 +11281,7 @@
 @@||sberbank.com^$stealth=donottrack
 @@||sberbank.ru^$stealth=ip
 @@||sbg.hit.gemius.pl/gplayer.js$domain=play.nova.bg
+@@||sbm.org.tr^$stealth=dpi
 @@||sc.omtrdc.net^$domain=cibc.com
 @@||sc.youmaker.com/site/article/count?
 @@||sc2casts.com^$generichide
@@ -13093,6 +13101,7 @@
 @@||traffichaus.com/scripts/*ad*.js$domain=hdzog.com
 @@||traffichaus.com/scripts/banner-ad.js
 @@||trafficmanager.anyclip.com^$domain=content.dictionary.com
+@@||trafficmanager.anyclip.com^$domain=zerotackle.com
 @@||trailrunnermag.com^$stealth=dpi
 @@||trakel.org/*/image_resize.php?ad=
 @@||trakus.org/kods_bird/uye/image_resize.php?ad=
