@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-03-05 21:12:07（北京时间）
+! Version: 2026-03-06 10:32:26（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14319
+! Total count: 14313
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -499,6 +499,7 @@
 @@seg-*.*$domain=rapid-cloud.co,xmlhttprequest,stealth=referrer
 @@style/*/*jpeg$xmlhttprequest,stealth=referrer,domain=weakspell.to
 @@thalia.de/shop/*.html?pid=*&group_id=0&banner_id=
+@@ticketmaster.com/fau/account/log
 @@truyen$stealth=referrer,image,domain=blogtruyen.vn
 @@weather.gov/xml/$document
 @@ws://localhost^$stealth,domain=play.sooplive.co.kr
@@ -1727,6 +1728,7 @@
 @@||api.cxense.com/public/widget/data?json=$domain=bild.de
 @@||api.cxense.com/public/widget/data?json=$domain=business.nikkei.com
 @@||api.cxense.com/public/widget/data?json=$domain=delfi.lt
+@@||api.cxense.com/public/widget/data?json=$domain=df.cl
 @@||api.cxense.com/public/widget/data?json=$domain=elle.com
 @@||api.cxense.com/public/widget/data?json=$domain=euractiv.com
 @@||api.cxense.com/public/widget/data?json=$domain=i-voce.jp
@@ -2379,7 +2381,6 @@
 @@||bitcoinbazis.hu/advertise-with-us/$~third-party
 @@||bitcoinfaucet.network^$generichide
 @@||bitcoinker.com^$generichide
-@@||bitcointrophy.com^$generichide
 @@||bitdefender.com/submit/$stealth
 @@||bitent.com/lock_html5/adPlayer/v*/adPlayer.js
 @@||bitent.com/lock_html5/adscontrol.js$domain=bitent.com
@@ -2875,6 +2876,7 @@
 @@||cdn.cxense.com/cx.cce.js$domain=bild.de
 @@||cdn.cxense.com/cx.cce.js$domain=bizjournals.com
 @@||cdn.cxense.com/cx.cce.js$domain=business.nikkei.com
+@@||cdn.cxense.com/cx.cce.js$domain=df.cl
 @@||cdn.cxense.com/cx.cce.js$domain=dhnet.be
 @@||cdn.cxense.com/cx.cce.js$domain=elcorreogallego.es
 @@||cdn.cxense.com/cx.cce.js$domain=elle.com
@@ -2894,6 +2896,7 @@
 @@||cdn.cxense.com/cx.js$domain=bizjournals.com
 @@||cdn.cxense.com/cx.js$domain=business.nikkei.com
 @@||cdn.cxense.com/cx.js$domain=cdn.cxpublic.com
+@@||cdn.cxense.com/cx.js$domain=df.cl
 @@||cdn.cxense.com/cx.js$domain=dhnet.be
 @@||cdn.cxense.com/cx.js$domain=elcorreogallego.es
 @@||cdn.cxense.com/cx.js$domain=elle.com
@@ -4400,7 +4403,6 @@
 @@||eapteka.ru/*/personal/$stealth=ip
 @@||ear-phone-review.com^$generichide
 @@||earn4files.com^$generichide
-@@||earnsato.com^$generichide
 @@||easternbank.com/sites/easternbank/files/google_tag/eastern_bank/google_tag.script.js$script,~third-party
 @@||easy-firmware.com/templates/default/html/*/assets/js/fingerprint2.min.js$script,~third-party
 @@||easylife.tw/js/adblockDetector.js
@@ -5101,7 +5103,6 @@
 @@||gainbtc.click^$generichide
 @@||gakushuin.ac.jp/ad/common/$~third-party
 @@||galaxy.gala100.net^$generichide
-@@||galaxycrypto.net^$generichide
 @@||gambar123.com/pic/$image,domain=semprot.com|semprotyuk.com
 @@||game-cdn.poki.com/*/img/ads/Spinner.png
 @@||game-maps.com/ads.js
@@ -6126,6 +6127,7 @@
 @@||googletagmanager.com/gtm.js$domain=nordvpn.com
 @@||googletagmanager.com/gtm.js$domain=northantstelegraph.co.uk
 @@||googletagmanager.com/gtm.js$domain=northwell.edu
+@@||googletagmanager.com/gtm.js$domain=nowtv.com.tr
 @@||googletagmanager.com/gtm.js$domain=nrj-play.fr
 @@||googletagmanager.com/gtm.js$domain=nunnbush.com
 @@||googletagmanager.com/gtm.js$domain=nykaa.com
@@ -6622,7 +6624,6 @@
 @@||hinet.net/keys/a.key^$domain=ani.gamer.com.tw
 @@||hiperinfo.pl/popup3.js
 @@||hisse.net^$generichide
-@@||hisseyorumlari.com^$generichide
 @@||histock.tw/JScript/AD/
 @@||history.com^$generichide
 @@||history.com^$generichide,badfilter
@@ -7820,7 +7821,6 @@
 @@||kikra.jp.com^$generichide
 @@||kilimall.co.tz/sensorsdata.min.js$~third-party
 @@||kilimall.com*/js/sensorsdata.min.js$script,domain=kilimall.co.ke
-@@||kiminime.com^$generichide
 @@||kincho.co.jp/cm/img/bnr_ad_$image,~third-party
 @@||kinescope.io/embed/$stealth=referrer
 @@||king-pes.blogspot.com^$generichide
@@ -8096,7 +8096,6 @@
 @@||liveadexchanger.com/a/display.php^$domain=prem.link
 @@||liveapi.cleverpush.com/websocket$websocket,domain=heise.de
 @@||livefootball77.blogspot.co.id^$generichide
-@@||livehd7.com^$generichide
 @@||liveindex.org/wp-content/plugins/imedia-basic/*.js
 @@||liveinternet.ru/code$generichide,genericblock,domain=liveinternet.ru
 @@||livejasmin.com/en/promotion/get?noRedirect=*&streamType=$domain=pt.protoawe.com
@@ -8408,7 +8407,6 @@
 @@||mc.yandex.ru/watch/$xmlhttprequest,domain=mtstv.mts.ru
 @@||mc.yandex.ru/webwisor/$domain=metrika.yandex.ru|metrika.yandex.by|metrika.yandex.kz|metrika.yandex.com.tr
 @@||mc.yandex.ru^$domain=planeta.ru
-@@||mcadventuretime.com^$generichide
 @@||mcbar.cn^$generichide
 @@||mcc.xunliandata.com/mci-reward/static/img/ad.
 @@||mccc11.com^$generichide
@@ -9125,7 +9123,6 @@
 @@||nulledteam.com^$generichide
 @@||nullforums.net/js/*/uvb-tag-ad.js
 @@||nullpress.net^$generichide
-@@||nusantaraproject.my.id^$generichide
 @@||nutritiondata.self.com/ads/js/cn.dart.bun.min.js
 @@||nv7s.com/key=*/referer=$media,stealth=referrer
 @@||nvidia.cn^*-300x250-
@@ -11229,6 +11226,7 @@
 @@||sams.11freunde.de/ee/*/interact?$xmlhttprequest,domain=11freunde.de
 @@||sams.spiegel.de/ee/irl1/v1/interact?$domain=spiegel.de
 @@||samsclub.com/px/*/captcha/captcha.js$domain=samsclub.com
+@@||samsung.com^$stealth=useragent
 @@||samsunhaber.com/images/banner/*logo$~third-party
 @@||samuraiscan.com^$generichide
 @@||sandbox.cryptpad.info^$elemhide,jsinject,content,extension
@@ -11644,7 +11642,6 @@
 @@||senseoflaw.com^$stealth
 @@||sentireascoltare.com^$generichide
 @@||sentry.ftshp.xyz/api/3/envelope/?sentry_key=$xmlhttprequest,domain=footshop.ro
-@@||seosocialnews.info^$generichide
 @@||seosprint.net/style/img/ad-
 @@||seosprint.net/style/img/adv/$domain=seosprint.net
 @@||seoulland.co.kr^$stealth=dpi
@@ -13328,7 +13325,6 @@
 @@||unian.net/player/$stealth=referrer|ip
 @@||unicode.org^$content
 @@||unimedsorocaba.coop.br^$stealth=dpi
-@@||uniqlo.com^$jsinject,content
 @@||unity3diy.blogspot.com^$generichide
 @@||universeguide.com/abdetect.js
 @@||universoformulas.com^$generichide
@@ -13600,7 +13596,6 @@
 @@||vidtech.cbsinteractive.com^*/AkamaiAnalytics.swf$domain=kuathletics.com|mutigers.com|okstate.com
 @@||vidtube.pro/embed$subdocument,stealth=referrer
 @@||vieon.vn^$generichide
-@@||vietgamemod.net^$generichide
 @@||vietget.net^$generichide
 @@||viglink.com^$domain=dealsrunner.com
 @@||vijesti.me^$generichide
@@ -13781,7 +13776,6 @@
 @@||web.whatsapp.com^$stealth=webrtc
 @@||web1s.asia^$generichide
 @@||webapi.ctfile.com/getfile.php$stealth=referrer,domain=ct.999wan.wang
-@@||webassistance.eu^$generichide
 @@||webassistanceita.com^$generichide
 @@||webaudioapi.com/samples/$stealth=webrtc
 @@||webbtelescope.org/files/live/sites/webb/$image,~third-party
