@@ -2,16 +2,16 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-03-06 10:32:26（北京时间）
+! Version: 2026-03-06 21:07:35（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14313
+! Total count: 14316
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$generichide,domain=stfly.cc
 @@$stealth=useragent,app=top.rootu.lampa
 @@$subdocument,third-party,stealth=referrer,domain=sport.starsites.fun
-@@$subdocument,xmlhttprequest,stealth=referrer,domain=pichive.online
+@@$subdocument,xmlhttprequest,stealth=referrer|flash,domain=pichive.online
 @@$websocket,domain=xvideos.com
 @@&ad_type=$domain=ultimate-guitar.com
 @@&http_referer=$domain=chaopx.com
@@ -9125,6 +9125,7 @@
 @@||nullpress.net^$generichide
 @@||nutritiondata.self.com/ads/js/cn.dart.bun.min.js
 @@||nv7s.com/key=*/referer=$media,stealth=referrer
+@@||nvidia.*/drivers/results/$stealth=3p-auth
 @@||nvidia.cn^*-300x250-
 @@||nvidia.com/*/drivers/results/$stealth=referrer
 @@||nvidia.custhelp.com^$stealth=referrer
@@ -9896,6 +9897,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=twcc.fr
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ufacw.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ujszo.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ukussa.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ultimateclassicrock.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=unityassetpack.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=unityassets4free.com
@@ -10325,7 +10327,7 @@
 @@||pibys.win/js/prebid-ads.js
 @@||pic*.cdncl.net^$stealth=referrer,domain=cowlevel.net
 @@||piccool.com/2home/phpAdsNew/
-@@||pichive.online^$subdocument,xmlhttprequest,stealth=referrer
+@@||pichive.online^$subdocument,xmlhttprequest,stealth=referrer|flash
 @@||picholes.online/*/*.jpg$xmlhttprequest,stealth=referrer
 @@||picjs.xyz^$stealth=referrer,domain=vikacg.com
 @@||picmix.com/js/fuckadblock.js
@@ -12624,6 +12626,7 @@
 @@||tags.crwdcntrl.net^$domain=weather.com
 @@||tags.news.com.au/prod/adblock/adblock.js
 @@||tags.news.com.au/prod/heartbeat/$script
+@@||tags.news.com.au/prod/newskey/generator.html?origin
 @@||tags.stepstone.com/utag/de/prod/utag.js$domain=stepstone.de
 @@||tags.t.tailtarget.com/t3m.js?$domain=superesportes.com.br
 @@||tags.tiqcdn.com/utag/*/utag.sync.js$domain=bankofamerica.com|hsbc.co.uk|samsung.com|sony.jp|visible.com|vmware.com
