@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-03-11 10:30:14（北京时间）
+! Version: 2026-03-11 21:13:02（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14331
+! Total count: 14330
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -451,6 +451,7 @@
 @@://streamcdn.xyz/hls/$stealth=referrer
 @@://www.bet365.com/|$jsinject,elemhide,extension
 @@://www.coinbase.com^$stealth=webrtc
+@@://www.exoclick.com/ads.js|
 @@://www.fedex.com/Tracking?
 @@://www.liquidweb.com/kb/wp-content/themes/lw-kb-theme/images/ads/vps-sidebar.jpg
 @@://www.sinya.com.tw^$stealth=ip
@@ -2736,6 +2737,7 @@
 @@||cdn*.downloadapkgames.com/?session=$stealth=referrer
 @@||cdn*.esimg.jp/resize/*/image/nativead/
 @@||cdn*.jianshu.io^$stealth=referrer
+@@||cdn*.merrypsycho.xyz^$image,stealth=referrer,domain=bbato.com
 @@||cdn*.movcdn.*^$xmlhttprequest,stealth=referrer|ip,domain=moeni.net
 @@||cdn*.porn300.com^
 @@||cdn*.porno-film.site/vk_video$stealth=referrer
@@ -4542,6 +4544,7 @@
 @@||embed.wcostream.com^$generichide
 @@||embed.wcostream.com^$subdocument,stealth=referrer
 @@||embeddedanalytics.com/updateeakpi.html$domain=brocardi.it
+@@||embedseek.online^$subdocument,stealth=referrer
 @@||emea.api.flow.microsoft.com/providers/Microsoft.ProcessSimple/environments/$domain=make.powerautomate.com,stealth=referrer
 @@||emerald.omeda.com/npdn/custsrv_login.do
 @@||emjcd.com^$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
@@ -4912,7 +4915,6 @@
 @@||forms.ministryforms.net/viewForm.aspx$stealth=referrer
 @@||formula.ifz.ru/cgi-bin/tex2img-new.cgi$stealth=referrer
 @@||forrest.adverticum.net/inapp/user^$domain=embed.indavideo.hu
-@@||forum-pokemon-go.fr^$generichide
 @@||forum.admiregirls.com/js/*/ad160.js
 @@||forum.advance-rp.ru/forums/reklama.$domain=advance-rp.ru
 @@||forum.djicdn.com/static/js/sensorsdata.min.js$script,domain=forum.dji.com
@@ -7310,6 +7312,7 @@
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=investigationdiscovery.com
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=motortrend.com
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=mtvema.com|mtv.co.uk|mtv.de|mtv.it
+@@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=myaew.com
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=pluto.tv
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=pluto.tv|stirr.com|tunein.com
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=sciencechannel.com
@@ -8122,7 +8125,6 @@
 @@||livestream.com/accounts/*/events/*/player?$domain=strikeout.nu
 @@||livestreamgamess.blogspot.com^$generichide
 @@||livestreamtvbox.com^$generichide
-@@||livetvboxfree.com^$generichide
 @@||livew.l.qq.com/livemsg?pf=H5&ad$domain=m.v.qq.com
 @@||livezombymil.com/*/tghr.js$domain=manga1000.com
 @@||lk.gpnbonus.ru^$stealth=dpi
@@ -8683,7 +8685,6 @@
 @@||mmaa99.xyz^$generichide
 @@||mmacore.tv^$generichide
 @@||mmee04.com^$generichide
-@@||mmff30.com^$generichide
 @@||mmgd.xyz^$generichide
 @@||mmo-population.com^$generichide
 @@||mmo69.com^$generichide
@@ -9198,7 +9199,6 @@
 @@||officeapps.live.com^$domain=cloud.microsoft
 @@||officeworks.com.au^*/site-tracker.js
 @@||oglaszamy24.pl/*js-css/reklamy/bannery/*/adv.js
-@@||ogrenciyegelir.com^$generichide
 @@||ohmanhua.com/js/*.js
 @@||ohmynews.com/NWS_Web/Common/JS/TagManager.JS
 @@||ohttps.com^$stealth=referrer
@@ -12280,7 +12280,7 @@
 @@||static.doubleclick.net/instream/ad_status.js$domain=3dzip.org
 @@||static.doubleclick.net/instream/ad_status.js$domain=alliptvlinks.com
 @@||static.doubleclick.net/instream/ad_status.js$domain=drama-online.tv|deblocker.merkulov.design|jpopsingles.eu
-@@||static.doubleclick.net/instream/ad_status.js$domain=drama-online.tv|jpopsingles.eu|nullpk.com|tkbsen.in|alttyab.net|shineads.org|justpaste.top|whats-on-netflix.com|shineads.org|gplastra.com|kuponigo.com|step-tech.pl|nulleb.com|thecustomrom.com|anonyviet.com|jadukit.com|serverbd247.com|emptycode.in|techacode.com|azmath.info|gamedrive.org|kisahdunia.com|mixrootmods.com|javindo.eu.org|filmisub.cc|plc4me.com|ezaudiobookforsoul.com|apkdelisi.net|pcgameszone.com|drivers.plus|sketchup.cgtips.org|yomucomics.com|gaypornhot.com|cybermania.ws|asianboy.fans|freereadnovel.online|vercanalesdominicanos.com|filmyzones.com|gamer18.net|arabshentai.com|asia2tv.com|medicalstudyzone.com|wemove-charity.org|taurus.topmanhuas.org|bluedollar.net|magicgameworld.com|hanopatch4u.com|arigl.com|netfuck.net|7vibelife.com
+@@||static.doubleclick.net/instream/ad_status.js$domain=drama-online.tv|jpopsingles.eu|nullpk.com|tkbsen.in|alttyab.net|shineads.org|justpaste.top|whats-on-netflix.com|shineads.org|gplastra.com|kuponigo.com|step-tech.pl|nulleb.com|thecustomrom.com|anonyviet.com|jadukit.com|serverbd247.com|emptycode.in|techacode.com|azmath.info|gamedrive.org|kisahdunia.com|mixrootmods.com|javindo.eu.org|filmisub.cc|plc4me.com|ezaudiobookforsoul.com|apkdelisi.net|pcgameszone.com|drivers.plus|sketchup.cgtips.org|yomucomics.com|gaypornhot.com|cybermania.ws|asianboy.fans|freereadnovel.online|vercanalesdominicanos.com|filmyzones.com|gamer18.net|arabshentai.com|asia2tv.com|medicalstudyzone.com|wemove-charity.org|taurus.topmanhuas.org|bluedollar.net|magicgameworld.com|hanopatch4u.com|arigl.com|netfuck.net|7vibelife.com|3dzip.info
 @@||static.doubleclick.net/instream/ad_status.js$domain=game3rb.com
 @@||static.doubleclick.net/instream/ad_status.js$domain=gpldose.com
 @@||static.doubleclick.net/instream/ad_status.js$domain=investing.com
@@ -12663,7 +12663,6 @@
 @@||talkceltic.net/forums/js/Siropu/AM/ads.min.js
 @@||tam.cdn-go.cn/aegis-sdk/latest/aegis.min.js$domain=kf.qq.com
 @@||tam.cdn-go.cn/aegis-sdk/latest/aegis.min.js$domain=sm-unsubscribe.intlgame.com
-@@||tamilyogi.vip^$generichide
 @@||tampabay.com/resources/scripts/dfp/adbridg.js
 @@||tangdou.com/sample/share/advert?$domain=tangdoucdn.com
 @@||tangsanbooks.com^$generichide
