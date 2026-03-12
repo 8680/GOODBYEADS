@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-03-12 10:36:20（北京时间）
+! Version: 2026-03-12 21:13:17（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14324
+! Total count: 14316
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -3006,7 +3006,6 @@
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/dist/videojs.ads.min.js$domain=hqq.tv|waaw.tv
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/dist/videojs.ads.min.js$domain=yandexcdn.com
 @@||cdn.jsdelivr.net^$script,domain=movieffm.net
-@@||cdn.jsdelivr.net^$script,domain=yemancomic.com
 @@||cdn.jsdelivr.net^*/fp.min.js$script,domain=cuevana2.io
 @@||cdn.jwplayer.com/*/media/$domain=pro.thestreet.com
 @@||cdn.kaizenplatform.net^$script,domain=navi.onamae.com
@@ -3819,7 +3818,6 @@
 @@||cruisecenter.com.tw/data/ad/
 @@||cruisingearth.com/community/js/BJumh/top-ads.js
 @@||crunchyroll.adclixx.net/vast?fg=
-@@||crunchyroll.adnetasia.com/vast?fg=
 @@||crunchyroll.adtrackers.net/vast?fg=
 @@||crunchyroll.bannertrack.net/vast?fg=
 @@||crunchyrollsvc.com^$stealth=3p-auth
@@ -4551,6 +4549,7 @@
 @@||emoji.gg^$generichide
 @@||emojipedia.org/ab_fl.js
 @@||emome.net/files/advertising/
+@@||empty-truth-cf2c.erikkalinina1994.workers.dev/play/$subdocument,stealth=referrer
 @@||emturbovid.com/t/$stealth=referrer
 @@||emturbovid.com/t/*?poster=$stealth=referrer
 @@||emurom.net^$generichide
@@ -8158,6 +8157,7 @@
 @@||logic-immo.com/lib/xiti/xiti.js$script,~third-party
 @@||logicool.co.jp^$content
 @@||login-api.e-pages.dk^$stealth=referrer
+@@||login-ext.identity.oraclecloud.com^$stealth=3p-auth
 @@||login.abc.net.au/gs/webSdk/Api.aspx?$stealth=referrer
 @@||login.abc.net.au^$stealth=referrer
 @@||login.bce.baidu.com^$domain=login.bce.baidu.com
@@ -9382,7 +9382,6 @@
 @@||ow.pubmatic.com/pbs/openrtb2/auction$domain=zeenews.india.com
 @@||owlzo.com/gpt_ads-public.js$domain=owlzo.com
 @@||ox-d.adclixx.net/auid=
-@@||ox-d.adnetasia.com/auid=
 @@||ox-d.adtrackers.net/auid=
 @@||ox-d.bannertrack.net/auid=
 @@||oxanime.com^$generichide
@@ -9947,7 +9946,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=xtv.cz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=xxlmag.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=y2mate.is
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=yalujailbreak.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=yiv.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=yodu.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=youneed.win
@@ -11665,7 +11663,6 @@
 @@||serasaexperian.com.br/dist/scripts/fingerprint2.js$~third-party
 @@||series-streaminghd.com^$generichide
 @@||serve.adclixx.net/promoload
-@@||serve.adnetasia.com/promoload
 @@||serve.adtrackers.net/promoload
 @@||serve.bannertrack.net/promoload
 @@||serve.popads.net^$script,domain=shinden.pl
@@ -13008,7 +13005,6 @@
 @@||torrage.info/torrent.php$popup,third-party
 @@||torrentsafe.com/fingerprint2.min.js
 @@||torrentz.adclixx.net/mgid/ad.js
-@@||torrentz.adnetasia.com/mgid/ad.js
 @@||torrentz.adtrackers.net/mgid/ad.js
 @@||torrentz.bannertrack.net/mgid/ad.js
 @@||tortuga.wtf^$stealth=referrer
@@ -14124,13 +14120,11 @@
 @@||yacine-tv.com^$generichide
 @@||yads.c.yimg.jp/js/yads-async.js$domain=kobe-np.co.jp|yahoo.co.jp
 @@||yahoo.adclixx.net/serv
-@@||yahoo.adnetasia.com/serv
 @@||yahoo.adtrackers.net/serv
 @@||yahoo.bannertrack.net/serv
 @@||yahoo.com/lib/metro/g/myy/advertisement_*.js$domain=boston.com|calgaryherald.com|calgarysun.com|celebuzz.com|montrealgazette.com|saveur.com
 @@||yalla-kora.tv^$generichide
 @@||yalla-shoot-tv.io^$generichide
-@@||yalujailbreak.net^$generichide
 @@||yams.akamaized.net^$stealth=referrer
 @@||yandex.*/clck/jsredir?from=yandex.*%3Bsearch%2F%3Bweb%3B%3B$~third-party,~xmlhttprequest,~image,~other
 @@||yandex.com/search/?$generichide
@@ -14147,7 +14141,6 @@
 @@||yannik.biz^$generichide
 @@||yantuchina.com/gg/tmp/hong.gif
 @@||yasni.adclixx.net/design/relaunch/gfx/elitepartner_
-@@||yasni.adnetasia.com/design/relaunch/gfx/elitepartner_
 @@||yasni.adtrackers.net/design/relaunch/gfx/elitepartner_
 @@||yasni.bannertrack.net/design/relaunch/gfx/elitepartner_
 @@||yasno.live^$stealth=webrtc
@@ -14314,7 +14307,6 @@
 @@||zonegfx.com^$generichide
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zoover.adclixx.net/shared/bannerpages/darttagsbanner.aspx
-@@||zoover.adnetasia.com/shared/bannerpages/darttagsbanner.aspx
 @@||zoover.adtrackers.net/shared/bannerpages/darttagsbanner.aspx
 @@||zoover.bannertrack.net/shared/bannerpages/darttagsbanner.aspx
 @@||zorroplay.xyz/*.php$stealth=referrer
