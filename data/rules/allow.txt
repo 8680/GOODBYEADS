@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-03-16 10:53:18（北京时间）
+! Version: 2026-03-16 21:25:04（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14321
+! Total count: 14325
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -5372,6 +5372,7 @@
 @@||go.redirectingat.com/*&url=$domain=forums.redflagdeals.com
 @@||go.redirectingat.com^$document
 @@||go.tnshort.net^$stealth=referrer
+@@||go.trvdp.com/init/$domain=olhardigital.com.br
 @@||go.xliirdr.com/?*targetDomain=fikfapcams.com$domain=fikfap.com
 @@||go.xlirdr.com/api/models/vast$xmlhttprequest
 @@||go2stream.net/stream/live/track/view/Tracking.php$domain=go2stream.net
@@ -7600,6 +7601,7 @@
 @@||japan.techinsight.jp^$generichide
 @@||jav-asia.top^$generichide
 @@||jav-nonix.cc^$generichide
+@@||jav.sb^$stealth=flash
 @@||jav777.cc/advertise/
 @@||jav777.xyz/advertise/
 @@||jav777.xyz^$generichide
@@ -8941,6 +8943,7 @@
 @@||myxclip.com^$generichide
 @@||myyouporn.org/wp-content/uploads/$media,stealth=referrer
 @@||mzstatic.com/htmlResources/$elemhide,jsinject,domain=itunes.apple.com
+@@||n11scdn.akamaized.net/ha.js$domain=n11.com
 @@||n8s.jp^$script,domain=nikkei.com
 @@||naiadsystems.com/*/hls/live$domain=pornhub.com|pornhub.org|pornhub.net
 @@||nakanohito.jp^*/bi.js$domain=kenko-tokina.co.jp
@@ -11177,6 +11180,7 @@
 @@||s.ssl.qhres2.com/pkg/radarsdk/radar-analytic-js-sdk-*.umd.js$domain=xinshuru.com
 @@||s.stormedia.info/*.mp4$stealth
 @@||s.tgfcer.com^$generichide
+@@||s.trvdp.com/scripts/*/ins.js$domain=olhardigital.com.br
 @@||s.tvn.pl/tools/_ads/advert.js$domain=tvnturbo.pl
 @@||s.vi-serve.com/source.js$domain=9gag.com
 @@||s.visilabs.net/Target.js^$domain=boyner.com.tr
