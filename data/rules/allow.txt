@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-03-17 21:23:22（北京时间）
+! Version: 2026-03-18 10:42:43（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14320
+! Total count: 14321
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -305,7 +305,7 @@
 @@/js/*.js?ad*=popup&ads=DisplayAd$~third-party,script,domain=streamwish.to|streamxxx.online|mwish.pro|embedwish.com|awish.pro|wishfast.top|sfastwish.com|vidhidevip.com|rubystm.com
 @@/js/*.js?ads*1&AdType=1&$~third-party,script,domain=streamwish.to|streamxxx.online|mwish.pro|embedwish.com|awish.pro|wishfast.top|sfastwish.com|vidhidevip.com|rubystm.com
 @@/js/*/*.js?_v=$~third-party,domain=cracking.org
-@@/js/ads.js|$script,~third-party,domain=~internethaber.com|~knaqu.tv
+@@/js/ads.js|$script,~third-party,domain=~internethaber.com|~knaqu.tv|~5ch.io
 @@/js/advert.js$~third-party
 @@/js/advertisement.$domain=blogs.sapib.ca
 @@/js/adview_*.adsbygoogle.js$~third-party,domain=letv8.cc|zhibo1.cc
@@ -4760,6 +4760,7 @@
 @@||fc-lc.com^$generichide
 @@||fc-lc.xyz^$generichide
 @@||fc.lc^$generichide
+@@||fc2stream.tv/e/$stealth=referrer
 @@||fc2stream.tv/t/$stealth=referrer
 @@||fccbrea.org^*/swfaddress.js
 @@||fce365.info^$generichide
