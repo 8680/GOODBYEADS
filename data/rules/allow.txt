@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-03-31 10:50:29（北京时间）
+! Version: 2026-03-31 21:45:06（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14342
+! Total count: 14337
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -319,7 +319,7 @@
 @@/js/prebid/others/*$script,domain=gentside.com|gentside.de|gentside.co.uk|gentside.com.br|maxisciences.com|ohmymag.com|ohmymag.de
 @@/js/wp-banners.js$domain=articlerewritertool.com|spinbot.com|free-article-spinner.com
 @@/kcarting-tally?&random=$domain=coveryourtracks.eff.org
-@@/key=*referer*.mp4$stealth=referrer,domain=01tube.com|inporn.com|porn-latina.com|lesbigo.com|xjav.tube|vr-porn.tube|porntop.com|fuxxx.com
+@@/key=*referer*.mp4$stealth=referrer,domain=01tube.com|inporn.com|porn-latina.com|lesbigo.com|xjav.tube|vr-porn.tube|porntop.com|fuxxx.com|fullvideosporn.com
 @@/libs/advertisement.js$domain=getfree.co.in|bagi.co.in|aztecafaucet.space|multifaucet.org|dogestar.website|claimbits.io|i-bits.io|gobits.io|faucet.shorterall.com|simplyfaucet.xyz|tv3.lv
 @@/libs/advertisement1.js$domain=faucet.shorterall.com
 @@/live/*.m3u8$xmlhttprequest,stealth=referrer,domain=weakspell.to|weakspell.org|streamocean.online|weakspell.to
@@ -383,6 +383,7 @@
 @@/stream/*/*.ts$xmlhttprequest,domain=faselhd.cafe
 @@/stylesheet/*$xmlhttprequest,stealth=referrer,domain=gamingzen.xyz
 @@/sxp/i/*.js$domain=linkvertise.com
+@@/templates/aurblue/enabled-ads.js$domain=donaldco.in
 @@/tghr.js$domain=biqle.com
 @@/tghr.js$domain=manga1000.com
 @@/themes/flow/frontend_assets/js/advertisement.js|$~third-party
@@ -1392,6 +1393,7 @@
 @@||algolia.net/*/indexes/*/queries^$domain=xda-developers.com
 @@||algolianet.com/*/indexes/$stealth=referrer
 @@||alicdn.com/??*/tracker/
+@@||alicdn.com/alilog/mlog/aplus_v2.js$domain=qianwen.com
 @@||alicdn.com/dt/tracker/2.5.1/tracker.js$domain=alimama.com
 @@||alicdn.com/dt/tracker/4.2.0/??tracker.
 @@||alicdn.com/js/*/xpopup.js
@@ -2204,7 +2206,6 @@
 @@||banklive.net^$generichide
 @@||bankofamerica.com^*?adx=
 @@||bankofamerica.com^*?adx=$~third-party,xmlhttprequest
-@@||bankomap.com.ua^$generichide
 @@||bankrespublika.az^$stealth=dpi
 @@||banma.com/statics/js/??
 @@||banmancounselling.com/wp-content/themes/banman/
@@ -2696,7 +2697,6 @@
 @@||carsales.com.au/afx_prid/$domain=carsales.com.au
 @@||carsensor.net/usedcar/modules/clicklog_top_lp_revo.php$xmlhttprequest
 @@||cartoon.porn^$generichide
-@@||cas.criteo.com/delivery/ajs.php^$domain=techobest.com
 @@||casos-aislados.com^$generichide
 @@||cat.telia.no/gtm.js$script,domain=telia.no
 @@||catalog.mann-filter.com/media/werbebanner^
@@ -3951,7 +3951,6 @@
 @@||dailycaller.com/*/google-ads-
 @@||dailyfinance.com/traffic/?
 @@||dailygeekshow.com/wp-content/themes/soofresh2/js/advertisement.js^
-@@||dailyhealthkeeper.com^$generichide
 @@||dailymail.co.uk/brightcove/tracking/ted3.js
 @@||dailymail.co.uk^$generichide
 @@||dailymotion.com/embed/video/$subdocument,domain=xataka.com
@@ -4425,6 +4424,7 @@
 @@||ear-phone-review.com^$generichide
 @@||easternbank.com/sites/easternbank/files/google_tag/eastern_bank/google_tag.script.js$script,~third-party
 @@||easy-firmware.com/templates/default/html/*/assets/js/fingerprint2.min.js$script,~third-party
+@@||easy.worldthunder.net^$xmlhttprequest,stealth=referrer,domain=player.videasy.net
 @@||easylife.tw/js/adblockDetector.js
 @@||easylife.tw^$generichide
 @@||easypari.fr^*/sitestat.js
@@ -4462,6 +4462,7 @@
 @@||eden.international/script/ad_banner/
 @@||eden.org.tw^*/ad_banner/
 @@||edge-*.gcdn.app/st/$stealth=referrer,domain=anilife.*
+@@||edge.adobedc.net/ee/$xmlhttprequest,domain=vivo.com.br
 @@||edge.microsoft.com/translate/auth
 @@||edge.permutive.app/*-web.js$domain=eldo.lu
 @@||edge.permutive.app/*-web.js$domain=tvn24.pl|discoverychannel.pl|ttv.pl|tvnfabula.pl|tvnturbo.pl|metro.tv
@@ -6511,7 +6512,6 @@
 @@||haberler.com/static/video-js/video-ads.js
 @@||habr.com/img/px.gif?
 @@||hach.de^*/emstrack.js
-@@||hackingwithphp.com/js/adsbygoogle.js
 @@||haddozws.atlantaserver.me^$domain=haddoz.net,stealth=ip|donottrack
 @@||hadoantv.com^$generichide
 @@||haichaobiao.com^$generichide
@@ -7280,7 +7280,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$xmlhttprequest,domain=nfl.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$xmlhttprequest,domain=packers.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$domain=24ur.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js^$domain=blackbird.zoomin.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$domain=f5haber.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$domain=zattoo.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=10play.com.au|10.com.au
@@ -9512,7 +9511,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=b2bhint.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=babiato.tech
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bank-codes.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bankomap.com.ua
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=basicweb.ru
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=beatsnoop.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bellezashot.com
@@ -10078,6 +10076,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=spotidown.app
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=sshkit.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=ssstik.io
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=stream.googleapiscdn.com|animevietsub.id
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=talksport.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=techacrobat.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=temp-mail.lol
@@ -10656,8 +10655,6 @@
 @@||prebid.adnxs.com^$xmlhttprequest,domain=go.cnn.com
 @@||prebid.revbid.net^$domain=ourcoincash.xyz
 @@||prebid.smilewanted.com/|$xmlhttprequest,domain=tradingref.com
-@@||premium-link.ninja/js/blockadblock.js
-@@||premium-link.ninja^$generichide
 @@||premiumvideo.click/player*.php$stealth=referrer
 @@||preromanbritain.com/maxymiser/$~third-party
 @@||pressgazette.co.uk^$generichide
@@ -12284,7 +12281,6 @@
 @@||static.criteo.net/js/ld/publishertag.js$domain=shinden.pl
 @@||static.criteo.net/js/ld/publishertag.js$domain=xda-developers.com
 @@||static.criteo.net/js/ld/publishertag.prebid.js$domain=streetdir.com|roaddir.com
-@@||static.criteo.net/js/px.js^$domain=techobest.com
 @@||static.crunchyroll.com/*/player.html$stealth=referrer
 @@||static.crunchyroll.com/config/cx-vilos-ads/crunchyroll-web.json
 @@||static.cz.prg.cmestatic.com/static/cz/shared/js/advert.js
@@ -12752,7 +12748,6 @@
 @@||technopat.net/*/add-reply$xmlhttprequest
 @@||technopat.net/*/draft$xmlhttprequest
 @@||technopat.net/*/reply-preview$xmlhttprequest
-@@||techobest.com^$generichide
 @@||techobras.com^$stealth=referrer
 @@||techonthenet.com/javascript/advert-min.js
 @@||techperiod.com/wp-content/cache/min/*/wp-content/themes/TechPeriod/js/ads-*.js
