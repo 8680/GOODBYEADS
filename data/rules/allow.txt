@@ -2,7 +2,7 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-04-10 21:22:14（北京时间）
+! Version: 2026-04-11 10:44:00（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 14366
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
@@ -403,8 +403,7 @@
 @@/v/*-*/*p/*.png$stealth=referrer,media
 @@/v/*.gif$stealth=referrer,xmlhttprequest,domain=player.bunny-frame.online
 @@/v/*.html$stealth=referrer,xmlhttprequest,domain=player.bunny-frame.online
-@@/video.m3u8$stealth=referrer,domain=missav.live
-@@/video.m3u8$stealth=referrer,domain=missav.ws
+@@/video.m3u8$stealth=referrer,domain=missav.live|missav.ws|missav123.com|missav888.com|missav.*
 @@/video/*$media,stealth=referrer,domain=douyin.com
 @@/video/*/index.m3u8?*&frame_commit=*&mw_pid=*&signature=$stealth=useragent
 @@/videos/*$domain=pornhub.com|pornhub.org|pornhub.net
@@ -4965,7 +4964,7 @@
 @@||fotoblogia.pl^$generichide
 @@||fotopixel.es^$generichide
 @@||fotor.com.cn/static/web/share/js/
-@@||fourhoi.com^$image,stealth=referrer,domain=missav.ws
+@@||fourhoi.com^$image,media,stealth=referrer,domain=missav.live|missav.ws|missav123.com|missav888.com|missav.*
 @@||fox-url.com^$generichide
 @@||foxnews.com^$generichide
 @@||fp-it.fengkongcloud.com^
@@ -6977,6 +6976,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=addictinggames.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=aksam.com.tr
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=alemfm.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=alphatv.gr
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=amc.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=androidpolice.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=animeflv.ru
@@ -12563,7 +12563,7 @@
 @@||suratkargo.com.tr^$stealth=dpi
 @@||surfguru.com^$generichide
 @@||surirt.com/ad/ads.php?id=$script,domain=surirt.com
-@@||surrit.com^$image,xmlhttprequest,stealth=referrer,domain=missav.live|missav.ws
+@@||surrit.com/*/video*.jpeg$image,xmlhttprequest,stealth=referrer,domain=missav.live|missav.ws|missav123.com|missav888.com|missav.*
 @@||survey.devographics.com^$stealth=useragent
 @@||survey.g.doubleclick.net^$script,domain=sporcle.com
 @@||suumo.jp/sp/js/beacon.js$script,~third-party
