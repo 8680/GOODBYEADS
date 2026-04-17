@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-04-17 11:20:07（北京时间）
+! Version: 2026-04-17 21:42:08（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14366
+! Total count: 14368
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -2351,6 +2351,7 @@
 @@||bigbrothercanada.ca^$generichide
 @@||bigbtc.win/js/ads-prebid.js
 @@||bigbtc.win^$generichide
+@@||bigcrunch.com^$script,domain=snopes.com
 @@||bigfishaudio.com/banners/$image,~third-party
 @@||biggestplayer.cachefly.net/ad300.html
 @@||biggestplayer.cachefly.net/cricad.html
@@ -12116,6 +12117,7 @@
 @@||srv.clickfuse.com/showads/showad.js$domain=aha-music.com
 @@||srv.omgplay.biz^$stealth=referrer
 @@||srv.tunefindforfans.com/showads/track/srvclk.php?
+@@||srv024.service.canada.ca/assets/adobe-analytics-route-helpers-$script,~third-party
 @@||srvr.dmvs-apac.com/dm-story/*.js$domain=eldeber.com.bo|reduno.com.bo
 @@||srvtrck.com/assets/css/LineIcons.css$domain=vinomo.xyz
 @@||srvtrck.com/assets/css/LineIcons.css$domain=work.ink
