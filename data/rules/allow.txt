@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-04-24 11:25:39（北京时间）
+! Version: 2026-04-24 21:48:43（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14362
+! Total count: 14365
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -2945,6 +2945,7 @@
 @@||cdn.cxense.com/sp1.html$domain=itmedia.co.jp
 @@||cdn.cxense.com/t_init.min.js$domain=dhnet.be
 @@||cdn.datatables.net^
+@@||cdn.deviceinf.com^$domain=etail.market
 @@||cdn.digiteka.com/player/PrebidLibrary.js$domain=ultimedia.com
 @@||cdn.dimml.io/dimml.js$domain=consumentenbond.nl
 @@||cdn.dimml.io/static/*.js$domain=consumentenbond.nl
@@ -4773,9 +4774,9 @@
 @@||fansonlinehub.com^$generichide
 @@||faq.subaru.jp^$stealth=dpi
 @@||faq.viewcard.co.jp^$stealth=dpi
+@@||fast*.vidplus.dev/file*/*?host=$xmlhttprequest,stealth=referrer
 @@||fast-down.com^$generichide
 @@||fast.fonts.net/jsapi/core/mt.js$script,domain=abeautifuldominion.com|bkmedical.com|eclecticbars.co.uk|gables.com|itsolutions-inc.com|kinsfarmmarket.com|senate.gov|toyotagazooracing.com
-@@||fast.vidplus.dev/file*/*?host=$xmlhttprequest,stealth=referrer
 @@||fastag.kotak.com^$stealth=dpi
 @@||fastcoin.ga^$generichide
 @@||fastmail.com^$generichide
@@ -10785,6 +10786,7 @@
 @@||pubads.g.doubleclick.net/ondemand/*/content/*/vid/*/SIN/streams/*/time-events.json$domain=10play.com.au|10.com.au
 @@||pubads.g.doubleclick.net/ondemand/*/content/*/vid/*/streams$domain=cbs.com|paramountplus.com|history.com
 @@||pubads.g.doubleclick.net/ondemand/hls/$domain=history.com
+@@||pubads.g.doubleclick.net/ondemand/hls/content/$domain=play.aetv.com
 @@||pubads.g.doubleclick.net/ondemand/hls/content/*/streams|$xmlhttprequest,domain=sbs.com.au
 @@||pubads.g.doubleclick.net/ondemand/hls/content/*/vid/*/streams$domain=sbs.com.au
 @@||pubads.g.doubleclick.net/pagead/js/adsbygoogle.js$domain=sportshub.to
@@ -13974,6 +13976,7 @@
 @@||workers.dev/*.jpg$xmlhttprequest,stealth=referrer
 @@||workers.dev/*.m3u8$stealth=referrer
 @@||workers.dev/*/file2/$xmlhttprequest,stealth=referrer
+@@||workers.dev^$xmlhttprequest,stealth=referrer,domain=vidfast.pro
 @@||world4.eu/wp-content/plugins/ad-inserter-pro/images/ads.png
 @@||world4.eu/wp-content/uploads/ad-inserter/*/*.js
 @@||world4.eu^$generichide
