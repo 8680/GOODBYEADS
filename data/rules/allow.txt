@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-04-30 11:39:53（北京时间）
+! Version: 2026-04-30 22:08:43（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14380
+! Total count: 14382
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -1041,6 +1041,7 @@
 @@||adobe.io^$domain=adobe.com,stealth=3p-auth
 @@||adobe.tt.omtrdc.net/rest/v1/delivery?client=adobe&sessionId=$domain=acrobat.adobe.com
 @@||adobeactivators.blogspot.com^$generichide
+@@||adobedc.demdex.net/*/identity/acquire?$domain=westjet.com
 @@||adobedc.demdex.net/ee/v1/identity/$xmlhttprequest,domain=cibc.com|westjet.com
 @@||adobedc.demdex.net^$xmlhttprequest,domain=sc.com
 @@||adobedtm.com/extensions/$domain=antena3.com|apple.com|atresmedia.com|atresplayer.com|automobiles.honda.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|lasexta.com|telus.com|verizon.com|xfinity.com
@@ -5250,6 +5251,7 @@
 @@||geekzone.co.nz^$generichide
 @@||geely.com/assets/plugins/sa-sdk-javascript-*/sensorsdata.min.js$domain=galaxy.geely.com|xingyue.geely.com
 @@||gelbooru.com/css^
+@@||gelbooru.com/extras/howtosearch/
 @@||gelbooru.com/script/jquery*.js
 @@||gelbooru.com/script/lazyload.js
 @@||gelbooru.com/script/miscJs.js
@@ -7376,6 +7378,7 @@
 @@||img*.reimg.org/images/$stealth=referrer,domain=remanga.org
 @@||img-cdn.stackpathcdn.app^$image,stealth=referrer
 @@||img-r1.2xstorage.com^$image,stealth=referrer
+@@||img-r2.2xstorage.com^$image,stealth=referrer
 @@||img.1fichier.com/css/
 @@||img.achost.top^$stealth=referrer,domain=galge.fun
 @@||img.ads.tvb.com/news/min.js$domain=news.tvb.com
@@ -7417,7 +7420,7 @@
 @@||imgadult.com/themes/$domain=imgadult.com
 @@||imgadult.com/upload/$domain=imgadult.com
 @@||imgdrive.net/anex/alt2.js
-@@||imgs-2.2xstorage.com$image,stealth=referrer
+@@||imgs-2.2xstorage.com^$image,stealth=referrer
 @@||imgs-2.virus2hub.com^$image,stealth=referrer
 @@||imgslib.link^$image,xmlhttprequest,stealth=referrer
 @@||imgtaxi.com/img-*.html
@@ -14191,7 +14194,6 @@
 @@||yalla-shoot-tv.io^$generichide
 @@||yams.akamaized.net^$stealth=referrer
 @@||yandex.*/clck/jsredir?from=yandex.*%3Bsearch%2F%3Bweb%3B%3B$~third-party,~xmlhttprequest,~image,~other
-@@||yandex.*/maps/$extension='AdGuard Extra'|'AdGuard Extra (Beta)'
 @@||yandex.com/search/?$generichide
 @@||yandex.ru/ads/system/adsdk.js$domain=gisher.org
 @@||yandex.ru/ads/system/context.js$domain=investing.com
