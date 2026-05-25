@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-05-25 12:17:50（北京时间）
+! Version: 2026-05-25 23:17:55（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14422
+! Total count: 14432
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -698,6 +698,7 @@
 @@||58huanbao.com/skin/defaultcs2660/images/ad
 @@||58img.top/muliframe/muliframe$stealth=referrer,domain=mypornerleak.com
 @@||58img.top^$image,stealth=referrer,domain=hornysimp.com.lv|mypornerleak.com
+@@||58img.top^$stealth=referrer
 @@||5dm.link^$subdocument,stealth=referrer
 @@||5ggyan.com^$generichide
 @@||5qidgde.com^$generichide
@@ -942,6 +943,7 @@
 @@||ad.doubleclick.net/favicon.ico$domain=freewarefiles.com
 @@||ad.doubleclick.net/favicon.ico$domain=tracker.gg
 @@||ad.doubleclick.net/favicon.ico$image,domain=planetrugby.com|loverugbyleague.com
+@@||ad.doubleclick.net/favicon.ico?$domain=footballtransfers.com
 @@||ad.doubleclick.net/searchads/link/click?
 @@||ad.ettoday.net/msg_liveshow.php^$domain=ettoday.net
 @@||ad.kazakinfo.com^
@@ -2511,6 +2513,8 @@
 @@||broncos.com.au^$generichide
 @@||brookaccessory.com^$stealth=dpi
 @@||browser-intake-datadoghq.com^$xmlhttprequest,domain=grubhub.com|mightyape.co.nz
+@@||browser.covatic.io/profiles/www.footballtransfers.com.json$domain=footballtransfers.com
+@@||browser.covatic.io/sdk/*/latest.js$domain=footballtransfers.com
 @@||browser.covatic.io/sdk/v1/bauer.js$script,domain=hellorayo.co.uk
 @@||browser.events.data.microsoft.com/onecollector/$script,xmlhttprequest,domain=microsoft.com
 @@||browser.sentry-cdn.com^$domain=acustica-audio.com|alphaxiv.org|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|members.bifa.film|menshealth.com|ocado.com|pocketguard.com|podcasty.seznam.cz|roomster.com|shop.dns-net.de|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
@@ -4940,6 +4944,7 @@
 @@||fls.doubleclick.net/activityi$domain=geforce.com
 @@||fls.doubleclick.net^$domain=usanetwork.com
 @@||fltaradio.com/js/ads.js
+@@||fluid.4strokemedia.com/www/delivery/$domain=footballtransfers.com
 @@||fluxteam.xyz/*/checkpoint/css/advert/
 @@||flycutlink.com^$generichide
 @@||flyert.com/plug/socialShare/js/social-share.
@@ -7079,6 +7084,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=familyminded.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=feltet.dk
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=flipboard.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=footballtransfers.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=fortune.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=foxnews.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=fptplay.vn
@@ -8099,6 +8105,7 @@
 @@||lightning.bleacherreport.com^*/launch-$~third-party
 @@||lightning.cnn.com^$script,domain=wfmz.com
 @@||lightningmaps.org/min/index.php?f=js/
+@@||like.mgread.io/manga/$image,stealth=referrer
 @@||lilymanga.net/wp-content/uploads/ad-inserter*/*/ads.js
 @@||limontec.com^$generichide
 @@||line-mode.cern.ch^$elemhide
@@ -11124,6 +11131,7 @@
 @@||riverlink.etcchosted.com/widgets/com/mendix/widget/web/googletag/GoogleTag.js$~third-party
 @@||riverside.fm^$generichide
 @@||rizonesoft.com^$generichide
+@@||rm-script.dotmetrics.net/videopluginhit.gif?$domain=footballtransfers.com
 @@||rm.freex2line.online/loadon/?link=$stealth=referrer
 @@||rm.sina.com.cn/minisite/*/css/art_normal.css$domain=client.sina.cn
 @@||rmbooru.org/data/image/$domain=rmbooru.org
@@ -13416,6 +13424,8 @@
 @@||uin-sports.pt^$extension='AdGuard Popup Blocker'|'AdGuard Popup Blocker (Beta)'
 @@||ujinbi.com/UpLoadFile/guanggao/
 @@||ujjivansfb.in^$stealth=dpi
+@@||uk-script.dotmetrics.net/Scripts/DotmetricsVideoTracking.js$domain=footballtransfers.com
+@@||uk-script.dotmetrics.net/VideoPlugin$domain=footballtransfers.com
 @@||ukbride.co.uk/css/*/adverts.css
 @@||ukw.jp^*/?cbk=$script,domain=system5.jp
 @@||ulifestyle.com.hk/store/prod/iskypost/res/js/dfp-
