@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-06-09 23:15:14（北京时间）
+! Version: 2026-06-10 12:12:09（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14477
+! Total count: 14484
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -3110,6 +3110,7 @@
 @@||cdn.petametrics.com/*-nbc.js$script,domain=bringmethenews.com
 @@||cdn.petametrics.com/*.js$domain=thestreet.com
 @@||cdn.petametrics.com^$script,domain=mechacomic.jp
+@@||cdn.petametrics.com^$script,domain=meidasnews.com
 @@||cdn.playwire.com/bolt/js/zeus/embed.js$domain=abcya.com
 @@||cdn.plyr.io/*/plyr.svg$domain=akwam.*
 @@||cdn.plyr.io/*/plyr.svg$domain=mp4upload.com
@@ -8039,6 +8040,8 @@
 @@||langsungviral.com^$generichide
 @@||languagecloud.sdl.com/node_modules/fingerprintjs2/dist/fingerprint2.min.js
 @@||languagecloud.sdl.com/node_modules/fingerprintjs2/dist/fingerprint2.min.js$~third-party
+@@||laosu.cf^$generichide
+@@||laosu.tech^$generichide
 @@||laotiesao.vip^$generichide
 @@||lapatilla.com^$generichide
 @@||laprovence.com/sites/all/modules/GHM/xiti_oas/js/xtcore.js
@@ -12960,6 +12963,7 @@
 @@||thechive.files.wordpress.com/*?quality=*&strip=info
 @@||thecollector.com^$stealth=dpi
 @@||thedailybeast.com/pf/resources/js/ads/arcads.js$~third-party
+@@||theeburgerdude.com^$generichide
 @@||thefastlaneforum.com/community/js/*/adblocker-leader.js
 @@||thefightingcock.co.uk^$generichide
 @@||thefoodstorydotcom.wpcomstaging.com^$generichide
@@ -14087,10 +14091,13 @@
 @@||workers.dev/*%3D%3D.$xmlhttprequest,stealth=referrer
 @@||workers.dev/*.css$stealth=referrer
 @@||workers.dev/*.html$stealth=referrer
+@@||workers.dev/*.ico$stealth=referrer
 @@||workers.dev/*.jpeg$stealth=referrer
 @@||workers.dev/*.jpg$xmlhttprequest,stealth=referrer
 @@||workers.dev/*.js$stealth=referrer
 @@||workers.dev/*.m3u8$stealth=referrer
+@@||workers.dev/*.png$stealth=referrer
+@@||workers.dev/*.txt$stealth=referrer
 @@||workers.dev/*/file2/$xmlhttprequest,stealth=referrer
 @@||workers.dev^$xmlhttprequest,stealth=referrer,domain=vidfast.pro
 @@||world4.eu/wp-content/plugins/ad-inserter-pro/images/ads.png
