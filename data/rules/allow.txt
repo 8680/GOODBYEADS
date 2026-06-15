@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-06-15 12:58:44（北京时间）
+! Version: 2026-06-16 01:20:27（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14513
+! Total count: 14521
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -347,8 +347,8 @@
 @@/pdc_s_code.js$domain=adobe.com
 @@/piwik-$domain=github.com
 @@/player/*$stealth=referrer,domain=ibomma.*
-@@/player/stats.php$domain=boysxclusive.com|camwhores.tv|viralxxxporn.com|thothub.vip|yesporn.vip|85po.com|85po.net|85xo.com|85xo.com|watchporn.to|viralpornhub.com|watchmdh.to|porn4fans.com|porno24.to|fyxxr.to
-@@/player_ads.html$domain=boysxclusive.com|camwhores.tv|viralxxxporn.com|thothub.vip|yesporn.vip|85po.com|85po.net|85xo.com|85xo.com|watchporn.to|viralpornhub.com|camwhoresbay.porn|watchmdh.to|ebalovo.porn|ebalovo.adult|camlovers.tv|camhub.tv|pornissimo.org|porntn.com|femdomtb.com|pornoham.me|tubsexer.com|homegrownfreaks.net|pornfd.com|sexcams-24.com|watchmdh.to|porno24.to|fyxxr.to|camhub.one
+@@/player/stats.php$domain=boysxclusive.com|camwhores.tv|viralxxxporn.com|thothub.vip|yesporn.vip|85po.com|85po.net|85xo.com|85xo.com|watchporn.to|viralpornhub.com|watchmdh.to|porn4fans.com|porno24.to|fyxxr.to|camfoxes.tv
+@@/player_ads.html$domain=boysxclusive.com|camwhores.tv|viralxxxporn.com|thothub.vip|yesporn.vip|85po.com|85po.net|85xo.com|85xo.com|watchporn.to|viralpornhub.com|camwhoresbay.porn|watchmdh.to|ebalovo.porn|ebalovo.adult|camlovers.tv|camhub.tv|pornissimo.org|porntn.com|femdomtb.com|pornoham.me|tubsexer.com|homegrownfreaks.net|pornfd.com|sexcams-24.com|watchmdh.to|porno24.to|fyxxr.to|camhub.one|camfoxes.tv
 @@/playlist.m3u8$stealth=referrer|ip
 @@/playlist/*caxi.m3u8$xmlhttprequest,stealth=referrer,domain=crackstreamer.net|streameast.app|1stream.eu|buffstreams.app
 @@/playlists/*/play*.jpeg$xmlhttprequest,stealth=referrer
@@ -3085,8 +3085,13 @@
 @@||cdn.maskinbladet.dk/*assets/templates/*/img/adblocker/ads.png
 @@||cdn.matomo.cloud/tekuchi.matomo.cloud/matomo.js$domain=berkeleygroup.digital
 @@||cdn.megadata.co.kr/dist/prod/enp_tracker_self_hosted.min.js$domain=hancomdocs.com
+@@||cdn.membrana.media/ntp/ym.js$domain=ntvspor.net
+@@||cdn.membrana.media/pub_scripts/common/videojs/videojs.ima.mod.min.js$domain=ntvspor.net
 @@||cdn.membrana.media/spx/ym.js$domain=sporx.com
 @@||cdn.membrana.media/video/$domain=sporx.com
+@@||cdn.membrana.media/video/ntp/desktop/videoSources.json$domain=ntvspor.net
+@@||cdn.membrana.media/video/video.css$domain=ntvspor.net
+@@||cdn.membrana.media/video/video.js$domain=ntvspor.net
 @@||cdn.movie-pass.live/scripts/nwm-fcn.min.js$domain=opensubtitles.org
 @@||cdn.mp4upload.com/pl/plyr*.js
 @@||cdn.muratordom.smcloud.net/t/advert.js
@@ -3105,6 +3110,7 @@
 @@||cdn.ometria.com/tags/*.js$domain=holtrenfrew.com
 @@||cdn.optimizely.com/datafiles/$domain=metro.at|metro.bg|metro-cc.hr|metro.fr|metro.it|metro-kz.com|metro.md|metro.pk|metro.ro|metro.rs|metro.sk|makro.es|metro-tr.com|metro.ua|makro.pt|metro.de
 @@||cdn.optimizely.com/datafiles/*.json$domain=alaskaair.com
+@@||cdn.optimizely.com/datafiles/*.json$domain=bbc.com
 @@||cdn.optimizely.com/datafiles/*.json$domain=feverup.com
 @@||cdn.optimizely.com/datafiles/*.json$domain=hm.com
 @@||cdn.optimizely.com/datafiles/*.json$domain=pizzahut.*
@@ -8304,6 +8310,7 @@
 @@||login.mobywatel.gov.pl^$stealth
 @@||login.nvgs.nvidia.com^$stealth
 @@||login.nvidia.com^$stealth=3p-auth
+@@||login.olx.$stealth=flash|java
 @@||login.swissid.ch^$stealth=dpi
 @@||login.tomorrowland.com^$stealth=referrer,domain=my.tomorrowland.com
 @@||login.uid.me^$domain=ucoz.ru,stealth=3p-cookie
@@ -11165,6 +11172,7 @@
 @@||res-x.com^*/Resonance.aspx?
 @@||res.wx.qq.com/mmbizwap/$script
 @@||research.hchs.hc.edu.tw/*/banner.php$domain=research.hchs.hc.edu.tw
+@@||researchgate.net^$stealth=flash
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
 @@||resetoff.pl/static/js/application/views/advertise/Advertise_view.js
