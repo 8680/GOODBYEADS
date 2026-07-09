@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-07-09 11:46:58（北京时间）
+! Version: 2026-07-09 23:20:13（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14601
+! Total count: 14593
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -795,7 +795,6 @@
 @@||a.realsrv.com/video-slider.js$domain=daemon-hentai.com
 @@||a.realsrv.com/video-slider.js$domain=manga1000.com
 @@||a.run.app/api/stat?$domain=cocowa.app
-@@||a.spolecznosci.net/pet?s=Shinden$domain=shinden.pl
 @@||a.usafacts.org/api/v4/Metrics$~third-party
 @@||a.vdo.ai/core/v-m-timesofindia-v3/vdo.ai.js$domain=timesofindia.indiatimes.com
 @@||a.visualrevenue.com/vrs.js$domain=nydailynews.com
@@ -1239,7 +1238,6 @@
 @@||adsatt.espn.starwave.com^$domain=livenewschat.eu,~script
 @@||adsco.re/p$domain=shorterall.com
 @@||adsco.re/p$script,domain=fc-lc.xyz
-@@||adsco.re^$domain=shinden.pl
 @@||adsdk.microsoft.com/ast/ast.js$script,domain=prisjakt.no
 @@||adsense.woso.cn^$~third-party
 @@||adserver.juicyads.com/js/jads.js$domain=netflav.com
@@ -1455,6 +1453,7 @@
 @@||allarewin.space/assets/ads-*.js
 @@||allfaucet.xyz^$generichide
 @@||allhomecinema.com^$generichide
+@@||allinonerebornvip.blogspot.com^$generichide
 @@||allkaicerteam.com^$generichide
 @@||alllaw.112.2o7.net^
 @@||allmath.com^$generichide
@@ -2935,7 +2934,6 @@
 @@||cdn.clerk.io/clerk.js$domain=dehardloopwinkel.nl
 @@||cdn.clerk.io/clerk.js$domain=fjellandhandel.no
 @@||cdn.clerk.io/clerk.js$domain=garmont.com
-@@||cdn.clerk.io/clerk.js$domain=globaltools.dk|globaltools.no|globaltools.se
 @@||cdn.clerk.io/clerk.js$domain=industrivarer.no
 @@||cdn.clerk.io/clerk.js$domain=jaktdepotet.no
 @@||cdn.clerk.io/clerk.js$domain=panzerglass.com
@@ -4896,6 +4894,7 @@
 @@||fast.fonts.net/jsapi/core/mt.js$script,domain=abeautifuldominion.com|bkmedical.com|eclecticbars.co.uk|gables.com|itsolutions-inc.com|kinsfarmmarket.com|senate.gov|toyotagazooracing.com
 @@||fastag.kotak.com^$stealth=dpi
 @@||fastcoin.ga^$generichide
+@@||fastly-analytics.com/debug_resolver$xmlhttprequest,domain=fastly-debug.com
 @@||fastmail.com^$generichide
 @@||fastssh.com/dfp.min.js
 @@||fatcatslim.ru^$generichide
@@ -6189,6 +6188,7 @@
 @@||googletagmanager.com/gtm.js$domain=gillette.de
 @@||googletagmanager.com/gtm.js$domain=givingfuel.com|regfox.com|ticketspice.com|redpodium.com
 @@||googletagmanager.com/gtm.js$domain=glamusha.ru
+@@||googletagmanager.com/gtm.js$domain=globaltools.dk|globaltools.no|globaltools.se
 @@||googletagmanager.com/gtm.js$domain=globo.com
 @@||googletagmanager.com/gtm.js$domain=gocomics.com
 @@||googletagmanager.com/gtm.js$domain=godaddy.com
@@ -10758,7 +10758,6 @@
 @@||popads.net/favicon-16x16.png$domain=ask4porn.cc|hornyhill.com
 @@||popads.net/favicon-16x16.png$domain=hornyhill.se
 @@||popads.net/pop.js$domain=videobin.co,important
-@@||popads.net/pop.js$script,important,domain=shinden.pl
 @@||popart.hk/newweb/$generichide
 @@||popcornflix.com^$generichide
 @@||popcorntv.it^$generichide
@@ -11894,7 +11893,6 @@
 @@||serve.adclixx.net/promoload
 @@||serve.adtrackers.net/promoload
 @@||serve.bannertrack.net/promoload
-@@||serve.popads.net^$script,domain=shinden.pl
 @@||servedby.flashtalking.com/*iabeu$domain=cdn.flashtalking.com
 @@||servedby.flashtalking.com/imp/$xmlhttprequest,domain=safeframe.googlesyndication.com
 @@||servedbyadbutler.com/adserve/;$domain=beincrypto.com
@@ -12121,7 +12119,6 @@
 @@||smallseotools.com^$generichide,badfilter
 @@||smartadserver.com/ac?$domain=bildderfrau.de
 @@||smartadserver.com/ac^$domain=deezer.com
-@@||smartadserver.com/ac|$domain=shinden.pl
 @@||smartadserver.com/call/pubx/*/M/$domain=vbox7.com
 @@||smartadserver.com/config.js$domain=synonimy.pl
 @@||smartadserver.com/genericpost$domain=filmweb.pl
@@ -12272,9 +12269,6 @@
 @@||spir.hit.gemius.pl/gplayer.js$script,domain=auto.cz
 @@||split.io/api/$stealth=3p-auth,domain=secure.rewardcodes.com
 @@||spoc.sydtrafik.dk/CherwellPortal/dist/app/common/analytics/Analytics.js$~third-party
-@@||spolecznosci.net/core/*/main.js$domain=shinden.pl
-@@||spolecznosci.net/js/core*-min.js$domain=shinden.pl
-@@||spolecznosci.net/js/modules/*.js$domain=shinden.pl
 @@||spolecznosci.net/js/reklama/advertisement.js
 @@||sport.be.msn.com/javascripts/tracking/metriweb/spring.js
 @@||sport.be/javascripts/tracking/metriweb/spring.js
@@ -12502,7 +12496,6 @@
 @@||static.cloudflareinsights.com^$domain=app.axenthost.com
 @@||static.criteo.net/images/pixel.gif$domain=diariodenavarra.es
 @@||static.criteo.net/js/ld/publishertag.js$domain=novayagazeta.ru
-@@||static.criteo.net/js/ld/publishertag.js$domain=shinden.pl
 @@||static.criteo.net/js/ld/publishertag.js$domain=xda-developers.com
 @@||static.criteo.net/js/ld/publishertag.prebid.js$domain=streetdir.com|roaddir.com
 @@||static.crunchyroll.com/*/player.html$stealth=referrer
@@ -12629,7 +12622,6 @@
 @@||stats.g.doubleclick.net/dc.js$domain=softkey.ru|softkey.ua
 @@||stats.g.doubleclick.net/dc.js$domain=synonimy.pl
 @@||stats.g.doubleclick.net/dc.js$script,domain=chintaistyle.jp|gyutoro.com
-@@||stats.g.doubleclick.net/r/collect$image,domain=shinden.pl
 @@||stats.g.doubleclick.net^$domain=sportshub.to
 @@||stats.g.doubleclick.net^|$app=com.nttdocomo.android.danimeapp
 @@||stats.g.doubleclick.net^|$domain=topsporter.net
