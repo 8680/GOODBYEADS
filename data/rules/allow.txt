@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-07-08 22:26:05（北京时间）
+! Version: 2026-07-09 11:46:58（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14604
+! Total count: 14601
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -2193,7 +2193,6 @@
 @@||awaps.yandex.net^$domain=awaps.yandex.net
 @@||awempire.com/*/css/*.css$domain=awempire.com
 @@||awempire.com^$generichide
-@@||aweprt.com/embed/fk?_=$domain=oklivetv.com|okteve.com
 @@||awin1.com^$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@||aws.amazon.com/*/*-ad
 @@||awsapprunner.com/users/$stealth=3p-auth
@@ -2658,6 +2657,7 @@
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=tasteofhome.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=thedailybeast.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=time.com
+@@||c.amazon-adsystem.com/aax2/apstag.js$domain=upfilesgo.com|upplinks.net|upfion.com|upfiles.app|upfiles-urls.com|falpus.com|fooak.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=venge.io
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=wgntv.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=wivb.com
@@ -3272,6 +3272,7 @@
 @@||cdn.taboola.com/libtrc/impl.*.js$domain=ilmeteo.it
 @@||cdn.taboola.com/libtrc/impl.*.js$domain=welt.de
 @@||cdn.taboola.com/libtrc/loader.js$xmlhttprequest,domain=exeygo.com
+@@||cdn.taboola.com/libtrc/loader.js$xmlhttprequest,domain=upfilesgo.com|upplinks.net|upfion.com|upfiles.app|upfiles-urls.com|falpus.com|fooak.com
 @@||cdn.taboola.com/libtrc/tipranks-tipranks/loader.js$domain=tipranks.com
 @@||cdn.taboola.com/libtrc/unip/loader.js$domain=techedubyte.com
 @@||cdn.taboola.com/libtrc/unpkg/tfa.js$domain=/anitube\d+\.vip/
@@ -9403,11 +9404,9 @@
 @@||ok.ru/web-api/music/conf$stealth=referrer
 @@||okdiario.com^$generichide
 @@||okfirenze.com/*/app/assets/js/prebid-ads.js
-@@||oklivetv.com/*&*=*&*&_=$xmlhttprequest,~third-party
 @@||oklivetv.com/*=*&$script,other,xmlhttprequest
 @@||okokserver.com/uploads/lesi/*.mp4$domain=huavod.net|huavod.com|huaren.live|huavod.top|huavod.cc
 @@||oktatas.hu^$stealth=dpi
-@@||okteve.com/*&*=*&*&_=$xmlhttprequest,~third-party
 @@||olacast.live^$stealth=referrer
 @@||olamovies.blog^$generichide
 @@||oldskool.vip^$generichide
@@ -10163,7 +10162,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=yodu.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=youneed.win
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ytstv.me
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=z-lib.io
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=za.gl
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=zdopravy.cz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=zefoy.com
@@ -10209,7 +10207,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=cosplay18.pics
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=couponscorpion.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=dessi.io
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=dudestream.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=duelmeta.com|linetv.tw|liout.com|moneysave.info|raenonx.cc|zxmee.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=edumailfree.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=egotter.com
@@ -13628,6 +13625,7 @@
 @@||upaiyun.com/libs/$script,domain=xddxsw.net
 @@||upaiyun.com^*.js$domain=cilimao.co|cilimao.one
 @@||updatesmarugujarat.in^$generichide
+@@||upfilesgo.com^$generichide
 @@||upload*.jianshu.io^$stealth=referrer
 @@||upload.far7net.com^$generichide
 @@||upload.forumfree.net^$stealth=referrer
@@ -13961,7 +13959,6 @@
 @@||voyeurhouse.life^$generichide
 @@||vplayer.ilsemedia.nl/swf/im_player.swf?
 @@||vpnconnect.ru$jsinject,elemhide,extension
-@@||vpnjantit.com^$generichide
 @@||vpnsplit.com/ads/advertisement.js
 @@||vporn.com^$domain=vporn.com,important
 @@||vpro.nl/vpro/htmlplayer/0.3-snapshot/statcounter.js?
