@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-07-14 10:51:31（北京时间）
+! Version: 2026-07-14 21:55:43（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14601
+! Total count: 14595
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -79,6 +79,7 @@
 @@.mp4$media,stealth=referrer,domain=api.animeuzayi.com
 @@.mp4$media,stealth=referrer,domain=sekai.one
 @@.mp4?headers$media,stealth=referrer,domain=vidlink.pro
+@@.my.salesforce-setup.com/_ui/common/config/field/*/d?id=*&type=
 @@.myvi.ru^$stealth
 @@.net/click-$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@.online/premiumtv/*.php$subdocument,xmlhttprequest,stealth=referrer
@@ -137,6 +138,7 @@
 @@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/[a-z]?jz\/(?:[0-9a-f]\/){3,5}[0-9a-f]{42}-?(?:\d{2,3}|(?:(?:\d{3,4}-){3}h264)?\.(?:mp4-\d{1,2}|flv-\d))\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/sb\/t\/\d{6,8}\/\d\/\d\/w:300\/t\d{1,2}-enh\/(?:[0-9a-z]+-)*[0-9a-z]+\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/imgbb.zip\/ib\/[a-z0-9]{15}_[0-9]{10}\.jpg$/$image,third-party,stealth=referrer,domain=rogmovies.*|xprimehub.*|vegamovies.*|vegamovies.navy|rogmovies.cv|xprimehub.bond
+@@/^https:\/\/mshale\.com\/[a-f0-9]{8}\/[a-zA-Z0-9]+$/$match-case,stealth=referrer|searchqueries
 @@/^https:\/\/st\.pussyspace\.(?:com|net)\/upload\/cat\.image\/[_3a-z]{2,16}\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/st\.pussyspace\.(?:com|net)\/upload\/poster_img_url\/par\/c3Rhci9[%0-9A-Za-z]{16,32}&size_width\/par\/160\/l\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/www\.[a-z]{7,14}\.com\/[a-z]{1,4}\.js/$script,third-party,domain=shinden.pl,badfilter
@@ -574,8 +576,6 @@
 @@||10086.cn/framework/modules/sdc.js$script,~third-party
 @@||10086.cn^$generichide
 @@||10086.cn^*/ad$~third-party
-@@||100count.net/*/linko/advertisement.js
-@@||100count.net^$generichide
 @@||101soundboards.com^$generichide
 @@||109.236.92.205^*.m3u8$stealth=referrer
 @@||10drives.com/api/$stealth=referrer,domain=premiumebooks.*
@@ -3710,7 +3710,6 @@
 @@||coinadster.com^$generichide
 @@||coinadster.com^$script,stylesheet,xmlhttprequest,other,image,domain=coinadster.com
 @@||coindice.win^$generichide
-@@||coingrabr.com^$generichide
 @@||coinles.com^$generichide
 @@||coinmarketcap.com/static/addetect/$script,~third-party
 @@||coinmarketcap.com^$domain=coinmarketcap.com
@@ -5113,9 +5112,6 @@
 @@||free-premium.maxidbr.com^$generichide
 @@||free-sms-receive.com/static/ad/ads.js$domain=free-sms-receive.com
 @@||freeapps4y.blogspot.com^$generichide
-@@||freebcc.org/assets/img/ad_468x60_*.png
-@@||freebcc.org/claim/vendor/ads/ads.js
-@@||freebcc.org/static/ads/popunder.js
 @@||freebitco.in^$generichide
 @@||freebitcoin.win/static/deliver_ads/popunder_moon_ads_*.js$~third-party
 @@||freebitcoin.win^$generichide
@@ -8478,7 +8474,6 @@
 @@||magiccandles.eu/service/adv/popunder/ads.js$domain=filext.com
 @@||magicvalley.com^$generichide
 @@||magni.itv.com/playlist/$stealth=ip
-@@||mahimeta.com/networks/ad_code.php$domain=biggboss13.io
 @@||mahimeta.com/networks/ad_code.php$domain=farescd.com
 @@||mahitimanch.in^$generichide
 @@||mail-www.baynote.net^$domain=mail.com
@@ -9970,7 +9965,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=oromoyo.ai
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ostrow24.tv
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ovabee.com|yourimageshare.com|magicpsd.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=oxygenu.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=paidinsurance.in
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=paketmu.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=pansearch.me
@@ -10456,7 +10450,6 @@
 @@||passport.yandex.ru^$stealth=3p-cookie
 @@||passwordsleakcheck-pa.googleapis.com$stealth=dpi
 @@||pastebin.com/etc/geo.php?
-@@||pastehub.net/assets/ads/advertisement.js$domain=searchresults.cc
 @@||pastemod.com^$generichide
 @@||pastlinkvn.com^$generichide
 @@||pastpapers.papacambridge.com^$generichide
@@ -13364,7 +13357,6 @@
 @@||traffichaus.com/scripts/banner-ad.js
 @@||trafficmanager.anyclip.com^$domain=content.dictionary.com
 @@||trafficmanager.anyclip.com^$domain=zerotackle.com
-@@||trailblaze.my.salesforce-setup.com/_ui/common/config/field/*/d?id=*&type=
 @@||trailrunnermag.com^$stealth=dpi
 @@||trakel.org/*/image_resize.php?ad=
 @@||trakus.org/kods_bird/uye/image_resize.php?ad=
@@ -14235,6 +14227,7 @@
 @@||wpnrtnmrewunrtok.xyz/main/$image,domain=camwhores.tv
 @@||wpnrtnmrewunrtok.xyz^$domain=camwhores.ru.com|camvideos.org
 @@||wps-cn-ep.wpscdn.cn/wps/download/$stealth=referrer
+@@||wpscdn.cn^$stealth=referrer,domain=wps.cn
 @@||wrestlinginc.com/wp-content/themes/unified/js/prebid.js$~third-party
 @@||wristreview.com^$generichide
 @@||writing.chegg.com/graphql$stealth=3p-auth,domain=citationmachine.net
@@ -14318,6 +14311,7 @@
 @@||x.*.tk/*/strmrdr.m3u8$stealth=referrer
 @@||x.*.xyz/*/xox_*.jpeg$stealth=referrer
 @@||x.com^$generichide
+@@||x.com^$stealth=flash|java
 @@||x.kinja-static.com/assets/packaged-js/runtime~trackers.*.js$domain=clickhole.com|lifehacker.com|splinternews.com|avclub.com|deadspin.com|gizmodo.com|jalopnik.com|jezebel.com|kotaku.com|qz.com|theinventory.com|theonion.com|theroot.com|thetakeout.com
 @@||x.kinja-static.com/assets/packaged-js/trackers.*.js$domain=clickhole.com|lifehacker.com|splinternews.com|avclub.com|deadspin.com|gizmodo.com|jalopnik.com|jezebel.com|kotaku.com|qz.com|theinventory.com|theonion.com|theroot.com|thetakeout.com
 @@||x.sare25.com/x.php?url=
