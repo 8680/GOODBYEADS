@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-07-29 11:12:08（北京时间）
+! Version: 2026-07-29 22:20:24（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14642
+! Total count: 14638
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -253,7 +253,7 @@
 @@/clickn(download|upload)\.[a-z]{3,5}/$script,xmlhttprequest,domain=clickndownload.*|clicknupload.*
 @@/common/cf/*$domain=66u.com|changhong.com|fei3d.com|oneplusbbs.com|readboy.com
 @@/content/*.html$xmlhttprequest,stealth=referrer,domain=tvids.icu
-@@/content/*/page-*.html?token=$xmlhttprequest,third-party,stealth=referrer
+@@/content/*/page-*.html$xmlhttprequest,third-party,stealth=referrer
 @@/content/tour/banner/*$domain=digitalplayground.com
 @@/cpc_cpm_$domain=ygo-sem.cn
 @@/crossdomain.xml$domain=channel4.com
@@ -2637,7 +2637,6 @@
 @@||buyad.bi-xenon.cn^
 @@||buydekhke.com^$generichide
 @@||buysellads.net/pub/freegen.js$xmlhttprequest,domain=freegen.app
-@@||bvtpk.com/tag.min.js$xmlhttprequest,domain=spedostream2.shop
 @@||by-promokod.by^$stealth=useragent
 @@||byfly.dualstack.speedtestcustom.com^$stealth=referrer
 @@||bysejikuar.com^$subdocument,stealth=referrer,domain=sezonlukdizi8.com
@@ -5176,6 +5175,7 @@
 @@||friday.tw/backend/uploadpic/adindex/
 @@||friendbuy.com^$domain=butcherbox.com
 @@||friends.ponta.jp/app/assets/images/$~third-party
+@@||fritz.com/*/apps/knowledge-base/$xmlhttprequest,elemhide,jsinject,extension
 @@||friv.com/z/assets/scripts/$domain=friv.com
 @@||frkn64modding.com^$generichide
 @@||frontroute.org/*.txt$stealth=referrer
@@ -9433,7 +9433,6 @@
 @@||okokserver.com/uploads/lesi/*.mp4$domain=huavod.net|huavod.com|huaren.live|huavod.top|huavod.cc
 @@||oktatas.hu^$stealth=dpi
 @@||olacast.live^$stealth=referrer
-@@||olamovies.blog^$generichide
 @@||oldskool.vip^$generichide
 @@||olgame.tw^$generichide
 @@||oloadcdn.net/dl/*.mp4
@@ -9874,14 +9873,13 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=heidisql.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hentaigasm.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hentaihaven.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hentaipig.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hiraethtranslation.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=howdy.id
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hqq.ac
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hqq.to
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=htmlsave.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=idhubs.app
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=idol69.net|xcamcovid.com|fc2ppv.stream|blackwidof.org|sweetie-fox.com|hentaicovid.com|pig69.com|fikfok.net|ai18.pics|javball.com|javtele.net|cnxx.me|cosplay18.pics|cnpics.org|3minx.com|javsunday.com|porn4f.org|hentaipig.com|555fap.com|kin8-av.com|javbee.*|fikfok.net|porn-pig.com|hentai4f.com|cn-av.com|kr-av.com|hentaixnx.com|hentai-sub.com|chinese-pics.com|anime-jav.com|xxpics.org|hentaicovid.org|gofile.download|cosplay-xxx.com|s-porn.com|shentai-anime.com|chinese-pics.vip|hentai-manga.org|cosplaytele.vip|1minx.com|hentaicovid.vip|4up.pics|fc2ppv.me|fc2ppv.stream
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=idol69.net|xcamcovid.com|fc2ppv.stream|blackwidof.org|sweetie-fox.com|hentaicovid.com|pig69.com|fikfok.net|ai18.pics|javball.com|javtele.net|cnxx.me|cosplay18.pics|cnpics.org|3minx.com|javsunday.com|porn4f.org555fap.com|kin8-av.com|javbee.*|fikfok.net|porn-pig.com|hentai4f.com|cn-av.com|kr-av.com|hentaixnx.com|hentai-sub.com|chinese-pics.com|anime-jav.com|xxpics.org|hentaicovid.org|gofile.download|cosplay-xxx.com|s-porn.com|shentai-anime.com|chinese-pics.vip|hentai-manga.org|cosplaytele.vip|1minx.com|hentaicovid.vip|4up.pics|fc2ppv.me|fc2ppv.stream
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=iembra2or.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ifate.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=igniel.com
@@ -9985,7 +9983,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=nmac.to
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=nsfw247.to
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=okdebrid.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=olamovies.blog
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=olarila.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=old-young.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ondemandkorea.com
@@ -14378,7 +14375,6 @@
 @@||xda-developers.com/app/plugins/xda-kco-affiliate/public/js/xda-kco-affiliate-public.js
 @@||xdiv.space/io/p/?token=$stealth=referrer
 @@||xdownloaderz.com^$generichide
-@@||xe.awinriglet.com/*/$domain=olamovies.blog
 @@||xeroshoes.co.uk/affiliate/scripts/trackjs.js$~third-party
 @@||xes.pl/sign-in.html$stealth=ip
 @@||xfinity.com/stream/js/api/fingerprint.js$domain=xfinity.com
