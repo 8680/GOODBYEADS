@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-07-31 11:27:23（北京时间）
+! Version: 2026-07-31 22:19:25（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14646
+! Total count: 14653
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -85,6 +85,7 @@
 @@.my.salesforce-setup.com/_ui/common/config/field/*/d?id=*&type=
 @@.myvi.ru^$stealth
 @@.net/click-$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
+@@.online/cdn/$media,third-party,stealth=referrer,domain=kimoitv.com
 @@.online/premiumtv/*.php$subdocument,xmlhttprequest,stealth=referrer
 @@.pexcard.com^$jsinject,elemhide,extension
 @@.php$subdocument,stealth,domain=/dizipal\d+.com/
@@ -243,6 +244,7 @@
 @@/cdn-cgi/pe/bag2?*static.getclicky.com%2Fjs$domain=amazingpics.net
 @@/cdn-cgi/pe/bag2?*yieldbot.intent.js$domain=droid-life.com
 @@/cdn/*/tracks-*/*/*.js$stealth=referrer,domain=strims.*
+@@/cdn/files/*$media,document,third-party,stealth=referrer,domain=kimoitv.com
 @@/cdn/hls/*/master.txt$stealth=referrer,domain=diziyo.*|dzyco.*
 @@/cgi-bin/counter_module?action=list_models$subdocument,~third-party
 @@/check.php?callback=$script,domain=ytmp3.cc
@@ -1898,6 +1900,7 @@
 @@||api.playstation.com^$stealth=3p-auth
 @@||api.pnd.gs/v*/sources/$domain=thenews.im
 @@||api.poki.com/ads/houseads/$domain=ninja.io
+@@||api.poki.com/ads/houseads/video/$domain=vectaria.io
 @@||api.prod.bunnings.com.au^$stealth=3p-auth
 @@||api.production.k8s.y3o.tv/*/video-ads/$domain=yallo.tv
 @@||api.rhombusads.com/v*/embed/check$domain=spin.com
@@ -2069,6 +2072,7 @@
 @@||asb.co.nz.ssl.d2.sc.omtrdc.net^$xmlhttprequest,domain=asb.co.nz
 @@||ascii.jp/img/ad/$image,~third-party
 @@||ashesofcreation.com/show-ad.js$script
+@@||ashrafidoria.com^$domain=links.olamovies.mov
 @@||asia-*.inside-graph.com^$domain=lenovo.com
 @@||asiangayporn.tv/embed/$stealth=referrer
 @@||asianporn.li^$generichide
@@ -3110,6 +3114,7 @@
 @@||cdn.jsdelivr.net/npm/*/fuckadblock.min.js$domain=theandroidpro.com
 @@||cdn.jsdelivr.net/npm/*/videojs-contrib-ads.min.js$domain=24ur.com
 @@||cdn.jsdelivr.net/npm/@thumbmarkjs/$domain=dienynas.tamo.lt
+@@||cdn.jsdelivr.net/npm/bootstrap-icons$stealth=referrer,domain=kimoitv.com
 @@||cdn.jsdelivr.net/npm/fingerprintjs2$domain=wannadep.com
 @@||cdn.jsdelivr.net/npm/fuckadblock*/fuckadblock.js$domain=shinden.pl
 @@||cdn.jsdelivr.net/npm/fuckadblock@3.2.1/fuckadblock.min.js
@@ -7744,6 +7749,7 @@
 @@||ipv4.seeip.org/jsonip$domain=empire-streaming.app
 @@||iqiyi.com/*.html$stealth=webrtc
 @@||iqos.com^$stealth=ip
+@@||iqws-cds.intechiq.com/rest/$xmlhttprequest,stealth=3p-auth
 @@||irasutoya.blogspot.com^$generichide
 @@||irdeto.com/widevine/$stealth=3p-auth,domain=paramountplus.com|cbs.com
 @@||ireez.com^$generichide
@@ -13785,6 +13791,7 @@
 @@||v.gdt.qq.com/gdt_stats.fcg?
 @@||v.gqyy8.com:*.php?vid=$stealth=referrer
 @@||v.me/personal/assets/ntpagetag-$script
+@@||v.poki-cdn.com^$domain=vectaria.io
 @@||v.shoosh.co^$media,stealth=referrer
 @@||v144.philanthropy.com/DG/DEFAULT/rest/rpc/
 @@||v2cross.com^$generichide
@@ -13997,7 +14004,7 @@
 @@||volces.com/*^upload$stealth=3p-auth
 @@||volces.com/*^upload$stealth=3p-cache
 @@||volvo-club.cz^$generichide
-@@||vox-xov-cdn-*.$xmlhttprequest,stealth=referrer,domain=nepu.to
+@@||vox-xov-cdn-*.$xmlhttprequest,stealth=referrer,domain=nepu.*
 @@||voxfm.pl^$generichide
 @@||voyeur-house.fun^$generichide
 @@||voyeurhit.com/related_videos.php
