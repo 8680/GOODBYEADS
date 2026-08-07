@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-08-07 10:52:00（北京时间）
+! Version: 2026-08-07 21:13:55（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14668
+! Total count: 14675
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -411,6 +411,7 @@
 @@/storage/js/*.js$~third-party,domain=wowmail.app|inipulsa.my.id|anon.tools|s-nr.dk
 @@/store_ad/*$domain=pcstore.com.tw
 @@/stream$xmlhttprequest,stealth=referrer,domain=kwik.cx
+@@/stream/*.m3u8$stealth=referrer,domain=livosports30.live
 @@/stream/*/*.m3u8$xmlhttprequest,domain=faselhd.cafe
 @@/stream/*/*.ts$xmlhttprequest,domain=faselhd.cafe
 @@/stylesheet/*$xmlhttprequest,stealth=referrer,domain=gamingzen.xyz
@@ -425,6 +426,8 @@
 @@/tracking.php?id$domain=a1.express
 @@/tracks-v1a1/*$xmlhttprequest,stealth=referrer
 @@/unadblock/adjs_$domain=hepan.com
+@@/upload/*.txt|$xmlhttprequest,stealth=referrer,domain=anikuro.ru|anikuro.to
+@@/upload/*/master.m3u8|$media,xmlhttprequest,stealth=referrer,domain=anikuro.ru|anikuro.to
 @@/uploads/*$image,stealth=referrer,domain=culturanimation.com|recetasmaria.com|techobras.com|babynombres.com
 @@/uploads/*.m3u8$stealth=referrer,domain=agemys.net
 @@/uploads/ads/*$domain=newauto46.ru
@@ -1758,7 +1761,7 @@
 @@||api.adinplay.com/*/live/aip/ad-manager.js$domain=wormate.io
 @@||api.adinplay.com/display/pub/*/display.min.js$domain=blastz.io
 @@||api.adinplay.com/display/pub/*/display.min.js$domain=tombr.io
-@@||api.adinplay.com/libs/aiptag/$script,domain=bigescapegames.com|brofist.io|cuberealm.io|findcat.io|geotastic.net|lordz.io
+@@||api.adinplay.com/libs/aiptag/$script,domain=2v2.io|bigescapegames.com|brofist.io|cuberealm.io|findcat.io|geotastic.net|lordz.io
 @@||api.adinplay.com/libs/aiptag/*/tag.min.js$domain=crazygames.com|shellshock.io|minijuegos.com
 @@||api.adinplay.com/libs/aiptag/*/tag.min.js$domain=play.gamepix.com
 @@||api.adinplay.com/libs/aiptag/*/tag.min.js$domain=v6p9d9t4.ssl.hwcdn.net|golfroyale.io|zoneroyale.com|creatur.io|wormate.io|octagor.com|lordz2.io|brutalmania.io|findcat.io|evowars.io|shellshock.io|dinoman.io|bombhopper.io|clashblade.com|littlebigsnake.com|evoworld.io
@@ -1770,7 +1773,7 @@
 @@||api.adinplay.com/libs/aiptag/pub/WRK/tetrads.io/tag.min.js$domain=tetrads.io
 @@||api.adinplay.com/libs/aiptag/pub/WRM/wormate.io/tag.min.js$domain=wormate.io
 @@||api.adinplay.com/player/*/player.min.js$domain=mineparkour.club|gunzer.io|pockey.io|bist.io
-@@||api.adinplay.com/v4/live/aip/ad-manager.js$script,domain=cuberealm.io
+@@||api.adinplay.com/v4/live/aip/ad-manager.js$script,domain=2v2.io|cuberealm.io
 @@||api.adnetmedia.lt/api/$~third-party
 @@||api.ads.tvb.com^
 @@||api.aliagents.ai/api/v1/activity$~third-party,xmlhttprequest
@@ -4251,6 +4254,7 @@
 @@||detik.com/urchin.js
 @@||detutorial.com^$generichide
 @@||deutsches-museum.de^$stealth=dpi
+@@||dev.microsofttranslator.com/apps/endpoint?api-version=$stealth=referrer
 @@||dev.virtualearth.net/REST/*/Autosuggest?query=$stealth=referrer
 @@||dev.virtualearth.net/webservices/$domain=multiroute.de
 @@||dev.visualwebsiteoptimizer.com/j.php$script,domain=kb.arlo.com
@@ -10575,6 +10579,7 @@
 @@||pharmaguideline.com^$generichide
 @@||pherotruth.com/plausible.js
 @@||pherotruth.com^$generichide
+@@||phncdn.com/$media,stealth=referrer,domain=pornhub.com
 @@||phoenixnewtimes.com/js_cache/ads.js^
 @@||phonesized.com^$generichide
 @@||phoneworld.com.pk/wp-content/themes/phoneworld/assets/js/advertisement.js
@@ -14010,6 +14015,7 @@
 @@||vod.olympics2010.msn.com/beacon?
 @@||vod.tvp.pl^$generichide
 @@||vod.universalsports.com/beacon?
+@@||vodafone.com.au/gtm.js$~third-party
 @@||vodafonelimited.tt.omtrdc.net^
 @@||vodakpsdhdsdrm-vh.akamaihd.net/z/clips/$stealth=3p-cookie
 @@||voipsipclient.blogspot.nl^$generichide
@@ -14175,6 +14181,7 @@
 @@||wenxuecity.com^$generichide
 @@||werbung.qs-optiker.de^$domain=werbung.qs-optiker.de
 @@||westelm.com^*/bloomreach.js
+@@||westeurope.tts.speech.microsoft.com/cognitiveservices/$stealth=3p-auth
 @@||westjet.com/js/webstats.js
 @@||wetransfer.com/api/web-metrics$domain=wetransfer.com
 @@||wetransfer.net/api/v*/$stealth=3p-auth
