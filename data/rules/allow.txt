@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-08-10 21:18:43（北京时间）
+! Version: 2026-08-11 10:03:35（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14683
+! Total count: 14685
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -221,7 +221,6 @@
 @@/api/ads?$domain=nmkjxy.com
 @@/api/models?$domain=tik.porn
 @@/api/v2/models-online?$domain=tik.porn
-@@/api?url=$xmlhttprequest,media,stealth=referrer,domain=cinezo.live
 @@/assets/ads-*.js$domain=notateslaapp.com
 @@/assets/js/advertisement.js$~third-party
 @@/assets/prebid/*.js$script,xmlhttprequest,domain=gentside.com|gentside.de|gentside.co.uk|gentside.com.br|maxisciences.com|ohmymag.com|ohmymag.de
@@ -358,7 +357,6 @@
 @@/media/*/js/adblock_detector.js$domain=eska.pl|eskarock.pl|voxfm.pl|vibefm.pl|radiosupernova.pl
 @@/mobileads.$domain=naviking.localking.com.tw
 @@/mono.m3u8$stealth=referrer
-@@/movie?id=*&mode=$xmlhttprequest,stealth=referrer,domain=cinezo.live
 @@/mp4/*$media,stealth=referrer,domain=player.videasy.*|cineby.*|cineplay.to|fmovies.*|www.fmovies.gd|vidking.net
 @@/nbc-ad*.js$domain=notebookcheck-hu.com|notebookcheck.com|notebookcheck.net|notebookcheck.org|notebookcheck.biz|notebookcheck.it|notebookcheck.nl|notebookcheck.info|notebookcheck-tr.com|notebookcheck.se|notebookcheck-ru.com
 @@/needsharebutton.min.js$domain=leetcode-cn.com
@@ -508,11 +506,13 @@
 @@=mywebloadt1&$domain=myweb.hinet.net
 @@?_adcheck=$xmlhttprequest,domain=manhuarmmtl.com
 @@?adType=$domain=taotaosou.com
+@@?id=$xmlhttprequest,stealth=referrer,domain=cinezo.live
 @@?m3u8=$xmlhttprequest,stealth=referrer,domain=cinesrc.st
 @@?p=$third-party,stealth=referrer,domain=nextbox.uno|next-box.su
 @@?seg=$xmlhttprequest,stealth=referrer,domain=cinesrc.st
 @@?sid=ads$domain=126.com|mail.163.com
 @@?type=*&id=$third-party,stealth=referrer,domain=nextbox.uno|next-box.su
+@@?url=$xmlhttprequest,media,stealth=referrer,domain=cinezo.live
 @@^abcheck=$domain=animeshqip.org
 @@^stream^$xmlhttprequest,media,stealth=referrer,domain=cinesrc.st
 @@^utm_source=aff^$popup,domain=gamble.co.uk|gokkeninonlinecasino.nl|top5casinosites.co.uk
@@ -811,6 +811,7 @@
 @@||a.magsrv.com/video-slider.js$domain=daemonanime.net
 @@||a.magsrv.com/video-slider.js$domain=xfreehd.com
 @@||a.magsrv.com^$domain=in91vip.win
+@@||a.pemsrv.com/popunder1000.js$domain=unicorn.edu.eu.org
 @@||a.poki.com/prebid/$script,domain=poki-gdn.com|repuls.io
 @@||a.pub.network/core/pubfig/cls.css$domain=vrcmods.com
 @@||a.pub.network/vrcmods-com/pubfig.min.js$domain=vrcmods.com
@@ -2500,7 +2501,6 @@
 @@||bitent.com/lock_html5/adscontrol.js$domain=bitent.com
 @@||biters.io^$generichide
 @@||bitfly.io^$generichide
-@@||bitsilver.io^$generichide
 @@||biv.gazeta.pl/resources/emailLoginPage__front/$domain=oauth.gazeta.pl
 @@||biz.yelp.com/ads?$popup
 @@||bizpacreview.com^$csp=script-src 'self' *.leadpages.net *.gstatic.com *.google.com *.googleapis.com *.playwire.com *.facebook.com *.bootstrapcdn.com *.twitter.com *.spot.im
@@ -2746,6 +2746,7 @@
 @@||calendar.google.com^$generichide
 @@||calendar.naver.com/js/dist/lib/clickcr.js$domain=calendar.naver.com
 @@||call2friends.com/*/javascripts/ads.js
+@@||callistanise.com^$stealth=referrer
 @@||calvyn.com^$generichide
 @@||cam-archive.com/js/fuckadblock.js
 @@||cam-archive.com^$generichide
@@ -6982,6 +6983,7 @@
 @@||hulu.com/embed$document
 @@||humix.com/beardeddragon/iguana.js
 @@||humix.com/beardeddragon/wyvern.js
+@@||hunkypinoy.com^$generichide
 @@||hunter.fm^$generichide
 @@||huntington.com^$document
 @@||huntress.com/assets/snowplow.tracker-*.js$domain=huntress.com
@@ -7619,7 +7621,6 @@
 @@||imgur.com/desktop-assets/js/floaty_rotator.*.bundle.js
 @@||imgur.com/min/px.js$~third-party
 @@||imgview.net/js/jquery-*.min.js
-@@||imgwallet.com/advertisement.js
 @@||imk.neweggimages.com/webresource/scripts/plugin/inhousebiztra.js$domain=newegg.com
 @@||imobiliare.ro/js/gtm.js$script,~third-party
 @@||imore.com/sites/imore.com/files/*/public/field/image/*/adchoices-$image,domain=imore.com
@@ -8313,6 +8314,7 @@
 @@||liodonwloads.blogspot.com^$generichide
 @@||lirarate.org/tardisrocinante/screx.js
 @@||liriklaguindonesia.net^$generichide
+@@||listeamed.net^$stealth=referrer
 @@||listing-search-wonen.funda.io^$domain=funda.nl,stealth=referrer
 @@||litv.tv/ads/ads.js
 @@||litvp.com/checkStatus/$domain=emturbovid.com
