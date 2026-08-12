@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-08-12 10:20:41（北京时间）
+! Version: 2026-08-12 21:19:24（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14680
+! Total count: 14678
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -141,7 +141,7 @@
 @@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/(?:yip?|xvs)\/videos\/thumbs_5\/\d{1,2}(?:\(m=e[0-9A-Za-z]{5,7}aaaa\)\(mh=[-_0-9A-Za-z]{16}\))?\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/[a-z]?jz\/(?:[0-9a-f]\/){3,5}[0-9a-f]{42}-?(?:\d{2,3}|(?:(?:\d{3,4}-){3}h264)?\.(?:mp4-\d{1,2}|flv-\d))\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/sb\/t\/\d{6,8}\/\d\/\d\/w:300\/t\d{1,2}-enh\/(?:[0-9a-z]+-)*[0-9a-z]+\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
-@@/^https:\/\/imgbb.zip\/ib\/[a-z0-9]{15}_[0-9]{10}\.jpg$/$image,third-party,stealth=referrer,domain=rogmovies.*|xprimehub.*|vegamovies.*|vegamovies.catering|rogmovies.cv|xprimehub.bond
+@@/^https:\/\/imgbb.zip\/ib\/[a-z0-9]{15}_[0-9]{10}\.jpg$/$image,third-party,stealth=referrer,domain=rogmovies.*|xprimehub.*|vegamovies.*|1vegamovies.cc|rogmovies.cv|xprimehub.bond
 @@/^https:\/\/mshale\.com\/[a-f0-9]{8}\/[a-zA-Z0-9]+$/$match-case,stealth=referrer|searchqueries
 @@/^https:\/\/st\.pussyspace\.(?:com|net)\/upload\/cat\.image\/[_3a-z]{2,16}\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/st\.pussyspace\.(?:com|net)\/upload\/poster_img_url\/par\/c3Rhci9[%0-9A-Za-z]{16,32}&size_width\/par\/160\/l\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
@@ -513,6 +513,7 @@
 @@?type=*&id=$third-party,stealth=referrer,domain=nextbox.uno|next-box.su
 @@?url=$xmlhttprequest,media,stealth=referrer,domain=cinezo.live
 @@^abcheck=$domain=animeshqip.org
+@@^probe=$script,domain=coinadster.com
 @@^stream^$xmlhttprequest,media,stealth=referrer,domain=cinesrc.st
 @@^utm_source=aff^$popup,domain=gamble.co.uk|gokkeninonlinecasino.nl|top5casinosites.co.uk
 @@^vast^$domain=4gtv.tv,~script,~image
@@ -4201,6 +4202,7 @@
 @@||dd.jaycar.com.au.first-party-js.datadome.co^$script,third-party,domain=jaycar.com.au
 @@||dd.qa.moneygram.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=moneygram.com
 @@||dd.subito.it.first-party-js.datadome.co^$script,xmlhttprequest,domain=areariservata.subito.it
+@@||dd.thetrainline.com.first-party-js.datadome.co^$domain=thetrainline.com
 @@||dd.wizzair.com.first-party-js.datadome.co^$domain=wizzair.com
 @@||dd6zx4ibq538k.cloudfront.net/static/images/$domain=tkmaxx.com
 @@||ddmix.net^$generichide
@@ -4222,6 +4224,7 @@
 @@||defensa.gob.es^$stealth=dpi
 @@||definitions.net^$generichide
 @@||dein-ort.de^$generichide
+@@||dekra-akademie.de/resource/*/eCom_FrontendV3/assets/js/gtm.js$~third-party
 @@||delfi.lv/celojumi^$elemhide
 @@||deliver.vkcdnservice.com/api/spots/$domain=yandexcdn.com
 @@||deliver.vkcdnservice.com/api/spots^$domain=hqq.tv
@@ -7431,6 +7434,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tubitv.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tunegenie.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tunein.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tvbanywherena.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tvid.in
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tvn24.pl|tvn.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tvp.pl|tvp.info
@@ -8828,7 +8832,6 @@
 @@||miaminewtimes.com/js_cache/ads.js
 @@||miaozhen.com^*/m.suning.
 @@||miastko24.pl/pl/js/trustmeimadolphin
-@@||miauscan.com^$generichide
 @@||michezoafrika.com^$generichide
 @@||miclaro.com.gt/assets/analytics$domain=miclaro.com.gt
 @@||micro.rubiconproject.com/prebid/dynamic/$domain=bildderfrau.de
@@ -9100,8 +9103,6 @@
 @@||muzu.tv/flash/*tracking
 @@||mvcat.com^$generichide
 @@||mvz.hufeland.de^$stealth=dpi
-@@||mx-sh.net/advertisements.js
-@@||mx-sh.net^$generichide
 @@||mxcontent.net^$media,third-party,stealth=referrer
 @@||mxomo.com^$image,stealth=referrer,domain=kxo.moe
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|frigidaire.com
@@ -9922,7 +9923,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=imagetotext.io
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=imgo.info
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=indexsubtitle.cc
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=infidrive.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=insidertracking.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=investguiding-com.custommapposter.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=investing.com
@@ -11398,8 +11398,6 @@
 @@||rule34hentai.net/cdn-cgi/challenge-platform/orchestrate/$domain=rule34hentai.net
 @@||rule34hentai.net/fluidplayer.min.js$domain=rule34hentai.net
 @@||rulesofcheaters.net^$generichide
-@@||rulu.co/*.php$generichide
-@@||rulu.co^$generichide
 @@||rumble.com/embed/$stealth=referrer
 @@||rumble.com/embed/*$domain=koreus.com
 @@||rumcdn.geoedge.be/*/grumi.js$domain=comingsoon.net
