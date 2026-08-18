@@ -2,14 +2,13 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-08-18 09:27:02（北京时间）
+! Version: 2026-08-18 20:54:28（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14679
+! Total count: 14688
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$generichide,domain=stfly.cc
-@@$image,stealth=referrer,domain=comix.to
 @@$media,stealth=referrer,domain=fakitonye.shop
 @@$popup,domain=datanodes.to,third-party
 @@$stealth=useragent,app=top.rootu.lampa
@@ -83,6 +82,7 @@
 @@.mp4$media,stealth=referrer,domain=sekai.one
 @@.mp4%3Fsign%3$third-party,media,stealth=referrer,domain=vidrock.ru
 @@.mp4?$media,stealth=referrer,domain=vidlink.pro
+@@.mp4?sign=$media,stealth=referrer,domain=themoviebox.org|movieboxonline.net|123moviesfree.club|netnaija.film|m2box.org|netfilm.world
 @@.my.salesforce-setup.com/_ui/common/config/field/*/d?id=*&type=
 @@.myvi.ru^$stealth
 @@.net/click-$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
@@ -142,7 +142,7 @@
 @@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/(?:yip?|xvs)\/videos\/thumbs_5\/\d{1,2}(?:\(m=e[0-9A-Za-z]{5,7}aaaa\)\(mh=[-_0-9A-Za-z]{16}\))?\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/[a-z]?jz\/(?:[0-9a-f]\/){3,5}[0-9a-f]{42}-?(?:\d{2,3}|(?:(?:\d{3,4}-){3}h264)?\.(?:mp4-\d{1,2}|flv-\d))\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/sb\/t\/\d{6,8}\/\d\/\d\/w:300\/t\d{1,2}-enh\/(?:[0-9a-z]+-)*[0-9a-z]+\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
-@@/^https:\/\/imgbb.zip\/ib\/[a-z0-9]{15}_[0-9]{10}\.jpg$/$image,third-party,stealth=referrer,domain=rogmovies.*|xprimehub.*|vegamovies.*|new1.vegamovies.futbol|rogmovies.cv|xprimehub.bond
+@@/^https:\/\/imgbb.zip\/ib\/[a-z0-9]{15}_[0-9]{10}\.jpg$/$image,third-party,stealth=referrer,domain=rogmovies.*|xprimehub.*|vegamovies.*|new2.vegamovies.futbol|rogmovies.cv|xprimehub.bond
 @@/^https:\/\/mshale\.com\/[a-f0-9]{8}\/[a-zA-Z0-9]+$/$match-case,stealth=referrer|searchqueries
 @@/^https:\/\/st\.pussyspace\.(?:com|net)\/upload\/cat\.image\/[_3a-z]{2,16}\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/st\.pussyspace\.(?:com|net)\/upload\/poster_img_url\/par\/c3Rhci9[%0-9A-Za-z]{16,32}&size_width\/par\/160\/l\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
@@ -228,7 +228,6 @@
 @@/banner/ad/*$image,domain=achaloto.com
 @@/banners*swf$domain=vma.esec.vu.lt
 @@/beacon.js$domain=ww1.canada.com
-@@/bt/*.mp4?sign=$media,stealth=referrer,domain=themoviebox.org|movieboxonline.net|123moviesfree.club|netnaija.film
 @@/cdn*/premium*/tracks-$xmlhttprequest,script,stealth=referrer
 @@/cdn-cgi/challenge-platform/*/orchestrate/jsch/v$domain=kat.*
 @@/cdn-cgi/pe/bag2?*google-analytics.com%2Fanalytics.js$domain=amypink.de|biznews.com|dailycaller.com|droid-life.com|fpif.org|fullpotentialma.com|geekzone.co.nz|hoyentec.com|is-arquitectura.es|lazygamer.net|lingholic.com|mmanews.com|nehandaradio.com|nmac.to|orain.org|tvunblock.com|unilad.co.uk|xrussianteens.com|youngcons.com
@@ -2695,6 +2694,7 @@
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=standard.co.uk
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=tasteofhome.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=thedailybeast.com
+@@||c.amazon-adsystem.com/aax2/apstag.js$domain=theroot.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=time.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=upfilesgo.com|upplinks.net|upfion.com|upfiles.app|upfiles-urls.com|falpus.com|fooak.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=venge.io
@@ -3412,6 +3412,7 @@
 @@||cdnjs.cloudflare.com/ajax/libs/fuckadblock^$domain=fotbolltransfers.com
 @@||cdnjs.cloudflare.com/ajax/libs/jquery$domain=opensubtitles.org
 @@||cdnjs.cloudflare.com/ajax/libs/jquery/*/jquery.min.js$domain=ouo.press|ouo.io
+@@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*/videojs-contrib-ads.min.js$domain=theroot.com
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*/videojs.ads.css$domain=abcya.com
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*/videojs.ads.js$domain=radiojavan.com
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*/videojs.ads.js$domain=wtk.pl
@@ -4942,6 +4943,7 @@
 @@||faq-widget.nakanohito.jp/faqwidget.js$domain=keio-passport.co.jp
 @@||faq.subaru.jp^$stealth=dpi
 @@||faq.viewcard.co.jp^$stealth=dpi
+@@||farfarout.org/farfarout-api/$xmlhttprequest,stealth=referrer
 @@||fast*.vidplus.dev/file*/*?host=$xmlhttprequest,stealth=referrer
 @@||fast-down.com^$generichide
 @@||fast.fonts.net/jsapi/core/mt.js$script,domain=abeautifuldominion.com|bkmedical.com|eclecticbars.co.uk|gables.com|itsolutions-inc.com|kinsfarmmarket.com|senate.gov|toyotagazooracing.com
@@ -5785,6 +5787,7 @@
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=tv-media.at,important
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=upc.pl
 @@||google-analytics.com/analytics.js$stealth=referrer,domain=tv-media.at
+@@||google-analytics.com/analytics.js$xmlhttprequest,domain=moviesdl.cc
 @@||google-analytics.com/analytics.js$xmlhttprequest,domain=tryigit.dev
 @@||google-analytics.com/analytics.js^$domain=accountkiller.com
 @@||google-analytics.com/analytics.js^$domain=cosstores.com
@@ -5927,6 +5930,7 @@
 @@||googleads.g.doubleclick.net/pagead/ads$domain=forum.release-apk.com
 @@||googleads.g.doubleclick.net/pagead/ads$domain=next-episode.net
 @@||googleads.g.doubleclick.net/pagead/ads$subdocument,domain=rjno1.com
+@@||googleads.g.doubleclick.net/pagead/ads$xmlhttprequest,domain=moviesdl.cc
 @@||googleads.g.doubleclick.net/pagead/ads?*&url=http*.4gtv.tv*&output=xml_vast*.4gtv.tv$domain=imasdk.googleapis.com
 @@||googleads.g.doubleclick.net/pagead/ads?ads$domain=freebinchecker.com
 @@||googleads.g.doubleclick.net/pagead/ads?ads$domain=freevocabulary.com
@@ -6314,6 +6318,7 @@
 @@||googletagmanager.com/gtm.js$domain=m.kinomax.ru
 @@||googletagmanager.com/gtm.js$domain=m.papajohns.ru
 @@||googletagmanager.com/gtm.js$domain=m2o.it|deejay.it|capital.it
+@@||googletagmanager.com/gtm.js$domain=magasiner.familiprix.com
 @@||googletagmanager.com/gtm.js$domain=mainichi.jp
 @@||googletagmanager.com/gtm.js$domain=make.dmm.com
 @@||googletagmanager.com/gtm.js$domain=makitani.net
@@ -7431,6 +7436,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tenceretv.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=texastech.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=theplayerstribune.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=theroot.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=theticket.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=timesnownews.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=titans.com.au
@@ -8821,6 +8827,7 @@
 @@||mf.advantage.as/if/imcreat.php$domain=mobilmania.cz
 @@||mf.advantage.as/if/imshow.php$domain=f1sport.autorevue.cz
 @@||mfah.org^$stealth=dpi
+@@||mfcdn*.xyz^$image,stealth=referrer,domain=mangafire.to
 @@||mfcdn.net/store/$stealth=referrer,domain=fanfox.net
 @@||mfstatic.cz/js/advantage.min.js$domain=mobilmania.cz
 @@||mghubcdn.com^$stealth=referrer,domain=mangafox.fun
@@ -10310,6 +10317,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=maxcheaters.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=mbjremix.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=minorpatch.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=moviesdl.cc
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=mtg-print.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=nohat.cc|psd.world|png.is
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=now.gg|now.us
@@ -12504,7 +12512,6 @@
 @@||statcounter.com/js/fusioncharts.js
 @@||statcounter.com/js/packed/statcounter-$script,~third-party
 @@||states.newegg.com/b/ss/neweggprod/
-@@||static*.mfcdn*.xyz^$image,stealth=referrer,domain=mangafire.to
 @@||static*.nytimes.com/newsgraphics/*/_assets/graphics/$xmlhttprequest,elemhide,jsinject,extension
 @@||static-*.xvideos.com/*/js/
 @@||static-cdn.hotjar.com^$script,domain=mercadopublico.cl
@@ -12523,6 +12530,7 @@
 @@||static.adman.gr/adman.js$domain=gazzetta.gr
 @@||static.adman.gr^$domain=naftemporiki.gr
 @@||static.ads-twitter.com/ads.js$domain=cinehd.app
+@@||static.ads-twitter.com/ads.js$xmlhttprequest,domain=moviesdl.cc
 @@||static.ads-twitter.com/oct.js$domain=boston.com|calgaryherald.com|calgarysun.com|celebuzz.com|montrealgazette.com|saveur.com
 @@||static.ads-twitter.com/oct.js$domain=itemmania.in.th
 @@||static.ads-twitter.com/uwt.js$domain=cms.nova.cz
@@ -14026,7 +14034,7 @@
 @@||volces.com/*^upload$stealth=3p-auth
 @@||volces.com/*^upload$stealth=3p-cache
 @@||volvo-club.cz^$generichide
-@@||vox-xov-cdn-*.$xmlhttprequest,stealth=referrer,domain=nepu.*
+@@||vox-xov-cdn-*.$xmlhttprequest,stealth=referrer,domain=nepu.*|4k.beer
 @@||voxfm.pl^$generichide
 @@||voyeur-house.fun^$generichide
 @@||voyeurhit.com/related_videos.php
@@ -14300,6 +14308,7 @@
 @@||wouterplanet.com/scripts/ads-front.min.js$domain=wouterplanet.com
 @@||wouterplanet.com^$generichide
 @@||wowclassicbis.com^$generichide
+@@||wowpic*.store^$image,stealth=referrer,domain=comix.*
 @@||wp.com/_static/*/gaAddons.js
 @@||wp.pl/*-FwkqOxhmGz4XCSo7GGYbPhcJKjsYZhs-$script,domain=pilot.wp.pl
 @@||wp.pl^$generichide
