@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-09-11 00:08:38（北京时间）
+! Version: 2026-09-11 11:58:12（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14768
+! Total count: 14770
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -1183,6 +1183,7 @@
 @@||ads.cdn.tvb.com^*.key
 @@||ads.colombiaonline.com/ad/$domain=colombiaonline.com
 @@||ads.creative-serving.com/yoc^$domain=youronlinechoices.com
+@@||ads.cs.washington.edu^$popup
 @@||ads.dainikbhaskar.com/AdTech/ads/ads.js
 @@||ads.dblink.us$~image,~third-party
 @@||ads.delfi.lv^$elemhide
@@ -13251,6 +13252,7 @@
 @@||themarker.com/logger/p.gif?$image,xmlhttprequest
 @@||themarker.com/logger/p.gif?*=COMMENTS$xmlhttprequest
 @@||themarker.com/logger/p.gif?a=$image
+@@||themeapis.jbhifi.com.au/*/checkout^$stealth=3p-auth,domain=extensions.shopifycdn.com
 @@||themelock.com/advertisement.js
 @@||thememazing.com^$generichide
 @@||thememypc.net/wp-content/plugins/nervous-pleasure/assets/js/advertisement.min.js
