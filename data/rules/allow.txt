@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-09-16 12:13:25（北京时间）
+! Version: 2026-09-17 00:32:36（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14778
+! Total count: 14777
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -462,6 +462,7 @@
 @@/video.m3u8$stealth=referrer,domain=missav.live|missav.ws|missav123.com|missav888.com|missav.*|missav01.com
 @@/video/*$media,stealth=referrer,domain=douyin.com
 @@/video/*$xmlhttprequest,third-party,stealth=referrer,domain=cinejoy.to
+@@/video/*.html|$xmlhttprequest,stealth=referrer,domain=cinesrc.st
 @@/video/*/index.m3u8?*&frame_commit=*&mw_pid=*&signature=$stealth=useragent
 @@/videos/*$domain=pornhub.com|pornhub.org|pornhub.net
 @@/videos/*$media,stealth=referrer,domain=allanime.day
@@ -1453,6 +1454,7 @@
 @@||akamaihd.net/worldwide_analytics/tagcommander/Ubisoft$domain=account.ubisoft.com|connect.ubisoft.com|store.ubi.com
 @@||akamaized.net/*.m4s$stealth=referrer,domain=bilibili.com
 @@||akamaized.net/*.m4s$xmlhttprequest,stealth=referrer,domain=bilibili.tv
+@@||akamaized.net/*.mp4$stealth=referrer,domain=bilibili.com
 @@||akamaized.net/exp=$stealth=referrer,xmlhttprequest,domain=vidio.com
 @@||akashio.com^$generichide
 @@||akashiro.co.id^$generichide
@@ -1976,6 +1978,7 @@
 @@||api.viddler.com/api/v*/viddler.videos.getPlaybackDetails.json$stealth=referrer
 @@||api.viduki.net/embed_providers?$stealth=referrer
 @@||api.vk.com/method/statEvents.$~third-party
+@@||api.wehype.com/creator-community/graphql$stealth=3p-auth
 @@||api.youla.io^$stealth=referrer
 @@||api.zeeg.me/api/analytics/events/$~third-party
 @@||api2.branch.io/v1/open$domain=flickplay.co
@@ -4194,6 +4197,7 @@
 @@||data.sec.miui.com^
 @@||data.service.paypal.com^
 @@||data.simpleupload.net/download/$stealth=referrer
+@@||data.tm-awx.com$domain=gloucestershirelive.co.uk
 @@||data.tnlycdn.com^$image,stealth=referrer,domain=toonily.com
 @@||datacloudmail.ru^$domain=cloud.mail.ru,stealth=3p-cookie|referrer
 @@||datacomp.sk^$stealth=dpi
@@ -4990,6 +4994,7 @@
 @@||fang.com/stats/clickm2011.js
 @@||fangcloud.com^$generichide
 @@||fansonlinehub.com^$generichide
+@@||fapgoat.com/player/player_ads.html
 @@||faq-widget.nakanohito.jp/faqwidget.js$domain=keio-passport.co.jp
 @@||faq.subaru.jp^$stealth=dpi
 @@||faq.viewcard.co.jp^$stealth=dpi
@@ -5044,12 +5049,14 @@
 @@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=liverpoolecho.co.uk|mirror.co.uk|birminghammail.co.uk|dailystar.co.uk|manchestereveningnews.co.uk
 @@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=ok.co.uk
 @@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=themirror.com
+@@||feliz-web.data.tm-awx.com^$domain=cheshire-live.co.uk
 @@||feliz-web.data.tm-awx.com^$domain=football.london
 @@||feliz.data.tm-awx.com/smile-web-v*/$domain=ok.co.uk
 @@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=examinerlive.co.uk
 @@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=liverpoolecho.co.uk|mirror.co.uk|birminghammail.co.uk|dailystar.co.uk|manchestereveningnews.co.uk
 @@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=mirror.co.uk
 @@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=themirror.com
+@@||feliz.data.tm-awx.com^$domain=cheshire-live.co.uk
 @@||feliz.data.tm-awx.com^$domain=football.london
 @@||fengkongcloud.com/fpv2.js
 @@||ferina.xyz/hls2/$stealth=referrer
@@ -5400,7 +5407,6 @@
 @@||games.iwin.com^$generichide
 @@||games.pch.com^$generichide
 @@||games.tiscali.cz^$subdocument,domain=games.tiscali.cz
-@@||gamesglue.com/game_core/check^
 @@||gamesmain.xyz^$generichide
 @@||gamesource.it^$generichide
 @@||gamespot.com/js/compiled/trackingWithCT.js$domain=gamespot.com
@@ -5512,7 +5518,6 @@
 @@||get.x-link.pl^$generichide
 @@||getbootstrap.com/docs/*/assets/js/vendor/popper.min.js
 @@||getclicky.com/ajax/marketshare?$script
-@@||getcopy.link/js/prebid-ads.js
 @@||getexploits.com^$generichide
 @@||getflywheel.com/addons/google-analytics/$~third-party
 @@||getfree.co.in^$generichide
@@ -8240,7 +8245,6 @@
 @@||lacrossetribune.com^$generichide
 @@||lacuevadeguns.com/forum/banner.gif?|
 @@||ladige.it^$generichide
-@@||ladsatz.com/*.js$domain=test.shrinkurl.org
 @@||ladsp.com/script-sf/$script,domain=str.toyokeizai.net
 @@||ladypopularblog.com^$generichide
 @@||laftel.net^$stealth=useragent
@@ -9084,7 +9088,6 @@
 @@||motortrader.com.my/advert/$image,~third-party
 @@||moulinex.com/js/xtroi.js
 @@||movetv.com^$stealth=3p-auth
-@@||moviehousememories.com/wp-content/themes/jannah/assets/js/ad.js
 @@||moviemakeronline.com/resources/jsc/ads.js
 @@||moviesunuss.net^$generichide
 @@||movio.club/js/prebid-ads.js
@@ -10189,7 +10192,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=soft8ware.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=soft8ware.com|chajianmi.com|huavod.com|huaren.live|tt1069.com|akashio.com|1991421.cn|kantie.org|kejilion.pro|bilinovel.com|mcappx.com|yeeach.com|blog.6ziz.com|docsmall.com|uiadmin.net|4horlover.com|23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|fsbot.xyz|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|mens1069.com|monnsutogatya.com|mpyit.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=softfully.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=softprober.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=softwarecrackguru.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=soisk.pl
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=soninow.com
@@ -12183,7 +12185,6 @@
 @@||shrink-service.it/api-extension/$stealth=referrer,domain=adshrink.it
 @@||shrink.icu^$generichide
 @@||shrinke.me^$stealth=referrer
-@@||shrinkurl.org^$generichide
 @@||shrtfly.com^$generichide
 @@||shuajota.com^$generichide
 @@||shumafen.cn/api/$stealth=referrer
@@ -12206,7 +12207,6 @@
 @@||signs.pl/_css/adserver.css
 @@||sihirlitur.com/otomobil/reklamlar
 @@||silenthub.net^$generichide
-@@||silicongadget.com^$generichide
 @@||simba.taobao.com/?name=mcad$script
 @@||simba.taobao.com/?name=tcmad&$domain=www.taobao.com
 @@||simcotools.app/assets/adsense-
@@ -12494,7 +12494,7 @@
 @@||ssl.p.jwpcdn.com/player/v/*/vast.js$xmlhttprequest,domain=idlixvip.asia
 @@||ssl.p.jwpcdn.com/player/v/8.36.2/googima.js$domain=kavero.biz
 @@||ssl.p.jwpcdn.com/player/v/8.36.2/googima.js$domain=playmate.to
-@@||ssl.p.jwpcdn.com/player/v/8.36.2/googima.js$script,domain=vidara.to|vidara.so|xca.cymru|vindaz.shop|vidmatrixa.com|vidchampions.com|vidavaca.cc|calyro.biz|vidarae.live|vidwara.cc
+@@||ssl.p.jwpcdn.com/player/v/8.36.2/googima.js$script,domain=vidara.to|vidara.so|xca.cymru|vindaz.shop|vidmatrixa.com|vidchampions.com|vidavaca.cc|calyro.biz|vidarae.live|vidwara.cc|vidwara.fit
 @@||ssl.p.jwpcdn.com^$domain=bdsmstreak.com
 @@||ssl.pstatic.net/sstatic/sdyn.js$script,domain=search.naver.com
 @@||ssl.sdcdn.com/cms/ads/*$domain=stardoll.com
@@ -14178,7 +14178,6 @@
 @@||watchpsychonline.net^$generichide
 @@||watoday.com.au^$generichide
 @@||wavepc.pl/wp-content/*-500x100.png$image,~third-party
-@@||wavse.com^$generichide
 @@||wazimo.com/engine/common/widgets/content/$domain=lastnighton.com
 @@||wazimo.com/engine/common/widgets/content/$domain=showsnob.com
 @@||wbilvnmool.com^|$xmlhttprequest,domain=kbjfree.com
