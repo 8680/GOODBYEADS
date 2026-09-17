@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-09-17 12:20:06（北京时间）
+! Version: 2026-09-18 00:37:45（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14778
+! Total count: 14788
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -67,9 +67,10 @@
 @@.jpg#$domain=marketmovers.it
 @@.jpg$stealth=referrer,domain=streamingnow.mov
 @@.jpg|$third-party,xmlhttprequest,stealth=referrer,domain=embdmstrplayer.com
+@@.jpg|$xmlhttprequest,stealth=referrer,domain=senshi.to
 @@.js$xmlhttprequest,stealth=referrer,domain=roxiestreams.*
 @@.js?fcd=true$domain=snopes.com
-@@.js|$xmlhttprequest,domain=pahe.plus|aii.sh|intercelestial.com|tpi.li|linegee.net
+@@.js|$xmlhttprequest,domain=pahe.plus|aii.sh|intercelestial.com|linegee.net|clksz.com|srnky.com|lnbz.la
 @@.m3u8$stealth,domain=luluvdo.com
 @@.m3u8$stealth=referrer,domain=edgedeliverynetwork.com
 @@.m3u8$stealth=referrer,domain=iyf.tv
@@ -113,6 +114,7 @@
 @@.ru/premiumtv/*.php$subdocument,xmlhttprequest,stealth=referrer
 @@.shop/uploads/$stealth=referrer
 @@.ts^$stealth=referrer|useragent
+@@.txt?token=$xmlhttprequest,stealth=referrer,domain=senshi.to
 @@.vaughnsoft.net/abvs.php?a=
 @@.vmall.com/oauth
 @@.xyz/embed-*.html$stealth=referrer
@@ -314,7 +316,7 @@
 @@/hls.key$stealth=referrer
 @@/hls/*$stealth=referrer,domain=closeload.top
 @@/hls/*$xmlhttprequest,stealth=referrer,domain=cinesrc.st
-@@/hls/*$xmlhttprequest,third-party,stealth=referrer,domain=cinejoy.to
+@@/hls/*$xmlhttprequest,third-party,stealth=referrer,domain=cinejoy.pk|cinejoy.*
 @@/hls/*.m3u8$stealth=referrer
 @@/hls/*.ts$stealth=referrer,domain=techclips.net
 @@/hls2/*$xmlhttprequest,stealth=referrer,domain=vidora.stream
@@ -371,10 +373,12 @@
 @@/media/*/zpr_footer/js/pageear.js$domain=eska.pl|eskarock.pl|voxfm.pl|vibefm.pl|radiosupernova.pl|se.pl
 @@/mobileads.$domain=naviking.localking.com.tw
 @@/mono.m3u8$stealth=referrer
+@@/movie/*.json|$xmlhttprequest,stealth=referrer,domain=cinezo.live
 @@/mp4/*$media,stealth=referrer,domain=player.videasy.*|vidking.net
 @@/nbc-ad*.js$domain=notebookcheck-hu.com|notebookcheck.com|notebookcheck.net|notebookcheck.org|notebookcheck.biz|notebookcheck.it|notebookcheck.nl|notebookcheck.info|notebookcheck-tr.com|notebookcheck.se|notebookcheck-ru.com
 @@/needsharebutton.min.js$domain=leetcode-cn.com
 @@/owa/service.svc$document
+@@/p/*/file|$media,stealth=referrer,domain=cinezo.live
 @@/pdc_s_code.js$domain=adobe.com
 @@/piwik-$domain=github.com
 @@/play/*$subdocument,stealth=referrer,domain=animeav1.com
@@ -382,7 +386,7 @@
 @@/player/stats.php$domain=boysxclusive.com|camwhores.tv|viralxxxporn.com|thothub.vip|yesporn.vip|85po.com|85po.net|85xo.com|85xo.com|watchporn.to|viralpornhub.com|watchmdh.to|porn4fans.com|porn4fans.me|porno24.to|fyxxr.to|camfoxes.tv
 @@/player_ads.html$domain=boysxclusive.com|camwhores.tv|viralxxxporn.com|thothub.vip|yesporn.vip|85po.com|85po.net|85xo.com|85xo.com|watchporn.to|viralpornhub.com|camwhoresbay.porn|watchmdh.to|ebalovo.porn|ebalovo.adult|camlovers.tv|camhub.tv|pornissimo.org|porntn.com|femdomtb.com|pornoham.me|tubsexer.com|homegrownfreaks.net|pornfd.com|sexcams-24.com|watchmdh.to|porno24.to|fyxxr.to|camhub.one|camfoxes.tv|porn4fans.com|porn4fans.me
 @@/playlist.m3u8$stealth=referrer|ip
-@@/playlist/*$xmlhttprequest,third-party,stealth=referrer,domain=cinejoy.to
+@@/playlist/*$xmlhttprequest,third-party,stealth=referrer,domain=cinejoy.pk|cinejoy.*
 @@/playlist/*caxi$xmlhttprequest,stealth=referrer,domain=crackstreamer.net|streameast.app|1stream.eu|buffstreams.app|gooz.aapmains.net
 @@/playlists/*/play*.jpeg$xmlhttprequest,stealth=referrer
 @@/pop.js|$domain=pornve.com
@@ -424,6 +428,7 @@
 @@/smarttag.js$~third-party,domain=rte.ie
 @@/social-share.$domain=patentguru.com
 @@/sources-with-title?title=*&mediaType=$third-party,xmlhttprequest,stealth=referrer
+@@/sources?id=$xmlhttprequest,stealth=referrer,domain=senshi.to
 @@/speedtest/upload.php$domain=speedtest.net
 @@/static/ad/main.$domain=bbmei.top|bbmen.top
 @@/static/js/video/videojs-contrib-ads.min.js$domain=telegraf.rs|telegraf.tv
@@ -432,7 +437,7 @@
 @@/stream$xmlhttprequest,stealth=referrer,domain=kwik.cx
 @@/stream/*.m3u8$stealth=referrer,domain=/betanotv\d+\.site$/
 @@/stream/*.m3u8$stealth=referrer,domain=livosports30.live
-@@/stream/*.m3u8$stealth=referrer,domain=sampiyontv2.xyz
+@@/stream/*.m3u8$stealth=referrer,domain=sampiyontv2.xyz|sampiyontv3.xyz
 @@/stream/*/*.m3u8$xmlhttprequest,domain=faselhd.cafe
 @@/stream/*/*.ts$xmlhttprequest,domain=faselhd.cafe
 @@/stylesheet/*$xmlhttprequest,stealth=referrer,domain=gamingzen.xyz
@@ -461,10 +466,11 @@
 @@/vd/*/seg-*.jpg|$third-party,xmlhttprequest,stealth=referrer,domain=player.videasy.*|vidking.net|vidfast.vc
 @@/video.m3u8$stealth=referrer,domain=missav.live|missav.ws|missav123.com|missav888.com|missav.*|missav01.com
 @@/video/*$media,stealth=referrer,domain=douyin.com
-@@/video/*$xmlhttprequest,third-party,stealth=referrer,domain=cinejoy.to
+@@/video/*$xmlhttprequest,third-party,stealth=referrer,domain=cinejoy.pk|cinejoy.*
 @@/video/*.html|$xmlhttprequest,stealth=referrer,domain=cinesrc.st
 @@/video/*/index.m3u8?*&frame_commit=*&mw_pid=*&signature=$stealth=useragent
 @@/videos/*$domain=pornhub.com|pornhub.org|pornhub.net
+@@/videos/*$domain=pornhub.com|pornhub.org|pornhub.net,stealth=referrer
 @@/videos/*$media,stealth=referrer,domain=allanime.day
 @@/viewad.$stylesheet,script,domain=adz7short.space|short.croclix.me|short.goldenfaucet.io
 @@/walla_vod/*$domain=walla.co.il
@@ -1678,6 +1684,7 @@
 @@||ani4u.org^$generichide
 @@||anibatch.me^$generichide
 @@||aniboom.one/embed/$stealth=referrer
+@@||anicdn.*/uploads/assets/$xmlhttprequest,stealth=referrer,domain=senshi.to
 @@||anime-i.com^$generichide
 @@||anime-king.com^$generichide
 @@||anime-loads.org^$generichide
@@ -3669,6 +3676,7 @@
 @@||clk.tradedoubler.com/click?$domain=pepper.pl
 @@||clkmein.com^$generichide
 @@||clksite.com/static/advertisement.js
+@@||clksz.com^$generichide
 @@||cloadstream*.xyz/hls/$stealth=referrer
 @@||closeload.com/video/embed/$stealth=referrer
 @@||closeload.com^$generichide
@@ -5276,7 +5284,6 @@
 @@||frosmo.com/recoApi/$domain=eeva.fi|terve.fi|lily.fi|meillakotona.fi|apu.fi
 @@||frosmo.com^$image,xmlhttprequest,domain=karkkainen.com
 @@||fruithosted.net/dl/*.mp4
-@@||fruitlab.com/js/pages/dfp.js
 @@||fs.azerty.nl/images/content/*728x90
 @@||fscinda.com/ad/$~third-party
 @@||ftc.gov/news-events/media-resources^
@@ -5454,6 +5461,7 @@
 @@||gaynetwork.co.uk/Images/ads/bg/$image,~third-party
 @@||gaypornhdfree.com^$generichide
 @@||gaypornhot.com^$generichide
+@@||gayporntube.net/embed/$stealth=referrer
 @@||gazeteduvar.com.tr^$generichide
 @@||gazettetimes.com^$generichide
 @@||gazzettarossonera.it^$generichide
@@ -6690,6 +6698,7 @@
 @@||googlevideo.com/videoplayback/*dclk_video_ads$domain=10play.com.au|10.com.au
 @@||gooogle.how^$generichide
 @@||gorillanation.com/js/triggertag.js$domain=playstationlifestyle.net
+@@||goshortlink.site/js/full-page-script.js$domain=todaytvseries1.com
 @@||gosuslugi.ru^$stealth=dpi
 @@||gotvach.bg^$generichide
 @@||gousfbulls.com/common/templates/dfp/dfp-component-template.html
@@ -7519,7 +7528,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=umterps.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=upns.online|upns.xyz|upns.one|isekaitube.cfd|upns.live|javlion.xyz|hlsfast.com|ultrastream.online|streamcasthub.store|w1tv.xyz|cdnstream.top|javboys.upn.one|coflix.upn.one|animeshqip.uns.bio|rpmvid.com|onion.upns.blog|securecdn.shop|embed4me.com|jhdanime.com|strp2p.com|playeranimewatch.pl|bigbuttshubvideos.com|rpmvip.com|rpmstream.live|upns.pro|4meplayer.pro|seekplays.com|easyvidplayer.com|flixcdn.cyou
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=uptostream.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=urochsunloath.com|35volitantplimsoles5.com|antecoxalbobbing1010.com|cyamidpulverulence530.com|guidon40hyporadius9.com|housecardsummerbutton.com|un-block-voe.net|voeunblk.com|voeunbl0ck.com|voeunblock2.com|voeunblock.com|voe-unblock.*|voe.sx|phenomenalityuniform.com|kathleenmemberhistory.com|paulkitchendark.com|edwardarriveoften.com|lukecomparetwo.com|kennethofficialitem.com|jamiesamewalk.com|johntryopen.com|morganoperationface.com|jayservicestuff.com|heatherdiscussionwhen.com|robertplacespace.com|alleneconomicmatter.com|josephseveralconcern.com|donaldlineelse.com|bethshouldercan.com|lisatrialidea.com|jessicaglassauthor.com|evelynthankregion.com|lorimuchbenefit.com|susanhavekeep.com|thomasalthoughhear.com|zacharycollectionmight.com|richardstorehalf.com|kimberlyonlocal.com|toddpartneranimal.com|jamessoundcost.com|brittneystandardwestern.com|sandratableother.com|robertordercharacter.com|maxfinishseveral.com|alejandrocenturyoil.com|heatherwholeinvolve.com|kristiesoundsimply.com|adrianmissionminute.com|nathanfromsubject.com|jennifercertaindevelopment.com|richardsignfish.com|sarahnewspaperbeat.com|diananatureforeign.com|jonathansociallike.com|mariatheserepublican.com|johnalwayssame.com|kellywhatcould.com|jilliandescribecompany.com|lukesitturn.com|mikaylaarealike.com|christopheruntilpoint.com|walterprettytheir.com|crystaltreatmenteast.com|lauradaydo.com|lancewhosedifficult.com|dianaavoidthey.com|jefferycontrolmodel.com|jessicaclearout.com|marissasharecareer.com|ianrequireadult.com|charlestoughrace.com|timmaybealready.com|richardquestionbuilding.com|charlessheimprove.com|brittanyaheadnew.com|maryspecialwatch.com|benjaminreducecommunity.com|nicholasbreakplan.com|rebeccasciencestreet.com|johnfullwonder.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=urochsunloath.com|35volitantplimsoles5.com|antecoxalbobbing1010.com|cyamidpulverulence530.com|guidon40hyporadius9.com|housecardsummerbutton.com|un-block-voe.net|voeunblk.com|voeunbl0ck.com|voeunblock2.com|voeunblock.com|voe-unblock.*|voe.sx|phenomenalityuniform.com|kathleenmemberhistory.com|paulkitchendark.com|edwardarriveoften.com|lukecomparetwo.com|kennethofficialitem.com|jamiesamewalk.com|johntryopen.com|morganoperationface.com|jayservicestuff.com|heatherdiscussionwhen.com|robertplacespace.com|alleneconomicmatter.com|josephseveralconcern.com|donaldlineelse.com|bethshouldercan.com|lisatrialidea.com|jessicaglassauthor.com|evelynthankregion.com|lorimuchbenefit.com|susanhavekeep.com|thomasalthoughhear.com|zacharycollectionmight.com|richardstorehalf.com|kimberlyonlocal.com|toddpartneranimal.com|jamessoundcost.com|brittneystandardwestern.com|sandratableother.com|robertordercharacter.com|maxfinishseveral.com|alejandrocenturyoil.com|heatherwholeinvolve.com|kristiesoundsimply.com|adrianmissionminute.com|nathanfromsubject.com|jennifercertaindevelopment.com|richardsignfish.com|sarahnewspaperbeat.com|diananatureforeign.com|jonathansociallike.com|mariatheserepublican.com|johnalwayssame.com|kellywhatcould.com|jilliandescribecompany.com|lukesitturn.com|mikaylaarealike.com|christopheruntilpoint.com|walterprettytheir.com|crystaltreatmenteast.com|lauradaydo.com|lancewhosedifficult.com|dianaavoidthey.com|jefferycontrolmodel.com|jessicaclearout.com|marissasharecareer.com|ianrequireadult.com|charlestoughrace.com|timmaybealready.com|richardquestionbuilding.com|charlessheimprove.com|brittanyaheadnew.com|maryspecialwatch.com|benjaminreducecommunity.com|nicholasbreakplan.com|rebeccasciencestreet.com|katherineschoolphone.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=video.capital.it
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=video.corriere.it
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=video.deejay.it
@@ -8459,6 +8468,7 @@
 @@||lluban.by^$stealth=dpi
 @@||llvpn.com/tag.min.js$xmlhttprequest,domain=cinehd.app
 @@||lmjvideocdn.*-cdn.net/*.mp4?hash=$stealth=referrer,domain=letmejerk.com
+@@||lnbz.la^$generichide
 @@||lncn.org/ad.json
 @@||lngtd.com/ehftv_ros.js$domain=ehftv.com
 @@||lnindo.org^$generichide
@@ -9377,7 +9387,6 @@
 @@||nineyu.com/*.jpg$stealth=referrer,domain=missav.live|missav.ws|missav123.com|missav888.com|missav.*
 @@||ninja.io/js/dist/ads.js
 @@||ninja.onap.io/ninja-*.js$domain=olx.kz|olx.ua|olx.pl
-@@||ninstream.com/*.jpg|$xmlhttprequest,stealth=referrer,domain=senshi.live
 @@||nintendo.co.jp/ring/*/adv$~third-party
 @@||nintendo.co.kr^$stealth=dpi
 @@||nintendolife.com/themes/base/javascript/fingerprint.js$~third-party
@@ -10966,6 +10975,7 @@
 @@||pouvideo.cc^$stealth
 @@||powerad.ai/*/script.js$domain=tvtv.ca
 @@||powerad.ai/pubPls/$domain=tvtv.ca
+@@||poweredby.jads.co/js/$domain=tap4porn.cc
 @@||poweredby.jads.co/js/jads.js$domain=javcl.com
 @@||poweredby.jads.co/js/jads2.js$domain=javcl.com
 @@||powerquality.eaton.com/include/js/elqScr.js$~third-party
@@ -11764,7 +11774,6 @@
 @@||secure.logmein.com/scripts/Tracking/$script,domain=logme.in|logmein.com
 @@||secure.moneygram.com/embed/*/webAnalytics/pageMapping.json?$~third-party,xmlhttprequest
 @@||secure.moneygram.com/embed/*/webAnalytics/pageMappingOverrides.json?$~third-party,xmlhttprequest
-@@||secure.quantserve.com/quant.js$domain=fruitlab.com
 @@||secure.quantserve.com/quant.js$domain=listeamed.net|gaystream.click
 @@||secure.quantserve.com/quant.js$xmlhttprequest,domain=bigbuttshub2.top|bigbuttshubvideos.com|go.datapendidikan.com|insurance.tempatwisata.pro
 @@||secure.quantserve.com/|$xmlhttprequest,domain=facciabuco.com
@@ -12455,6 +12464,7 @@
 @@||src.litix.io/shakaplayer/*/shakaplayer-mux.js
 @@||src.litix.io/videojs/*/videojs-mux.js
 @@||src.litix.io/videojs/*/videojs-mux.js$domain=nasa.gov
+@@||srnky.com^$generichide
 @@||srv.*/*/*.png$xmlhttprequest,stealth=referrer
 @@||srv.clickfuse.com/showads/adunit.php$domain=aha-music.com
 @@||srv.clickfuse.com/showads/showad.js$domain=aha-music.com
@@ -13125,6 +13135,7 @@
 @@||technopat.net/*/draft$xmlhttprequest
 @@||technopat.net/*/reply-preview$xmlhttprequest
 @@||techobras.com^$stealth=referrer
+@@||techolay.net/$stealth=ip
 @@||techonthenet.com/javascript/advert-min.js
 @@||techperiod.com/wp-content/cache/min/*/wp-content/themes/TechPeriod/js/ads-*.js
 @@||techperiod.com^$generichide
@@ -13749,7 +13760,6 @@
 @@||unifiedapicommerce-ca.axs.com/veritix/$stealth=ip
 @@||unimedsorocaba.coop.br^$stealth=dpi
 @@||unity3diy.blogspot.com^$generichide
-@@||universeguide.com/abdetect.js
 @@||universoformulas.com^$generichide
 @@||unlockapk.com/*ads.js
 @@||unlockapk.com^$generichide
