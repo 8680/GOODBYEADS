@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-10-03 12:42:34（北京时间）
+! Version: 2026-10-04 00:00:27（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14841
+! Total count: 14842
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -25,6 +25,7 @@
 @@*$generichide,domain=cuttlinks.com|exe-links.com|cuttty.com|cuttyy.com|cutynow.com|exnion.com|cutyion.com|jixo.online|exe-urls.com|evernia.site|ijvam.com|mrgec.com|emxaw.com|cety.app|cutnet.net
 @@*$generichide,domain=faqwiki.*
 @@*$image,domain=hardwareluxx.de,~third-party
+@@*$image,third-party,domain=cinecloud.site
 @@*$popup,~third-party,domain=canna.to|canna-power.to
 @@*$script,third-party,domain=embedme.*|filemoon.*|finfang.*|hellnaw.*|moonembed.*|z12z0vla.*|fmoonembed.*
 @@*$stealth=referrer,domain=cdnbuzz.buzz
@@ -6043,7 +6044,7 @@
 @@||googleads.g.doubleclick.net/pagead/ads?client=ca-pub-$subdocument,domain=filecr.com
 @@||googleads.g.doubleclick.net/pagead/ads?client=ca-pub-*&adk=$~xmlhttprequest,~script,~image,domain=ytlarge.com
 @@||googleads.g.doubleclick.net/pagead/ads?gdpr=$subdocument,domain=decrypt.day
-@@||googleads.g.doubleclick.net/pagead/adview$domain=cinefreak.nl|cinecloud.site
+@@||googleads.g.doubleclick.net/pagead/adview$domain=cinecloud.site
 @@||googleads.g.doubleclick.net/pagead/ff.js$domain=next-episode.net
 @@||googleads.g.doubleclick.net/pagead/html$domain=repo.hackyouriphone.org
 @@||googleads.g.doubleclick.net/pagead/html/*/zrt_lookup.html$domain=forum.release-apk.com
@@ -9926,7 +9927,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chromeactions.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cimanow.*|cnvids.com|freex2line.online
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cimaramadan.site|yokugames.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cinefreak.nl|cinecloud.site
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cinecloud.site
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cinehd.app
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=classicalradio.com|di.fm|jazzradio.com|radiotunes.com|rockradio.com|zenradio.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cle0desktop.blogspot.com
