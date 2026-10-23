@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-10-23 12:09:12（北京时间）
+! Version: 2026-10-24 00:47:18（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14857
+! Total count: 14862
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -118,6 +118,7 @@
 @@.shop/uploads/$stealth=referrer
 @@.ts^$stealth=referrer|useragent
 @@.txt?token=$xmlhttprequest,stealth=referrer,domain=senshi.to
+@@.txt|$xmlhttprequest,stealth=referrer,domain=streamingnow.mov
 @@.vaughnsoft.net/abvs.php?a=
 @@.vmall.com/oauth
 @@.xyz/embed-*.html$stealth=referrer
@@ -307,6 +308,7 @@
 @@/embed/*$stealth=referrer,subdocument,domain=ldcstreaming.info|sportsonline.*|elixx.xyz|primefoot.ru|lavents.la
 @@/embed/*$subdocument,stealth=referrer,domain=strims.*|daddyhd.com|daddylive.*
 @@/embed/*$subdocument,stealth=referrer,domain=trend48.st
+@@/embed/*$subdocument,stealth=referrer,domain=vidsrc.*|vidsrc.sh|vsembed.ru
 @@/embed/*$third-party,subdocument,stealth=referrer,domain=sportsbite.*
 @@/embed/*.jpg$subdocument,stealth=referrer,domain=hollymoviehd.cc
 @@/embed/tv/*$subdocument,stealth=referrer,domain=player.unlimitedfiles.xyz
@@ -6948,6 +6950,7 @@
 @@||henread.xyz^$image,xmlhttprequest,stealth=referrer,domain=hentairead.com
 @@||hentaicdn.com^$stealth=referrer,domain=hentai2read.com
 @@||hentaihaven.com^$generichide
+@@||hentaihaven.xxx/ads/ads_controller.js
 @@||hentaitoon.tv^$generichide
 @@||hentaivideo.tv/ads.js
 @@||hepfinans.com/wp-content/uploads/*/Google-Adsense-$image,~third-party
@@ -12490,6 +12493,7 @@
 @@||speedtest.net/api/js/user-settings|$xmlhttprequest
 @@||speedtest.net/javascript/ads.js
 @@||speedtestcustom.com^$subdocument,stealth=referrer
+@@||speedwebgo.com^$stealth=referrer,domain=blacktoon425.com
 @@||speedynews.xyz^$generichide
 @@||spezialklinik-neukirchen.de/matomo/$~third-party
 @@||sphinx.tongdun.net^$domain=hainanairlines.com
@@ -12570,7 +12574,7 @@
 @@||ssl.p.jwpcdn.com/player/v/*/vast.js$xmlhttprequest,domain=idlixvip.asia
 @@||ssl.p.jwpcdn.com/player/v/8.36.2/googima.js$domain=kavero.biz
 @@||ssl.p.jwpcdn.com/player/v/8.36.2/googima.js$domain=playmate.to
-@@||ssl.p.jwpcdn.com/player/v/8.36.2/googima.js$script,domain=vidara.to|vidara.so|xca.cymru|vindaz.shop|vidmatrixa.com|vidchampions.com|vidavaca.cc|calyro.biz|vidarae.live|vidwara.cc|vidwara.fit|viderea.site
+@@||ssl.p.jwpcdn.com/player/v/8.36.2/googima.js$script,domain=vidara.to|vidara.so|xca.cymru|vindaz.shop|vidmatrixa.com|vidchampions.com|vidavaca.cc|calyro.biz|vidarae.live|vidwara.cc|vidwara.fit|viderea.site|gaqghe.com
 @@||ssl.p.jwpcdn.com^$domain=bdsmstreak.com
 @@||ssl.pstatic.net/sstatic/sdyn.js$script,domain=search.naver.com
 @@||ssl.sdcdn.com/cms/ads/*$domain=stardoll.com
@@ -13634,6 +13638,7 @@
 @@||tritinia.com^$generichide
 @@||trj.valuecommerce.com/vcushion.js
 @@||tron-free.com^$generichide
+@@||trovaprezzi.it^$stealth=dpi
 @@||trstx.org/overroll/$domain=jetfilmizle.link|trstx.org
 @@||tru.am/scripts/custom/reuters.js$domain=reuters.com
 @@||truck1.eu/_BANNERS_/client/*
